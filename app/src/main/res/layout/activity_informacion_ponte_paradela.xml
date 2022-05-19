@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrimonio.informacion_ponte_paradela">
+    <!--
+    <ScrollView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        tools:ignore="MissingConstraints">
+ -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/logoteo"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+                <ImageView
+                    android:id="@+id/hamburguesa"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburguesa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/breveDescripcionPonteParadela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"
+                android:textColor="#415419"
+                android:text="Fermosa ponte de pedra sobre o río Tinto que conta cun merendoiro nas inmediacións.\n
+"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imagenCabeceraPonteParadela"
+                android:layout_width="326dp"
+                android:layout_height="198dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/ponteparadela" />
+
+            <TextView
+                android:id="@+id/descripcionPonteParadela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:text="A coñecida como ponte romana da Paradela, en Francos, sobre o río Tinto na parroquia de San Xoán de Calo atópase no límite do Concello. Construída no Medievo esta ponte é coñecida por estar localizada no camiño que levaba de Iria Flavia ata Santiago. É de 14 m de longo e 1,70 de ancho, un dos pasos fluviais máis emblemáticos do Camiño Portugués que con xustiza figura no escudo heráldico de Teo.\n  \n
+
+Hoxe en día é un bonito lugar para gozar da natureza, por ela atravesa unha ruta Apego (rutas adaptadas para crianzas), que partindo do cruceiro de Francos emprega as pistas de terra forestais para acceder a este recuncho natural. Tamén é posible acceder por estr asfaltada. Atópase sinalizado e dende alí tamén parte unha ruta ao Castro Lupario, situado no concello veciño, pero vinculado historicamente ao noso territorio, non só como xacemento arqueolóxico de prolongada ocupación senón tamén pola súa estreita vinculación ás lendas xacobeas que falan da xénese da vella Compostela.\n  \n
+
+A veciñanza do lugar conta que existe a creza de que a ponte tiña unha chave no medio: a chave da ponte, unha pedriña cadrada que sobresaía das outras e grazas á cal a ponte foi aguantando o paso dos anos, viñeran tronadas ou enchentes que a cubriran.\n
+
+
+"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageButton
+                    android:id="@+id/facebook_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
+
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
+
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animaps"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    </ScrollView>
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

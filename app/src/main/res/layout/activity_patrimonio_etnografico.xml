@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#2BAF26"
+    tools:context=".patrimonio.patrimonio_etnografico">
+
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/patrimonio"
+                android:layout_width="191dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="PATRIMONIO ETNOGRÁFICO"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/boton12"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="cruceiro_tribaldes"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/cruceiro_de_tribaldes0" />
+
+            <ImageButton
+                android:id="@+id/boton13"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="burga_xermeade"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/burga_de_xermeade0" />
+
+
+            <ImageButton
+                android:id="@+id/boton14"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="cruceiro_gotico_francos"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/cruceiro_gotico_de_francos0" />
+
+            <ImageButton
+                android:id="@+id/boton15"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="marco_medieval_porto"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/marco_medieval_do_porto_lampai0" />
+
+            <ImageButton
+                android:id="@+id/boton16"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ponte_medieval_pontevea"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ponte_medieval_de_pontevea0" />
+
+            <ImageButton
+                android:id="@+id/boton17"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ponte_paradela"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ponte_paradela0" />
+
+            <ImageButton
+                android:id="@+id/boton18"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="pousada_san_antoniño"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/antiga_pousada_de_san_antoni_o_de_areeira0" />
+
+            <ImageButton
+                android:id="@+id/boton19"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="escola_francos"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/escola_de_francos0" />
+
+            <ImageButton
+                android:id="@+id/boton20"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ponte_lavadoiro_rio_tinto"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ponte_medieval_e_lavadoiro_sobre_o_rio_tinto0" />
+
+            <ImageButton
+                android:id="@+id/boton21"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="lavadoiro_francos"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/lavadoiro_de_francos0" />
+
+            <ImageButton
+                android:id="@+id/boton22"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ponte_colgante_xirimbao"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ponte_colgante_do_xirimbao0" />
+
+            <ImageButton
+                android:id="@+id/boton23"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="lavadoiro_casalonga"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/lavadoiro_da_casalonga0" />
+
+            <ImageButton
+                android:id="@+id/boton24"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="fonte_lavadoiro_florida"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/fonte_lavadoiro_da_florida0" />
+
+            <ImageButton
+                android:id="@+id/boton25"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="nucleo_tradicional_pontevea"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/nucleo_tradicional_de_pontevea0" />
+
+
+            <ImageButton
+                android:id="@+id/boton26"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ponte_nova_raris"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ponte_nova_en_raris0" />
+
+            <ImageButton
+                android:id="@+id/boton27"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="tunel_faramello"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/tunel_do_faramello0" />
+
+            <ImageButton
+                android:id="@+id/boton28"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="fonte_escola_casalonga"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/fonte_escola_da_casalonga0" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/facebook_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
+
+
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="twitter"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/animatwitter"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint="#00B8AEAE" />
+
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
+
+                <ImageButton
+                    android:id="@+id/informacion"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="175dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

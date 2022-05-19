@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.cursokotlin.concelloteo.actividades.actividades
 import com.cursokotlin.concelloteo.artesania.PaginaPrincipalArtesania
+import com.cursokotlin.concelloteo.patrimonio.tipos_patrimonio
 import com.cursokotlin.concelloteo.redDeRutas.PaxinaPrincipalRedeDeRutas
 
 class MainActivity : AppCompatActivity() {
@@ -32,11 +33,11 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, PaginaPrincipalArtesania::class.java)
             startActivity(acceder)
         }
-        /*
+
         boton4.setOnClickListener {
-            val acceder = Intent(this, patrimonio::class.java)
+            val acceder = Intent(this, tipos_patrimonio::class.java)
             startActivity(acceder)
-        }*/
+        }
 
     }
 }
