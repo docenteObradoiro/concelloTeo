@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBF9">
+
+    <ImageButton
+        android:id="@+id/botonTeo3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo8" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa5"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="372dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#F9FBF9"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="@string/tituloConcertos"
+                android:textAlignment="center"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/barra1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:translationY="-50dp"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:translationY="-30dp"
+                app:srcCompat="@mipmap/teo" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="30dp"
+                android:text="@string/bamondeConcertos"
+                android:textColor="#8A8585"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="5dp"
+                android:text="@string/fechaBamondeConcertos"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="@string/luciConcertos"
+                android:textColor="#8A8585"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="5dp"
+                android:text="@string/fechaLuciConcertos"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="@string/concertoNadalConcertos"
+                android:textColor="#8A8585"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="5dp"
+                android:text="@string/fechaConcertosConcertos"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:text="@string/LugarConcertosConcertos"
+                android:textColor="#8A8585"
+                android:translationY="-25dp" />
+
+            <ImageView
+                android:id="@+id/barra2"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:paddingTop="30dp"
+                android:translationX="30dp"
+                android:translationY="-50dp"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:translationX="30dp"
+                android:translationY="-30dp">
+
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/instagram"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/info"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/logoinformacion"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="-40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgTrigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-40dp"
+                    android:backgroundTint="#00B8AEAE"
+                    app:srcCompat="@mipmap/maiz"
+                    app:tint="#1F000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

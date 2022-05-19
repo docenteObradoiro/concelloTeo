@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/botonTeo4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo8" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa3"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="191dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Actividades"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/boton5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="festas"
+                app:srcCompat="@mipmap/pulpo" />
+
+            <ImageButton
+                android:id="@+id/boton7"
+                android:layout_width="379dp"
+                android:layout_height="300dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="batalla"
+                android:translationX="-20dp"
+                app:srcCompat="@mipmap/batallacuadrada" />
+
+            <ImageButton
+                android:id="@+id/boton6"
+                android:layout_width="380dp"
+                android:layout_height="300dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="entroido"
+                android:translationX="-20dp"
+                app:srcCompat="@mipmap/ullap" />
+
+            <ImageButton
+                android:id="@+id/boton8"
+                android:layout_width="396dp"
+                android:layout_height="300dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="nadal"
+                android:translationX="-20dp"
+                app:srcCompat="@mipmap/nadal2" />
+
+            <ImageView
+                android:id="@+id/barra2"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/instagram"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/info"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/logoinformacion"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBF9"
+    tools:context=".redDeRutas.PaxinaPrincipalRedeDeRutas">
+
+    <ImageButton
+        android:id="@+id/botonTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F9FBF9"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/redeRutas"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/redeRutas"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/botonTeo2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:contentDescription="logoTeo2"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logorutas"
+                android:background="@drawable/selector"
+                />
+
+            <ImageButton
+                android:id="@+id/boton1"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ruta1"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta1"    />
+
+            <ImageButton
+                android:id="@+id/boton2"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ruta2"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta2" />
+
+            <ImageButton
+                android:id="@+id/boton3"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ruta3"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta3" />
+
+            <ImageButton
+                android:id="@+id/boton4"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta4" />
+
+            <ImageButton
+                android:id="@+id/boton5"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta5" />
+
+            <ImageButton
+                android:id="@+id/boton6"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta6" />
+
+            <ImageButton
+                android:id="@+id/boton7"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta7" />
+
+            <ImageButton
+                android:id="@+id/boton8"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta8" />
+
+            <ImageButton
+                android:id="@+id/boton9"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta9" />
+
+            <ImageButton
+                android:id="@+id/boton10"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta10" />
+
+            <ImageButton
+                android:id="@+id/boton11"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta11" />
+
+            <ImageButton
+                android:id="@+id/boton12"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/botonruta12" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/facebook"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/twitter"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/instagram"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/wikiloc1"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-14dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="wikiloc"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/wikiloc"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/info"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:scaleType="fitXY"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/info"
+
+                    app:tint="#7F000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

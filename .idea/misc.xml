@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_actividades.xml" value="0.33106884057971014" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_concertos.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_entroido.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_mercados.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_nadal.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_obradoiro.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/drawable-v24/animainstagram.xml" value="0.107" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/drawable-v24/animalinkedin.xml" value="0.24" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/drawable-v24/animawikilok.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_alala_couture.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_arte_celta.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_brigantia_orfebres.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_concertos.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_iago_salgado.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_macala_xoias.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_main.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_olga_martinez.xml" value="0.4215080346106304" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_oli_xiraldez.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_pablo_seoane.xml" value="0.346875" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_rosa_mendez.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_silvereira.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_spaciob_interiorismo.xml" value="0.31927083333333334" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/AplicacionTurismoConcelloDeTeo/app/src/main/res/layout/activity_tres_oficios.xml" value="0.16869300911854104" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_actividades.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_actividades1.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_batalla_cacheiras.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_concertos.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_concertos2.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_entroido.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_entroidomal.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_main.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_raris.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mapa_reis.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mercados.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mercados1.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_mercados2.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_nadal.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiro.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros1.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/batalla.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades_buena.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_batalla_cacheiras.xml" value="0.28106508875739644" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_concertos.xml" value="0.5" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_entroido.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main2.xml" value="0.37771739130434784" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_mercados.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_obradoiros.xml" value="0.3713768115942029" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/content_scrolling.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/drawable-v24/facebookanima.xml" value="0.2955" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_main.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta1.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta10.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta11.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta12.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta2.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta3.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta4.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta5.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta6.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta7.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta8.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_ruta9.xml" value="0.15993945509586277" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/drawable/splash.xml" value="0.1735" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_actividades.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_concertos.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_entroido.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_mercados.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_obradoiro.xml" value="0.3176631675034231" />
+        <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

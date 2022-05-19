@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cursokotlin.concelloteo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconoabertura"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconoabertura"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConcelloTeo">
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".actividades.mapaCacheiras"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.mapaReis"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".actividades.mapaRaris"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.obradoiros"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.concertos"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.mercados"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.nadal"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.entroido"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.festasGastronomicas"
+            android:exported="false"
+            android:label="@string/title_activity_festa_gastronomica_scrolling"
+            android:theme="@style/Theme.ConcelloTeo.NoActionBar"/>
+        <activity
+            android:name=".actividades.batalla"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.actividades"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.PaginaPrincipalArtesania"
+            android:exported="false" />
+       <activity
+            android:name=".artesania.OliXiraldez"
+            android:exported="false" />
+
+        <activity
+            android:name=".artesania.OlgaMartinez"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.PabloSeoane"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.IagoSalgado"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.AlalaCouture"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.ArteCelta"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.TresOficios"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.MacalaXoias"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.RosaMendez"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.SpaciobInteriorismo"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.Silvereira"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.BrigantiaOrfebres"
+            android:exported="false" />
+
+        <activity android:name=".redDeRutas.PaxinaPrincipalRedeDeRutas"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".redDeRutas.Ruta1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta12"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta11"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta10"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta7"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta9"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta8"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".redDeRutas.Ruta5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

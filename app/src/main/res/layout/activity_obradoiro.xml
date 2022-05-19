@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBF9">
+
+    <ImageButton
+        android:id="@+id/botonTeo8"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo8" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa8"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/hamburguesa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="372dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#F9FBF9"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="@string/tituloNegritaObradoiros"
+                android:textAlignment="center"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/barra1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:translationY="-50dp"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="257dp"
+                android:layout_height="191dp"
+                android:translationX="50dp"
+                android:translationY="-20dp"
+                app:srcCompat="@mipmap/adornos" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="30dp"
+                android:text="@string/tituloObradoiros"
+                android:textColor="#8A8585"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="@string/dataObradoiro"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/lugarObradoiro"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="30dp"
+                android:text="@string/informacionObradoiro"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="257dp"
+                android:layout_height="191dp"
+                android:translationX="50dp"
+                app:srcCompat="@mipmap/chocolate" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="60dp"
+                android:text="@string/tituloDoces"
+                android:textColor="#8A8585"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="@string/dataDoces"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/lugarDoces"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="40dp"
+                android:text="@string/informacionDoces"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="257dp"
+                android:layout_height="191dp"
+                android:translationX="50dp"
+                app:srcCompat="@mipmap/dulcesnavidad" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="60dp"
+                android:text="@string/tituloDoces"
+                android:textColor="#8A8585"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="@string/dataDoces"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/lugarDoces"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="@string/informacionDocesNadal"
+                android:textColor="#8A8585"
+                android:translationY="-30dp" />
+
+            <ImageView
+                android:id="@+id/barra2"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="70dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:translationX="20dp"
+                android:translationY="-55dp"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:translationX="30dp"
+                android:translationY="-30dp">
+
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/instagram"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/info"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/logoinformacion"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:tint="#7F000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="-40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgTrigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-40dp"
+                    android:backgroundTint="#00B8AEAE"
+                    app:srcCompat="@mipmap/maiz"
+                    app:tint="#1F000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

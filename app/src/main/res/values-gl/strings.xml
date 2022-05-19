@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Concello Teo</string>
+    <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
+    <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
+    <string name="lugarNegrita">Lugar</string>
+    <string name="lugarBatalla">Reitoral de Bamonde</string>
+    <string name="dataNegrita">Data</string>
+    <string name="dataBatalla">Abril</string>
+    <string name="infoNegrita">Info práctica</string>
+    <string name="infoBatalla1">Camiñata en grupos reducidos de 30 personas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.</string>
+    <string name="infoBatalla2">Turismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
+
+    <string name="tituloGastronomicas">Festas gastronómicas</string>
+    <string name="tituloPolo">Festa do polo picantón</string>
+    <string name="lugarPolo">Lugar: Rarís</string>
+    <string name="dataPolo">Data: Maio</string>
+    <string name="descricionPolo">Tódolos asistentes de esta festa gastronómica poderán degustar un delicioso menú composto de picantón, pan, café e queimada. Durante a xornada tamén haberá polbo e churrasco para tomar. Contará con animación musical.</string>
+
+    <string name="tituloNadal">Nadal</string>
+    <string name="tituloMercados">Mercados</string>
+
+    <string name="tituloSardina">San Xoan</string>
+    <string name="lugarSardina">Lugar: Calo</string>
+    <string name="dataSardina">Data: Xullo</string>
+    <string name="descricionSardina">Sardiñada gratuita con tirada de fogos artificiais. Procederase a queima da cabra vella que dará paso a animación musical.</string>
+
+    <string name="tituloCabalos">San Martiño de Francos</string>
+    <string name="lugarCabalos">Lugar: Carballeira de Francos</string>
+    <string name="dataCabalos">Data: Novembro</string>
+    <string name="descricionCabalos">Feira cabalar de San Martiño que se celebra na Carballeira de Francos, na parroquia de Calo. Haberá actividades para o público familiar, xogos en familia, animación circense e animacións musicales.</string>
+
+    <string name="tituloXamon">Festa do xamón al bagazo</string>
+    <string name="lugarXamon">Lugar: Campo da festa de Reis</string>
+    <string name="dataXamon">Data: Septiembre</string>
+    <string name="descricionXamon">Os veciños de Reis, no municipio de Teo, celebrarán unha nova edición da Festa do Xamón ó Bagazo. Durante a xornada tódolos asistentes poderán desfrutar dun menú no que o prato estrela será o xamón al bagazo.</string>
+
+    <string name="tituloConcertos">Concertos da Banda de Teo</string>
+    <string name="bamondeConcertos">Bamonde</string>
+    <string name="fechaBamondeConcertos">Domingo 24 de Abril</string>
+    <string name="luciConcertos">Lucí</string>
+    <string name="fechaLuciConcertos">Sábado 23 de Xullo</string>
+    <string name="concertoNadalConcertos">Concerto de Nadal</string>
+    <string name="fechaConcertosConcertos">Domingo 26 de Diciembre</string>
+    <string name="LugarConcertosConcertos">Auditorio Municipal Constante Liste</string>
+
+    <string name="localizacionMercado">Localización</string>
+    <string name="sitioMercado">Praza Circular dos Tilos</string>
+    <string name="dataMercado">Data</string>
+    <string name="fechaMercado">Decembro</string>
+    <string name="tituloInfoMercado">Info práctica</string>
+    <string name="informacionMercado">Unha boa oportunidade para comprar os últimos regalos antes das festas. Haberá postos de artesanía, viño e sidra da Comarca do Ulla, productos de panadería, floristería, librarías e mercado labrego. Para animar a xornada haberá talleres para os nenos e carrusel ademáis dunha cantina.</string>
+
+    <string name="tituloNegritaObradoiros">Obradoiros</string>
+    <string name="tituloObradoiros">Obradoiros de adornos</string>
+    <string name="dataObradoiro">Data: Decembro</string>
+    <string name="lugarObradoiro">Lugar: Escuela de Ameneiro, Calo</string>
+    <string name="informacionObradoiro">Os obradoiros serán impartidos por un profesional. Os materiaiss serán facilitados polo concello e despois do obradoiro poderase levar algún adorno para colocar na árbore ou en algunha das árbores que están xa instaladas por todo Teo</string>
+
+    <string name="tituloDoces">Obradoiro de doces de inverno</string>
+    <string name="dataDoces">Data: Xaneiro</string>
+    <string name="lugarDoces">Lugar: Casa Común de Rarís</string>
+    <string name="informacionDoces">Elaboración e decoración de postres de inverno fáciles</string>
+
+    <string name="tituloDocesNadal">Obradoiro de doces de Nadal</string>
+    <string name="dataDocesNadal">Data: Decembro</string>
+    <string name="lugarDocesNadal">Lugar: Casa Común de Rarís</string>
+    <string name="informacionDocesNadal">Elaboración e decoración de postres de Nadal</string>
+
+    <string name="tituloEntroido">Entroido</string>
+    <string name="dataEntroido">Data</string>
+    <string name="dataEntroido1">Marzo</string>
+    <string name="lugarEntroido">Lugar</string>
+    <string name="lugarEntroido1">Rarís-Reis-Cacheiras</string>
+    <string name="infoEntroido">Info práctica</string>
+    <string name="informacionEntroido">Os Xenerais da Ulla son o espectáculo máis destacado do Entroido tradicional da comarca do Ulla, que se leva a cabo nas inmediacións da cidade de Santiago dende a primera metade do século XIX: os Xenerais van montados a caballo, disfrazados con vistosas vestimentas militares similares ás de aquela época, pero que ademais inclúen adornos puramente de entroido, que lucen tamén os caballos.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mercado">mercado.</string>
+    <string name="imagen_inicio">ImaxeInicio</string>
+    <string name="artesania">ARTESANÍA</string>
+    <string name="brigantia">Brigantia orfebres</string>
+    <string name="oliXiraldez">Oli Xiráldez</string>
+    <string name="silvereira">Silvereira</string>
+    <string name="spacioBInteriorismo">Spacio b interiorismo</string>
+    <string name="macala">Macala xoias</string>
+    <string name="rosamendez">rosamendez</string>
+    <string name="tresOficios">Tres Oficios</string>
+    <string name="olgaMartinez">Olga Martínez</string>
+    <string name="pabloSeoane">Pablo Seoane</string>
+    <string name="iagoSalgado">Iago Salgado</string>
+    <string name="arteCelta">Arte Celta e Rupestre</string>
+    <string name="alala">Alalá Couture</string>
+
+    <string name="xoiariaCreativa">Xoiaría creativa</string>
+    <string name="desenhoModa">Deseño moda</string>
+    <string name="instrumentosMusicais">Instrumentos musicais</string>
+
+    <string name="paxinaWeb">Páxina web</string>
+
+    <string name="brigantiaArtesan">Nuria Prado Baamonde</string>
+    <string name="brigantiaDireccion">Rúa de San Pedro, 79</string>
+    <string name="brigantiaTelefono">+34 682293304</string>
+    <string name="brigantiaCorreo">brigantiaorfebres@gmail.com</string>
+
+    <string name="alalaArtesan">Alex Regueiro</string>
+    <string name="alalaDireccion">Santo Domingo, 81.\n15866 Teo</string>
+    <string name="alalaTelefono">+34 981806528</string>
+    <string name="alalaCorreo">atelier@alalacouture.com</string>
+
+    <string name="arteCeltaArtesan">Pablo Leal</string>
+    <string name="arteCeltaDireccion">Agoso, 41, \n15886 Ribeira</string>
+    <string name="arteCeltaTelefono">+34 981 809 464</string>
+    <string name="arteCeltaCorreo">info@pabloleal.com</string>
+    <string name="arteCeltaDescricion">Artesanía con metais, latón, inox, bronce.</string>
+
+    <string name="iagoSalgadoDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
+    <string name="iagoSalgadoTelefono">+34 625876502</string>
+    <string name="iagoSalgadoCorreo">salgadoiago@gmail.com</string>
+
+    <string name="pabloSeoaneDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
+    <string name="pabloSeoaneTelefono">+34 657810611</string>
+    <string name="pabloSeoaneCorreo">obradoiroseoane@gmail.com</string>
+
+    <string name="macalaXoiasArtesan">Mari Carmen</string>
+    <string name="macalaXoiasDireccion">Casaldomiro, Teo</string>
+    <string name="macalaXoiasTelefono">+34 696501621</string>
+    <string name="macalaXoiasCorreo">info@macalajoyas.com</string>
+    <string name="macalaXoiasDescricion">Xoiaría de autora</string>
+
+    <string name="olgaMartinezDireccion">Travesia de Cacheiras, 12</string>
+    <string name="olgaMartinezTelefono">+34 981806550</string>
+    <string name="olgaMartinezCorreo">olgamartinezg@hotmail.com</string>
+    <string name="olgaMartinezDescricion">Vestidos para casamentos</string>
+
+    <string name="oliXiraldezArtesan">Oli Xiráldez Ríos</string>
+    <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
+    <string name="oliXiraldezTelefono">+34 629421544</string>
+    <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
+    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
+
+    <string name="rosaMendezArtesan">Rosa Méndez</string>
+    <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
+    <string name="rosaMendezTelefono">+34 981523146\n+34 667266098</string>
+    <string name="rosaMendezCorreo">rosa@rosamendez.com</string>
+    <string name="rosaMendezDescricion">Xoiaría con vidro</string>
+
+    <string name="silvereiraArtesan">Juan Jesús Fernández Lamas</string>
+    <string name="silvereiraDireccion">Aldea Raíces, 22\n15895 Ames</string>
+    <string name="silvereiraTelefono">+34 981548659</string>
+    <string name="silvereiraCorreo">info@silvereira.com</string>
+
+    <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
+    <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
+    <string name="spacioBInteriorismoTelefono">+34 639504102</string>
+    <string name="spacioBInteriorismoCorreo">info@spaciob.com</string>
+    <string name="spacioBInteriorismoDescricion">Interiorismo</string>
+
+    <string name="tresOficiosArtesan">Rodrigo Mosquera</string>
+    <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
+    <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
+    <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
+    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración de madeira,\ncoiro e ferro</string>
+
+
+    <string name="redeRutas">REDE DE RUTAS</string>
+    <string name="numero1">1</string>
+    <string name="rutaPerCaminho">Ruta Per Caminho de Lampai</string>
+    <string name="distancia">Distancia</string>
+    <string name="kmRuta1">1.38 km</string>
+    <string name="desnivel">Desnivel</string>
+    <string name="desnivelruta1">⇓ 81m</string>
+    <string name="rutaCircular">Ruta Circular</string>
+    <string name="no">Non</string>
+    <string name="dificultad">Dificultade</string>
+    <string name="baja">Baixa</string>
+    <string name="señalizacion">Sinalización</string>
+    <string name="textoRuta1">Camiño tradicional que, partindo da capela de Santa Ana (Agrela), bordea a fonte da Grela (datada no 1868) e discorre fundamentalmente paralelo ao Rego do Tarrío. Actualmente consérvanse os restos de nove muíños, un deles con restos dunha antigo serradoiro. De grande beleza natural por atravesar un bosque de ribeira o máis destacable da ruta é a presenza do Marco Medieval tamén na beira do regato e que marca o linde entre os concellos de Teo e Padrón.
+            \n \nO nome da ruta extraémolo dun verso do trobador Compostelán Joán Airas nunha cantiga de amor onde amosa a súa desesperanza pola marcha da muller amada. A marcha era por un camiño medieval a Santiago que atravesaba o Concello de Teo de norte a Sur, subindo cara Lampai en dirección a Padrón.</string>
+
+
+    <string name="numero2">2</string>
+    <string name="rutaApegoCreceiro">Ruta Apego Creceiro de Francos - Ponte Paradela</string>
+    <string name="kmRuta2">1.71 km</string>
+    <string name="desnivelruta2">⇑ 23m</string>
+    <string name="textoRuta2">Ruta lineal que atravesa a Carballeira de Francos e discorre paralela ao río Tinto ata chegar á Ponte Paradela. \n \nCon saída dende o Cruceiro gótico de Francos, esta ruta atravesa lugares moi emblemáticos como a propia carballeira onde ten lugar a Feira do San Martiño. Deixa atrás a aldea de Francos para discorrer paralela ao río Tinto aproveitando unha pista forestal e chega finalmente a Ponte Paradela onde hai un merendoiro.
+    \n \nTrátase dunha ruta de ida e volta onde ademais dos elementos patrimoniais vinculados á aldea, como os muíños do último tramo, tamén podemos gozar do ecosistema de río, sobre todo as árbores e flores da ribeira.
+    \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e por ende, son accesibles para persoas con mobilidade reducida tamén. Nalgunhas épocas de moita chuvia o último tramo pode presentar marcas de escorrenta que dificulten o paso.</string>
+    <string name="si">Si</string>
+    <string name="textoSinalizacion2">Si. Inicio desde a Escola de Francos</string>
+    <string name="inicioRuta">Inicio da Ruta</string>
+    <string name="coordenadaRuta2">Coordenadas GPS: \n42.75976908231386, -8.547355998657142</string>
+    <string name="textoBotonWikiloc">Ruta en Wikiloc</string>
+
+
+    <string name="numero3">3</string>
+    <string name="rutaBatalla">Ruta Da Batalla de Cacheiras</string>
+    <string name="kmRuta3">8.71 km</string>
+    <string name="desnivelruta3">⇑ 287m</string>
+    <string name="moderada">Moderada</string>
+    <string name="textoSinalizacion3">Si. Inicio na rectoral de Bamonde</string>
+    <string name="coordenadaRuta3">Coordenadas GPS: \n42.784053602488946, -8.511513559903454</string>
+    <string name="textoRuta3">Ruta da Batalla de Cacheiras que vén conmemorar os acontecementos sucedidos o 23 de abril de 1846.\n \nA ruta da Batalla de Cacheiras é un percorrido que vai dende Bamonde ao alto de Montouto e pretende ser unha réplica do camiño que fixeron algúns dos soldados do xeneral de La Concha que na noite do 23 de Abril de 1846 fixeron noite en Bamonde para enfrontarse ó exercito sublevado liderado polo xeneral Solís na afamada Batalla. Camiños cheos de historia, de cultura, de fermosas paisaxes e arquitectura popular que atravesan as parroquias de Bamonde, Oza e Cacheiras.
+            \n \nTrátase dunha ruta lineal que comeza ao pé da reitoral de Bamonde e remata no cumio de Montouto. Ao longo do percorrido destacan elementos patrimoniais como igrexas, cruceiros ou núcleos rurais tradicionais, pero tamén elementos naturais de gran beleza como o salto de auga do río Santa Lucía ao seu paso polo Recobio, así como o propio miradoiro de Montouto.
+            \n \nA ruta está perfectamente sinalizada (nos dous sentidos de paso) e conta tamén con sinaléctica para os elementos patrimoniais máis destacables no percorrido.</string>
+
+
+    <string name="numero4">4</string>
+    <string name="rutaApegoMuiñeiras">Ruta Apego das Muiñeiras de Luou</string>
+    <string name="duracion">Duración</string>
+    <string name="duracionRuta4">30 min</string>
+    <string name="desnivelRuta4">⇑ 30m</string>
+    <string name="facil">Fácil</string>
+    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986, -8.583896633172326</string>
+    <string name="descarga">Descarga</string>
+    <string name="juegoDificil">Ollo ao piollo muiñeiras \n(dificultade alta)</string>
+    <string name="juegoFacil">Ollo ao piollo muiñeiras \n(dificultade baixa)</string>
+    <string name="textoRuta4">Ruta lineal que discorre dende A Chanca ata A Ínsua, en Luou, perfectamente sinalizada é considerada ruta Apego.
+                \n \nO percorrido aproveita a obra levada a cabo para a colocación do colector de Espasande, conta con numerosos muíños onde tradicionalmente se facía a moenda. Podemos atopar na mesma o muíño e Pombal das Muiñeiras, o muíño do Inferniño, o muíño Novo, o muíño dos Cornidos, o muíño da Ínsua e o lavadoiro da Ínsua.
+                \n \nTrátase dun pequeno percorrido de ida e volta onde ademais dos elementos patrimoniais citados tamén podemos atopar un ecosistema fluvial con bosque de río en bo estado de conservación.
+                \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e, por ende, son accesibles para persoas con mobilidade reducida tamén. Para motivar os paseos e desfrute da natureza temos deseñado un xogo, o Ollo ao Piollo, con dous niveis de dificultade (adultas e cativada) e que consiste en ir atopando distintos elementos naturais á vez que paseas pola ruta.</string>
+
+
+    <string name="numero5">5</string>
+    <string name="rutaAngueira">Ruta Á beira do Angueira</string>
+    <string name="kmRuta5">3.45 km</string>
+    <string name="desnivelRuta5">⇑ 44m</string>
+    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, -8.600987161680214</string>
+    <string name="textoRuta5">Breve ruta á beira do curso fluvial do Angueira.
+                \n \nRuta circular que é unha adaptación de menor percorrido da Ruta dos Petróglifos de Teo e que permite o desfrute da arqueoloxía e tamén a beira do río Angueira.</string>ç
+
+    <string name="numero6">6</string>
+    <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
+    <string name="kmRuta6">6.42 km</string>
+    <string name="desnivelRuta6">⇑127m ⇓175m</string>
+    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, -8.516724398309039</string>
+    <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
+    \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
+    \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>
+
+
+    <string name="numero7">7</string>
+    <string name="rutaFaramello">Ruta Do Túnel do Faramello</string>
+    <string name="kmRuta7">7.23 km</string>
+    <string name="desnivelRuta7">⇑ 165m</string>
+    <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255, -8.620623485937024</string>
+    <string name="textoRuta7">Ruta de sendeirismo que parte da Rúa de Francos (Calo) e percorre uns 8 quilómetros na contorna. \n \nEsta ruta percorre o vello treito da liña ferroviaria máis antiga de Galicia (Cornes – Carril), situado entre as aldeas de Vilar de Abaixo (Teo) e Angueira de Suso (Padrón). Treito que logo da apertura do novo trazado do AVE en 2007 fica en desuso e abandono.
+            \n \nUnha andaina circular, que comeza e remata ao pé do cruceiro gótico de Francos, e que ten como principais puntos de interese os conxuntos tradicionais das aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, o santuario e carballeira de San Bieito de Bascuas, as pontellas e ribeiras fluviais dos pequenos regatos da parroquia de Santa María de Cruces; así como percorrer os 133 metros do antigo túnel do Faramello, unha das grandes obras de enxeñaría do primitivo camiño de ferro galego.</string>
+
+    <string name="numero8">8</string>
+    <string name="rutaApegoPontevea">Ruta Apego Pontevea Burga de Xermeade</string>
+    <string name="kmRuta8">0.76 km</string>
+    <string name="desnivelRuta8">⇑ 1m</string>
+    <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866, -8.548239358912666</string>
+    <string name="textoRuta8">Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á Burga de Xermeade.
+                \n \nEntre o núcleo de Pontevea e a Burga de Xermeade discorre esta curtiña ruta lineal Apego á beira do río Ulla, declarada zona Rede Natura 2000 pola súa singular biodiversidade. Trátase dun bosque de río en bo estado de conservación que alberga todo un ecosistema fluvial, con insuas formadas de xeito natural e que remata na Burga de Xermeade, espazo moi singular pola presenza de augas sulfurosas.
+                \n \nAs rutas Apego están deseñadas para a facilidade de familias con crianzas e persoas con mobilidade reducida. Neste caso a ruta está dinamizada con postes de sinaléctica que conteñen audioguías con información sobre o río Ulla, especialmente pensada para a cativada. Non deixedes de escoitalas!
+                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!</string>
+
+
+
+    <string name="numero9">9</string>
+    <string name="rutaXirimbao">Ruta Ribeira do Ulla Xirimbao - Pontevea</string>
+    <string name="kmRuta9">2.84 km</string>
+    <string name="desnivelRuta9">⇑ 24m</string>
+    <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745, -8.554853748127957</string>
+    <string name="textoRuta9">Ruta que percorre as beiras do río Ulla desde a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea.
+                \n \nEsta ruta, que percorre un tradicional camiño de pescadoras, vai dende a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea, todo iso á beira do río Ulla. Trátase dunha ruta lineal que tamén se pode facer no sentido contrario, con saída dende o núcleo de Pontevea. Toda a ruta atópase na área de protección Rede Natura 2000 recoñecida pola Unión Europea dada a súa xenuína biodiversidade.
+                \n \nO principal atractivo desta ruta é a comunidade ecolóxica que determina a presenza do río Ulla: un bosque de río ben conservado que dá acubillo a especies moi emblemáticas como a lontra. Tamén destaca a presenza de pesqueiras, na zona próxima ao Xirimbao, que son construcións tradicionais para a pesca da lamprea.
+                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!</string>
+
+    <string name="numero10">10</string>
+    <string name="rutaPetroglifo">Ruta PR-G 238. Ruta dos Petróglifos de Teo</string>
+    <string name="kmRuta10">11.87 km</string>
+    <string name="desnivelRuta10">⇑ 220m</string>
+    <string name="coordenadaRuta10">Coordenadas GPS: \n42.8064491767152, -8.600935758055126932</string>
+    <string name="textoRuta10">Un percorrido para visitar os petrólifos de Río Angueira e Monte Piquiño.
+                \n \nPartindo da Capela dos Milagres de Cornide, o percorrido desta ruta adéntrase nun espazo físico de pequenos outeiros graníticos e lenes chairas á beira do río Angureia, ocupadas por gran cantidade de restos arqueolóxicos.
+                \n \nEste sitio arqueolóxico representa unha das áreas de maior importancia en Galicia, e sen igual na Comarca de Compostela, pola gran densidade de xacementos de mámoas e petróglifos existentes e polas características dalgúns deses gravados.
+                \n \nSon moi relevantes os petróglifos de Río Angueira ou de Monte de Cornide, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do Corno I, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de Pedra Bicuda de Loureiro que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
+                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.</string>
+
+    <string name="numero11">11</string>
+    <string name="rutaCamiñoSantiago">Ruta Camiño de Santiago Portugués (tramo teense)</string>
+    <string name="vacio">-</string>
+    <string name="coordenadaRuta11">Coordenadas GPS: \n42.814019188168764, -8.62254239437164</string>
+    <string name="textoRuta11">Trátase dun percorrido de case 8 km onde o Itinerario Cultural Xacobeo atravesa o noso concello.
+                \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
+                \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
+                \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
+                \n \nA ruta atópase sinalizada e conta con sinais interpretativos.</string>
+
+
+    <string name="numero12">12</string>
+    <string name="rutaCamiñoGeira">Ruta Camiño da Geira dos arrieiros</string>
+    <string name="kmRuta12">14.27 km</string>
+    <string name="desnivelRuta12">⇑ 421m  ⇓ 141m</string>
+    <string name="coordenadaRuta12">Coordenadas GPS: \n42.75955044926445, -8.548587098277645</string>
+    <string name="textoRuta12">Camiño Xacobeo que une Braga con Compostela, empregado tradicionalmente tamén polos arrieiros para traer o viño dende a Ribeira Sacra a Compostela.
+                \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de San Simón de Cacheiras.
+                \n \nOs documentos do s. XVII ao s. XX testemuñan con posterioridade o paso dos arrieiros polos sitios do Cruceiro (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
+                \n \nUn camiño histórico que atravesa aldeas tradicionais ben conservadas (A Pedra, O Sisto, Pedrouso) e espazos naturais de grande beleza como a fraga de Sestelo. A ruta transcorre a rentes de numerosos bens culturais e etnolóxicos.
+                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.</string>
+
+
+</resources>
