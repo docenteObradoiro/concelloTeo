@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrimonio.informacion_cruceiro_gotico_francos">
+    <!--
+    <ScrollView
+        android:layout_width="0px"
+        android:layout_height="0px"
+        tools:ignore="MissingConstraints">
+ -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/logoteo"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+                <ImageView
+                    android:id="@+id/hamburguesa"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburguesa" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/breveDescripcionCruceiroGoticoFrancos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"
+                android:textColor="#415419"
+                android:text="Dando a benvida á Carballeira de Francos, atópase un dos cruceiros máis antigos de Galicia."
+
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imagenCabeceraCruceiroGoticoFrancos"
+                android:layout_width="326dp"
+                android:layout_height="198dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/cruceirogoticosfrancos" />
+
+            <TextView
+                android:id="@+id/descripcionCruceiroGoticoFrancos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:text="O cruceiro de Francos, considerado un dos máis antigos de Galicia (s. XV), foi descrito por Castelao na súa obra As cruces de Pedra na Galiza (1950), ó abordar a orixe dos nosos cruceiros. Situado no entorno da carballeira de Francos e a carón da antiga escola, hoxe convertida en Casa Común do Concello, está intimamente ligado á ruta xacobea que pasa ao seu carón como demostran os relevos de dous peregrinos situados nos laterais da cruz.\n  \n
+
+Como o propio Castelo sinala trátase dunha “cruz pousada nun ancho esteo de pedra, (.....) os nosos ollos xulgaríana como moi antiga se non reparásemos nos detalles dramáticos do crucifixo”.\n  \n
+
+É unha cruz de granito sobre un varal cuadrangular que nos lembra a forma dunha pedrafita. Incluso conta cun pequeno gravado en forma de cruz. O cristo é de estilo gótico, crucificado con tres cravos, con coroa de espiñas, cara ladeada cara dereita, xeonllos dobrados e cun pano de pureza cinguido, acompañado de rudimentarias figuras que poderían representar a dous peregrinos, o que reforza a súa vinculación co Camiño Portugués.\n  \n
+
+
+ "
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/facebook_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animafacebook"
+                    app:srcCompat="@drawable/facebook_3_" />
+
+                <ImageButton
+                    android:id="@+id/twitter_4_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animatwitter"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint= "#00B8AEAE"/>
+
+
+
+                <ImageButton
+                    android:id="@+id/instagram_3_"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:tint="#7F000000"
+                    android:background="@drawable/animainsta"
+                    app:srcCompat="@drawable/instagram_3_"
+                    />
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/animaps"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+                <ImageView
+                    android:id="@+id/informacion"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/informacion"
+                    app:tint="#7F000000" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    </ScrollView>
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

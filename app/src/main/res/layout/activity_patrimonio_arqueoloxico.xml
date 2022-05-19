@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".patrimonio.patrimonio_natural">
+
+<ImageButton
+    android:id="@+id/logoTeo"
+    android:layout_width="100dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:background="#00FFFFFF"
+    android:contentDescription="botonTeo"
+    android:scaleType="fitXY"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+<ImageButton
+    android:id="@+id/hamburguesa"
+    android:layout_width="48dp"
+    android:layout_height="55dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="#00FFFFFF"
+    android:contentDescription="hamburguesa"
+    android:scaleType="fitXY"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/hamburguesa" />
+
+<ScrollView
+    android:id="@+id/scrollView2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginEnd="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/patrimonio"
+            android:layout_width="191dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="PATRIMONIO ARQUEOLÓXICO"
+            android:textColor="#415419"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/botonMarcoDaAgrela"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="MARCO DA AGRELA"
+            android:scaleType="fitXY"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/marcodaagrelatit" />
+
+        <ImageButton
+            android:id="@+id/botonAreaArqueoloxicaDoMontePiquinho"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="ÁREA ARQUEOLÓXICA DO MONTE PIQUIÑO"
+            android:scaleType="fitXY"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/areaarqueoloxicadomontepiquinhotit" />
+
+        <ImageButton
+            android:id="@+id/botonPetroglifoDaPenaBicudaDeLoureiro"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="PETRÓGLIFO DA PENA BICUDA DE LOUREIRO"
+            android:scaleType="fitXY"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/petroglifodapenabicudadeloureirotit" />
+
+        <ImageButton
+            android:id="@+id/botonPetroglifoDoOuteiroDoCorno"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="Petróglifo do Outeiro do Corno"
+            android:scaleType="fitXY"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/petroglifodoouteirodocornotit" />
+
+        <ImageButton
+            android:id="@+id/botonPetroglifoDoRioAngueiraOuDoMonteDeCornide"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="Petróglifo do Río Angueira ou do Monte de Cornide"
+            android:scaleType="fitXY"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/petroglifodorioangueiraoudomontedecornidetit" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:foregroundTint="#2DFFFFFF"
+            app:srcCompat="@drawable/lineaverde" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/facebook_3_"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                app:tint="#7F000000"
+                android:background="@drawable/animafacebook"
+                app:srcCompat="@drawable/facebook_3_" />
+
+
+            <ImageButton
+                android:id="@+id/twitter_4_"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="twitter"
+                android:scaleType="fitXY"
+                android:background="@drawable/animatwitter"
+                app:srcCompat="@drawable/twitter_4_"
+                app:tint="#00B8AEAE" />
+
+
+            <ImageButton
+                android:id="@+id/instagram_3_"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                app:tint="#7F000000"
+                android:background="@drawable/animainsta"
+                app:srcCompat="@drawable/instagram_3_"
+                />
+
+
+            <ImageButton
+                android:id="@+id/informacion"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#00B8AEAE"
+                android:contentDescription="información"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/informacion"
+                app:tint="#7F000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
