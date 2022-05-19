@@ -216,30 +216,6 @@
             android:name=".patrimonio.patrimonio_arqueoloxico"
             android:exported="false" />
         <activity
-            android:name=".patrimonio.devesa_agromaior"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.fraga_sestelo"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.area_recreativa"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.couto_pesca"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.sistema_fluvial"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.carballeira_francos"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.miradoiro_pena"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.miradoiro_cumio"
-            android:exported="false" />
-        <activity
             android:name=".patrimonio.patrimonio_etnografico"
             android:exported="false" />
         <activity
@@ -323,57 +299,6 @@
             android:exported="false" />
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.fonte_escola_casalonga"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.tunel_faramello"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.ponte_nova_raris"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.nucleo_tradicional_pontevea"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.fonte_lavadoiro_florida"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.lavadoiro_casalonga"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.ponte_colgante_xirimbao"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.lavadoiro_francos"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.ponte_lavadoiro_rio_tinto"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.escola_francos"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.pousada_san_antoninho"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.ponte_paradela"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.ponte_medieval_pontevea"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.marco_medieval_porto"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.crucerio_gotico_francos"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.burga_xermeade"
-            android:exported="false" />
-        <activity
-            android:name=".patrimonio.cruceiro_tribaldes"
             android:exported="false" />
 
     </application>

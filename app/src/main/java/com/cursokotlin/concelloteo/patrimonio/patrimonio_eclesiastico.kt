@@ -1,6 +1,7 @@
 package com.cursokotlin.concelloteo.patrimonio
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -69,6 +70,11 @@ class patrimonio_eclesiastico : AppCompatActivity() {
         botonIgrexadeSanSimonDeOnsCacheiras.setOnClickListener {
             val accederIgrexadeSanSimonDeOnsCacheiras = Intent(this, igrexadeSanSimonDeOnsCacheiras::class.java)
             startActivity(accederIgrexadeSanSimonDeOnsCacheiras)
+        }
+
+        val informacion = findViewById<ImageButton>(R.id.informacion)
+        informacion.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 
 
