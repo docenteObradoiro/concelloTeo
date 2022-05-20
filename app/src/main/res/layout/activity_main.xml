@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="143dp" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
@@ -56,7 +49,7 @@
         app:layout_constraintGuide_begin="179dp" />
 
     <Button
-        android:id="@+id/botonMain1"
+        android:id="@+id/boton1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="#009688"
@@ -67,7 +60,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/botonMain2"
+        android:id="@+id/boton2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="#009688"
@@ -78,7 +71,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/botonMain3"
+        android:id="@+id/boton3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="#009688"
@@ -89,15 +82,17 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/botonMain4"
+        android:id="@+id/boton4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="#009688"
         android:text="Patrimonio"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"

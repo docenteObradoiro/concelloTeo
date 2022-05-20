@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val boton1 = findViewById<Button>(R.id.botonMain1)
-        val boton2 = findViewById<Button>(R.id.botonMain2)
-        val boton3 = findViewById<Button>(R.id.botonMain3)
-        val boton4 = findViewById<Button>(R.id.botonMain4)
+        val boton1 = findViewById<Button>(R.id.boton1)
+        val boton2 = findViewById<Button>(R.id.boton2)
+        val boton3 = findViewById<Button>(R.id.boton3)
+        val boton4 = findViewById<Button>(R.id.boton4)
 
         boton1.setOnClickListener {
             val acceder = Intent(this, PaxinaPrincipalRedeDeRutas::class.java)
