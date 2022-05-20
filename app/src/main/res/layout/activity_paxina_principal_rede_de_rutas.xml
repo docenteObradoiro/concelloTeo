@@ -37,20 +37,49 @@
         android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:srcCompat="@drawable/hamburguesa" />
 
+    <TextView
+        android:id="@+id/redeRutas"
+        android:layout_width="280dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:text="@string/redeRutas"
+        android:textColor="#7F4B5A2B"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/botonTeo2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/selector"
+        android:contentDescription="logoTeo2"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/redeRutas"
+        app:srcCompat="@drawable/logorutas" />
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="20dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintVertical_bias="1.0">
 
 
@@ -59,38 +88,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/redeRutas"
-                android:layout_width="191dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/redeRutas"
-                android:textColor="#415419"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <ImageButton
-                android:id="@+id/botonTeo2"
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:contentDescription="logoTeo2"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/logorutas"
-                android:background="@drawable/selector"
-                />
-
             <ImageButton
                 android:id="@+id/boton1"
                 android:layout_width="match_parent"
                 android:layout_height="287dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="ruta1"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@mipmap/botonruta1"    />
+                app:srcCompat="@mipmap/botonruta1" />
 
             <ImageButton
                 android:id="@+id/boton2"
@@ -99,8 +106,8 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="ruta2"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta2" />
 
@@ -111,8 +118,8 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="ruta3"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta3" />
 
@@ -122,8 +129,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta4" />
 
@@ -133,8 +140,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta5" />
 
@@ -144,8 +151,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta6" />
 
@@ -155,8 +162,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta7" />
 
@@ -166,8 +173,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta8" />
 
@@ -177,8 +184,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta9" />
 
@@ -188,8 +195,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta10" />
 
@@ -199,8 +206,8 @@
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta11" />
 
@@ -211,8 +218,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/botonruta12" />
 
@@ -240,8 +247,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
-                    android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/facebook"
                     app:tint="#7F000000" />
@@ -255,8 +262,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
-                    android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/twitter"
                     app:tint="#7F000000" />
@@ -270,8 +277,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
-                    android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/instagram"
                     app:tint="#7F000000" />
@@ -285,8 +292,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="wikiloc"
-                    android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/wikiloc"
                     app:tint="#7F000000" />
@@ -300,8 +307,8 @@
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
-                    android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/info"
 
