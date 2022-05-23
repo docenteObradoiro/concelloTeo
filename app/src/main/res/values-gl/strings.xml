@@ -91,6 +91,8 @@
     <string name="iagoSalgado">Iago Salgado</string>
     <string name="arteCelta">Arte Celta e Rupestre</string>
     <string name="alala">Alalá Couture</string>
+    <string name="xeroca">Xeroca</string>
+    <string name="cuchillosVillar">Cuchillos villar</string>
 
     <string name="xoiariaCreativa">Xoiaría creativa</string>
     <string name="desenhoModa">Deseño moda</string>
@@ -149,6 +151,17 @@
     <string name="silvereiraDireccion">Aldea Raíces, 22\n15895 Ames</string>
     <string name="silvereiraTelefono">+34 981548659</string>
     <string name="silvereiraCorreo">info@silvereira.com</string>
+
+    <string name="xerocaArtesan">Xesús Rodríguez</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaTelefono">+34 616952580</string>
+    <string name="xerocaCorreo"></string>
+
+    <string name="cuchillosVillarArtesan">Álvaro Villar</string>
+    <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
+    <string name="cuchillosVillarTelefono">+34 648028531</string>
+    <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
+    <string name="cuchillosVillarDescricion">ferreiro especializado na coitelaría tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>

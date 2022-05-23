@@ -56,9 +56,14 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             val acceder = Intent(this, OliXiraldez::class.java)
             startActivity(acceder)
         }
-        val silvereira = findViewById<ImageButton>(R.id.boton3)
-        silvereira.setOnClickListener {
-            val acceder = Intent(this, Silvereira::class.java)
+//        val silvereira = findViewById<ImageButton>(R.id.boton3)
+//        silvereira.setOnClickListener {
+//            val acceder = Intent(this, Silvereira::class.java)
+//            startActivity(acceder)
+//        }
+        val xeroca = findViewById<ImageButton>(R.id.boton3)
+        xeroca.setOnClickListener {
+            val acceder = Intent(this, Xeroca::class.java)
             startActivity(acceder)
         }
         val spacioB = findViewById<ImageButton>(R.id.boton4)
@@ -81,9 +86,14 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             val acceder = Intent(this, TresOficios::class.java)
             startActivity(acceder)
         }
-        val arteCelta = findViewById<ImageButton>(R.id.boton8)
-        arteCelta.setOnClickListener {
-            val acceder = Intent(this, ArteCelta::class.java)
+//        val arteCelta = findViewById<ImageButton>(R.id.boton8)
+//        arteCelta.setOnClickListener {
+//            val acceder = Intent(this, ArteCelta::class.java)
+//            startActivity(acceder)
+//        }
+        val cuchillosVillar = findViewById<ImageButton>(R.id.boton8)
+        cuchillosVillar.setOnClickListener {
+            val acceder = Intent(this, CuchillosVillar::class.java)
             startActivity(acceder)
         }
         val alalaCouture = findViewById<ImageButton>(R.id.boton9)
