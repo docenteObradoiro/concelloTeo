@@ -74,7 +74,7 @@
                     android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/xeroca"
+                    app:srcCompat="@mipmap/botonxeroca"
                     />
                 <ImageButton
                     android:id="@+id/boton4"
@@ -144,7 +144,7 @@
                     android:scaleType="fitXY"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/cuchillosvillar"
+                    app:srcCompat="@mipmap/botoncuchillosvillar1"
                     />
                 <ImageButton
                     android:id="@+id/boton9"
@@ -281,34 +281,50 @@
         </LinearLayout>
     </ScrollView>
 
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F9FBF9"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginEnd="120dp"
+        android:layout_width="280dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
         android:text="@string/artesania"
         android:textColor="#7F4B5A2B"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@id/tv1"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/logoTeo"
-        android:layout_width="85dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="10dp"
-        android:background="#00FFFFFF"
-        android:contentDescription="@string/app_name"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/tv1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/concelloteo" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
