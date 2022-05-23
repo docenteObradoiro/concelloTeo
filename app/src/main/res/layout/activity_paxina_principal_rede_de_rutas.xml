@@ -238,7 +238,6 @@
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
-
                 <ImageButton
                     android:id="@+id/facebook"
                     android:layout_width="53dp"
