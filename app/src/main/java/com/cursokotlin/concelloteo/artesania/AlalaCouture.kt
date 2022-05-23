@@ -59,10 +59,7 @@ class AlalaCouture : AppCompatActivity() {
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
         }
-        val wikiloc = findViewById<ImageButton>(R.id.wikiloc1)
-        wikiloc.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/wikiloc/user.do?id=6776439")))
-        }
+
         val info = findViewById<ImageButton>(R.id.info)
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))

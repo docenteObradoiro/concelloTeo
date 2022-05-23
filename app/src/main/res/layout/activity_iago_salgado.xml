@@ -227,7 +227,7 @@
                 <ImageView
                     android:id="@+id/imgVector"
                     android:layout_width="100dp"
-                    android:layout_height="350dp"
+                    android:layout_height="300dp"
                     android:layout_marginStart="-20dp"
                     android:layout_marginTop="90dp"
                     android:layout_marginEnd="20dp"
@@ -238,7 +238,7 @@
             </LinearLayout>
 
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -247,30 +247,36 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="220dp"
-                    android:layout_marginStart="25dp"
-                    android:layout_marginEnd="25dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
                     app:srcCompat="@mipmap/iagosalgado" />
 
                 <TextView
                     android:id="@+id/tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imageView3"
+                    android:layout_alignParentStart="true"
                     android:layout_marginStart="45dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="240dp"
                     android:text="@string/instrumentosMusicais"
                     android:textColor="#51661c"
                     android:textSize="14sp" />
-
                 <ImageView
                     android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
                     android:layout_marginBottom="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@id/tv2"
                     app:srcCompat="@mipmap/lineaverde" />
-            </LinearLayout>
+            </RelativeLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -278,86 +284,62 @@
 
                 <ImageButton
                     android:id="@+id/facebook"
-                    android:layout_width="53dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#00B8AEAE"
+                    android:background="@drawable/facebookanima"
                     android:contentDescription="facebook"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/facebook"
-                    app:tint="#7F000000" />
+                    app:srcCompat="@drawable/facebook_3_"
+                    app:tint="#0F000000"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="-20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/facebook"
+                    android:layout_alignParentTop="true"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#00B8AEAE"
+                    android:background="@drawable/animatwitter"
                     android:contentDescription="twitter"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/twitter"
-                    app:tint="#7F000000" />
+                    app:srcCompat="@drawable/twitter_4_"
+                    app:tint="#00B8AEAE"
+                    tools:ignore="TouchTargetSizeCheck" />
+
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="-22dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="instagram"
+                    android:layout_toEndOf="@+id/twitter"
+                    android:background="@drawable/animainstagram"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/instagram"
-                    app:tint="#7F000000" />
-
-                <ImageButton
-                    android:id="@+id/wikiloc1"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="-14dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="wikiloc"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/wikiloc"
-                    app:tint="#7F000000" />
+                    app:srcCompat="@drawable/instagram_3_"
+                    app:tint="#0F000000"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="135dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="15dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/logoinformacion"
+                    app:srcCompat="@drawable/informacion"
                     app:tint="#7F000000" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="-180dp"
-                android:layout_marginBottom="-40dp"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imgTrigo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="-40dp"
-                    android:backgroundTint="#00B8AEAE"
-                    app:srcCompat="@mipmap/maiz"
-                    app:tint="#1F000000" />
-            </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
 
     </ScrollView>
