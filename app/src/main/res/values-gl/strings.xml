@@ -211,7 +211,7 @@
     <string name="duracionRuta4">30 min</string>
     <string name="desnivelRuta4">⇑ 30m</string>
     <string name="facil">Fácil</string>
-    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986, -8.583896633172326</string>
+    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986,\n-8.583896633172326</string>
     <string name="descarga">Descarga</string>
     <string name="juegoDificil">Ollo ao piollo muiñeiras \n(dificultade alta)</string>
     <string name="juegoFacil">Ollo ao piollo muiñeiras \n(dificultade baixa)</string>
@@ -225,7 +225,7 @@
     <string name="rutaAngueira">Ruta Á beira do Angueira</string>
     <string name="kmRuta5">3.45 km</string>
     <string name="desnivelRuta5">⇑ 44m</string>
-    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, -8.600987161680214</string>
+    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, \n-8.600987161680214</string>
     <string name="textoRuta5">Breve ruta á beira do curso fluvial do Angueira.
                 \n \nRuta circular que é unha adaptación de menor percorrido da Ruta dos Petróglifos de Teo e que permite o desfrute da arqueoloxía e tamén a beira do río Angueira.</string>ç
 
@@ -233,7 +233,7 @@
     <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
     <string name="kmRuta6">6.42 km</string>
     <string name="desnivelRuta6">⇑127m ⇓175m</string>
-    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, -8.516724398309039</string>
+    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, \n-8.516724398309039</string>
     <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
     \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
     \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>
