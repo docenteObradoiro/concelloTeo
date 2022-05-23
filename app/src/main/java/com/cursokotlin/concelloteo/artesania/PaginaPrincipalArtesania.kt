@@ -24,23 +24,23 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val informacionBoton = findViewById<ImageButton>(R.id.informacionBoton)
+        val informacionBoton = findViewById<ImageButton>(R.id.info)
         informacionBoton.setOnClickListener {startActivity(Intent
             (Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/")))
         }
 
-        val botonFacebook = findViewById<ImageButton>(R.id.botonFacebook)
+        val botonFacebook = findViewById<ImageButton>(R.id.facebook)
         botonFacebook.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-        val botonInstagram = findViewById<ImageButton>(R.id.botonInstagram)
+        val botonInstagram = findViewById<ImageButton>(R.id.instagram)
         botonInstagram.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
-        val botonTwitter = findViewById<ImageButton>(R.id.botonTwitter)
+        val botonTwitter = findViewById<ImageButton>(R.id.twitter)
         botonTwitter.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
