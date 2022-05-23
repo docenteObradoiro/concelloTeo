@@ -117,8 +117,8 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="260dp"
-                    android:layout_height="350dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
             <TextView
@@ -271,6 +271,7 @@
                 android:id="@+id/foto1"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:layout_marginTop="20dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@mipmap/ruta3" />
 
