@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".artesania.BrigantiaOrfebres">
+    tools:context=".artesania.CuchillosVillar">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="44dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/silvereira"
+                android:text="@string/cuchillosVillar"
                 android:textColor="#415419"
                 android:textSize="20sp" />
 
@@ -44,7 +44,7 @@
                 android:id="@+id/layoutHorizontalPpal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="25dp"
+                android:layout_marginBottom="-30dp"
                 android:orientation="horizontal">
 
 
@@ -72,8 +72,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/silvereiraArtesan"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/cuchillosVillarArtesan"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -130,7 +130,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraDireccion"
+                            android:text="@string/cuchillosVillarDireccion"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -147,6 +147,7 @@
                             android:id="@+id/botonTelefono"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+
                             android:layout_marginTop="20dp"
                             android:background="@drawable/animatelefono"
                             android:contentDescription="@string/appbar_scrolling_view_behavior"
@@ -161,7 +162,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraTelefono"
+                            android:text="@string/cuchillosVillarTelefono"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -192,7 +193,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraCorreo"
+                            android:text="@string/cuchillosVillarCorreo"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -230,6 +231,20 @@
                             app:tint="#00FFFFFF"
                             tools:ignore="TouchTargetSizeCheck" />
 
+                        <ImageButton
+                            android:id="@+id/twitterArtesan"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/animatwitter"
+                            android:contentDescription="twitterArtesan"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/twitter_4_"
+                            app:tint="#00FFFFFF"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
 
                     </LinearLayout>
 
@@ -237,14 +252,13 @@
 
                 <ImageView
                     android:id="@+id/imgVector"
-                    android:layout_width="200dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="-20dp"
-                    android:layout_marginTop="240dp"
+                    android:layout_width="100dp"
+                    android:layout_height="300dp"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="90dp"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@mipmap/trisquel"
+                    app:srcCompat="@mipmap/vectortaller"
                     app:tint="#1F000000" />
 
             </LinearLayout>
@@ -253,7 +267,6 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -262,7 +275,7 @@
                     android:layout_height="220dp"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-                    app:srcCompat="@mipmap/silvereira" />
+                    app:srcCompat="@mipmap/cuchillosvillar2" />
 
                 <TextView
                     android:id="@+id/tv2"
@@ -270,18 +283,19 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="45dp"
                     android:layout_marginTop="30dp"
-                    android:text="@string/xoiariaCreativa"
+                    android:text="@string/cuchillosVillarDescricion"
                     android:textColor="#51661c"
                     android:textSize="14sp" />
 
                 <ImageView
                     android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     app:srcCompat="@mipmap/lineaverde" />
             </LinearLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
