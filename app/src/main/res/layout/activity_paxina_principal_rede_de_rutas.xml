@@ -319,8 +319,6 @@
                     app:srcCompat="@drawable/info"
                     app:tint="#7F000000" />
 
-
-            </RelativeLayout>
         </LinearLayout>
     </ScrollView>
 
