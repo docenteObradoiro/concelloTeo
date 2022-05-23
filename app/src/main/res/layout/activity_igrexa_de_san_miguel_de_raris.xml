@@ -6,11 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".patrimonio.igrexaDeSanMiguelDeRaris">
 
+    <ImageButton
+        android:id="@+id/botonTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa" />
+
     <ScrollView
-        android:layout_width="412dp"
-        android:layout_height="576dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,39 +48,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
-                android:orientation="horizontal">
-
-
-                <ImageView
-                    android:id="@+id/logoteo"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="200dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/logo_teo_con_nombre" />
-
-                <ImageView
-                    android:id="@+id/hamburguesa"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/hamburguesa" />
-            </LinearLayout>
-
             <TextView
                 android:id="@+id/descripcionBreve"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="40dp"
                 android:textColor="#415419"
                 android:text="@string/igrexadesanmiguelderarisTitulo"
@@ -82,6 +81,17 @@
 
                 android:text="@string/igrexadesanmiguelderarisDescripcion"
                 android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="27dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

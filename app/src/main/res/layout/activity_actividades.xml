@@ -51,18 +51,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/texto"
-                android:layout_width="191dp"
-                android:layout_height="75dp"
-                android:layout_gravity="center"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Actividades"
-                android:textColor="#415419"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
             <ImageButton
                 android:id="@+id/boton5"
                 android:layout_width="match_parent"
@@ -177,5 +165,23 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="188dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="ACTIVIDADES"
+        android:textColor="#415419"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
