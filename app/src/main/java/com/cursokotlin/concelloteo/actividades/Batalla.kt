@@ -12,6 +12,10 @@ class batalla : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_batalla)
 
+        val formulario = findViewById<ImageButton>(R.id.botonformulario)
+        formulario.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/actividades/1/visitas-teatralizadas-batalla-de-cacheiras/inscricion")))
+        }
         val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))

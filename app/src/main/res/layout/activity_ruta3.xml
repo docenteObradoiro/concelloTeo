@@ -203,7 +203,16 @@
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
-            <TextView
+                    <TextView
+                        android:id="@+id/textView287"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Teo"
+                        android:translationX="-115dp"
+                        android:translationY="25dp" />
+
+                    <TextView
                 android:id="@+id/sinalizacion1.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
