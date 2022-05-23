@@ -6,12 +6,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.R
 
 class Ruta9 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ruta9)
+
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
 
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {

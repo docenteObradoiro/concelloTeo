@@ -94,6 +94,9 @@
     <string name="iagoSalgado">Iago Salgado</string>
     <string name="arteCelta">Arte Celta e Rupestre</string>
     <string name="alala">Alalá Couture</string>
+    <string name="xeroca">Xeroca</string>
+    <string name="cuchillosVillar">Cuchillos villar</string>
+
 
     <string name="xoiariaCreativa">Joyería creativa</string>
     <string name="desenhoModa">Diseño moda</string>
@@ -153,6 +156,18 @@
     <string name="silvereiraTelefono">+34 981548659</string>
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
+
+    <string name="xerocaArtesan">Xesús Rodríguez</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaTelefono">+34 616952580</string>
+    <string name="xerocaCorreo"></string>
+
+    <string name="cuchillosVillarArtesan">Álvaro Villar</string>
+    <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
+    <string name="cuchillosVillarTelefono">+34 648028531</string>
+    <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
+    <string name="cuchillosVillarDescricion">herrero especializado en la cuchilleria tradicional</string>
+
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
     <string name="spacioBInteriorismoTelefono">+34 639504102</string>
@@ -190,7 +205,7 @@
     \n \nSe trata de una ruta de ida y vuelta donde además de los elementos patrimoniales vinculados a la aldea, como los molinos del último tramo, también podemos disfrutar del ecosistema del río, sobre todo los árboles y flores de la ribera.
     \n \nLas rutas Apego son rutas pensadas y diseñadas para familias con niños y que pueden portar carritos y por ende, son accesibles para personas con movilidad reducida también. En algunas épocas de mucha lluvia el último tramo puede presentar marcas que dificulten el paso.</string>
     <string name="si">Si</string>
-    <string name="textoSinalizacion2">Sí. Inicio desde la Escuela de Francos</string>
+    <string name="textoSinalizacion2">Sí. Inicio desde la \nEscuela de Francos</string>
     <string name="inicioRuta">Inicio da Ruta</string>
     <string name="coordenadaRuta2">Coordenadas GPS: \n42.75976908231386,\n-8.547355998657142</string>
     <string name="textoBotonWikiloc">Ruta en Wikiloc</string>
@@ -201,7 +216,7 @@
     <string name="kmRuta3">8.71 km</string>
     <string name="desnivelruta3">⇑ 287m</string>
     <string name="moderada">Moderada</string>
-    <string name="textoSinalizacion3">Sí. Inicio en el rectoral de Bamonde</string>
+    <string name="textoSinalizacion3">Sí. Inicio en el \nrectoral de Bamonde</string>
     <string name="coordenadaRuta3">Coordenadas GPS: \n42.784053602488946,\n-8.511513559903454</string>
     <string name="textoRuta3">Ruta de la Batalla de Cacheiras que viene a conmemorar los acontecimientos sucedidos el 23 de abril de 1846.\n \n La ruta de la Batalla de Cacheiras es un recorrido que va desde Bamonde al alto de Montouto y pretende ser una réplica del camino que hicieron algunos de los soldados del general de La Concha que en la noche de 23 de Abril de 1846 hicieron noche en Bamonde para enfrentarse al ejercito sublevado liderazgo por el general Solís en la afamada Batalla. Caminos llenos de historia, de cultura, de hermosos paisajes y arquitectura popular que atraviesan las parroquias de Bamonde, Oza y Cacheiras.
             \n \nSe trata de una ruta lineal que comienza al pie de la rectoral de Bamonde y finaliza en la cumbre de Montouto. A lo largo del recorrido destacan elementos patrimoniales como iglesias, cruceros o núcleos rurales tradicionales, pero también elementos naturales de gran belleza como el salto de agua del río Santa Lucía a su paso por el Recobio, así como el propio mirador de Montouto.
@@ -214,7 +229,7 @@
     <string name="duracionRuta4">30 min</string>
     <string name="desnivelRuta4">⇑ 30m</string>
     <string name="facil">Fácil</string>
-    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986, -8.583896633172326</string>
+    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986,\n-8.583896633172326</string>
     <string name="descarga">Descarga</string>
     <string name="juegoDificil">Ollo ao piollo muiñeiras \n(dificultad alta)</string>
     <string name="juegoFacil">Ollo ao piollo muiñeiras \n(dificultad baja)</string>
@@ -228,7 +243,7 @@
     <string name="rutaAngueira">Ruta Á beira do Angueira</string>
     <string name="kmRuta5">3.45 km</string>
     <string name="desnivelRuta5">⇑ 44m</string>
-    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, -8.600987161680214</string>
+    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, \n-8.600987161680214</string>
     <string name="textoRuta5">Breve ruta al lado del curso fluvial del Angueira.
                 \n \nRuta circular que es una adaptación de menor recorrido de la Ruta de los Petroglifos de Teo y que permite lo disfrute de la arqueología y también la orilla del río Angueira.</string>
 
@@ -236,7 +251,7 @@
     <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
     <string name="kmRuta6">6.42 km</string>
     <string name="desnivelRuta6">⇑127m ⇓175m</string>
-    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, -8.516724398309039</string>
+    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, \n8.516724398309039</string>
     <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
     \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
     \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>
@@ -246,7 +261,7 @@
     <string name="rutaFaramello">Ruta Do Túnel do Faramello</string>
     <string name="kmRuta7">7.23 km</string>
     <string name="desnivelRuta7">⇑ 165m</string>
-    <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255, -8.620623485937024</string>
+    <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255,\n-8.620623485937024</string>
     <string name="textoRuta7">Ruta de senderismo que parte de la Rúa de Francos (Calo) y recorre unos 8 kilómetros en los alrededores. \n \nEsta ruta recorre el viejo trazado de la línea ferroviaria más antigua de Galicia (Cornes – Carril), situado entre las aldeas de Vilar de Abaixo (Teo) e Angueira de Suso (Padrón). Trazado que tras la apertura del nuevo trazado del AVE en 2007 se encuentra en desuso y abandono.
             \n \nUna andadura circular, que empieza y termina al pie del cruceiro gótico de Francos, y que tiene como principales puntos de interés los conjuntos tradicionales de las aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, el santuario y la carballeira de San Bieito de Bascuas, las pontellas y riberas fluviales de los pequeños ríos de la parroquia de Santa María de Cruces; así como recorrer los 133 metros del antigo túnel del Faramello, una de las grandes obras de ingeniería del primitivo camino de hierro gallego.</string>
 
@@ -254,7 +269,7 @@
     <string name="rutaApegoPontevea">Ruta Apego Pontevea Burga de Xermeade</string>
     <string name="kmRuta8">0.76 km</string>
     <string name="desnivelRuta8">⇑ 1m</string>
-    <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866, -8.548239358912666</string>
+    <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866,\n-8.548239358912666</string>
     <string name="textoRuta8">Ruta Apego muy adecuada para realizar en familia a las orillas del río Ulla y con llegada a la Burga de Xermeade.
                 \n \nEntre el núcleo de Pontevea y la Burga de Xermeade discurre esta corta ruta lineal Apego al lado del río Ulla, declarada zona Red Natura 2000 por su singular biodiversidad. Se trata de un bosque de río en buen estado de conservación que alberga todo un ecosistema fluvial, con ínsulas formadas de manera natural y que finaliza en la Burga de Xermeade, espacio muy singular por la presencia de aguas sulfurosas.
                 \n \nLas rutas Apego están diseñadas para la facilidad de familias con niños y personas con movilidad reducida. En este caso la ruta está dinamizada con postes de señales que contienen audioguías con información sobre el río Ulla, especialmente pensada para os niños. No dejéis de escucharlas!
@@ -265,7 +280,7 @@
     <string name="rutaXirimbao">Ruta Ribeira do Ulla Xirimbao - Pontevea</string>
     <string name="kmRuta9">2.84 km</string>
     <string name="desnivelRuta9">⇑ 24m</string>
-    <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745, -8.554853748127957</string>
+    <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745,\n-8.554853748127957</string>
     <string name="textoRuta9">Ruta que recorre las orillas del río Ulla desde el área Recreativa del Xirimbao hasta el Puente Medieval de Pontevea.
                 \n \nEsta ruta, que recorre un tradicional camino de pescadores, va desde el área Recreativa del Xirimbao hasta el Puente Medieval de Pontevea, todo eso al lado del río Ulla. Se trata de una ruta lineal que también se puede hacer en el sentido contrario, con salida desde el núcleo de Pontevea. Toda la ruta se encuentra en el área de protección Red Natura 2000 reconocida por la Unión Europea dada su genuina biodiversidad.
                 \n \nEl principal atractivo de esta ruta es la comunidad ecológica que determina la presencia del río Ulla: un bosque de río bien conservado que da cobijo a especies muy emblemáticas como la nutria. También destaca la presencia de pesquerías, en la zona próxima al  Xirimbao, que son construcciones tradicionales para la pesca de la lamprea.
@@ -302,7 +317,6 @@
                 \n \nLos documentos del s.XVII al s.XX testimonian con posterioridad el paso de los arrieros por los sitios del Crucero (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
                 \n \nUn camino histórico que atraviesa aldeas tradicionales bien conservadas (A Pedra, O Sisto, Pedrouso) y espacios naturales de grande belleza como el bosque de Sestelo. La ruta transcurre al lado de numerosos bienes culturales y etnológicos.
                 \n \nLos peregrinos que escojan este itinerario disfrutarán de un recorrido variado y entretenido, seguro (alejado de las vías principales y del tránsito) y con zonas para el descanso con numerosas fuentes para reponer fuerzas antes de entrar en Compostela.</string>
-
 
 
     <string name="areaarqueoloxicadomontepiquinhoTitulo">Necrópole megalítica formada por 33 mámoas situada en Loureiro, na parroquia de Luou.</string>

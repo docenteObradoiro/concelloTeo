@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.R
 
 class Ruta12 : AppCompatActivity() {
@@ -13,6 +14,11 @@ class Ruta12 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ruta12)
 
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/camino-da-geira-e-dos-arrieiros-en-teo-59054627")))

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".artesania.BrigantiaOrfebres">
+    tools:context=".artesania.Xeroca">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="44dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/silvereira"
+                android:text="@string/xeroca"
                 android:textColor="#415419"
                 android:textSize="20sp" />
 
@@ -44,7 +44,7 @@
                 android:id="@+id/layoutHorizontalPpal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="25dp"
+                android:layout_marginBottom="-30dp"
                 android:orientation="horizontal">
 
 
@@ -73,34 +73,11 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
-                            android:text="@string/silvereiraArtesan"
+                            android:text="@string/xerocaArtesan"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/iconoOrdenador"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/ordenador" />
-
-                        <TextView
-                            android:id="@+id/tv8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/paxinaWeb"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/layoutMaps"
@@ -130,7 +107,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraDireccion"
+                            android:text="@string/xerocaDireccion"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -161,7 +138,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraTelefono"
+                            android:text="@string/xerocaTelefono"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -192,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
-                            android:text="@string/silvereiraCorreo"
+                            android:text="@string/xerocaCorreo"
                             android:textColor="#51661c"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -237,14 +214,12 @@
 
                 <ImageView
                     android:id="@+id/imgVector"
-                    android:layout_width="200dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="-20dp"
-                    android:layout_marginTop="240dp"
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_marginStart="-40dp"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@mipmap/trisquel"
+                    app:srcCompat="@mipmap/vectortaller"
                     app:tint="#1F000000" />
 
             </LinearLayout>
@@ -262,7 +237,7 @@
                     android:layout_height="220dp"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-                    app:srcCompat="@mipmap/silvereira" />
+                    app:srcCompat="@mipmap/xeroca" />
 
                 <TextView
                     android:id="@+id/tv2"
@@ -270,7 +245,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="45dp"
                     android:layout_marginTop="30dp"
-                    android:text="@string/xoiariaCreativa"
+                    android:text="@string/instrumentosMusicais"
                     android:textColor="#51661c"
                     android:textSize="14sp" />
 

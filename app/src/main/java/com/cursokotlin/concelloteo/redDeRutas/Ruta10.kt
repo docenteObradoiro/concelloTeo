@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.R
 
 class Ruta10 : AppCompatActivity() {
@@ -13,6 +14,11 @@ class Ruta10 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ruta10)
 
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/pr-g-238-ruta-dos-petroglifos-de-teo-56821024")))
