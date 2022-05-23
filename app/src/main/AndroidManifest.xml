@@ -26,10 +26,14 @@
         <activity android:name=".MainActivity"></activity>
 
         <activity
-            android:name=".actividades.mapaCacheiras"
+            android:name=".actividades.mapaVilarino"
             android:exported="false" />
         <activity
             android:name=".actividades.mapaReis"
+            android:exported="false" />
+
+        <activity
+            android:name=".actividades.mapaTeo"
             android:exported="false" />
 
         <meta-data
@@ -39,26 +43,10 @@
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false" />
-        <activity
-            android:name=".actividades.obradoiros"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.concertos"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.mercados"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.nadal"
-            android:exported="false" />
+
         <activity
             android:name=".actividades.entroido"
             android:exported="false" />
-        <activity
-            android:name=".actividades.festasGastronomicas"
-            android:exported="false"
-            android:label="@string/title_activity_festa_gastronomica_scrolling"
-            android:theme="@style/Theme.ConcelloTeo.NoActionBar"/>
         <activity
             android:name=".actividades.batalla"
             android:exported="false" />
