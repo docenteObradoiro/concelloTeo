@@ -20,7 +20,7 @@ class PaxinaPrincipalRedeDeRutas : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa )
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)

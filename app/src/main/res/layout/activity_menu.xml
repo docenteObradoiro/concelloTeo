@@ -60,7 +60,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="122dp"
             android:layout_marginEnd="50dp"
-            android:text="RED DE RUTAS DE TEO"
+            android:text="@string/redeDeRutas"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -73,7 +73,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
-            android:text="PATRIMONIO"
+            android:text="@string/patrominio1"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
-            android:text="ARTESANÍA"
+            android:text="@string/artesania1"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -99,7 +99,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
-            android:text="ACTIVIDADES"
+            android:text="@string/actividades1"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -112,7 +112,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="50dp"
-            android:text="AGENDA DE TEO"
+            android:text="@string/agenda"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -125,7 +125,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
-            android:text="CONTACTO"
+            android:text="@string/contacto"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
