@@ -11,79 +11,114 @@
         android:layout_height="0px"
         tools:ignore="MissingConstraints">
  -->
+    <ImageButton
+        android:id="@+id/botonTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teo_con_nombre" />
+
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
-                android:orientation="horizontal">
 
-
-
-                <ImageView
-                    android:id="@+id/logoteo"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="200dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/logo_teo_con_nombre" />
-
-                <ImageView
-                    android:id="@+id/hamburguesa"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/hamburguesa" />
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/breveDescripcionCruceiroTribaldes"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
                 android:textColor="#415419"
-                android:text="Sinxelo cruceiro emprazado no camiño sacramental que conduce ao igrexario de Bamonde
-"
+                android:text="@string/informacioncruceirotribaldesTitulo"
                 android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="27dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@drawable/lineaverde" />
 
             <ImageView
                 android:id="@+id/imagenCabeceraCruceiroTribaldes"
-                android:layout_width="326dp"
-                android:layout_height="198dp"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="40dp"
+                android:layout_width="330dp"
+                android:layout_height="209dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
                 app:srcCompat="@drawable/cruceirotribaldes" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/animamaps"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    app:tint="#00989898" />
+
+
+
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/descripcionCruceiroTribaldes"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="40dp"
-                android:layout_marginBottom="30dp"
-                android:text="Foi construído en 1917 por un veciño de Tribaldes, José Pereira Pereira, canteiro de profesión, que observando que a aldea de Lamas tiña un cruceiro, pensou que Tribaldes merecía o seu. Mercou un pedazo de terra e erexiu esta sinxela obra que temos diante, tal como o relata Guillermo González Raviña no seu libro Baamonde, Vaamonde! Su historia, sus gentes, viejos recuerdos (2010).\n  \n
-
-O cruceiro posúe un pedestal cuadrangular, varal octogonal e remata nunha cruz con brazos con chafráns e remates florenzados.\n
-
-
-
- "
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:text="@string/informacioncruceirotribaldesDescripcion"
                 android:textColor="#000000"
                 android:textSize="14sp"/>
 
@@ -98,73 +133,93 @@ O cruceiro posúe un pedestal cuadrangular, varal octogonal e remata nunha cruz 
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginBottom="0dp"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/facebook_3_"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_weight="1"
-                    app:tint="#7F000000"
-                    android:background="@drawable/animafacebook"
-                    app:srcCompat="@drawable/facebook_3_" />
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/facebook"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/twitter_4_"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/animatwitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/facebook_3_"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/twitter_4_"
-                    app:tint= "#00B8AEAE"/>
-
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/twitter"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram_3_"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    app:tint="#7F000000"
-                    android:background="@drawable/animainsta"
-                    app:srcCompat="@drawable/instagram_3_"
-                    />
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/twitter_4_"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="#7F000000" />
 
                 <ImageButton
-                    android:id="@+id/maps"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:layout_marginLeft="160dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/animaps"
-                    app:srcCompat="@drawable/mapsnegro"
-                    app:tint="#00989898" />
-
-                <ImageView
-                    android:id="@+id/informacion"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="-100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/informacion"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/instagram_3_"
+                    android:backgroundTint="#00B8AEAE"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
-            </LinearLayout>
+
+
+
+                <ImageButton
+                    android:id="@+id/informacion"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/info"
+                    app:tint="#7F000000" />
+
+            </RelativeLayout>
 
 
 

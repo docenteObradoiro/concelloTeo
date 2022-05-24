@@ -25,12 +25,15 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".actividades.mapaVilarino"
             android:exported="false" />
         <activity
             android:name=".actividades.mapaReis"
             android:exported="false" />
-
         <activity
             android:name=".actividades.mapaTeo"
             android:exported="false" />
