@@ -35,9 +35,9 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -95,9 +95,10 @@
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
 
@@ -105,63 +106,68 @@
                     android:id="@+id/facebook"
                     android:layout_width="53dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/facebook"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/facebook"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/twitter"
                     android:layout_width="70dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="-20dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/twitter"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/twitter"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="-22dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_alignParentBottom="true"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginStart="-25dp"
+                    android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/instagram"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/instagram"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_marginLeft="125dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="4dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/logoinformacion"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/info"
                     app:tint="#7F000000" />
 
-            </LinearLayout>
+
+            </RelativeLayout>
 
         </LinearLayout>
     </ScrollView>
@@ -175,13 +181,14 @@
         android:background="#FFFFFF"
         android:gravity="center"
         android:text="ACTIVIDADES"
-        android:textColor="#415419"
+        android:textColor="#80415419"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.809" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
