@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Concello Teo</string>
-
+  
+    <string name="bienvenidos">BIENVENIDOS!</string>
+  
     <string name="redeDeRutas">RED DE RUTAS DE TEO</string>
     <string name="patrominio1">PATRIMONIO</string>
     <string name="artesania1">ARTESANÍA</string>
