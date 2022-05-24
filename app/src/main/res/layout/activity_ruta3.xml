@@ -117,8 +117,8 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="260dp"
-                    android:layout_height="350dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
             <TextView
@@ -203,7 +203,16 @@
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
-            <TextView
+                    <TextView
+                        android:id="@+id/textView287"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Teo"
+                        android:translationX="-115dp"
+                        android:translationY="25dp" />
+
+                    <TextView
                 android:id="@+id/sinalizacion1.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -271,6 +280,7 @@
                 android:id="@+id/foto1"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:layout_marginTop="20dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@mipmap/ruta3" />
 

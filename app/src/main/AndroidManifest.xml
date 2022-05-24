@@ -15,26 +15,28 @@
 
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name=".MainActivity"></activity>
-
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".Menu"
             android:exported="false"
             android:screenOrientation="portrait"/>
-
         <activity
             android:name=".actividades.mapaCacheiras"
+            android:name=".actividades.mapaVilarino"
             android:exported="false" />
         <activity
             android:name=".actividades.mapaReis"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.mapaTeo"
             android:exported="false" />
 
         <meta-data
@@ -44,26 +46,10 @@
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false" />
-        <activity
-            android:name=".actividades.obradoiros"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.concertos"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.mercados"
-            android:exported="false" />
-        <activity
-            android:name=".actividades.nadal"
-            android:exported="false" />
+
         <activity
             android:name=".actividades.entroido"
             android:exported="false" />
-        <activity
-            android:name=".actividades.festasGastronomicas"
-            android:exported="false"
-            android:label="@string/title_activity_festa_gastronomica_scrolling"
-            android:theme="@style/Theme.ConcelloTeo.NoActionBar"/>
         <activity
             android:name=".actividades.batalla"
             android:exported="false" />
@@ -73,10 +59,9 @@
         <activity
             android:name=".artesania.PaginaPrincipalArtesania"
             android:exported="false" />
-       <activity
+        <activity
             android:name=".artesania.OliXiraldez"
             android:exported="false" />
-
         <activity
             android:name=".artesania.OlgaMartinez"
             android:exported="false" />
@@ -104,16 +89,22 @@
         <activity
             android:name=".artesania.SpaciobInteriorismo"
             android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".artesania.Silvereira" -->
+        <!-- android:exported="false" /> -->
         <activity
-            android:name=".artesania.Silvereira"
+            android:name=".artesania.Xeroca"
+            android:exported="false" />
+        <activity
+            android:name=".artesania.CuchillosVillar"
             android:exported="false" />
         <activity
             android:name=".artesania.BrigantiaOrfebres"
             android:exported="false" />
-
-        <activity android:name=".redDeRutas.PaxinaPrincipalRedeDeRutas"
+        <activity
+            android:name=".redDeRutas.PaxinaPrincipalRedeDeRutas"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".redDeRutas.Ruta1"
             android:exported="false"
@@ -162,7 +153,6 @@
             android:name=".redDeRutas.Ruta5"
             android:exported="false"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".patrimonio.igrexaCruceiroDeSantaMariaDeBamonde"
             android:exported="false" />
@@ -223,7 +213,6 @@
         <activity
             android:name=".patrimonio.tipos_patrimonio"
             android:exported="false" />
-
         <activity
             android:name=".patrimonio.informacion_ponte_colgante_xirimbao"
             android:exported="false" />
@@ -299,7 +288,6 @@
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false" />
-
     </application>
 
 </manifest>

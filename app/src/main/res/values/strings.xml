@@ -9,6 +9,7 @@
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Caminata en grupos reducidos de 30 personas. Habrá bus de regreso para ir de lo alto de Montouto a Bamonde.</string>
     <string name="infoBatalla2">Turismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio, agosto e septiembre. La propuesta será una ruta desde Bamonde hasta el mirador de Montouto con casi 9 quilómetros de recorrido. El actor y la actriz harán varias paradas en las que realizarán parte de este acontecimento histórico. Estas rutas dramatizadas se realizarán los sábados de julio y agosto por la mañana y los domingos de septiembre también en horario de mañana.</string>
+    <string name="formularioBatalla">Acceso o formulario de inscripción</string>
 
     <string name="tituloGastronomicas">Fiestas gastronómicas</string>
     <string name="tituloPolo">Fiesta del pollo picantón</string>
@@ -66,7 +67,7 @@
     <string name="lugarDocesNadal">Lugar: Casa Común de Rarís</string>
     <string name="informacionDocesNadal">Elaboración y decoración de postres de Navidad</string>
 
-    <string name="tituloEntroido">Carnavales</string>
+    <string name="tituloEntroido">Entroido</string>
     <string name="dataEntroido">Fecha</string>
     <string name="dataEntroido1">Marzo</string>
     <string name="lugarEntroido">Lugar</string>
@@ -93,6 +94,9 @@
     <string name="iagoSalgado">Iago Salgado</string>
     <string name="arteCelta">Arte Celta e Rupestre</string>
     <string name="alala">Alalá Couture</string>
+    <string name="xeroca">Xeroca</string>
+    <string name="cuchillosVillar">Cuchillos villar</string>
+
 
     <string name="xoiariaCreativa">Joyería creativa</string>
     <string name="desenhoModa">Diseño moda</string>
@@ -152,6 +156,18 @@
     <string name="silvereiraTelefono">+34 981548659</string>
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
+
+    <string name="xerocaArtesan">Xesús Rodríguez</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaTelefono">+34 616952580</string>
+    <string name="xerocaCorreo"></string>
+
+    <string name="cuchillosVillarArtesan">Álvaro Villar</string>
+    <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
+    <string name="cuchillosVillarTelefono">+34 648028531</string>
+    <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
+    <string name="cuchillosVillarDescricion">herrero especializado en la cuchilleria tradicional</string>
+
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
     <string name="spacioBInteriorismoTelefono">+34 639504102</string>
@@ -189,7 +205,7 @@
     \n \nSe trata de una ruta de ida y vuelta donde además de los elementos patrimoniales vinculados a la aldea, como los molinos del último tramo, también podemos disfrutar del ecosistema del río, sobre todo los árboles y flores de la ribera.
     \n \nLas rutas Apego son rutas pensadas y diseñadas para familias con niños y que pueden portar carritos y por ende, son accesibles para personas con movilidad reducida también. En algunas épocas de mucha lluvia el último tramo puede presentar marcas que dificulten el paso.</string>
     <string name="si">Si</string>
-    <string name="textoSinalizacion2">Sí. Inicio desde la Escuela de Francos</string>
+    <string name="textoSinalizacion2">Sí. Inicio desde la \nEscuela de Francos</string>
     <string name="inicioRuta">Inicio da Ruta</string>
     <string name="coordenadaRuta2">Coordenadas GPS: \n42.75976908231386,\n-8.547355998657142</string>
     <string name="textoBotonWikiloc">Ruta en Wikiloc</string>
@@ -200,7 +216,7 @@
     <string name="kmRuta3">8.71 km</string>
     <string name="desnivelruta3">⇑ 287m</string>
     <string name="moderada">Moderada</string>
-    <string name="textoSinalizacion3">Sí. Inicio en el rectoral de Bamonde</string>
+    <string name="textoSinalizacion3">Sí. Inicio en el \nrectoral de Bamonde</string>
     <string name="coordenadaRuta3">Coordenadas GPS: \n42.784053602488946,\n-8.511513559903454</string>
     <string name="textoRuta3">Ruta de la Batalla de Cacheiras que viene a conmemorar los acontecimientos sucedidos el 23 de abril de 1846.\n \n La ruta de la Batalla de Cacheiras es un recorrido que va desde Bamonde al alto de Montouto y pretende ser una réplica del camino que hicieron algunos de los soldados del general de La Concha que en la noche de 23 de Abril de 1846 hicieron noche en Bamonde para enfrentarse al ejercito sublevado liderazgo por el general Solís en la afamada Batalla. Caminos llenos de historia, de cultura, de hermosos paisajes y arquitectura popular que atraviesan las parroquias de Bamonde, Oza y Cacheiras.
             \n \nSe trata de una ruta lineal que comienza al pie de la rectoral de Bamonde y finaliza en la cumbre de Montouto. A lo largo del recorrido destacan elementos patrimoniales como iglesias, cruceros o núcleos rurales tradicionales, pero también elementos naturales de gran belleza como el salto de agua del río Santa Lucía a su paso por el Recobio, así como el propio mirador de Montouto.
@@ -213,7 +229,7 @@
     <string name="duracionRuta4">30 min</string>
     <string name="desnivelRuta4">⇑ 30m</string>
     <string name="facil">Fácil</string>
-    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986, -8.583896633172326</string>
+    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986,\n-8.583896633172326</string>
     <string name="descarga">Descarga</string>
     <string name="juegoDificil">Ollo ao piollo muiñeiras \n(dificultad alta)</string>
     <string name="juegoFacil">Ollo ao piollo muiñeiras \n(dificultad baja)</string>
@@ -227,7 +243,7 @@
     <string name="rutaAngueira">Ruta Á beira do Angueira</string>
     <string name="kmRuta5">3.45 km</string>
     <string name="desnivelRuta5">⇑ 44m</string>
-    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, -8.600987161680214</string>
+    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, \n-8.600987161680214</string>
     <string name="textoRuta5">Breve ruta al lado del curso fluvial del Angueira.
                 \n \nRuta circular que es una adaptación de menor recorrido de la Ruta de los Petroglifos de Teo y que permite lo disfrute de la arqueología y también la orilla del río Angueira.</string>
 
@@ -235,7 +251,7 @@
     <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
     <string name="kmRuta6">6.42 km</string>
     <string name="desnivelRuta6">⇑127m ⇓175m</string>
-    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, -8.516724398309039</string>
+    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, \n8.516724398309039</string>
     <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
     \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
     \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>
@@ -303,7 +319,6 @@
                 \n \nLos peregrinos que escojan este itinerario disfrutarán de un recorrido variado y entretenido, seguro (alejado de las vías principales y del tránsito) y con zonas para el descanso con numerosas fuentes para reponer fuerzas antes de entrar en Compostela.</string>
 
 
-
     <string name="areaarqueoloxicadomontepiquinhoTitulo">Necrópole megalítica formada por 33 mámoas situada en Loureiro, na parroquia de Luou.</string>
     <string name="areaarqueoloxicadomontepiquinhoDescripcion">Formada por pequenos cumes graníticos desta pequena dorsal montañosa situada ao sur do Concello de Teo entre as parroquias de Luou, Rarís e Lampai e no linde natural que divide os vales do Ulla e do Sar que separa as comarcas de Compostela e o Sar. Alí agóchase unha das áreas arqueolóxicas máis importantes de Galicia e, sen dúbida, a máis importante da comarca de Compostela. \n \nPreto da aldea de Loureiro atópanse nove estacións de petróglifos dispostos no contorno inmediato e bordeando unha necrópole megalítica formada por trinta e tres túmulos. \n \nDas diferentes estacións de petróglifos podemos destacar os xacementos do Meau, Fondao e Trono da Raíña, pero sobre todo a rocha chamada “Pedra Bicuda de Loureiro”. Trátase da estación máis ampla e mellor conservada do Concello, formada por un mínimo de oito combinacións circulares, unha delas unha das maiores da provincia da Coruña e polo menos catro zoomorfos situados na zona periférica da laxe. \n \nPiquiño é tamén un lugar lendario entre a veciñanza de Luou que falan da existencia de antigas “Eiras de Mouros”. Elementos que integran o fecundo patrimonio inmaterial do Concello de Teo.\n \n</string>
 
@@ -311,13 +326,13 @@
     <string name="capelaecruceirodoespiritosantoDescripcion">Tamén coñecida como a Ermida de San Martiño (Francos), é unha pequena capela duns 180 m2 de sobria factura realizada con pedra de cantaría e cachotaría. Descoñécese a súa data de construción, aínda que aparece xa mencionada en documentos do ano 1775. No seu interior sobresae unha enorme cuncha mariña, do xénero “tridacna”, que é empregada como pía de auga bendita. Foi doada en 1790 polo matrimonio formado por Pedro Lobato e Alberta Ameneiro, segundo a inscrición que a acompaña. \n \nFronte á capela encóntrase un cruceiro de traza barroca, capitel cuadrangular, alto varal octogonal sobre a plataforma en dous chanzos e pedestal, rematado nunha cruz con dúas imaxes, un cristo crucificado e unha virxe orante. \n \nFortemente vinculada ao Camiño Portugués, nesta capela poden selar as persoas peregrinas a súa credencial.\n</string>
 
     <string name="capeladesantaanadelampaiTitulo">Pequena capela de pedra na aba do monte á entrada do Pico da Agrela.</string>
-    <string name="capeladesantaanadelampaiDescripcion">Na parte alta da aldea da Agrela (Lampai) e nun recuncho da antiga carballeira na aba do monte, atópase esta pequena ermida de planta rectangular feita a base de perpiaños. Unha obra de cantaría popular de boa feitura na que salienta o seu pórtico coa bancada corrida e armazón de madeira sostido por catro columnas. \n \nNo lintel da porta principal figura unha inscrición que di:\nEsta obra la izo\nIban (co) Perez de Nra\nSeñora del Carme. Año de 1772\n</string>
+    <string name="capeladesantaanadelampaiDescripcion">Na parte alta da aldea da Agrela (Lampai) e nun recuncho da antiga carballeira na aba do monte, atópase esta pequena ermida de planta rectangular feita a base de perpiaños. Unha obra de cantaría popular de boa feitura na que salienta o seu pórtico coa bancada corrida e armazón de madeira sostido por catro columnas. \n \nNo lintel da porta principal figura unha inscrición que di:\nEsta obra la izo\nIban (co) Perez de Nra\nSeñora del Carme. Año de 1772</string>
 
     <string name="casareitoraldebamondeTitulo">Situada fronte á igrexa de Bamonde, esta antiga casa reitoral marca o inicio da Ruta da Batalla de Cacheiras.</string>
-    <string name="casareitoraldebamondeDescripcion">Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\nQuixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\nDende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.\n</string>
+    <string name="casareitoraldebamondeDescripcion">Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\n\nQuixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\n\nDende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.</string>
 
     <string name="igrexaecruceirodesantamariadebamondeTitulo">De estilo barroco foi construída polo Mestre Manuel Varela. Esta igrexa foi rematada o 6 de decembro do 1787, aínda que aberta ó culto en 1785.</string>
-    <string name="igrexaecruceirodesantamariadebamondeDescripcion">Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\nQuixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\nDende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.\n</string>
+    <string name="igrexaecruceirodesantamariadebamondeDescripcion">Trátase dunha gran mansión de trazas fidalgas, construída na segunda década do S. XVIII e reconstruída en 1783. Durante a súa construción o párroco fixo poñer o seu escudo familiar na parte alta, no que se distinguen as armas dos Mosquera (cinco cabezas de animais cortadas e unha coroa), dos Figueroa (cinco follas de figueira), dos Aguiar (unha aguia), entre outros. Baixo o beiril do tellado hai un fermoso relevo barroco representando a asunción e coroación da Virxe.\n\nQuixo o azar que esta casa fose a escollida para que o xeneral de la Concha, enviado dende Castela, pasase a noite previa á coñecida Batalla de Cacheiras sucedida o 23 de Abril de 1846. Na súa fachada oeste, con vistas privilexiadas ao Val do río Santa Lucía, está o longo balcón do sobrado, sostido por oito ménsulas, do que houbo de caer o xeneral de la Concha a noite antes da batalla.\n\nDende finais do ano 2020 a propiedade é municipal aínda que pendente dun proxecto de rehabilitación non é, polo momento, visitable.\n\n<i>Inclúe audioguía `Sentir Teo no Camiño´.</i></string>
 
     <string name="igrexadesantamariadelampaiTitulo">Trátase da edificación románica máis importante do Concello de Teo e un dos mosteiros agustinos máis antigos de Galicia.</string>
     <string name="igrexadesantamariadelampaiDescripcion">Atópase no Lugar de Mosteiro –topónimo que recorda o antigo mosteiro hoxe desaparecido- no medio dun pequeno val atravesado polo rego de Tarrío. É un templo sinxelo, cunha base estrutural totalmente románica. \n \nPosúe unha ábsida case cuadrangular, grosos contrafortes e nave única de planta rectangular. \n \nDesde o punto de vista documental, o mosteiro de Santa María de Lampai é segundo o investigador Francisco Javier Pérez Rodríguez, un dos mosteiros agustinos máis antigos de Galicia, aínda que existe moi pouca documentación sobre este pequeno cenobio. \n \nSinalar por último, que moi cerca da igrexa se encontran los tres marcos do ano 1156 do antigo Couto de Lampai – Pedrouso. Un antigo terreo doado polo rei Alfonso VII a un dos seus cabaleiros, Sancho Eanes. \n</string>

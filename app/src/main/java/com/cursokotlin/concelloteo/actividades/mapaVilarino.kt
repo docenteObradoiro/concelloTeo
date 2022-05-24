@@ -10,13 +10,13 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 
-class mapaCacheiras : AppCompatActivity(), OnMapReadyCallback {
+class mapaVilarino : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var map: GoogleMap
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mapa_cacheiras)
+        setContentView(R.layout.activity_mapa_vilarino)
         createFragment()
     }
 
@@ -31,8 +31,8 @@ class mapaCacheiras : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun createMarker() {
-        val coordinates= LatLng(42.82498292807239, -8.544069583627994)
-        val marker = MarkerOptions().position(coordinates).title("Campo da festa, Cacheiras")
+        val coordinates= LatLng(42.7741010098759,-8.52764312166335)
+        val marker = MarkerOptions().position(coordinates).title("Campo da festa, Vilariño")
         map.addMarker(marker)
         map.animateCamera(
             CameraUpdateFactory.newLatLngZoom(coordinates,18f),

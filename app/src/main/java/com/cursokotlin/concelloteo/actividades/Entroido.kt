@@ -14,7 +14,9 @@ class entroido : AppCompatActivity() {
 
         val botonRaris = findViewById<ImageButton>(R.id.botonRaris)
         val botonReis = findViewById<ImageButton>(R.id.botonReis)
-        val botonCacheiras = findViewById<ImageButton>(R.id.botonCacheiras)
+        val botonVilariño = findViewById<ImageButton>(R.id.botonVilariño)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+
 
 
         botonRaris.setOnClickListener {
@@ -25,8 +27,12 @@ class entroido : AppCompatActivity() {
             val acceder = Intent(this, mapaReis::class.java)
             startActivity(acceder)
         }
-        botonCacheiras.setOnClickListener {
-            val acceder = Intent(this, mapaCacheiras::class.java)
+        botonVilariño.setOnClickListener {
+            val acceder = Intent(this, mapaVilarino::class.java)
+            startActivity(acceder)
+        }
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, mapaTeo::class.java)
             startActivity(acceder)
         }
 
