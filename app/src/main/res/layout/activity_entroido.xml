@@ -51,14 +51,15 @@
 
             <TextView
                 android:id="@+id/texto"
-                android:layout_width="372dp"
-                android:layout_height="60dp"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
                 android:background="#F9FBF9"
                 android:paddingTop="15dp"
                 android:text="@string/tituloEntroido"
-                android:textAlignment="center"
-                android:textColor="#415419"
+                android:textAlignment="viewStart"
+                android:textColor="#80415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -158,6 +159,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.5"
                     android:background="@drawable/animaps"
+                    android:backgroundTint="#80000000"
                     android:contentDescription="mapaRaris"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -169,6 +171,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Raris"
+                    android:textColor="#80000000"
                     android:translationX="-115dp"
                     android:translationY="25dp" />
 
@@ -189,6 +192,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.5"
                     android:background="@drawable/animaps"
+                    android:backgroundTint="#80000000"
                     android:contentDescription="mapaTeo"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -200,6 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Teo"
+                    android:textColor="#80000000"
                     android:translationX="-115dp"
                     android:translationY="25dp" />
 
@@ -220,6 +225,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.5"
                     android:background="@drawable/animaps"
+                    android:backgroundTint="#80000000"
                     android:contentDescription="mapaReis"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -231,6 +237,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Reis"
+                    android:textColor="#80000000"
                     android:translationX="-115dp"
                     android:translationY="25dp" />
 
@@ -251,6 +258,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.5"
                     android:background="@drawable/animaps"
+                    android:backgroundTint="#80000000"
                     android:contentDescription="mapaVilariño"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -262,6 +270,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Vilariño"
+                    android:textColor="#80000000"
                     android:translationX="-115dp"
                     android:translationY="25dp" />
 
@@ -326,7 +335,7 @@
                     android:layout_marginStart="-25dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/twitter"
-                    android:backgroundTint="#00B8AEAE"
+                    android:backgroundTint="#00AEB8B2"
                     android:contentDescription="instagram"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"

@@ -56,8 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
-                android:contentDescription="festas"
-                app:srcCompat="@mipmap/pulpo" />
+                android:contentDescription="festas" />
 
             <ImageButton
                 android:id="@+id/boton7"
@@ -83,8 +82,7 @@
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="nadal"
-                android:translationX="-20dp"
-                app:srcCompat="@mipmap/nadal2" />
+                android:translationX="-20dp" />
 
             <ImageView
                 android:id="@+id/barra2"
