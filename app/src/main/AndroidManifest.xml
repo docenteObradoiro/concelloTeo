@@ -26,6 +26,11 @@
         <activity android:name=".MainActivity"></activity>
 
         <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
             android:name=".actividades.mapaCacheiras"
             android:exported="false" />
         <activity
