@@ -98,6 +98,8 @@
     <string name="iagoSalgado">Iago Salgado</string>
     <string name="arteCelta">Arte Celta e Rupestre</string>
     <string name="alala">Alalá Couture</string>
+    <string name="xeroca">Xeroca</string>
+    <string name="cuchillosVillar">Cuchillos villar</string>
 
     <string name="xoiariaCreativa">Xoiaría creativa</string>
     <string name="desenhoModa">Deseño moda</string>
@@ -157,6 +159,17 @@
     <string name="silvereiraTelefono">+34 981548659</string>
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
+    <string name="xerocaArtesan">Xesús Rodríguez</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaTelefono">+34 616952580</string>
+    <string name="xerocaCorreo"></string>
+
+    <string name="cuchillosVillarArtesan">Álvaro Villar</string>
+    <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
+    <string name="cuchillosVillarTelefono">+34 648028531</string>
+    <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
+    <string name="cuchillosVillarDescricion">ferreiro especializado na coitelaría tradicional</string>
+
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
     <string name="spacioBInteriorismoTelefono">+34 639504102</string>
@@ -194,7 +207,7 @@
     \n \nTrátase dunha ruta de ida e volta onde ademais dos elementos patrimoniais vinculados á aldea, como os muíños do último tramo, tamén podemos gozar do ecosistema de río, sobre todo as árbores e flores da ribeira.
     \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e por ende, son accesibles para persoas con mobilidade reducida tamén. Nalgunhas épocas de moita chuvia o último tramo pode presentar marcas de escorrenta que dificulten o paso.</string>
     <string name="si">Si</string>
-    <string name="textoSinalizacion2">Si. Inicio desde a Escola de Francos</string>
+    <string name="textoSinalizacion2">Si. Inicio desde a \nEscola de Francos</string>
     <string name="inicioRuta">Inicio da Ruta</string>
     <string name="coordenadaRuta2">Coordenadas GPS: \n42.75976908231386,\n-8.547355998657142</string>
     <string name="textoBotonWikiloc">Ruta en Wikiloc</string>
@@ -205,7 +218,7 @@
     <string name="kmRuta3">8.71 km</string>
     <string name="desnivelruta3">⇑ 287m</string>
     <string name="moderada">Moderada</string>
-    <string name="textoSinalizacion3">Si. Inicio na rectoral de Bamonde</string>
+    <string name="textoSinalizacion3">Si. Inicio na \nrectoral de Bamonde</string>
     <string name="coordenadaRuta3">Coordenadas GPS: \n42.784053602488946,\n-8.511513559903454</string>
     <string name="textoRuta3">Ruta da Batalla de Cacheiras que vén conmemorar os acontecementos sucedidos o 23 de abril de 1846.\n \nA ruta da Batalla de Cacheiras é un percorrido que vai dende Bamonde ao alto de Montouto e pretende ser unha réplica do camiño que fixeron algúns dos soldados do xeneral de La Concha que na noite do 23 de Abril de 1846 fixeron noite en Bamonde para enfrontarse ó exercito sublevado liderado polo xeneral Solís na afamada Batalla. Camiños cheos de historia, de cultura, de fermosas paisaxes e arquitectura popular que atravesan as parroquias de Bamonde, Oza e Cacheiras.
             \n \nTrátase dunha ruta lineal que comeza ao pé da reitoral de Bamonde e remata no cumio de Montouto. Ao longo do percorrido destacan elementos patrimoniais como igrexas, cruceiros ou núcleos rurais tradicionais, pero tamén elementos naturais de gran beleza como o salto de auga do río Santa Lucía ao seu paso polo Recobio, así como o propio miradoiro de Montouto.
@@ -218,7 +231,7 @@
     <string name="duracionRuta4">30 min</string>
     <string name="desnivelRuta4">⇑ 30m</string>
     <string name="facil">Fácil</string>
-    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986, -8.583896633172326</string>
+    <string name="coordenadaRuta4">Coordenadas GPS: \n42.803393955393986,\n-8.583896633172326</string>
     <string name="descarga">Descarga</string>
     <string name="juegoDificil">Ollo ao piollo muiñeiras \n(dificultade alta)</string>
     <string name="juegoFacil">Ollo ao piollo muiñeiras \n(dificultade baixa)</string>
@@ -232,7 +245,7 @@
     <string name="rutaAngueira">Ruta Á beira do Angueira</string>
     <string name="kmRuta5">3.45 km</string>
     <string name="desnivelRuta5">⇑ 44m</string>
-    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, -8.600987161680214</string>
+    <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, \n-8.600987161680214</string>
     <string name="textoRuta5">Breve ruta á beira do curso fluvial do Angueira.
                 \n \nRuta circular que é unha adaptación de menor percorrido da Ruta dos Petróglifos de Teo e que permite o desfrute da arqueoloxía e tamén a beira do río Angueira.</string>ç
 
@@ -240,7 +253,7 @@
     <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
     <string name="kmRuta6">6.42 km</string>
     <string name="desnivelRuta6">⇑127m ⇓175m</string>
-    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, -8.516724398309039</string>
+    <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, \n-8.516724398309039</string>
     <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
     \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
     \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>

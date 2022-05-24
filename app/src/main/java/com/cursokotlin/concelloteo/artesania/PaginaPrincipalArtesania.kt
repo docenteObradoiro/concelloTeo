@@ -24,23 +24,23 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val informacionBoton = findViewById<ImageButton>(R.id.informacionBoton)
+        val informacionBoton = findViewById<ImageButton>(R.id.info)
         informacionBoton.setOnClickListener {startActivity(Intent
             (Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/")))
         }
 
-        val botonFacebook = findViewById<ImageButton>(R.id.botonFacebook)
+        val botonFacebook = findViewById<ImageButton>(R.id.facebook)
         botonFacebook.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-        val botonInstagram = findViewById<ImageButton>(R.id.botonInstagram)
+        val botonInstagram = findViewById<ImageButton>(R.id.instagram)
         botonInstagram.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
-        val botonTwitter = findViewById<ImageButton>(R.id.botonTwitter)
+        val botonTwitter = findViewById<ImageButton>(R.id.twitter)
         botonTwitter.setOnClickListener {
             startActivity(Intent
                 (Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
@@ -56,9 +56,14 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             val acceder = Intent(this, OliXiraldez::class.java)
             startActivity(acceder)
         }
-        val silvereira = findViewById<ImageButton>(R.id.boton3)
-        silvereira.setOnClickListener {
-            val acceder = Intent(this, Silvereira::class.java)
+//        val silvereira = findViewById<ImageButton>(R.id.boton3)
+//        silvereira.setOnClickListener {
+//            val acceder = Intent(this, Silvereira::class.java)
+//            startActivity(acceder)
+//        }
+        val xeroca = findViewById<ImageButton>(R.id.boton3)
+        xeroca.setOnClickListener {
+            val acceder = Intent(this, Xeroca::class.java)
             startActivity(acceder)
         }
         val spacioB = findViewById<ImageButton>(R.id.boton4)
@@ -81,9 +86,14 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             val acceder = Intent(this, TresOficios::class.java)
             startActivity(acceder)
         }
-        val arteCelta = findViewById<ImageButton>(R.id.boton8)
-        arteCelta.setOnClickListener {
-            val acceder = Intent(this, ArteCelta::class.java)
+//        val arteCelta = findViewById<ImageButton>(R.id.boton8)
+//        arteCelta.setOnClickListener {
+//            val acceder = Intent(this, ArteCelta::class.java)
+//            startActivity(acceder)
+//        }
+        val cuchillosVillar = findViewById<ImageButton>(R.id.boton8)
+        cuchillosVillar.setOnClickListener {
+            val acceder = Intent(this, CuchillosVillar::class.java)
             startActivity(acceder)
         }
         val alalaCouture = findViewById<ImageButton>(R.id.boton9)

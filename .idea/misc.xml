@@ -70,11 +70,13 @@
         <entry key="..\:/Users/Alex/Desktop/concelloTeo/app/src/main/res/layout/activity_sistema_fluvial.xml" value="0.33061594202898553" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo/app/src/main/res/layout/activity_tipos_patrimonio2.xml" value="0.33061594202898553" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo/app/src/main/res/layout/activity_tunel_faramello.xml" value="0.33061594202898553" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/drawable/animaps.xml" value="0.289" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/drawable/animasonido.xml" value="0.289" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_capela_cruceiro_do_espirito_santo.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_capela_de_santa_ana_de_lampai.xml" value="0.30932971014492755" />
-        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_casa_reitoral_de_bamonde.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_casa_reitoral_de_bamonde.xml" value="0.25" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_ermida_cruceiro_de_santa_eufemia.xml" value="0.30932971014492755" />
-        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_igrexa_cruceiro_de_santa_maria_de_bamonde.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_igrexa_cruceiro_de_santa_maria_de_bamonde.xml" value="0.30272108843537415" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_igrexa_de_san_miguel_de_raris.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_igrexa_de_santa_maria_de_lampai.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo2/app/src/main/res/layout/activity_igrexa_de_santa_maria_de_luou.xml" value="0.30932971014492755" />
@@ -142,7 +144,9 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_mercados.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_obradoiros.xml" value="0.3713768115942029" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/content_scrolling.xml" value="0.378125" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.14108409321175278" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_xeroca.xml" value="0.14108409321175278" />
         <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/drawable-v24/facebookanima.xml" value="0.2955" />
         <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_main.xml" value="0.3302083333333333" />
         <entry key="..\:/Users/Obradoiro/Desktop/AplicacionTurismoConcelloDeTeo-ModificacionesMaestro/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.1" />
@@ -172,6 +176,27 @@
         <entry key="..\:/Users/Obradoiro/concelloTeo/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/concelloTeo/app/src/main/res/layout/activity_ruta10.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/concelloTeo/app/src/main/res/layout/activity_ruta5.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_actividades.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_batalla.xml" value="0.3625" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_batalla2.xml" value="0.2767210144927536" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_concertos.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_entroido.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_entroido2.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_ermida_cruceiro_de_santa_eufemia.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_informacion_couto_pesca.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_main.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_mapa_raris.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_mapa_reis.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_mapa_teo.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_mapa_vilarino.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_marco_da_agrela.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_obradoiro.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.20995475113122172" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_ruta3.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/concelloTeo2/app/src/main/res/layout/activity_ruta4.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/drawable/splash.xml" value="0.1735" />
         <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_actividades.xml" value="0.3625" />
         <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
