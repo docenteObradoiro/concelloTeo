@@ -1,6 +1,7 @@
 package com.cursokotlin.concelloteo.patrimonio
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -39,6 +40,11 @@ class patrimonio_arqueoloxico : AppCompatActivity() {
         botonPetroglifoDoRioAngueiraOuDoMonteDeCornide.setOnClickListener {
             val accederPetroglifoDoRioAngueiraOuDoMonteDeCornide = Intent(this, petroglifoDoRioAngueiraOuDoMonteDeCornide::class.java)
             startActivity(accederPetroglifoDoRioAngueiraOuDoMonteDeCornide)
+        }
+
+        val informacion = findViewById<ImageButton>(R.id.informacion)
+        informacion.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 
 
