@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class entroido : AppCompatActivity() {
@@ -17,7 +18,7 @@ class entroido : AppCompatActivity() {
         val botonVilariño = findViewById<ImageButton>(R.id.botonVilariño)
         val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
 
-
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa7)
 
         botonRaris.setOnClickListener {
             val acceder = Intent(this, mapaRaris::class.java)
@@ -52,5 +53,11 @@ class entroido : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
+
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
     }
 }
