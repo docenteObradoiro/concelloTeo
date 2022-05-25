@@ -32,7 +32,6 @@
             app:srcCompat="@drawable/logo" />
 
 
-
         <ImageButton
             android:id="@+id/menu"
             android:layout_width="40dp"
