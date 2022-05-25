@@ -42,7 +42,7 @@
         android:layout_width="280dp"
         android:layout_height="87dp"
         android:layout_gravity="center"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="65dp"
         android:gravity="center"
         android:text="@string/bienvenidos"
         android:textColor="#7F4B5A2B"
@@ -55,101 +55,127 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <VideoView
-            android:id="@+id/videoBenvidos"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="213dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="180dp"
-            android:layout_marginEnd="20dp" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="369dp"
-            android:layout_height="279dp"
-            android:layout_below="@+id/videoBenvidos"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="48dp"
-            android:foreground="@mipmap/fotoportadainicio" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/botonMain3"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/imageView2"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="27dp"
-            android:backgroundTint="#B4FFFFFF"
-            android:fadingEdge="vertical"
-            android:gravity="center"
-            android:shadowColor="#00FFFFFF"
-            android:text="Artesania"
-            android:textAllCaps="false"
-            android:textColor="#7F4B5A2B"
-            app:cornerRadius="20dp" />
+                <VideoView
+                    android:id="@+id/videoBenvidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="213dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginEnd="20dp" />
 
-        <Button
-            android:id="@+id/botonMain1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/videoBenvidos"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="201dp"
-            android:backgroundTint="#B4FFFFFF"
-            android:fadingEdge="vertical"
-            android:gravity="center"
-            android:text="Red de rutas"
-            android:textAllCaps="false"
-            android:textColor="#7F4B5A2B"
-            app:cornerRadius="20dp"
-            app:iconTint="#000000"
-            app:iconTintMode="multiply" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="369dp"
+                    android:layout_height="279dp"
+                    android:layout_below="@+id/videoBenvidos"
+                    android:layout_alignStart="@+id/videoBenvidos"
+                    android:layout_alignEnd="@+id/videoBenvidos"
+                    android:layout_marginTop="18dp"
+                    android:foreground="@mipmap/fotoportadainicio" />
 
-        <Button
-            android:id="@+id/botonMain4"
-            android:layout_width="150dp"
-            android:layout_height="48dp"
-            android:layout_below="@+id/botonMain2"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="113dp"
-            android:backgroundTint="#B4FFFFFF"
-            android:fadingEdge="vertical"
-            android:gravity="center"
-            android:text="Patrimonio"
-            android:textAllCaps="false"
-            android:textColor="#7F4B5A2B"
-            app:cornerRadius="20dp"
-            app:iconTint="#000000"
-            app:iconTintMode="multiply" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView2"
+                    android:layout_alignTop="@+id/imageView2"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="-10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
 
-        <Button
-            android:id="@+id/botonMain2"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/botonMain3"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="0dp"
-            android:backgroundTint="#B4FFFFFF"
-            android:fadingEdge="vertical"
-            android:gravity="center"
-            android:text="Actividades"
-            android:textAllCaps="false"
-            android:textColor="#7F4B5A2B"
-            app:cornerRadius="20dp"
-            app:iconTint="#000000"
-            app:iconTintMode="multiply" />
+                    <Button
+                        android:id="@+id/botonMain2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginBottom="-70dp"
+                        android:backgroundTint="#B4FFFFFF"
+                        android:fadingEdge="vertical"
+                        android:foregroundGravity="clip_vertical"
+                        android:gravity="center"
+                        android:text="Actividades"
+                        android:textAllCaps="false"
+                        android:textColor="#7F4B5A2B"
+                        app:cornerRadius="20dp"
+                        app:iconTint="#000000"
+                        app:iconTintMode="multiply" />
+
+                    <Button
+                        android:id="@+id/botonMain1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginTop="70dp"
+                        android:backgroundTint="#B4FFFFFF"
+                        android:fadingEdge="vertical"
+                        android:foregroundGravity="clip_vertical"
+                        android:gravity="center"
+                        android:text="Red de rutas"
+                        android:textAllCaps="false"
+                        android:textColor="#7F4B5A2B"
+                        app:cornerRadius="20dp"
+                        app:iconTint="#000000"
+                        app:iconTintMode="multiply" />
+
+                    <Button
+                        android:id="@+id/botonMain3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="111dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="109dp"
+                        android:backgroundTint="#B4FFFFFF"
+                        android:fadingEdge="vertical"
+                        android:foregroundGravity="clip_vertical"
+                        android:gravity="center"
+                        android:shadowColor="#00FFFFFF"
+                        android:text="Artesania"
+                        android:textAllCaps="false"
+                        android:textColor="#7F4B5A2B"
+                        app:cornerRadius="20dp" />
+
+                    <Button
+                        android:id="@+id/botonMain4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginEnd="109dp"
+                        android:layout_marginBottom="-220dp"
+                        android:backgroundTint="#B4FFFFFF"
+                        android:fadingEdge="vertical"
+                        android:foregroundGravity="clip_vertical"
+                        android:gravity="center"
+                        android:text="Patrimonio"
+                        android:textAllCaps="false"
+                        android:textColor="#7F4B5A2B"
+                        app:cornerRadius="20dp"
+                        app:iconTint="#000000"
+                        app:iconTintMode="multiply" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
 
 
     </RelativeLayout>
