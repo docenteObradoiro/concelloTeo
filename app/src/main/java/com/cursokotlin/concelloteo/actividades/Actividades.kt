@@ -2,9 +2,9 @@ package com.cursokotlin.concelloteo.actividades
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.*
 
 class actividades : AppCompatActivity() {
@@ -44,4 +44,10 @@ class actividades : AppCompatActivity() {
         }
 
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
+    }
+
 }
