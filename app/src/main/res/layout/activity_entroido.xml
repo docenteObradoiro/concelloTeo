@@ -58,7 +58,6 @@
                 android:background="#F9FBF9"
                 android:paddingTop="15dp"
                 android:text="@string/tituloEntroido"
-                android:textAlignment="viewStart"
                 android:textColor="#80415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
