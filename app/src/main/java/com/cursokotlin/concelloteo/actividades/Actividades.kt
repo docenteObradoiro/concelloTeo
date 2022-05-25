@@ -42,7 +42,11 @@ class actividades : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa3)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
     }
 
     override fun onBackPressed() {
