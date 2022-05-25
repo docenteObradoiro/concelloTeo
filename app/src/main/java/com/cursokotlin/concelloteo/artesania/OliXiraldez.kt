@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class OliXiraldez : AppCompatActivity() {
@@ -63,6 +64,12 @@ class OliXiraldez : AppCompatActivity() {
         val info = findViewById<ImageButton>(R.id.info)
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa )
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
         }
     }
 }
