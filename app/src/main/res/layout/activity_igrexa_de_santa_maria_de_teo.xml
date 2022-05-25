@@ -8,7 +8,7 @@
 
 
     <ImageButton
-        android:id="@+id/botonTeo"
+        android:id="@+id/logoTeo"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
@@ -20,11 +20,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_teo_con_nombre" />
 
-
-
-
     <ImageButton
-        android:id="@+id/hamburguesa"
+        android:id="@+id/menu"
         android:layout_width="48dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
