@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.R
 
 class tipos_patrimonio : AppCompatActivity() {
@@ -33,6 +34,10 @@ class tipos_patrimonio : AppCompatActivity() {
             startActivity(accederPatrimonioArqueoloxico)
         }
 
+    }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }

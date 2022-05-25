@@ -24,6 +24,12 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa )
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
         val informacionBoton = findViewById<ImageButton>(R.id.info)
         informacionBoton.setOnClickListener {startActivity(Intent
             (Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/")))
@@ -117,7 +123,11 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
             startActivity(acceder)
         }
 
+    }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 
 }

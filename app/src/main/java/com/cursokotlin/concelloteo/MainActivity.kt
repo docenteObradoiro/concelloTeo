@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.MediaController
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.actividades.actividades
@@ -15,7 +16,7 @@ import com.cursokotlin.concelloteo.redDeRutas.PaxinaPrincipalRedeDeRutas
 
 class MainActivity : AppCompatActivity() {
 
-    protected lateinit var vv_fondo: VideoView
+    protected lateinit var video: VideoView
     protected lateinit var reproductorVideo: MediaPlayer
     protected var mCurrentVideoPosition:Int=0
 
@@ -23,15 +24,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        vv_fondo=findViewById(R.id.videoBenvidos)
+        video=findViewById(R.id.videoBenvidos)
         val uri= Uri.parse("android.resource://"
                 + packageName
                 + "/"
                 + R.raw.videobenvidos)
+        video.keepScreenOn = true
 
-        vv_fondo.setVideoURI(uri)
-        vv_fondo.start()
-        vv_fondo.setOnPreparedListener { mp ->
+        video.setVideoURI(uri)
+        video.start()
+        video.setOnPreparedListener { mp ->
             reproductorVideo=mp
             reproductorVideo.isLooping=true
 
@@ -101,21 +103,22 @@ class MainActivity : AppCompatActivity() {
         }*/
     }
 
+
     override fun onPause() {
         super.onPause()
 
         mCurrentVideoPosition=reproductorVideo.currentPosition
-        vv_fondo.pause()
+        video.pause()
     }
 
     override fun onResume() {
         super.onResume()
 
-        vv_fondo.start()
+        video.start()
     }
 
-    override fun onDestroy() {
+    /*override fun onDestroy() {
         super.onDestroy()
-        //reproductorVideo.release()
-    }
+        reproductorVideo.release()
+    }*/
 }
