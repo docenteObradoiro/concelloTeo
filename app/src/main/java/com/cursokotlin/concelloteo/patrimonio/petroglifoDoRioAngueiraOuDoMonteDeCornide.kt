@@ -6,12 +6,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ImageView
+import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class petroglifoDoRioAngueiraOuDoMonteDeCornide : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_petroglifo_do_rio_angueira_ou_do_monte_de_cornide)
+
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.menu)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
 
         val facebook = findViewById<ImageView>(R.id.facebook)
         facebook.setOnClickListener {
