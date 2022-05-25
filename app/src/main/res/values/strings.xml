@@ -3,12 +3,13 @@
   
     <string name="bienvenidos">¡BIENVENIDOS!</string>
   
-    <string name="redeDeRutas">RED DE RUTAS DE TEO</string>
+    <string name="redeDeRutas">RED DE RUTAS</string>
     <string name="patrominio1">PATRIMONIO</string>
     <string name="artesania1">ARTESANÍA</string>
     <string name="actividades1">ACTIVIDADES</string>
     <string name="agenda">AGENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
+    <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
     <string name="tituloBatalla">Visitas teatralizadas de la Batalla de Cacheiras</string>
     <string name="lugarNegrita">Lugar</string>
