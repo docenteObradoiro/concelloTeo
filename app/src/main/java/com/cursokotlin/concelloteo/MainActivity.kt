@@ -5,6 +5,7 @@ import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.actividades.actividades
@@ -70,6 +71,12 @@ class MainActivity : AppCompatActivity() {
 
         boton4.setOnClickListener {
             val acceder = Intent(this, tipos_patrimonio::class.java)
+            startActivity(acceder)
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa2)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
 

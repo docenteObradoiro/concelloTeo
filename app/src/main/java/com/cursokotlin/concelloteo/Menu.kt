@@ -56,10 +56,10 @@ class Menu : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/axenda")))
         }
 
-        /*val accesoContacto = findViewById<TextView>(R.id.contacto)
+        val accesoContacto = findViewById<TextView>(R.id.contacto)
         accesoContacto.setOnClickListener {
             val acceder = Intent(this, Contacto::class.java)
             startActivity(acceder)
-        }*/
+        }
     }
 }

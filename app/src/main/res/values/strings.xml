@@ -1,8 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Concello Teo</string>
-  
+
+    <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
+    <string name="telefonoConcello">+34 698 183 421</string>
+    <string name="correoTurismo">turismo@teo.gal</string>
+    <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
+    <string name="contacto2">Contacto</string>
+
     <string name="bienvenidos">BIENVENIDOS!</string>
-  
     <string name="redeDeRutas">RED DE RUTAS DE TEO</string>
     <string name="patrominio1">PATRIMONIO</string>
     <string name="artesania1">ARTESANÍA</string>
@@ -18,7 +24,7 @@
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Caminata en grupos reducidos de 30 personas. Habrá bus de regreso para ir de lo alto de Montouto a Bamonde.</string>
     <string name="infoBatalla2">Turismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio, agosto e septiembre. La propuesta será una ruta desde Bamonde hasta el mirador de Montouto con casi 9 quilómetros de recorrido. El actor y la actriz harán varias paradas en las que realizarán parte de este acontecimento histórico. Estas rutas dramatizadas se realizarán los sábados de julio y agosto por la mañana y los domingos de septiembre también en horario de mañana.</string>
-    <string name="formularioBatalla">Acceso o formulario de inscripción</string>
+    <string name="formularioBatalla">Acceso al formulario de inscripción</string>
 
     <string name="tituloGastronomicas">Fiestas gastronómicas</string>
     <string name="tituloPolo">Fiesta del pollo picantón</string>
