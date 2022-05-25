@@ -19,8 +19,8 @@ class tipos_patrimonio : AppCompatActivity() {
         }
         val boton3 = findViewById<ImageButton>(R.id.boton3)
         boton3.setOnClickListener {
-            val accederPatrimonioEtnográfico = Intent(this, patrimonio_etnografico::class.java)
-            startActivity(accederPatrimonioEtnográfico)
+            val accederPatrimonioEtnografico = Intent(this, patrimonio_etnografico::class.java)
+            startActivity(accederPatrimonioEtnografico)
         }
         val boton4 = findViewById<ImageButton>(R.id.boton4)
         boton4.setOnClickListener {
@@ -35,6 +35,10 @@ class tipos_patrimonio : AppCompatActivity() {
         }
 
     }
+
+    /*
+    Probando push
+     */
 
     override fun onBackPressed() {
         super.onBackPressed()
