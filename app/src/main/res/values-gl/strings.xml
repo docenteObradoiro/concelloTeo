@@ -2,12 +2,13 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
-    <string name="redeDeRutas">REDE DE RUTAS DE TEO</string>
+    <string name="redeDeRutas">REDE DE RUTAS</string>
     <string name="patrominio1">PATRIMONIO</string>
     <string name="artesania1">ARTESANÍA</string>
     <string name="actividades1">ACTIVIDADES</string>
     <string name="agenda">AXENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
+    <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
     <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
     <string name="lugarNegrita">Lugar</string>

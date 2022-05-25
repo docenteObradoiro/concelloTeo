@@ -54,80 +54,100 @@
 
         <TextView
             android:id="@+id/redderutas"
-            android:layout_width="249dp"
+            android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="122dp"
             android:layout_marginEnd="50dp"
             android:text="@string/redeDeRutas"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/patrimonio"
-            android:layout_width="wrap_content"
+            android:layout_width="335dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/redderutas"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:text="@string/patrominio1"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/artesania"
-            android:layout_width="139dp"
+            android:layout_width="332dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/patrimonio"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:text="@string/artesania1"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/actividades"
-            android:layout_width="wrap_content"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/artesania"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:text="@string/actividades1"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/agenda"
-            android:layout_width="wrap_content"
+            android:layout_width="346dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/actividades"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="50dp"
             android:text="@string/agenda"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/contacto"
-            android:layout_width="wrap_content"
+            android:layout_width="346dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/agenda"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:text="@string/contacto"
+            android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
             android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/politicaPrivacidad"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contacto"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/privacidad"
+            android:textAlignment="textEnd"
+            android:textColor="#7F4B5A2B"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>
