@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class BrigantiaOrfebres : AppCompatActivity() {
@@ -23,6 +24,11 @@ class BrigantiaOrfebres : AppCompatActivity() {
 
         logoTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa )
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
         val maps = findViewById<ImageButton>(R.id.maps)
