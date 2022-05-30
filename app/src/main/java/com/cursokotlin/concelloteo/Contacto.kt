@@ -47,6 +47,4 @@ class Contacto : AppCompatActivity() {
 
     }
 
-
-
 }
