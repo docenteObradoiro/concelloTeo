@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
+import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class igrexadeSanSimonDeOnsCacheiras : AppCompatActivity() {
@@ -14,7 +16,18 @@ class igrexadeSanSimonDeOnsCacheiras : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_igrexade_san_simon_de_ons_cacheiras)
 
-        /* Copiar esto */
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.menu)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
         val facebook = findViewById<ImageView>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
@@ -29,12 +42,6 @@ class igrexadeSanSimonDeOnsCacheiras : AppCompatActivity() {
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
-        /* Hasta aquí */
-
-        /*val hamburguesa = findViewById<ImageView>(R.id.hamburguesa)
-        hamburguesa.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
-        }*/
 
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {

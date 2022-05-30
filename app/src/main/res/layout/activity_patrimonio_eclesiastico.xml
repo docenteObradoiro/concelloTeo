@@ -1,257 +1,271 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".patrimonio.patrimonio_natural">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patrimonio.patrimonio_natural">
 
-<ImageButton
-    android:id="@+id/logoTeo"
-    android:layout_width="100dp"
-    android:layout_height="60dp"
-    android:layout_marginStart="20dp"
-    android:layout_marginTop="20dp"
-    android:background="#00FFFFFF"
-    android:contentDescription="botonTeo"
-    android:scaleType="fitXY"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@drawable/logo_teo_con_nombre" />
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teo_con_nombre" />
 
-<ImageButton
-    android:id="@+id/hamburguesa"
-    android:layout_width="48dp"
-    android:layout_height="55dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginEnd="20dp"
-    android:background="#00FFFFFF"
-    android:contentDescription="hamburguesa"
-    android:scaleType="fitXY"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@drawable/hamburguesa" />
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa" />
 
-<ScrollView
-    android:id="@+id/scrollView2"
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_marginStart="20dp"
-    android:layout_marginTop="100dp"
-    android:layout_marginEnd="20dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="1.0"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="1.0">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/patrimonio"
-            android:layout_width="191dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="PATRIMONIO ECLESIÁSTICO"
-            android:textColor="#415419"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/botonCasaReitoralDeBamonde"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="CASA REITORAL DE BAMONDE"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/casareitoraldebamondetit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexaCruceiroDeSantaMariaDeBamonde"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXIA DE CRUCEIRO DE SANTA MARÍA DE BAMONDE"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexaecruceirodesantamariadebamondetit" />
-
-        <ImageButton
-            android:id="@+id/botonCapelaDeSantaAnaDeLampai"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="CAPELA DE SANTA ANA DE LAMPAI"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/capeladesantaanadelampaitit" />
-
-        <ImageButton
-            android:id="@+id/botonCapelaCruceiroDoEspiritoSanto"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="CAPELA E CRUCEIRO DO ESPÍRITO SANTO"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/capelaecruceirodoespiritosantotit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexaDeSantaMariaDeLampai"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXA DE SANTA MARÍA DE LAMPAI"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesantamariadelampaitit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexaDeSanMiguelDeRaris"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXA DE SAN MIGUEL DE RARÍS"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesanmiguelderaristit" />
-
-        <ImageButton
-            android:id="@+id/botonErmidaCruceiroDeSantaEufemia"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="ERMIDA E CRUCEIRO DE SANTA EUFEMIA"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/ermidaecruceirodesantaeufemiatit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexaDeSantaMariaDeLuou"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXA DE SANTA MARÍA DE LUOU"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesantamariadeluoutit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexaDeSantaMariaDeTeo"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXA DE SANTA MARÍA DE TEO"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesantamariadeteotit" />
-
-        <ImageButton
-            android:id="@+id/botonIgrexadeSanSimonDeOnsCacheiras"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:layout_marginTop="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="IGREXA DE SAN SIMÓN DE ONS, CACHEIRAS"
-            android:scaleType="fitXY"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/igrexadesansimondeonscacheirastit" />
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="362dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:foregroundTint="#2DFFFFFF"
-            app:srcCompat="@drawable/lineaverde" />
-
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/patrimonio"
+                android:layout_width="191dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="PATRIMONIO ECLESIÁSTICO"
+                android:textColor="#415419"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageButton
-                android:id="@+id/facebook_3_"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                app:tint="#7F000000"
-                android:background="@drawable/animafacebook"
-                app:srcCompat="@drawable/facebook_3_" />
-
-
-            <ImageButton
-                android:id="@+id/twitter_4_"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="10dp"
-                android:contentDescription="twitter"
+                android:id="@+id/botonCasaReitoralDeBamonde"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="CASA REITORAL DE BAMONDE"
                 android:scaleType="fitXY"
-                android:background="@drawable/animatwitter"
-                app:srcCompat="@drawable/twitter_4_"
-                app:tint="#00B8AEAE" />
-
-
-            <ImageButton
-                android:id="@+id/instagram_3_"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                app:tint="#7F000000"
-                android:background="@drawable/animainsta"
-                app:srcCompat="@drawable/instagram_3_"
-                />
-
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/casareitoraldebamondetit" />
 
             <ImageButton
-                android:id="@+id/informacion"
-                android:layout_width="55dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="175dp"
-                android:layout_marginTop="-5dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="#00B8AEAE"
-                android:contentDescription="información"
+                android:id="@+id/botonIgrexaCruceiroDeSantaMariaDeBamonde"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXIA DE CRUCEIRO DE SANTA MARÍA DE BAMONDE"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/informacion"
-                app:tint="#7F000000" />
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexaecruceirodesantamariadebamondetit" />
+
+            <ImageButton
+                android:id="@+id/botonCapelaDeSantaAnaDeLampai"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="CAPELA DE SANTA ANA DE LAMPAI"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/capeladesantaanadelampaitit" />
+
+            <ImageButton
+                android:id="@+id/botonCapelaCruceiroDoEspiritoSanto"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="CAPELA E CRUCEIRO DO ESPÍRITO SANTO"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/capelaecruceirodoespiritosantotit" />
+
+            <ImageButton
+                android:id="@+id/botonIgrexaDeSantaMariaDeLampai"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXA DE SANTA MARÍA DE LAMPAI"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexadesantamariadelampaitit" />
+
+            <ImageButton
+                android:id="@+id/botonIgrexaDeSanMiguelDeRaris"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXA DE SAN MIGUEL DE RARÍS"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexadesanmiguelderaristit" />
+
+            <ImageButton
+                android:id="@+id/botonErmidaCruceiroDeSantaEufemia"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="ERMIDA E CRUCEIRO DE SANTA EUFEMIA"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/ermidaecruceirodesantaeufemiatit" />
+
+            <ImageButton
+                android:id="@+id/botonIgrexaDeSantaMariaDeLuou"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXA DE SANTA MARÍA DE LUOU"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexadesantamariadeluoutit" />
+
+            <ImageButton
+                android:id="@+id/botonIgrexaDeSantaMariaDeTeo"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXA DE SANTA MARÍA DE TEO"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexadesantamariadeteotit" />
+
+            <ImageButton
+                android:id="@+id/botonIgrexadeSanSimonDeOnsCacheiras"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="IGREXA DE SAN SIMÓN DE ONS, CACHEIRAS"
+                android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/igrexadesansimondeonscacheirastit" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:foregroundTint="#2DFFFFFF"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/facebook"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/facebook"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/twitter"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/instagram"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="-25dp"
+                    android:layout_toEndOf="@+id/twitter"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="#7F000000" />
+
+                <ImageButton
+                    android:id="@+id/info"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="información"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/info"
+                    app:tint="#7F000000" />
+
+
+            </RelativeLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
