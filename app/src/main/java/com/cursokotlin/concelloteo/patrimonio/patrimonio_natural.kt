@@ -5,12 +5,27 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class patrimonio_natural : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_patrimonio_natural2)
+
+
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
 
         val boton4 = findViewById<ImageButton>(R.id.boton4)
         boton4.setOnClickListener {
