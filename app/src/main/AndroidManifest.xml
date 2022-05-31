@@ -88,7 +88,9 @@
             android:exported="false" />
         <activity
             android:name=".artesania.SpaciobInteriorismo"
-            android:exported="false" /> <!-- <activity -->
+            android:exported="false" />
+
+        <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!-- android:exported="false" /> -->
         <activity
