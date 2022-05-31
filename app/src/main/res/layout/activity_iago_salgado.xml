@@ -22,220 +22,222 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tv1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="44dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/iagoSalgado"
-                android:textColor="#415419"
-                android:textSize="20sp" />
-
-            <ImageView
-                android:id="@+id/lineaVerde1"
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@mipmap/lineaverde" />
-
-            <LinearLayout
-                android:id="@+id/layoutHorizontalPpal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="-30dp"
                 android:orientation="horizontal">
 
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/iagoSalgado"
+                    android:textColor="#415419"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/lineaVerde1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv1"
+                    app:srcCompat="@mipmap/lineaverde" />
 
-                    <LinearLayout
-                        android:id="@+id/layoutNome"
+                <LinearLayout
+                    android:id="@+id/layoutNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/lineaVerde1"
+                    app:layout_constraintTop_toBottomOf="@id/lineaVerde1">
+
+                    <ImageView
+                        android:id="@+id/iconoPersona"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/persoa" />
+
+                    <TextView
+                        android:id="@+id/tv3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/iconoPersona"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/persoa" />
-
-                        <TextView
-                            android:id="@+id/tv3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="5dp"
-                            android:text="@string/iagoSalgado"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/iconoOrdenador"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/ordenador" />
-
-                        <TextView
-                            android:id="@+id/tv8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/paxinaWeb"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/layoutMaps"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:layout_marginEnd="20dp"
-                        android:orientation="horizontal">
-
-                        <ImageButton
-                            android:id="@+id/maps"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/animamaps"
-                            android:contentDescription="@string/appbar_scrolling_view_behavior"
-                            android:minWidth="48dp"
-                            app:srcCompat="@drawable/mapsnegro"
-                            app:tint="#00989898"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-
-                        <TextView
-                            android:id="@+id/tv9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="25dp"
-                            android:text="@string/iagoSalgadoDireccion"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/layoutTelf"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:orientation="horizontal">
-
-
-                        <ImageButton
-                            android:id="@+id/botonTelefono"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-
-                            android:layout_marginTop="20dp"
-                            android:background="@drawable/animatelefono"
-                            android:contentDescription="@string/appbar_scrolling_view_behavior"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@mipmap/telefono"
-                            app:tint="#00FFFFFF"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/tv6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="25dp"
-                            android:text="@string/iagoSalgadoTelefono"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/layoutMail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:orientation="horizontal">
-
-
-                        <ImageButton
-                            android:id="@+id/botonCorreo"
-                            android:layout_width="45dp"
-                            android:layout_height="30dp"
-                            android:layout_marginTop="20dp"
-                            android:background="@drawable/animacorreo"
-                            android:contentDescription="@string/appbar_scrolling_view_behavior"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@mipmap/gmail"
-                            app:tint="#00FFFFFF"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/tv7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="15dp"
-                            android:layout_marginTop="25dp"
-                            android:text="@string/iagoSalgadoCorreo"
-                            android:textColor="#51661c"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="44dp"
-                        android:layout_marginEnd="15dp"
-                        android:layout_marginBottom="1dp"
-                        android:orientation="horizontal">
-
-
-                        <ImageButton
-                            android:id="@+id/fbBoton"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="40dp"
-                            android:background="@drawable/facebookanima"
-                            android:contentDescription="@string/appbar_scrolling_view_behavior"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@mipmap/facebook"
-                            app:tint="#00FFFFFF"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-
-                    </LinearLayout>
-
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/iagoSalgado"
+                        android:textColor="#51661c"
+                        android:textSize="14sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutWeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="140dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/layoutNome"
+                    app:layout_constraintTop_toBottomOf="@id/layoutNome">
+
+                    <ImageView
+                        android:id="@+id/iconoOrdenador"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ordenador" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/paxinaWeb"
+                        android:textColor="#51661c"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMaps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/layoutWeb"
+                    app:layout_constraintTop_toBottomOf="@id/layoutWeb">
+
+                    <ImageButton
+                        android:id="@+id/maps"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/animamaps"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:minWidth="48dp"
+                        app:srcCompat="@drawable/mapsnegro"
+                        app:tint="#00989898"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/iagoSalgadoDireccion"
+                        android:textColor="#51661c"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutTelf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="230dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
+                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
+
+                    <ImageButton
+                        android:id="@+id/botonTelefono"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/animatelefono"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/telefono"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/iagoSalgadoTelefono"
+                        android:textColor="#51661c"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="285dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/layoutTelf"
+                    app:layout_constraintTop_toBottomOf="@id/layoutTelf">
+
+
+                    <ImageButton
+                        android:id="@+id/botonCorreo"
+                        android:layout_width="45dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/animacorreo"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/gmail"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/iagoSalgadoCorreo"
+                        android:textColor="#51661c"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/fbBoton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="370dp"
+                    android:background="@drawable/facebookanima"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:layout_constraintStart_toStartOf="@id/layoutMail"
+                    app:layout_constraintTop_toBottomOf="@id/layoutMail"
+                    app:srcCompat="@mipmap/facebook"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/imgVector"
-                    android:layout_width="100dp"
-                    android:layout_height="300dp"
-                    android:layout_marginStart="-20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="225dp"
                     android:layout_marginTop="90dp"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="@id/fbBoton"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:srcCompat="@mipmap/vectortaller"
                     app:tint="#1F000000" />
 
-            </LinearLayout>
+            </RelativeLayout>
 
 
             <RelativeLayout
@@ -246,33 +248,36 @@
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
-                    android:layout_height="220dp"
+                    android:layout_height="320dp"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginEnd="25dp"
                     app:srcCompat="@mipmap/iagosalgado" />
 
                 <TextView
                     android:id="@+id/tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignTop="@id/imageView3"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="45dp"
-                    android:layout_marginTop="240dp"
+                    android:layout_marginTop="300dp"
                     android:text="@string/instrumentosMusicais"
                     android:textColor="#51661c"
                     android:textSize="14sp" />
+
                 <ImageView
                     android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/tv2"
+                    android:layout_alignParentStart="true"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="20dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignTop="@id/tv2"
                     app:srcCompat="@mipmap/lineaverde" />
             </RelativeLayout>
 
@@ -300,10 +305,10 @@
                     android:id="@+id/twitter"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_toEndOf="@+id/facebook"
                     android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/facebook"
                     android:background="@drawable/animatwitter"
                     android:contentDescription="twitter"
                     android:scaleType="fitXY"
@@ -331,8 +336,8 @@
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_marginEnd="15dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
@@ -343,6 +348,7 @@
         </LinearLayout>
 
     </ScrollView>
+
     <ImageButton
         android:id="@+id/logoTeo"
         android:layout_width="85dp"
@@ -354,4 +360,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/concelloteo" />
+
+    <ImageButton
+        android:id="@+id/hamburguesa"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="menu hamburguesa"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:scaleType="fitXY"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa"
+        tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

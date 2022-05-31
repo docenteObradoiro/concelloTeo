@@ -5,12 +5,26 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
 class patrimonio_eclesiastico : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_patrimonio_eclesiastico)
+
+        val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.menu)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
 
         val botonCasaReitoralDeBamonde = findViewById<ImageButton>(R.id.botonCasaReitoralDeBamonde)
         botonCasaReitoralDeBamonde.setOnClickListener {
@@ -72,8 +86,21 @@ class patrimonio_eclesiastico : AppCompatActivity() {
             startActivity(accederIgrexadeSanSimonDeOnsCacheiras)
         }
 
-        val informacion = findViewById<ImageButton>(R.id.informacion)
-        informacion.setOnClickListener {
+        val facebook = findViewById<ImageButton>(R.id.facebook)
+        facebook.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
+        }
+        val twitter = findViewById<ImageButton>(R.id.twitter)
+        twitter.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
+        }
+        val instagram = findViewById<ImageButton>(R.id.instagram)
+        instagram.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
+        }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 

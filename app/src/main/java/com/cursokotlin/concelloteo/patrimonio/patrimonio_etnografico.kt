@@ -22,7 +22,8 @@ class patrimonio_etnografico : AppCompatActivity() {
         }
 
 
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
+        val accesoMenu= findViewById<ImageButton>(R.id.menu)
+
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
@@ -122,21 +123,22 @@ class patrimonio_etnografico : AppCompatActivity() {
             val accederFonteEscolaCasalonga = Intent(this, informacion_escola_casalonga::class.java)
             startActivity(accederFonteEscolaCasalonga)
         }
-        val informacion = findViewById<ImageButton>(R.id.informacion)
-        informacion.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
-        }
-        val facebook = findViewById<ImageButton>(R.id.facebook_3_)
+        val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
-        val twitter = findViewById<ImageButton>(R.id.twitter_4_)
+        val twitter = findViewById<ImageButton>(R.id.twitter)
         twitter.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
         }
-        val instagram = findViewById<ImageButton>(R.id.instagram_3_)
+        val instagram = findViewById<ImageButton>(R.id.instagram)
         instagram.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
+        }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 
 

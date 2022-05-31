@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/iconoabertura"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
-
+        <activity
+            android:name=".Contacto"
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -27,7 +29,7 @@
         <activity
             android:name=".Menu"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".actividades.mapaVilarino"
             android:exported="false" />
@@ -45,7 +47,6 @@
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false" />
-
         <activity
             android:name=".actividades.entroido"
             android:exported="false" />
@@ -88,6 +89,7 @@
         <activity
             android:name=".artesania.SpaciobInteriorismo"
             android:exported="false" />
+
         <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!-- android:exported="false" /> -->
