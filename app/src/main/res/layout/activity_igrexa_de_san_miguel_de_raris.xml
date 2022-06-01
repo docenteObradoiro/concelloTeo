@@ -82,9 +82,10 @@
                     android:layout_width="330dp"
                     android:layout_height="209dp"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
                     android:layout_marginRight="40dp"
-                    app:srcCompat="@drawable/igrexadesanmiguelderaris" />
+                    app:srcCompat="@drawable/igrexaderaris" />
 
             </RelativeLayout>
 
