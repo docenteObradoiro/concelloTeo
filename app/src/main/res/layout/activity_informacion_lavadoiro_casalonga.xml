@@ -84,7 +84,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/lavadoirocasalonga" />
+                app:srcCompat="@drawable/areaarqueoloxicadomontepiquinhotit" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
