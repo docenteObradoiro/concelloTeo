@@ -9,6 +9,8 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_carballeira_francos
+import com.cursokotlin.concelloteo.patrimonio.informacion_ponte_paradela
 
 class Ruta11 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +25,16 @@ class Ruta11 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        val patrimonioponteParadela= findViewById<ImageButton>(R.id.botonPatrimonioponteparadela)
+        patrimonioponteParadela.setOnClickListener {
+            val acceder = Intent(this, informacion_ponte_paradela::class.java)
+            startActivity(acceder)
+        }
+        val patrimoniocarballeiradefrancos= findViewById<ImageButton>(R.id.botonPatrimoniocarballeiradeFrancos)
+        patrimoniocarballeiradefrancos.setOnClickListener {
+            val acceder = Intent(this, informacion_carballeira_francos::class.java)
             startActivity(acceder)
         }
         val boton = findViewById<Button>(R.id.wikiloc)
