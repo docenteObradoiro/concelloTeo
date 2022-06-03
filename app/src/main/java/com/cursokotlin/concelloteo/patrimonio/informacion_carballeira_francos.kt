@@ -38,5 +38,15 @@ class informacion_carballeira_francos : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 
+        val sonido = findViewById<ImageButton>(R.id.sonido)
+        sonido.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://soundcloud.com/user-261518003/03-carballeira-de-francos-gal?in=user-261518003/sets/audios-sentir-teo-no-camino")
+                )
+            )
+        }
+
     }
     }

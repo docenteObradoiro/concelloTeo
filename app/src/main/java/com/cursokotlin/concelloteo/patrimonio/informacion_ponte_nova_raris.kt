@@ -37,5 +37,16 @@ class informacion_ponte_nova_raris : AppCompatActivity() {
         informacion.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
+
+        val sonido = findViewById<ImageButton>(R.id.sonido)
+        sonido.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://soundcloud.com/user-261518003/06-ponte-medieval-e-lavadoiro?in=user-261518003/sets/audios-sentir-teo-no-camino")
+                )
+            )
+        }
+
     }
 }
