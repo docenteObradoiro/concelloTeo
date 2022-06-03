@@ -5,12 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".patrimonio.informacion_escola_casalonga">
-    <!--
-    <ScrollView
-        android:layout_width="0px"
-        android:layout_height="0px"
-        tools:ignore="MissingConstraints">
- -->
+
     <ImageButton
         android:id="@+id/botonTeo"
         android:layout_width="100dp"
@@ -55,15 +50,22 @@
             android:orientation="vertical">
 
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imagenCabeceraEscolaCasalonga"
-                android:layout_width="330dp"
-                android:layout_height="209dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/fonte_escola_casalonga" />
+                <ImageView
+                    android:id="@+id/imagenCabeceraEscolaCasalonga"
+                    android:layout_width="330dp"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"
+                    app:srcCompat="@drawable/fonteescolacasalonga" />
+
+            </RelativeLayout>
+
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -86,9 +88,22 @@
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
 
-
-
-
+                <ImageButton
+                    android:id="@+id/sonido"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_toEndOf="@+id/maps"
+                    android:background="@drawable/animasonido"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/audio"
+                    app:tint="#75FFFFFF" />
 
             </RelativeLayout>
 
@@ -103,7 +118,7 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="350dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"

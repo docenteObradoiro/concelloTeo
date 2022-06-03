@@ -47,9 +47,5 @@ class igrexaCruceiroDeSantaMariaDeBamonde : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B047'02.9%22N+8%C2%B030'41.1%22W/@42.784135,-8.5201508,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xa4a5ed7542603c47!8m2!3d42.7841353!4d-8.5114175")))
         }
 
-        /*val sonido = findViewById<ImageButton>(R.id.sonido)
-        sonido.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://soundcloud.com/user-261518003/01-escola-de-francos-gal?in=user-261518003/sets/audios-sentir-teo-no-camino")))
-        }*/
     }
 }

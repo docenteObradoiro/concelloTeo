@@ -64,11 +64,13 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="40dp"
                 android:textColor="#415419"
+                android:textAlignment="center"
                 android:text="@string/informacioncruceirotribaldesTitulo"
                 android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="350dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
@@ -77,14 +79,21 @@
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@drawable/lineaverde" />
 
-            <ImageView
-                android:id="@+id/imagenCabeceraCruceiroTribaldes"
-                android:layout_width="330dp"
-                android:layout_height="209dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/cruceirotribaldes" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagenCabeceraCruceiroTribaldes"
+                    android:layout_width="330dp"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="40dp"
+                    app:srcCompat="@drawable/cruceirotribaldes" />
+
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -107,8 +116,6 @@
                     app:srcCompat="@drawable/mapsnegro"
                     app:tint="#00989898" />
 
-
-
             </RelativeLayout>
 
             <TextView
@@ -124,7 +131,7 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="350dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
