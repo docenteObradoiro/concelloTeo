@@ -6,7 +6,7 @@
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
-    <string name="contacto2">Ccontacto</string>
+    <string name="contacto2">Contacto</string>
 
     <string name="bienvenidos">BENVIDOS!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
@@ -178,7 +178,7 @@
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
     <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
-    <string name="cuchillosVillarDescricion">ferreiro especializado na coitelaría tradicional</string>
+    <string name="cuchillosVillarDescricion">Ferreiro especializado na coitelaría tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>

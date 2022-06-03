@@ -8,6 +8,7 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
+
 import com.cursokotlin.concelloteo.R
 
 class tipos_patrimonio : AppCompatActivity() {

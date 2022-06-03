@@ -21,7 +21,9 @@ class patrimonio_etnografico : AppCompatActivity() {
             startActivity(acceder)
         }
 
+
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
+
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
