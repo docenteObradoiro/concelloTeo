@@ -275,17 +275,19 @@
     <string name="desnivelRuta7">⇑ 165m</string>
     <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255,\n-8.620623485937024</string>
     <string name="textoRuta7">Ruta de sendeirismo que parte da Rúa de Francos (Calo) e percorre uns 8 quilómetros na contorna. \n \nEsta ruta percorre o vello treito da liña ferroviaria máis antiga de Galicia (Cornes – Carril), situado entre as aldeas de Vilar de Abaixo (Teo) e Angueira de Suso (Padrón). Treito que logo da apertura do novo trazado do AVE en 2007 fica en desuso e abandono.
-            \n \nUnha andaina circular, que comeza e remata ao pé do cruceiro gótico de Francos, e que ten como principais puntos de interese os conxuntos tradicionais das aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, o santuario e carballeira de San Bieito de Bascuas, as pontellas e ribeiras fluviais dos pequenos regatos da parroquia de Santa María de Cruces; así como percorrer os 133 metros do antigo túnel do Faramello, unha das grandes obras de enxeñaría do primitivo camiño de ferro galego.</string>
+        \n \nUnha andaina circular, que comeza e remata ao pé do <b>cruceiro gótico de Francos</b>, e que ten como principais puntos de interese os conxuntos tradicionais das aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, o santuario e carballeira de San Bieito de Bascuas, as pontellas e ribeiras fluviais dos pequenos regatos da parroquia de Santa María de Cruces; así como percorrer os 133 metros do antigo <b>túnel do Faramello</b>, unha das grandes obras de enxeñaría do primitivo camiño de ferro galego.
+        \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero8">8</string>
     <string name="rutaApegoPontevea">Ruta Apego Pontevea Burga de Xermeade</string>
     <string name="kmRuta8">0.76 km</string>
     <string name="desnivelRuta8">⇑ 1m</string>
     <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866,\n-8.548239358912666</string>
-    <string name="textoRuta8">Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á Burga de Xermeade.
+    <string name="textoRuta8">Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á <b>Burga de Xermeade</b>.
                 \n \nEntre o núcleo de Pontevea e a Burga de Xermeade discorre esta curtiña ruta lineal Apego á beira do río Ulla, declarada zona Rede Natura 2000 pola súa singular biodiversidade. Trátase dun bosque de río en bo estado de conservación que alberga todo un ecosistema fluvial, con insuas formadas de xeito natural e que remata na Burga de Xermeade, espazo moi singular pola presenza de augas sulfurosas.
                 \n \nAs rutas Apego están deseñadas para a facilidade de familias con crianzas e persoas con mobilidade reducida. Neste caso a ruta está dinamizada con postes de sinaléctica que conteñen audioguías con información sobre o río Ulla, especialmente pensada para a cativada. Non deixedes de escoitalas!
-                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!</string>
+                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
 
@@ -294,10 +296,11 @@
     <string name="kmRuta9">2.84 km</string>
     <string name="desnivelRuta9">⇑ 24m</string>
     <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745,\n-8.554853748127957</string>
-    <string name="textoRuta9">Ruta que percorre as beiras do río Ulla desde a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea.
+    <string name="textoRuta9">Ruta que percorre as beiras do río Ulla desde a <b>Área Recreativa do Xirimbao</b> ata a <b>Ponte Medieval de Pontevea</b>.
                 \n \nEsta ruta, que percorre un tradicional camiño de pescadoras, vai dende a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea, todo iso á beira do río Ulla. Trátase dunha ruta lineal que tamén se pode facer no sentido contrario, con saída dende o núcleo de Pontevea. Toda a ruta atópase na área de protección Rede Natura 2000 recoñecida pola Unión Europea dada a súa xenuína biodiversidade.
                 \n \nO principal atractivo desta ruta é a comunidade ecolóxica que determina a presenza do río Ulla: un bosque de río ben conservado que dá acubillo a especies moi emblemáticas como a lontra. Tamén destaca a presenza de pesqueiras, na zona próxima ao Xirimbao, que son construcións tradicionais para a pesca da lamprea.
-                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!</string>
+                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero10">10</string>
     <string name="rutaPetroglifo">Ruta PR-G 238. Ruta dos Petróglifos de Teo</string>
