@@ -62,7 +62,8 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="40dp"
-                    app:srcCompat="@drawable/fonteescolacasalonga" />
+                    app:srcCompat="@drawable/fonte_escola_casalonga" />
+
 
             </RelativeLayout>
 
@@ -219,10 +220,6 @@
 
         </LinearLayout>
     </ScrollView>
-
-    <!--
-    </ScrollView>
-    -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
