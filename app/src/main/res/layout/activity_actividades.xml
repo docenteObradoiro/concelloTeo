@@ -60,11 +60,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
-                android:contentDescription="festas" />
+                android:contentDescription="festas"
+                android:src="@mipmap/sanmartino" />
 
             <ImageButton
                 android:id="@+id/boton7"
-                android:layout_width="379dp"
+                android:layout_width="392dp"
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="batalla"
@@ -73,7 +74,7 @@
 
             <ImageButton
                 android:id="@+id/boton6"
-                android:layout_width="380dp"
+                android:layout_width="392dp"
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="entroido"
@@ -176,7 +177,7 @@
 
     <TextView
         android:id="@+id/texto"
-        android:layout_width="188dp"
+        android:layout_width="233dp"
         android:layout_height="49dp"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
@@ -184,7 +185,7 @@
         android:gravity="center"
         android:text="ACTIVIDADES"
         android:textColor="#80415419"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
