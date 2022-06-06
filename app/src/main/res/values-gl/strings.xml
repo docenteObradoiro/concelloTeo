@@ -27,64 +27,30 @@
     <string name="infoBatalla2">Turismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
 
+    <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
+    <string name="tituloTextoSanMartiño">¿Por qué se debería declarar o San Martiño como festa de interese turístico?</string>
+    <string name="infoSanMartiño">Unha elemental xustificación: a equivalencia da fiesta e feira. \n \nAs feiras sempre presentaron unha dobre dimensión, a de lugares
+        de intercambio económico e de festa. A dicotomía está presente na dobre acepción de feira, que por un lado significa “mercado periódico” e por outro “festas
+        que se celebran con tal ocasión”.Nos últimos tempos as feiras tradicionais de Galicia adquiriron a dimensión de festa sobre a de feira debido aos cambios
+        socio-económicos do século XX. \nEn canto ás cuestións que dotan de gran interese á feira de San Martiño temos:
+	\n- A súa dimensión de ocio festivo, acreditado por testemuños escritos do século XIX.
+	\n- A dimensión de compra-venda de gando ou outros produtos do campo.</string>
+    <string name="tituloTextoSanMartiño2">Valor patrimonial da feira de San Martiño</string>
+    <string name="infoSanMartiño2">Na feira de San Martiño, adaptaronse varios compoñentes o presente sen romper o enlace ca tradición do pasado.
+        O visitante pode contemplar a venda de produtos da erra, de gando equino, maioritariamente “do país”, e de alimentos como o polbo a feira a carón
+        de mostras de maquinaria agrícola de última xeración, ou postos onde subsaharianos, xitanos ou xente de orixe diversa ofrece obxectos propios do
+        ámbito urbano-industrial. O lugar onde se desenvolve a feira foi urbanizado respetando os elementos herdados do pasado, como é a vella capela
+        dedicada ao Espírito Santo.</string>
+    <string name="tituloTextoSanMartiño3">Importancia deste ben cultural en relación do turismo</string>
+    <string name="infoSanMartiño3">A feira ofrece a posibilidade de participar e coñecer os estilos de vida tradicionais e locais nunha data emblemática do ano,
+        documentada en Francos polo menos dende o século XVI, o día 11 de novembro, que coincide coa conmemoración dun santo, San Martiño de Tours, con culto en
+        Galicia dende o século VI, é dicir, fai case 1500 anos.\n
+	Unha cuestión importante e que a carballeira e o lugar de Francos están no chamado camiño portugués de Tui a Compostela, polo que pasan miles de peregrinos
+        todos os anos.\n
+	Cabe mencionar que a moi pouca distancia se ergue o chamado Castro Lupario, recinto arqueolóxico de época galaico-romana que a tradición popular asociou á Raíña Lupa.
+</string>
 
-    <string name="tituloGastronomicas">Festas gastronómicas</string>
-    <string name="tituloPolo">Festa do polo picantón</string>
-    <string name="lugarPolo">Lugar: Rarís</string>
-    <string name="dataPolo">Data: Maio</string>
-    <string name="descricionPolo">Tódolos asistentes de esta festa gastronómica poderán degustar un delicioso menú composto de picantón, pan, café e queimada. Durante a xornada tamén haberá polbo e churrasco para tomar. Contará con animación musical.</string>
-
-    <string name="tituloNadal">Nadal</string>
-    <string name="tituloMercados">Mercados</string>
-
-    <string name="tituloSardina">San Xoan</string>
-    <string name="lugarSardina">Lugar: Calo</string>
-    <string name="dataSardina">Data: Xullo</string>
-    <string name="descricionSardina">Sardiñada gratuita con tirada de fogos artificiais. Procederase a queima da cabra vella que dará paso a animación musical.</string>
-
-    <string name="tituloCabalos">San Martiño de Francos</string>
-    <string name="lugarCabalos">Lugar: Carballeira de Francos</string>
-    <string name="dataCabalos">Data: Novembro</string>
-    <string name="descricionCabalos">Feira cabalar de San Martiño que se celebra na Carballeira de Francos, na parroquia de Calo. Haberá actividades para o público familiar, xogos en familia, animación circense e animacións musicales.</string>
-
-    <string name="tituloXamon">Festa do xamón al bagazo</string>
-    <string name="lugarXamon">Lugar: Campo da festa de Reis</string>
-    <string name="dataXamon">Data: Septiembre</string>
-    <string name="descricionXamon">Os veciños de Reis, no municipio de Teo, celebrarán unha nova edición da Festa do Xamón ó Bagazo. Durante a xornada tódolos asistentes poderán desfrutar dun menú no que o prato estrela será o xamón al bagazo.</string>
-
-    <string name="tituloConcertos">Concertos da Banda de Teo</string>
-    <string name="bamondeConcertos">Bamonde</string>
-    <string name="fechaBamondeConcertos">Domingo 24 de Abril</string>
-    <string name="luciConcertos">Lucí</string>
-    <string name="fechaLuciConcertos">Sábado 23 de Xullo</string>
-    <string name="concertoNadalConcertos">Concerto de Nadal</string>
-    <string name="fechaConcertosConcertos">Domingo 26 de Diciembre</string>
-    <string name="LugarConcertosConcertos">Auditorio Municipal Constante Liste</string>
-
-    <string name="localizacionMercado">Localización</string>
-    <string name="sitioMercado">Praza Circular dos Tilos</string>
-    <string name="dataMercado">Data</string>
-    <string name="fechaMercado">Decembro</string>
-    <string name="tituloInfoMercado">Info práctica</string>
-    <string name="informacionMercado">Unha boa oportunidade para comprar os últimos regalos antes das festas. Haberá postos de artesanía, viño e sidra da Comarca do Ulla, productos de panadería, floristería, librarías e mercado labrego. Para animar a xornada haberá talleres para os nenos e carrusel ademáis dunha cantina.</string>
-
-    <string name="tituloNegritaObradoiros">Obradoiros</string>
-    <string name="tituloObradoiros">Obradoiros de adornos</string>
-    <string name="dataObradoiro">Data: Decembro</string>
-    <string name="lugarObradoiro">Lugar: Escuela de Ameneiro, Calo</string>
-    <string name="informacionObradoiro">Os obradoiros serán impartidos por un profesional. Os materiaiss serán facilitados polo concello e despois do obradoiro poderase levar algún adorno para colocar na árbore ou en algunha das árbores que están xa instaladas por todo Teo</string>
-
-    <string name="tituloDoces">Obradoiro de doces de inverno</string>
-    <string name="dataDoces">Data: Xaneiro</string>
-    <string name="lugarDoces">Lugar: Casa Común de Rarís</string>
-    <string name="informacionDoces">Elaboración e decoración de postres de inverno fáciles</string>
-
-    <string name="tituloDocesNadal">Obradoiro de doces de Nadal</string>
-    <string name="dataDocesNadal">Data: Decembro</string>
-    <string name="lugarDocesNadal">Lugar: Casa Común de Rarís</string>
-    <string name="informacionDocesNadal">Elaboración e decoración de postres de Nadal</string>
-
-    <string name="tituloEntroido">Entroido</string>
+    <string name="tituloEntroido">Entroido \nXenerais da Ulla</string>
     <string name="dataEntroido">Data</string>
     <string name="dataEntroido1">Marzo</string>
     <string name="lugarEntroido">Lugar</string>
