@@ -58,9 +58,8 @@
                 android:background="#F9FBF9"
                 android:paddingTop="15dp"
                 android:text="@string/tituloEntroido"
-                android:textColor="#80415419"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textColor="#415419"
+                android:textSize="24sp"/>
 
             <ImageView
                 android:id="@+id/barra1"
@@ -87,8 +86,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="30dp"
                 android:text="@string/lugarEntroido"
-                android:textColor="#050000"
-                android:textStyle="bold"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -108,8 +106,7 @@
                 android:paddingLeft="50dp"
                 android:paddingTop="15dp"
                 android:text="@string/dataEntroido"
-                android:textColor="#050000"
-                android:textStyle="bold"
+                android:textColor="#8A8585"
                 android:translationY="-30dp" />
 
             <TextView
@@ -123,25 +120,15 @@
                 android:translationY="-30dp" />
 
             <TextView
-                android:id="@+id/textView53"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="50dp"
-                android:paddingTop="15dp"
-                android:text="@string/infoEntroido"
-                android:textColor="#050000"
-                android:textStyle="bold"
-                android:translationY="-30dp" />
-
-            <TextView
                 android:id="@+id/textView55"
                 android:layout_width="333dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="20dp"
                 android:paddingTop="5dp"
                 android:text="@string/informacionEntroido"
-                android:textColor="#050000"
-                android:translationX="50dp"
-                android:translationY="-30dp" />
+                android:textColor="#000000" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -183,7 +170,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/botonTeo"
+                    android:id="@+id/botonTeoMapa"
                     android:layout_width="2dp"
                     android:layout_height="67dp"
                     android:layout_marginLeft="160dp"
@@ -280,7 +267,6 @@
                 android:layout_width="348dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="70dp"
                 android:foregroundTint="#2DFFFFFF"
                 android:paddingTop="30dp"
                 android:translationX="30dp"

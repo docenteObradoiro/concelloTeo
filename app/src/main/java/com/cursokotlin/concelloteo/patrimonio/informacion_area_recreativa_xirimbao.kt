@@ -15,7 +15,7 @@ class informacion_area_recreativa_xirimbao : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_informacion_area_recreativa_xirimbao)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeoMapa)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)

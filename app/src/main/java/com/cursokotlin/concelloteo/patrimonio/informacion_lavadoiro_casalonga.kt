@@ -15,7 +15,7 @@ class informacion_lavadoiro_casalonga : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_informacion_lavadoiro_casalonga)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeoMapa)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)

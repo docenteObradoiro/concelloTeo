@@ -15,7 +15,13 @@ class actividades : AppCompatActivity() {
 
         val boton6=findViewById<ImageButton>(R.id.boton6)
         val boton7=findViewById<ImageButton>(R.id.boton7)
+        val boton5=findViewById<ImageButton>(R.id.boton5)
 
+
+        boton5.setOnClickListener {
+            val acceder = Intent(this, sanmartino::class.java)
+            startActivity(acceder)
+        }
 
         boton6.setOnClickListener {
             val acceder = Intent(this, entroido::class.java)
@@ -45,6 +51,11 @@ class actividades : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa3)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeo4)
+        botonTeo.setOnClickListener {
+            val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
     }

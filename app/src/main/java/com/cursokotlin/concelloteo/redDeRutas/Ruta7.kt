@@ -9,6 +9,8 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_cruceiro_gotico_francos
+import com.cursokotlin.concelloteo.patrimonio.informacion_tunel_faramello
 
 class Ruta7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,18 @@ class Ruta7 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioCruceiroFrancos=findViewById<ImageButton>(R.id.botonPatrimonioCruceiroFrancos)
+        botonPatrimonioCruceiroFrancos.setOnClickListener {
+            val acceder= Intent(this, informacion_cruceiro_gotico_francos::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioTunelFaramello=findViewById<ImageButton>(R.id.botonPatrimonioFaramello)
+        botonPatrimonioTunelFaramello.setOnClickListener {
+            val acceder= Intent(this, informacion_tunel_faramello::class.java)
             startActivity(acceder)
         }
 

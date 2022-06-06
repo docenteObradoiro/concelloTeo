@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="logoConcello">Logo concello</string>
+    <string name="menu_hamburguesa">menú hamburguesa</string>
+
 
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
@@ -25,66 +28,36 @@
     <string name="dataBatalla">Abril</string>
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Caminata en grupos reducidos de 30 personas. Habrá bus de regreso para ir de lo alto de Montouto a Bamonde.</string>
-    <string name="infoBatalla2">Turismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio, agosto e septiembre. La propuesta será una ruta desde Bamonde hasta el mirador de Montouto con casi 9 quilómetros de recorrido. El actor y la actriz harán varias paradas en las que realizarán parte de este acontecimento histórico. Estas rutas dramatizadas se realizarán los sábados de julio y agosto por la mañana y los domingos de septiembre también en horario de mañana.</string>
+    <string name="infoBatalla2">Turismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio,
+        agosto e septiembre. La propuesta será una ruta desde Bamonde hasta el mirador de Montouto con casi 9 quilómetros de recorrido.
+        El actor y la actriz harán varias paradas en las que realizarán parte de este acontecimento histórico. Estas rutas dramatizadas se
+        realizarán los sábados de julio y agosto por la mañana y los domingos de septiembre también en horario de mañana.</string>
     <string name="formularioBatalla">Acceso al formulario de inscripción</string>
 
-    <string name="tituloGastronomicas">Fiestas gastronómicas</string>
-    <string name="tituloPolo">Fiesta del pollo picantón</string>
-    <string name="lugarPolo">Lugar: Rarís</string>
-    <string name="dataPolo">Fecha: Mayo</string>
-    <string name="descricionPolo">Todos los asistentes de esta fiesta gastronómica podrán degustar un delicioso menú compuesto de picantón, pan, café y queimada. Durante la jornada también habrá pulpo y churrasco para tomar. Contará con animación musical.</string>
+    <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
+    <string name="tituloTextoSanMartiño">¿Por qué se debería declarar el San Martiño como fiesta de interés turístico?</string>
+    <string name="infoSanMartiño">Una elemental justificación: la  equivalencia de la  fiesta y feria. \n \nLas ferias siempre presentaron una doble dimensión, la de lugares
+        de intercambio económico y de fiesta. La dicotomía está presente en la doble acepción de feria, que por un lado significa “mercado periódico” y por otro “fiestas
+        que se celebran con tal ocasión”.En los últimos tiempos las ferias tradicionales de Galicia adquirieron la dimensión de fiesta sobre la de feria debido a los cambios
+        socio-económicos del siglo  XX. \nEn cuanto a las cuestiones que dotan de gran interés a la feria de San Martiño tenemos:
+	\n-Su dimensión de ocio festivo, acreditado por testimonios escritos del siglo  XIX.
+	\n-La dimensión de compra-venta de ganado u otros productos del campo.</string>
+    <string name="tituloTextoSanMartiño2">Valor patrimonial da feira de San Martiño</string>
+    <string name="infoSanMartiño2">En la feria de San Martiño,  adaptaronse varios componentes el presente sin romper el enlace que tradición del pasado.
+        El visitante puede contemplar la venta de productos de la erra, de ganado equino, mayoritariamente “del país”, y de alimentos como el pulpo a feria al lado
+        de muestras de maquinaria agrícola de última generación, o puestos donde subsaharianos, gitanos o gente de origen diversa ofrece objetos propios del
+        ámbito urbano-industrial. El lugar donde se desarrolla la feria fue urbanizado  respetando los elementos heredados del pasado, como es la vieja capilla
+        dedicada al Espíritu Santo.</string>
+    <string name="tituloTextoSanMartiño3">La importancia de este bien cultural en relación con el turismo</string>
+    <string name="infoSanMartiño3">La feria ofrece la posibilidad de participar y conocer los estilos de vida tradicionales y locales en una fecha emblemática del año,
+        documentada en Francos por lo menos desde el siglo  XVI, el día 11 de noviembre, que coincide con la conmemoración de un santo, San Martiño de  Tours, con culto
+        en Galicia desde el siglo VI, es decir, hace casi 1500 años.\n
+	Una cuestión importante y que la  carballeira y el lugar de Francos están en el llamado camino portugués de Tui a Compostela, por lo que pasan miles de peregrinos
+        todos los años.\n
+	Cabe mencionar que la muy poca distancia se yergue el llamado Castro  Lupario, recinto arqueológico de época galaico-romana que la tradición popular asoció a la
+        Raiña Lupa.</string>
 
-    <string name="tituloNadal">Navidad</string>
-    <string name="tituloMercados">Mercados</string>
-
-    <string name="tituloSardina">San Juán</string>
-    <string name="lugarSardina">Lugar: Calo</string>
-    <string name="dataSardina">Fecha: Julio</string>
-    <string name="descricionSardina">Sardinada gratuita con tirada de fuegos artificiales. Se procederá a la quema de la cabra vieja que dará paso a animación musical.</string>
-
-    <string name="tituloCabalos">San Martiño de Francos</string>
-    <string name="lugarCabalos">Lugar: Carballeira de Francos</string>
-    <string name="dataCabalos">Fecha: Noviembre</string>
-    <string name="descricionCabalos">Feria cabalar de San Martiño que se celebra en la Carballeira de Francos, en la parroquia de Calo. Habrá actividades para el público familiar, juegos en familia, animación circense y animaciones musicales.</string>
-
-    <string name="tituloXamon">Fiesta del jamón al bagazo</string>
-    <string name="lugarXamon">Lugar: Campo de la fiesta de Reis</string>
-    <string name="dataXamon">Fecha: Septiembre</string>
-    <string name="descricionXamon">Los vecinos de Reis, en el municipio de Teo, celebrarán una nueva edición de la Festa do Xamón ó Bagazo. Durante la jornada todos los asistentes podrán disfrutar de un menú en el que el plato estrella será el jamón al bagazo.</string>
-
-    <string name="tituloConcertos">Conciertos de la Banda de Teo</string>
-    <string name="bamondeConcertos">Bamonde</string>
-    <string name="fechaBamondeConcertos">Domingo 24 de Abril</string>
-    <string name="luciConcertos">Lucí</string>
-    <string name="fechaLuciConcertos">Sábado 23 de Julio</string>
-    <string name="concertoNadalConcertos">Concierto de Navidad</string>
-    <string name="fechaConcertosConcertos">Domingo 26 de Diciembre</string>
-    <string name="LugarConcertosConcertos">Auditorio Municipal Constante Liste</string>
-
-    <string name="localizacionMercado">Localización</string>
-    <string name="sitioMercado">Plaza Circular de los Tilos</string>
-    <string name="dataMercado">Fecha</string>
-    <string name="fechaMercado">Diciembre</string>
-    <string name="tituloInfoMercado">Info práctica</string>
-    <string name="informacionMercado">Una buena oportunidad para comprar los últimos regalos antes de las fiestas. Habrá puestos de artesanía, vino y sidra de la Comarca del Ulla, productos de panadería, floristería, librerías y mercado labriego. Y para animar la jornada habrá talleres para los niños y carrusel ademas de una cantina.</string>
-
-    <string name="tituloNegritaObradoiros">Talleres</string>
-    <string name="tituloObradoiros">Talleres de adornos</string>
-    <string name="dataObradoiro">Fecha: Diciembre</string>
-    <string name="lugarObradoiro">Lugar: Escuela de Ameneiro, Calo</string>
-    <string name="informacionObradoiro">Los talleres serán impartidos por un profesional. Los materiales serán facilitados por el ayuntamiento y despues del taller podrán llevarse algún adorno para colocar en su árbol o en alguno de los árboles que están ya instalados por todo Teo</string>
-
-    <string name="tituloDoces">Taller de dulces de invierno</string>
-    <string name="dataDoces">Fecha: Enero</string>
-    <string name="lugarDoces">Lugar: Casa Común de Rarís</string>
-    <string name="informacionDoces">Elaboración y decoración de postres de invierno fáciles</string>
-
-    <string name="tituloDocesNadal">Taller de dulces de Navidad</string>
-    <string name="dataDocesNadal">Fecha: Diciembre</string>
-    <string name="lugarDocesNadal">Lugar: Casa Común de Rarís</string>
-    <string name="informacionDocesNadal">Elaboración y decoración de postres de Navidad</string>
-
-    <string name="tituloEntroido">Entroido</string>
+    <string name="tituloEntroido">Entroido \nXenerais da Ulla</string>
     <string name="dataEntroido">Fecha</string>
     <string name="dataEntroido1">Marzo</string>
     <string name="lugarEntroido">Lugar</string>
@@ -113,6 +86,7 @@
     <string name="alala">Alalá Couture</string>
     <string name="xeroca">Xeroca</string>
     <string name="cuchillosVillar">Cuchillos villar</string>
+
 
 
     <string name="xoiariaCreativa">Joyería creativa</string>
@@ -280,17 +254,19 @@
     <string name="desnivelRuta7">⇑ 165m</string>
     <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255,\n-8.620623485937024</string>
     <string name="textoRuta7">Ruta de senderismo que parte de la Rúa de Francos (Calo) y recorre unos 8 kilómetros en los alrededores. \n \nEsta ruta recorre el viejo trazado de la línea ferroviaria más antigua de Galicia (Cornes – Carril), situado entre las aldeas de Vilar de Abaixo (Teo) e Angueira de Suso (Padrón). Trazado que tras la apertura del nuevo trazado del AVE en 2007 se encuentra en desuso y abandono.
-            \n \nUna andadura circular, que empieza y termina al pie del cruceiro gótico de Francos, y que tiene como principales puntos de interés los conjuntos tradicionales de las aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, el santuario y la carballeira de San Bieito de Bascuas, las pontellas y riberas fluviales de los pequeños ríos de la parroquia de Santa María de Cruces; así como recorrer los 133 metros del antigo túnel del Faramello, una de las grandes obras de ingeniería del primitivo camino de hierro gallego.</string>
+            \n \nUna andadura circular, que empieza y termina al pie del <b>cruceiro gótico de Francos</b>, y que tiene como principales puntos de interés los conjuntos tradicionales de las aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, el santuario y la carballeira de San Bieito de Bascuas, las pontellas y riberas fluviales de los pequeños ríos de la parroquia de Santa María de Cruces; así como recorrer los 133 metros del antigo <b>túnel del Faramello</b>, una de las grandes obras de ingeniería del primitivo camino de hierro gallego.
+            \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
     <string name="numero8">8</string>
     <string name="rutaApegoPontevea">Ruta Apego Pontevea Burga de Xermeade</string>
     <string name="kmRuta8">0.76 km</string>
     <string name="desnivelRuta8">⇑ 1m</string>
     <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866,\n-8.548239358912666</string>
-    <string name="textoRuta8">Ruta Apego muy adecuada para realizar en familia a las orillas del río Ulla y con llegada a la Burga de Xermeade.
+    <string name="textoRuta8">Ruta Apego muy adecuada para realizar en familia a las orillas del río Ulla y con llegada a la <b>Burga de Xermeade</b>.
                 \n \nEntre el núcleo de Pontevea y la Burga de Xermeade discurre esta corta ruta lineal Apego al lado del río Ulla, declarada zona Red Natura 2000 por su singular biodiversidad. Se trata de un bosque de río en buen estado de conservación que alberga todo un ecosistema fluvial, con ínsulas formadas de manera natural y que finaliza en la Burga de Xermeade, espacio muy singular por la presencia de aguas sulfurosas.
                 \n \nLas rutas Apego están diseñadas para la facilidad de familias con niños y personas con movilidad reducida. En este caso la ruta está dinamizada con postes de señales que contienen audioguías con información sobre el río Ulla, especialmente pensada para os niños. No dejéis de escucharlas!
-                \n \nPara poner en valor esta diversidad natural del espacio existen unos materiales para enriquecer y acompañar la visita, se trata de unos materiales imprimibles con un juego de busca llamado Ollo ao piollo! que se encuentran en dos niveles de dificultad: para infantes y para adultos. Imprime el tuyo y verás como cambia la experiencia!</string>
+                \n \nPara poner en valor esta diversidad natural del espacio existen unos materiales para enriquecer y acompañar la visita, se trata de unos materiales imprimibles con un juego de busca llamado Ollo ao piollo! que se encuentran en dos niveles de dificultad: para infantes y para adultos. Imprime el tuyo y verás como cambia la experiencia!
+                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
 
     <string name="numero9">9</string>
@@ -298,10 +274,11 @@
     <string name="kmRuta9">2.84 km</string>
     <string name="desnivelRuta9">⇑ 24m</string>
     <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745,\n-8.554853748127957</string>
-    <string name="textoRuta9">Ruta que recorre las orillas del río Ulla desde el área Recreativa del Xirimbao hasta el Puente Medieval de Pontevea.
+    <string name="textoRuta9">Ruta que recorre las orillas del río Ulla desde el <b>área Recreativa del Xirimbao</b> hasta el <b>Puente Medieval de Pontevea</b>.
                 \n \nEsta ruta, que recorre un tradicional camino de pescadores, va desde el área Recreativa del Xirimbao hasta el Puente Medieval de Pontevea, todo eso al lado del río Ulla. Se trata de una ruta lineal que también se puede hacer en el sentido contrario, con salida desde el núcleo de Pontevea. Toda la ruta se encuentra en el área de protección Red Natura 2000 reconocida por la Unión Europea dada su genuina biodiversidad.
                 \n \nEl principal atractivo de esta ruta es la comunidad ecológica que determina la presencia del río Ulla: un bosque de río bien conservado que da cobijo a especies muy emblemáticas como la nutria. También destaca la presencia de pesquerías, en la zona próxima al  Xirimbao, que son construcciones tradicionales para la pesca de la lamprea.
-                \n \nEsta ruta se puede continuar con la Ruta Apego a la Burga de Xermeade y con la ruta que va hasta Agromaior para aquellas personas que quieran un mayor recorrido!</string>
+                \n \nEsta ruta se puede continuar con la Ruta Apego a la Burga de Xermeade y con la ruta que va hasta Agromaior para aquellas personas que quieran un mayor recorrido!
+                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
     <string name="numero10">10</string>
     <string name="rutaPetroglifo">Ruta PR-G 238. Ruta dos Petróglifos de Teo</string>

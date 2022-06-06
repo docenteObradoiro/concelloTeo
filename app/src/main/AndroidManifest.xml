@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cursokotlin.concelloteo">
+    package="com.cursokotlin.concelloteo" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -11,14 +11,17 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logosenletra"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ConcelloTeo">
+        android:theme="@style/Theme.ConcelloTeo" >
+        <activity
+            android:name=".actividades.sanmartino"
+            android:exported="false" />
         <activity
             android:name=".Contacto"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,6 +31,10 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuPrincipal"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -88,9 +95,7 @@
             android:exported="false" />
         <activity
             android:name=".artesania.SpaciobInteriorismo"
-            android:exported="false" />
-
-        <!-- <activity -->
+            android:exported="false" /> <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!-- android:exported="false" /> -->
         <activity

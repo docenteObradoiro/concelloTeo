@@ -2,33 +2,29 @@ package com.cursokotlin.concelloteo.actividades
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
-class batalla : AppCompatActivity() {
+class sanmartino : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_batalla)
+        setContentView(R.layout.activity_sanmartino)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo5)
+
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeo8)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
 
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa4)
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa8)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
-        }
-
-        val formulario = findViewById<ImageButton>(R.id.botonformulario)
-        formulario.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/actividades/1/visitas-teatralizadas-batalla-de-cacheiras/inscricion")))
         }
 
         val facebook = findViewById<ImageButton>(R.id.facebook)
@@ -50,8 +46,6 @@ class batalla : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-
-
 
     }
 }
