@@ -34,6 +34,10 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".MenuPrincipal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".actividades.mapaVilarino"
             android:exported="false" />
         <activity

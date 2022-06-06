@@ -10,6 +10,10 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_burga_xermeade
+import com.cursokotlin.concelloteo.patrimonio.informacion_cruceiro_gotico_francos
+import com.cursokotlin.concelloteo.patrimonio.informacion_ponte_medieval_pontevea
+import com.cursokotlin.concelloteo.patrimonio.informacion_tunel_faramello
 
 class Ruta8 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +29,18 @@ class Ruta8 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioPontePontevea=findViewById<ImageButton>(R.id.botonPatrimonioPontePontevea)
+        botonPatrimonioPontePontevea.setOnClickListener {
+            val acceder= Intent(this, informacion_ponte_medieval_pontevea::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioBurgaXermeade=findViewById<ImageButton>(R.id.botonPatrimonioBurgaXermeade)
+        botonPatrimonioBurgaXermeade.setOnClickListener {
+            val acceder= Intent(this, informacion_burga_xermeade::class.java)
             startActivity(acceder)
         }
 

@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="logoConcello">Logo concello</string>
+    <string name="menu_hamburguesa">menú hamburguesa</string>
+
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
@@ -241,18 +244,19 @@
     <string name="desnivelRuta7">⇑ 165m</string>
     <string name="coordenadaRuta7">Coordenadas GPS: \n42.814312186368255,\n-8.620623485937024</string>
     <string name="textoRuta7">Ruta de sendeirismo que parte da Rúa de Francos (Calo) e percorre uns 8 quilómetros na contorna. \n \nEsta ruta percorre o vello treito da liña ferroviaria máis antiga de Galicia (Cornes – Carril), situado entre as aldeas de Vilar de Abaixo (Teo) e Angueira de Suso (Padrón). Treito que logo da apertura do novo trazado do AVE en 2007 fica en desuso e abandono.
-            \n \nUnha andaina circular, que comeza e remata ao pé do cruceiro gótico de Francos, e que ten como principais puntos de interese os conxuntos tradicionais das aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, o santuario e carballeira de San Bieito de Bascuas, as pontellas e ribeiras fluviais dos pequenos regatos da parroquia de Santa María de Cruces; así como percorrer os 133 metros do antigo túnel do Faramello, unha das grandes obras de enxeñaría do primitivo camiño de ferro galego.</string>
+        \n \nUnha andaina circular, que comeza e remata ao pé do <b>cruceiro gótico de Francos</b>, e que ten como principais puntos de interese os conxuntos tradicionais das aldeas de Rúa de Francos, Vilar de Arriba, Bascuas e Vilar do Medio, o santuario e carballeira de San Bieito de Bascuas, as pontellas e ribeiras fluviais dos pequenos regatos da parroquia de Santa María de Cruces; así como percorrer os 133 metros do antigo <b>túnel do Faramello</b>, unha das grandes obras de enxeñaría do primitivo camiño de ferro galego.
+        \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero8">8</string>
     <string name="rutaApegoPontevea">Ruta Apego Pontevea Burga de Xermeade</string>
     <string name="kmRuta8">0.76 km</string>
     <string name="desnivelRuta8">⇑ 1m</string>
     <string name="coordenadasRuta8">Coordenadas GPS: \n42.759511970850866,\n-8.548239358912666</string>
-    <string name="textoRuta8">Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á Burga de Xermeade.
+    <string name="textoRuta8">Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á <b>Burga de Xermeade</b>.
                 \n \nEntre o núcleo de Pontevea e a Burga de Xermeade discorre esta curtiña ruta lineal Apego á beira do río Ulla, declarada zona Rede Natura 2000 pola súa singular biodiversidade. Trátase dun bosque de río en bo estado de conservación que alberga todo un ecosistema fluvial, con insuas formadas de xeito natural e que remata na Burga de Xermeade, espazo moi singular pola presenza de augas sulfurosas.
                 \n \nAs rutas Apego están deseñadas para a facilidade de familias con crianzas e persoas con mobilidade reducida. Neste caso a ruta está dinamizada con postes de sinaléctica que conteñen audioguías con información sobre o río Ulla, especialmente pensada para a cativada. Non deixedes de escoitalas!
-                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!</string>
-
+                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero9">9</string>
@@ -260,10 +264,11 @@
     <string name="kmRuta9">2.84 km</string>
     <string name="desnivelRuta9">⇑ 24m</string>
     <string name="coordenadaRuta9">Coordenadas GPS: \n42.747744749137745,\n-8.554853748127957</string>
-    <string name="textoRuta9">Ruta que percorre as beiras do río Ulla desde a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea.
+    <string name="textoRuta9">Ruta que percorre as beiras do río Ulla desde a <b>Área Recreativa do Xirimbao</b> ata a <b>Ponte Medieval de Pontevea</b>.
                 \n \nEsta ruta, que percorre un tradicional camiño de pescadoras, vai dende a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea, todo iso á beira do río Ulla. Trátase dunha ruta lineal que tamén se pode facer no sentido contrario, con saída dende o núcleo de Pontevea. Toda a ruta atópase na área de protección Rede Natura 2000 recoñecida pola Unión Europea dada a súa xenuína biodiversidade.
                 \n \nO principal atractivo desta ruta é a comunidade ecolóxica que determina a presenza do río Ulla: un bosque de río ben conservado que dá acubillo a especies moi emblemáticas como a lontra. Tamén destaca a presenza de pesqueiras, na zona próxima ao Xirimbao, que son construcións tradicionais para a pesca da lamprea.
-                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!</string>
+                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero10">10</string>
     <string name="rutaPetroglifo">Ruta PR-G 238. Ruta dos Petróglifos de Teo</string>
@@ -274,7 +279,8 @@
                 \n \nPartindo da Capela dos Milagres de Cornide, o percorrido desta ruta adéntrase nun espazo físico de pequenos outeiros graníticos e lenes chairas á beira do río Angureia, ocupadas por gran cantidade de restos arqueolóxicos.
                 \n \nEste sitio arqueolóxico representa unha das áreas de maior importancia en Galicia, e sen igual na Comarca de Compostela, pola gran densidade de xacementos de mámoas e petróglifos existentes e polas características dalgúns deses gravados.
                 \n \nSon moi relevantes os petróglifos de Río Angueira ou de Monte de Cornide, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do Corno I, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de Pedra Bicuda de Loureiro que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
-                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.</string>
+                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.
+                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
     <string name="numero11">11</string>
     <string name="rutaCamiñoSantiago">Ruta Camiño de Santiago Portugués (tramo teense)</string>
@@ -284,7 +290,8 @@
                 \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
                 \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
                 \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
-                \n \nA ruta atópase sinalizada e conta con sinais interpretativos.</string>
+                \n \nA ruta atópase sinalizada e conta con sinais interpretativos.
+                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
 
     <string name="numero12">12</string>
@@ -296,7 +303,8 @@
                 \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de San Simón de Cacheiras.
                 \n \nOs documentos do s. XVII ao s. XX testemuñan con posterioridade o paso dos arrieiros polos sitios do Cruceiro (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
                 \n \nUn camiño histórico que atravesa aldeas tradicionais ben conservadas (A Pedra, O Sisto, Pedrouso) e espazos naturais de grande beleza como a fraga de Sestelo. A ruta transcorre a rentes de numerosos bens culturais e etnolóxicos.
-                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.</string>
+                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.
+                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
 
 
 
