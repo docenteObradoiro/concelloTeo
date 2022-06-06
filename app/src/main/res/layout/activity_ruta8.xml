@@ -93,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="-15dp"
                     android:fontFamily="sans-serif-black"
                     android:text="@string/numero8"
                     android:textColor="#402D652F"
@@ -104,7 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="-15dp"
+                    android:layout_marginTop="-42dp"
                     android:text="@string/rutaApegoPontevea"
                     android:textColor="#415419"
                     android:textSize="20sp" />
@@ -114,7 +114,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-5dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -336,12 +336,43 @@
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/botonPatrimonioPontePontevea"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="Ponte medieval de Pontevea"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/pontemedievalpontevea" />
+
+                    <ImageButton
+                        android:id="@+id/botonPatrimonioBurgaXermeade"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="Burga de Xermeade"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/burgaxermeade" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="40dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
