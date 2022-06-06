@@ -6,13 +6,18 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     tools:context=".artesania.BrigantiaOrfebres">
+
     <ImageButton
         android:id="@+id/logoTeo"
-        android:layout_width="85dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="10dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="@string/app_name"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/logoConcello"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,17 +25,20 @@
 
     <ImageButton
         android:id="@+id/hamburguesa"
-        android:layout_width="48dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/menu_hamburguesa"
         android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hamburguesa" />
+        app:srcCompat="@drawable/hamburguesa"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ScrollView
         android:id="@+id/scrollView2"

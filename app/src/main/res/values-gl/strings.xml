@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="logoConcello">Logo concello</string>
+    <string name="menu_hamburguesa">menú hamburguesa</string>
+
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
