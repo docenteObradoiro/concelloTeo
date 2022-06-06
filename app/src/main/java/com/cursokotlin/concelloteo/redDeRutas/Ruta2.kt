@@ -9,6 +9,9 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_cruceiro_gotico_francos
+import com.cursokotlin.concelloteo.patrimonio.informacion_marco_medieval_porto
+import com.cursokotlin.concelloteo.patrimonio.informacion_miradoiro_pena_agrela
 
 class Ruta2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +34,19 @@ class Ruta2 : AppCompatActivity() {
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-con-cochecito/ruta-apego-cruceiro-de-francos-ponte-paradela-61213873")))
         }
+
+        val botonPatrimonioCruceiroFrancos = findViewById<ImageButton>(R.id.botonPatrimonioCruceiroFrancos)
+        botonPatrimonioCruceiroFrancos.setOnClickListener {
+            val acceder = Intent(this, informacion_cruceiro_gotico_francos::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPonteParadela = findViewById<ImageButton>(R.id.botonPonteParadela)
+        botonPonteParadela.setOnClickListener {
+            val acceder = Intent(this, informacion_miradoiro_pena_agrela::class.java)
+            startActivity(acceder)
+        }
+
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf")))

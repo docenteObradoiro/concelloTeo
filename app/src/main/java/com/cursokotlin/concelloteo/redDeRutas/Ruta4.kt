@@ -10,6 +10,8 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.igrexaDeSantaMariaDeLuou
+import com.cursokotlin.concelloteo.patrimonio.informacion_marco_medieval_porto
 
 class Ruta4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +25,12 @@ class Ruta4 : AppCompatActivity() {
         val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
+
+        val botonIgrexaDeSantaMariaDeLuou = findViewById<ImageButton>(R.id.botonIgrexaDeSantaMariaDeLuou)
+        botonIgrexaDeSantaMariaDeLuou.setOnClickListener {
+            val acceder = Intent(this, igrexaDeSantaMariaDeLuou::class.java)
             startActivity(acceder)
         }
 

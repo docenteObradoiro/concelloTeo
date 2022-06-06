@@ -65,6 +65,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,6 +83,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"/>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -92,6 +94,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-15dp"
                     android:fontFamily="sans-serif-black"
                     android:text="@string/numero1"
                     android:textColor="#402D652F"
@@ -102,6 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-20dp"
                     android:text="@string/rutaPerCaminho"
                     android:textColor="#415419"
                     android:textSize="20sp" />
@@ -112,6 +116,7 @@
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
+                android:layout_marginTop="-5dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -272,12 +277,43 @@
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/botonPatrimonioMarcoPorto"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="Marco porto"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/marcomedievalporto" />
+
+                    <ImageButton
+                        android:id="@+id/botonMiradoiroPenaAgrela"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="Miradoiro Pena Agrela"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/miradoiropenaagrela" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="40dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
