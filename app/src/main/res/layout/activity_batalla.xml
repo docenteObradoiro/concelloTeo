@@ -58,7 +58,7 @@
                 android:background="#F9FBF9"
                 android:paddingTop="15dp"
                 android:text="@string/tituloBatalla"
-                android:textColor="#80415419"
+                android:textColor="#415419"
                 android:textSize="24sp" />
 
             <ImageView
@@ -164,18 +164,16 @@
                 android:translationY="-32dp" />
 
             <ImageView
-                android:id="@+id/barra2"
-                android:layout_width="348dp"
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="0dp"
                 android:foregroundTint="#2DFFFFFF"
-                android:translationX="10dp"
-                android:translationY="-55dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
             <RelativeLayout
-                android:layout_width="363dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
@@ -218,8 +216,8 @@
                     android:layout_width="55dp"
                     android:layout_height="50dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -247,7 +245,6 @@
 
 
             </RelativeLayout>
-
         </LinearLayout>
     </ScrollView>
 
