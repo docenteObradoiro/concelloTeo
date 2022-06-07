@@ -8,7 +8,7 @@
     tools:context=".redDeRutas.PaxinaPrincipalRedeDeRutas">
 
     <ImageButton
-        android:id="@+id/botonTeo"
+        android:id="@+id/botonTeoMapa"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
@@ -40,9 +40,9 @@
     <TextView
         android:id="@+id/redeRutas"
         android:layout_width="280dp"
-        android:layout_height="87dp"
+        android:layout_height="97dp"
         android:layout_gravity="center"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="62dp"
         android:gravity="center"
         android:text="@string/redeRutas"
         android:textColor="#7F4B5A2B"
@@ -52,26 +52,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/botonTeo2"
-        android:layout_width="100dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="-20dp"
-        android:background="@drawable/selector"
-        android:contentDescription="logoTeo2"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/redeRutas"
-        app:srcCompat="@drawable/logorutas" />
+
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="20dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -82,11 +70,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/botonTeo2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector"
+                android:contentDescription="logoTeo2"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/redeRutas"
+                app:srcCompat="@drawable/logorutas" />
 
             <ImageButton
                 android:id="@+id/boton1"
@@ -216,7 +218,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="287dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="40dp"
                 android:background="#00FFFFFF"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
@@ -228,7 +230,7 @@
                 android:layout_width="348dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="0dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 

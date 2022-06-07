@@ -66,17 +66,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/logoRedeRutas"
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="120dp"
-            android:backgroundTint="#00FFFFFF"
-            android:contentDescription="logo rede de rutas"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/logorutas"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:theme="@android:style/ThemeOverlay.Material.Dark"/>
+            <ImageButton
+                android:id="@+id/logoRedeRutas"
+                android:layout_width="100dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="120dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logo rede de rutas"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/logorutas" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -88,6 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
                 android:fontFamily="sans-serif-black"
                 android:text="@string/numero3"
                 android:textColor="#402D652F"
@@ -98,6 +99,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-20dp"
                     android:text="@string/rutaBatalla"
                     android:textColor="#415419"
                     android:textSize="20sp" />
@@ -108,6 +110,7 @@
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
+                android:layout_marginTop="-5dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -295,12 +298,55 @@
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/botonCasaReitoralDeBamonde"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-10dp"
+                        android:contentDescription="Casa Reitoral de Bamonde"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/casareitoraldebamonde" />
+
+                    <ImageButton
+                        android:id="@+id/botonErmidaCruceiroDeSantaEufemia"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Ermida e Cruceiro de Santa Eufemia"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/ermidaecruceirodesantaeufemia" />
+
+                    <ImageButton
+                        android:id="@+id/botonMiradoiroCumioDeMontoutoPenaEscorredia"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Miradoiro do Cumio de Montouto e Pena Escorredía "
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@drawable/miradoirocumio" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="40dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -309,6 +355,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
+
 
 
                 <ImageButton

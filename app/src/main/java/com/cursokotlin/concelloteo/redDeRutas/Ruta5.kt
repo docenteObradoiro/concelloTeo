@@ -9,6 +9,9 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_marco_medieval_porto
+import com.cursokotlin.concelloteo.patrimonio.petroglifoDoOuteiroDoCorno
+import com.cursokotlin.concelloteo.patrimonio.petroglifoDoRioAngueiraOuDoMonteDeCornide
 
 class Ruta5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +34,20 @@ class Ruta5 : AppCompatActivity() {
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/a-beira-do-angueira-59352433")))
         }
+
+        val botonPetroglifoDoRioAngueiraOuDoMonteDeCornide = findViewById<ImageButton>(R.id.botonPetroglifoDoRioAngueiraOuDoMonteDeCornide)
+        botonPetroglifoDoRioAngueiraOuDoMonteDeCornide.setOnClickListener {
+            val acceder = Intent(this, petroglifoDoRioAngueiraOuDoMonteDeCornide::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPetroglifoDoOuteiroDoCorno = findViewById<ImageButton>(R.id.botonPetroglifoDoOuteiroDoCorno)
+        botonPetroglifoDoOuteiroDoCorno.setOnClickListener {
+            val acceder = Intent(this, petroglifoDoOuteiroDoCorno::class.java)
+            startActivity(acceder)
+        }
+
+
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf")))

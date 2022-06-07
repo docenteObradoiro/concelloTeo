@@ -9,6 +9,8 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_marco_medieval_porto
+import com.cursokotlin.concelloteo.patrimonio.informacion_miradoiro_pena_agrela
 
 class Ruta1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +33,19 @@ class Ruta1 : AppCompatActivity() {
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-per-caminho-de-lampai-59347232")))
         }
+
+        val botonPatrimonioMarcoPorto = findViewById<ImageButton>(R.id.botonPatrimonioMarcoPorto)
+        botonPatrimonioMarcoPorto.setOnClickListener {
+            val acceder = Intent(this, informacion_marco_medieval_porto::class.java)
+            startActivity(acceder)
+        }
+
+        val botonMiradoiroPenaAgrela = findViewById<ImageButton>(R.id.botonMiradoiroPenaAgrela)
+        botonMiradoiroPenaAgrela.setOnClickListener {
+            val acceder = Intent(this, informacion_miradoiro_pena_agrela::class.java)
+            startActivity(acceder)
+        }
+
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf")))

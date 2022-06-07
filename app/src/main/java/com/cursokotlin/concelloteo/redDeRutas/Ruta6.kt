@@ -9,6 +9,10 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.igrexaDeSantaMariaDeTeo
+import com.cursokotlin.concelloteo.patrimonio.informacion_burga_xermeade
+import com.cursokotlin.concelloteo.patrimonio.informacion_devesa_agromaior
+import com.cursokotlin.concelloteo.patrimonio.informacion_marco_medieval_porto
 
 class Ruta6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +34,21 @@ class Ruta6 : AppCompatActivity() {
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/de-teo-a-burga-de-xermeade-pasando-pola-devesa-de-agromaior-59349819")))
+        }
+        val botonIgrexaDeSantaMariaDeTeo = findViewById<ImageButton>(R.id.botonIgrexaDeSantaMariaDeTeo)
+        botonIgrexaDeSantaMariaDeTeo.setOnClickListener {
+            val acceder = Intent(this, igrexaDeSantaMariaDeTeo::class.java)
+            startActivity(acceder)
+        }
+        val botonDevesaDeAgromaior = findViewById<ImageButton>(R.id.botonDevesaDeAgromaior)
+        botonDevesaDeAgromaior.setOnClickListener {
+            val acceder = Intent(this, informacion_devesa_agromaior::class.java)
+            startActivity(acceder)
+        }
+        val botonBurgaDeXermeade = findViewById<ImageButton>(R.id.botonBurgaDeXermeade)
+        botonBurgaDeXermeade.setOnClickListener {
+            val acceder = Intent(this, informacion_burga_xermeade::class.java)
+            startActivity(acceder)
         }
 
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)

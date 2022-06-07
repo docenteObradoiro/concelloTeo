@@ -14,7 +14,7 @@ class SpaciobInteriorismo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spaciob_interiorismo)
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val linkedinBoton = findViewById<ImageButton>(R.id.linkedinBoton)
@@ -36,7 +36,8 @@ class SpaciobInteriorismo : AppCompatActivity() {
             intent.setData(Uri.parse(phone));
             startActivity(intent);
         }
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.spaciob.com/")))
         }
         fbBoton.setOnClickListener {

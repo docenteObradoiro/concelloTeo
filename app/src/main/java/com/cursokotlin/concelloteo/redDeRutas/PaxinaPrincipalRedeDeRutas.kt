@@ -14,7 +14,7 @@ class PaxinaPrincipalRedeDeRutas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_paxina_principal_rede_de_rutas)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeoMapa)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
