@@ -73,6 +73,16 @@
                 android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
+            <Button
+                android:id="@+id/telefonomeco"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="telefonomeco"
+                android:translationX="40dp"
+                android:translationY="90dp" />
+
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
@@ -80,28 +90,69 @@
                 android:layout_marginTop="-40dp"
                 app:srcCompat="@mipmap/paintball" />
 
+            <Button
+                android:id="@+id/telefonopadel"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:contentDescription="telefonopadel"
+                android:translationX="40dp"
+                android:translationY="110dp" />
+
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:translationY="-30dp"
                 app:srcCompat="@mipmap/padel" />
+
+            <Button
+                android:id="@+id/telefonopiscina"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:contentDescription="telefonopadel"
+                android:translationX="40dp"
+                android:translationY="70dp" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:translationY="-60dp"
                 app:srcCompat="@mipmap/beone" />
+
+            <Button
+                android:id="@+id/telefonogimnasio"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:contentDescription="telefonopadel"
+                android:translationX="40dp"
+                android:translationY="60dp" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:translationY="-90dp"
                 app:srcCompat="@mipmap/bodyproject" />
+
+            <Button
+                android:id="@+id/telefonocross"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:contentDescription="telefonopadel"
+                android:translationX="40dp"
+                android:translationY="30dp" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
+                android:layout_marginBottom="-90dp"
+                android:translationY="-120dp"
                 app:srcCompat="@mipmap/crossclass" />
 
             <RelativeLayout
