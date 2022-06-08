@@ -53,17 +53,18 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/texto2"
-                android:layout_width="332dp"
+                android:id="@+id/texto"
+                android:layout_width="367dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
                 android:paddingTop="15dp"
-                android:text="Areas recreativas"
+                android:text="@string/areasrecreativas"
                 android:textColor="#415419"
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/barra"
+                android:id="@+id/barra1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
@@ -72,48 +73,31 @@
                 android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
-            <ImageButton
-                android:id="@+id/botonactividades"
+            <ImageView
+                android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="270dp"
                 android:layout_marginTop="-40dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="actividadesDeportivas"
-                app:srcCompat="@mipmap/deportes" />
-
-            <ImageButton
-                android:id="@+id/botonpiscina"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="piscinas"
-                app:srcCompat="@mipmap/piscinas" />
-
-            <ImageButton
-                android:id="@+id/botonmercados"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="mercadillos"
-                app:srcCompat="@mipmap/mercados" />
-
-            <ImageButton
-                android:id="@+id/botonareas"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="areasrecreativas"
-                app:srcCompat="@mipmap/arearecreativa" />
+                app:srcCompat="@mipmap/aburga" />
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="362dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:foregroundTint="#2DFFFFFF"
-                app:srcCompat="@mipmap/lineaverder" />
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@mipmap/axirimbao" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@mipmap/amouromorto" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@mipmap/afixo" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -121,6 +105,15 @@
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="362dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:foregroundTint="#2DFFFFFF"
+                    app:srcCompat="@mipmap/lineaverder" />
 
                 <ImageButton
                     android:id="@+id/facebook"
@@ -188,6 +181,8 @@
 
 
             </RelativeLayout>
+
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

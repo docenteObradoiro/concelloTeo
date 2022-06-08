@@ -30,12 +30,12 @@ class areasrecreativas : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa5)
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa10)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeo10)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
