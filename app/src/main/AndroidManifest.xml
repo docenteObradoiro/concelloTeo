@@ -309,6 +309,10 @@
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false" />
+
+        <activity
+            android:name=".OndeComer"
+            android:exported="false"/>
     </application>
 
 </manifest>
