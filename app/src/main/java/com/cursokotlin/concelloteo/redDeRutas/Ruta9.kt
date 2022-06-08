@@ -9,6 +9,10 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.informacion_area_recreativa_xirimbao
+import com.cursokotlin.concelloteo.patrimonio.informacion_burga_xermeade
+import com.cursokotlin.concelloteo.patrimonio.informacion_ponte_colgante_xirimbao
+import com.cursokotlin.concelloteo.patrimonio.informacion_ponte_medieval_pontevea
 
 class Ruta9 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +28,23 @@ class Ruta9 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioPontePontevea=findViewById<ImageButton>(R.id.botonPatrimonioPontePontevea)
+        botonPatrimonioPontePontevea.setOnClickListener {
+            val acceder= Intent(this, informacion_ponte_medieval_pontevea::class.java)
+            startActivity(acceder)
+        }
+
+        val botonPatrimonioXirimbao=findViewById<ImageButton>(R.id.botonPatrimonioXirimbao)
+        botonPatrimonioXirimbao.setOnClickListener {
+            val acceder= Intent(this, informacion_area_recreativa_xirimbao::class.java)
+            startActivity(acceder)
+        }
+        val botonPatrimonioPonteXirimbao=findViewById<ImageButton>(R.id.botonPatrimonioPonteXirimbao)
+        botonPatrimonioPonteXirimbao.setOnClickListener {
+            val acceder= Intent(this, informacion_ponte_colgante_xirimbao::class.java)
             startActivity(acceder)
         }
 

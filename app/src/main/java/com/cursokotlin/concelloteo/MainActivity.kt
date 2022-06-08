@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa2)
         accesoMenu.setOnClickListener {
-            val acceder = Intent(this, Menu::class.java)
+            val acceder = Intent(this, MenuPrincipal::class.java)
             startActivity(acceder)
         }
 

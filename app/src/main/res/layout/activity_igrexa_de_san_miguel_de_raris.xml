@@ -83,8 +83,8 @@
                     android:layout_height="209dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
                     android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
                     app:srcCompat="@drawable/igrexaderaris" />
 
             </RelativeLayout>
@@ -126,7 +126,7 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="350dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="20dp"
