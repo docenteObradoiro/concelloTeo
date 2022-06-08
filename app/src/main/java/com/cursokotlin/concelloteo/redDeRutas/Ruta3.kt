@@ -9,6 +9,7 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.*
 
 class Ruta3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,25 @@ class Ruta3 : AppCompatActivity() {
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
         }
+
+        val botonCasaReitoralDeBamonde = findViewById<ImageButton>(R.id.botonCasaReitoralDeBamonde)
+        botonCasaReitoralDeBamonde.setOnClickListener {
+            val acceder = Intent(this, casaReitoralDeBamonde::class.java)
+            startActivity(acceder)
+        }
+
+        val botonErmidaCruceiroDeSantaEufemia = findViewById<ImageButton>(R.id.botonErmidaCruceiroDeSantaEufemia)
+        botonErmidaCruceiroDeSantaEufemia.setOnClickListener {
+            val acceder = Intent(this, ermidaCruceiroDeSantaEufemia::class.java)
+            startActivity(acceder)
+        }
+
+        val botonMiradoiroCumioDeMontoutoPenaEscorredia = findViewById<ImageButton>(R.id.botonMiradoiroCumioDeMontoutoPenaEscorredia)
+        botonMiradoiroCumioDeMontoutoPenaEscorredia.setOnClickListener {
+            val acceder = Intent(this, informacion_miradoiro_cumio::class.java)
+            startActivity(acceder)
+        }
+
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf")))

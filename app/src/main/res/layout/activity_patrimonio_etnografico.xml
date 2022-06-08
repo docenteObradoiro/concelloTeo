@@ -33,12 +33,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hamburguesa" />
 
+
+    <TextView
+        android:id="@+id/patrimonio"
+        android:layout_width="280dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="PATRIMONIO ETNOGRÁFICO"
+        android:textColor="#7F4B5A2B"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,18 +70,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/patrimonio"
-                android:layout_width="191dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="PATRIMONIO ETNOGRÁFICO"
-                android:textColor="#415419"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
 
             <ImageButton
@@ -77,18 +84,18 @@
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@drawable/cruceiro_de_tribaldes0" />
 
+
             <ImageButton
                 android:id="@+id/boton13"
                 android:layout_width="match_parent"
                 android:layout_height="287dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="burga_xermeade"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@drawable/burga_de_xermeade0" />
-
 
             <ImageButton
                 android:id="@+id/boton14"
@@ -274,10 +281,11 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="348dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 

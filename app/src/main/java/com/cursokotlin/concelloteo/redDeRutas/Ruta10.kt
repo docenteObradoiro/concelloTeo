@@ -9,6 +9,10 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.areaArqueoloxicaDoMontePiquinho
+import com.cursokotlin.concelloteo.patrimonio.petroglifoDaPenaBicudaDeLoureiro
+import com.cursokotlin.concelloteo.patrimonio.petroglifoDoOuteiroDoCorno
+import com.cursokotlin.concelloteo.patrimonio.petroglifoDoRioAngueiraOuDoMonteDeCornide
 
 class Ruta10 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +27,26 @@ class Ruta10 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        val patrimoniopetroglifoangueira= findViewById<ImageButton>(R.id.botonPatrimoniopetroglifoangueira)
+        patrimoniopetroglifoangueira.setOnClickListener {
+            val acceder = Intent(this, petroglifoDoRioAngueiraOuDoMonteDeCornide::class.java)
+            startActivity(acceder)
+        }
+        val patrimonioareaarqueologicamontepiquinho= findViewById<ImageButton>(R.id.botonPatrimonioMontePiquin)
+        patrimonioareaarqueologicamontepiquinho.setOnClickListener {
+            val acceder = Intent(this, areaArqueoloxicaDoMontePiquinho::class.java)
+            startActivity(acceder)
+        }
+        val patrimoniopetroglifopenabicuda= findViewById<ImageButton>(R.id.botonPatrimonioPetroglifoBicuda)
+        patrimoniopetroglifopenabicuda.setOnClickListener {
+            val acceder = Intent(this, petroglifoDaPenaBicudaDeLoureiro::class.java)
+            startActivity(acceder)
+        }
+        val patrimoniopetroglifoouteirodocorno= findViewById<ImageButton>(R.id.botonPatrimoniopetroglifodocorno)
+        patrimoniopetroglifoouteirodocorno.setOnClickListener {
+            val acceder = Intent(this, petroglifoDoOuteiroDoCorno::class.java)
             startActivity(acceder)
         }
         val boton = findViewById<Button>(R.id.wikiloc)
@@ -53,5 +77,6 @@ class Ruta10 : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
+
     }
 }

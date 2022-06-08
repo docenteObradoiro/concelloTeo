@@ -20,7 +20,7 @@ class PabloSeoane : AppCompatActivity() {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
 
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
@@ -35,7 +35,8 @@ class PabloSeoane : AppCompatActivity() {
             intent.setData(Uri.parse(phone));
             startActivity(intent);
         }
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ramallosamusical.com/pablo-seoane")))
         }
         fbBoton.setOnClickListener {

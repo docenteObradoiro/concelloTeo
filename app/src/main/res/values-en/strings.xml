@@ -2,6 +2,12 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="logoConcello">icon Councill</string>
+    <string name="menu_hamburguesa">hamburguer menu</string>
+
+    <string name="facebook">facebook</string>
+
+
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
@@ -124,7 +130,6 @@
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
-    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
 
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
@@ -138,7 +143,7 @@
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
     <string name="xerocaArtesan">Xesús Rodríguez</string>
-    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa \nCastiñeiro, s/n, local 2</string>
     <string name="xerocaTelefono">+34 616952580</string>
     <string name="xerocaCorreo"></string>
 
@@ -146,7 +151,7 @@
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
     <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
-    <string name="cuchillosVillarDescricion">ferreiro especializado na coitelaría tradicional</string>
+    <string name="cuchillosVillarDescricion">Coitelaría tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
@@ -158,7 +163,7 @@
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
     <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
-    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración de madeira,\ncoiro e ferro</string>
+    <string name="tresOficiosDescricion">Ebanistería, ferro e coiro</string>
 
 
     <string name="redeRutas">REDE DE RUTAS</string>
@@ -276,7 +281,8 @@
                 \n \nPartindo da Capela dos Milagres de Cornide, o percorrido desta ruta adéntrase nun espazo físico de pequenos outeiros graníticos e lenes chairas á beira do río Angureia, ocupadas por gran cantidade de restos arqueolóxicos.
                 \n \nEste sitio arqueolóxico representa unha das áreas de maior importancia en Galicia, e sen igual na Comarca de Compostela, pola gran densidade de xacementos de mámoas e petróglifos existentes e polas características dalgúns deses gravados.
                 \n \nSon moi relevantes os petróglifos de Río Angueira ou de Monte de Cornide, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do Corno I, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de Pedra Bicuda de Loureiro que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
-                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.</string>
+                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero11">11</string>
     <string name="rutaCamiñoSantiago">Ruta Camiño de Santiago Portugués (tramo teense)</string>
@@ -286,7 +292,8 @@
                 \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
                 \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
                 \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
-                \n \nA ruta atópase sinalizada e conta con sinais interpretativos.</string>
+                \n \nA ruta atópase sinalizada e conta con sinais interpretativos.
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero12">12</string>
@@ -298,8 +305,8 @@
                 \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de San Simón de Cacheiras.
                 \n \nOs documentos do s. XVII ao s. XX testemuñan con posterioridade o paso dos arrieiros polos sitios do Cruceiro (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
                 \n \nUn camiño histórico que atravesa aldeas tradicionais ben conservadas (A Pedra, O Sisto, Pedrouso) e espazos naturais de grande beleza como a fraga de Sestelo. A ruta transcorre a rentes de numerosos bens culturais e etnolóxicos.
-                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.</string>
-
+                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="areaarqueoloxicadomontepiquinhoTitulo">Necrópole megalítica formada por 33 mámoas situada en Loureiro, na parroquia de Luou.</string>
@@ -397,11 +404,7 @@
     <string name="informacionsistemafluvialulladezaDescripcion">O río Ulla nace na comarca da Ulloa e desemboca na ría de Arousa, percorrendo 130 km, dos cales unha parte atravesa a parte sur do Concello de Teo, fai ademais de fronteira natural entre Teo e A Estrada, nas provincias de A Coruña e Pontevedra respectivamente. \n  \n A Rede Natura é unha rede de espazos naturais protexidos a nivel da Unión Europea e que trata de protexer os hábitats naturais e a flora e fauna que os habita así como a biodiversidade a longo prazo. \n  \n O Sistema Fluvial Ulla–Deza, está recoñecido como Lugar de Importancia Comunitaria da Rede Natura 2000 desde o 2004, atravesa non só os municipios da provincia da Coruña (Touro, Boqueixón, Vedra, Teo, Ames, Brión, Rois, Padrón, Dodro e Rianxo), senón tamén os municipios da provincia de Pontevedra (Catoira, A Estrada, Pontecesures, Silleda, Valga e Vila de Cruces). \n  \n A singularidade radica no ecosistema que se establece nas marxes do río, con especies moi particulares de vexetación que albergan ou acubillan insectos, paxaros e tamén mamíferos moi adaptados a ese sistema de auga e de variación de caudal.\n  \n A beira do Ulla ao seu paso por Teo atravesa as parroquias de Teo e Reis e conta con rutas de sendeirismo ao longo da beira que permiten gozar deses hábitats obxecto da protección. Solicitamos ás persoas visitantes a máxima responsabilidade no cumprimento das normas de cada espazo.\n</string>
     <string name="informaciontunelfaramelloTitulo">O túnel do Faramello, hoxe en desuso, foi unha infraestrutura levada a cabo para dar paso ao primeiro ferrocarril do noso país.\n</string>
     <string name="informaciontunelfaramelloDescripcion">O 15 de Setembro do 1873 chegou á estación teense de Osebe, segundo relatan as crónicas, o “Compostelano”, o primeiro ferrocarril do noso país. Con inicio en Cormes, daquela no termo municipal de Conxo e fin de destino en Carril, unía a capital xacobea co mar a través do Val da Maía e situaba a Teo como un referente que marcou o devir histórico do noso concello. Foi a porta de saída de emigrantes e tamén de excedente agrícola.\n  \n Con 133 metros de longo este túnel, construído entre o 1870 e o 1872 está actualmente en desuso aínda que a carón da nova vía de tren de alta velocidade. Forma parte da Ruta do Túnel do Faramello, unha ruta circular con saída dende o Cruceiro de Francos que pretende dar a coñecer este anaco de historia do noso concello.\n</string>
-
+    <string name="ondecomer">DÓNDE COMER</string>
     <string name="actividadesdeportivas">Actividades deportivas</string>
     <string name="piscinas">Piscinas</string>
-    <string name="mercados">Mercados</string>
-    <string name="areasrecreativas">Áreas recreativas</string>
-    <string name="quefacer">Que hacer</string>
-
 </resources>

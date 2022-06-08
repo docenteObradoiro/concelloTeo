@@ -15,10 +15,11 @@ class AlalaCouture : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alala_couture)
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
 
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.alalacouture.com/")))
         }
         val logoTeo = findViewById<ImageButton>(R.id.logoTeo)
