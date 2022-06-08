@@ -87,14 +87,15 @@
                 android:layout_height="300dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="nadal"
+                android:src="@mipmap/quefcer"
                 android:translationX="-20dp" />
 
             <ImageView
                 android:id="@+id/barra2"
-                android:layout_width="348dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
