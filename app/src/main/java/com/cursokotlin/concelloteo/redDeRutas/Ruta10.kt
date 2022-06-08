@@ -34,7 +34,7 @@ class Ruta10 : AppCompatActivity() {
             val acceder = Intent(this, petroglifoDoRioAngueiraOuDoMonteDeCornide::class.java)
             startActivity(acceder)
         }
-        val patrimonioareaarqueologicamontepiquinho= findViewById<ImageButton>(R.id.botonAreaArqueoloxicaDoMontePiquinho)
+        val patrimonioareaarqueologicamontepiquinho= findViewById<ImageButton>(R.id.botonPatrimonioMontePiquin)
         patrimonioareaarqueologicamontepiquinho.setOnClickListener {
             val acceder = Intent(this, areaArqueoloxicaDoMontePiquinho::class.java)
             startActivity(acceder)
