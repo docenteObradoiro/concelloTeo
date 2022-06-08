@@ -5,6 +5,8 @@
     <string name="logoConcello">Logo concello</string>
     <string name="menu_hamburguesa">menú hamburguesa</string>
 
+    <string name="facebook">facebook</string>
+
 
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
@@ -134,7 +136,6 @@
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
-    <string name="oliXiraldezDescricion">Lutier de instrumentos musicales, nombradamente gaitas y flautas.</string>
 
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
@@ -149,7 +150,7 @@
 
 
     <string name="xerocaArtesan">Xesús Rodríguez</string>
-    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa \nCastiñeiro, s/n, local 2</string>
     <string name="xerocaTelefono">+34 616952580</string>
     <string name="xerocaCorreo"></string>
 
@@ -157,7 +158,7 @@
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
     <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
-    <string name="cuchillosVillarDescricion">Herrero especializado en la cuchilleria tradicional</string>
+    <string name="cuchillosVillarDescricion">Cuchilleria tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
@@ -169,7 +170,7 @@
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
     <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
-    <string name="tresOficiosDescricion">Ebanistería, diseño y restauración de madera, \ncuero y hierro</string>
+    <string name="tresOficiosDescricion">Ebanistería, hierro y cuero</string>
 
 
     <string name="redeRutas">RED DE RUTAS</string>
