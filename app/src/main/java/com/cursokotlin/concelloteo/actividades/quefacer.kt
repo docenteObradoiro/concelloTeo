@@ -2,36 +2,39 @@ package com.cursokotlin.concelloteo.actividades
 
 import android.content.Intent
 import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import androidx.appcompat.app.AppCompatActivity
-import com.cursokotlin.concelloteo.*
+import com.cursokotlin.concelloteo.MainActivity
+import com.cursokotlin.concelloteo.Menu
+import com.cursokotlin.concelloteo.R
 
-class actividades : AppCompatActivity() {
+class quefacer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_actividades)
+        setContentView(R.layout.activity_que_facer)
 
-        val boton5=findViewById<ImageButton>(R.id.boton5)
-        val boton6=findViewById<ImageButton>(R.id.boton6)
-        val boton7=findViewById<ImageButton>(R.id.boton7)
-        val boton8=findViewById<ImageButton>(R.id.boton8)
+        val botonactividades=findViewById<ImageButton>(R.id.botonactividades)
+        val botonpiscina=findViewById<ImageButton>(R.id.botonpiscina)
+        val botonmercados=findViewById<ImageButton>(R.id.botonmercados)
+        val botonareas=findViewById<ImageButton>(R.id.botonareas)
 
 
-        boton5.setOnClickListener {
-            val acceder = Intent(this, sanmartino::class.java)
+        botonactividades.setOnClickListener {
+            val acceder = Intent(this, actividadesdeportivas::class.java)
             startActivity(acceder)
         }
-        boton6.setOnClickListener {
-            val acceder = Intent(this, entroido::class.java)
+
+        botonpiscina.setOnClickListener {
+            val acceder = Intent(this, piscinas::class.java)
             startActivity(acceder)
         }
-        boton7.setOnClickListener {
-            val acceder = Intent(this, batalla::class.java)
+        botonmercados.setOnClickListener {
+            val acceder = Intent(this, mercados::class.java)
             startActivity(acceder)
         }
-        boton8.setOnClickListener {
-            val acceder = Intent(this, quefacer::class.java)
+        botonareas.setOnClickListener {
+            val acceder = Intent(this, areasrecreativas::class.java)
             startActivity(acceder)
         }
 
@@ -51,21 +54,15 @@ class actividades : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa3)
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa6)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo4)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeo6)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
     }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        startActivity(Intent(this, MainActivity::class.java))
-    }
-
 }
