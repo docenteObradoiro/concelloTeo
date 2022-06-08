@@ -19,6 +19,11 @@ class Contacto : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val equis= findViewById<ImageButton>(R.id.atras)
+        equis.setOnClickListener {
+            finish()
+        }
+
         val botonCorreo = findViewById<ImageButton>(R.id.botonCorreo)
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
