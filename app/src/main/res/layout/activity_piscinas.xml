@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".actividades.piscinas">
 
     <ImageButton
-        android:id="@+id/botonTeo4"
+        android:id="@+id/botonTeo9"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
@@ -19,28 +20,24 @@
         app:srcCompat="@mipmap/logo8" />
 
     <ImageButton
-        android:id="@+id/hamburguesa3"
+        android:id="@+id/hamburguesa9"
         android:layout_width="48dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
-        android:backgroundTint="#00FFFFFF"
-        android:contentDescription="menu hamburguesa"
-        android:foreground="?android:attr/selectableItemBackground"
+        android:contentDescription="hamburguesa"
         android:scaleType="fitXY"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hamburguesa"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:srcCompat="@mipmap/hamburguesa" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,50 +49,55 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/boton5"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="festas"
-                android:src="@mipmap/sanmartino" />
-
-            <ImageButton
-                android:id="@+id/boton7"
-                android:layout_width="392dp"
-                android:layout_height="300dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="batalla"
-                android:translationX="-20dp"
-                app:srcCompat="@mipmap/batallacuadrada" />
-
-            <ImageButton
-                android:id="@+id/boton6"
-                android:layout_width="392dp"
-                android:layout_height="300dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="entroido"
-                android:translationX="-20dp"
-                app:srcCompat="@mipmap/ullap" />
-
-            <ImageButton
-                android:id="@+id/boton8"
-                android:layout_width="396dp"
-                android:layout_height="300dp"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="nadal"
-                android:src="@mipmap/quefcer"
-                android:translationX="-20dp" />
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:text="@string/piscinas"
+                android:textColor="#415419"
+                android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/barra2"
+                android:id="@+id/barra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
+                android:foregroundTint="#2DFFFFFF"
+                android:translationY="-50dp"
+                app:srcCompat="@mipmap/lineaverder" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="-40dp"
+                app:srcCompat="@mipmap/beoneteo" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@mipmap/luou" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@mipmap/ostilos" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -143,8 +145,8 @@
                     android:layout_width="55dp"
                     android:layout_height="50dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -172,27 +174,6 @@
 
 
             </RelativeLayout>
-
         </LinearLayout>
     </ScrollView>
-
-    <TextView
-        android:id="@+id/texto"
-        android:layout_width="233dp"
-        android:layout_height="49dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:text="ACTIVIDADES"
-        android:textColor="#80415419"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
