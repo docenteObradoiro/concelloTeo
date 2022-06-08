@@ -72,6 +72,40 @@
                 android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
+            <ImageButton
+                android:id="@+id/botonactividades"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-40dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="actividadesDeportivas"
+                app:srcCompat="@mipmap/deportes" />
+
+            <ImageButton
+                android:id="@+id/botonpiscina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="piscinas"
+                app:srcCompat="@mipmap/piscinas" />
+
+            <ImageButton
+                android:id="@+id/botonmercados"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="mercadillos"
+                app:srcCompat="@mipmap/mercados" />
+
+            <ImageButton
+                android:id="@+id/botonareas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="areasrecreativas"
+                app:srcCompat="@mipmap/arearecreativa" />
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
