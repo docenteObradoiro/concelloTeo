@@ -54,9 +54,10 @@
 
             <TextView
                 android:id="@+id/texto2"
-                android:layout_width="337dp"
+                android:layout_width="374dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
                 android:paddingTop="15dp"
                 android:text="@string/piscinas"
                 android:textColor="#415419"

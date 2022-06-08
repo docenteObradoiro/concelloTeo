@@ -398,6 +398,8 @@
 
     <string name="actividadesdeportivas">Actividades deportivas</string>
     <string name="piscinas">Piscinas</string>
-
+    <string name="mercados">Mercados</string>
+    <string name="areasrecreativas">Áreas recreativas</string>
+    <string name="quefacer">Que facer</string>
 
 </resources>

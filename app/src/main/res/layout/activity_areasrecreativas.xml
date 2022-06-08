@@ -54,11 +54,12 @@
 
             <TextView
                 android:id="@+id/texto"
-                android:layout_width="323dp"
+                android:layout_width="367dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
                 android:paddingTop="15dp"
-                android:text="@string/actividadesdeportivas"
+                android:text="@string/areasrecreativas"
                 android:textColor="#415419"
                 android:textSize="24sp" />
 
