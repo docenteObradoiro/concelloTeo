@@ -2,11 +2,34 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
+    <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
+    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
+
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
     <string name="contacto2">Contacto</string>
+
+    <string name="oSonDoMiño">O SON DO MIÑO</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
+    <string name="emailOSonDoMiño">info@osondominho.com</string>
+    <string name="webOSonDoMiño">www.osondominho.com</string>
+
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
+    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
+    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
+    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
+    <string name="webNovoViñedo">www.novoviñedo.es</string>
 
     <string name="bienvenidos">WELCOME!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
