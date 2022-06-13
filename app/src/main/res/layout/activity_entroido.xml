@@ -45,8 +45,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-
-
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -125,11 +123,10 @@
             android:id="@+id/textView55"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="-10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
+            android:paddingLeft="30dp"
             android:paddingTop="5dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="40dp"
             android:text="@string/informacionEntroido"
             android:textColor="#000000" />
 
@@ -147,8 +144,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.7"
-                    android:background="@drawable/animaps"
-                    android:backgroundTint="#80000000"
+                    android:background="@drawable/animamaps"
                     android:contentDescription="mapaRaris"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -180,8 +176,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.7"
-                    android:background="@drawable/animaps"
-                    android:backgroundTint="#80000000"
+                    android:background="@drawable/animamaps"
                     android:contentDescription="mapaTeo"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -213,8 +208,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="0.7"
-                    android:background="@drawable/animaps"
-                    android:backgroundTint="#80000000"
+                    android:background="@drawable/animamaps"
                     android:contentDescription="mapaReis"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
@@ -247,8 +241,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_weight="0.7"
-                    android:background="@drawable/animaps"
-                    android:backgroundTint="#80000000"
+                    android:background="@drawable/animamaps"
                     android:contentDescription="mapaVilariño"
                     android:translationX="-110dp"
                     app:srcCompat="@drawable/mapsnegro"
