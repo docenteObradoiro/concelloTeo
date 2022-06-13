@@ -185,6 +185,7 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros.xml" value="0.378125" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/activity_obradoiros1.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo - copia/app/src/main/res/layout/batalla.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/drawable/shape.xml" value="0.1895" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades.xml" value="0.25" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_actividades_buena.xml" value="0.302536231884058" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_area_arqueoloxica_do_monte_piquinho.xml" value="0.1762917933130699" />
@@ -193,6 +194,7 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_capela_de_santa_ana_de_lampai.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_casa_reitoral_de_bamonde.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_concertos.xml" value="0.5" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_contacto.xml" value="0.31393568147013784" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_entroido.xml" value="0.378125" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ermida_cruceiro_de_santa_eufemia.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_festas_gastronomicas.xml" value="0.378125" />
@@ -208,19 +210,22 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main2.xml" value="0.37771739130434784" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_marco_da_agrela.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_menu.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_mercados.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_obradoiros.xml" value="0.3713768115942029" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_arqueoloxico.xml" value="0.18" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_eclesiastico.xml" value="0.18" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_eclesiastico.xml" value="0.22" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_etnografico.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_natural2.xml" value="0.1175925925925926" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_petroglifo_da_pena_bicuda_de_loureiro.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_petroglifo_do_outeiro_do_corno.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_petroglifo_do_rio_angueira_ou_do_monte_de_cornide.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ruta1.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ruta12.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_tipos_patrimonio2.xml" value="0.22" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/contacto2.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.14108409321175278" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_xeroca.xml" value="0.14108409321175278" />
