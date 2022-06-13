@@ -9,6 +9,9 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.patrimonio.igrexadeSanSimonDeOnsCacheiras
+import com.cursokotlin.concelloteo.patrimonio.informacion_fonte_lavadoiro_florida
+import com.cursokotlin.concelloteo.patrimonio.informacion_ponte_medieval_pontevea
 
 class Ruta12 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +26,21 @@ class Ruta12 : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        val pontemedievalpuenteva= findViewById<ImageButton>(R.id.botonPatrimoniopontemedievalpontevea)
+        pontemedievalpuenteva.setOnClickListener {
+            val acceder = Intent(this, informacion_ponte_medieval_pontevea::class.java)
+            startActivity(acceder)
+        }
+        val fontelavadoiroflorida= findViewById<ImageButton>(R.id.botonPatrimoniofonteflorida)
+        fontelavadoiroflorida.setOnClickListener {
+            val acceder = Intent(this, informacion_fonte_lavadoiro_florida::class.java)
+            startActivity(acceder)
+        }
+        val iglesiaSanSimon= findViewById<ImageButton>(R.id.botonPatrimonioigrexasansimondeons)
+        iglesiaSanSimon.setOnClickListener {
+            val acceder = Intent(this, igrexadeSanSimonDeOnsCacheiras::class.java)
             startActivity(acceder)
         }
         val boton = findViewById<Button>(R.id.wikiloc)
@@ -53,5 +71,7 @@ class Ruta12 : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
+
+
     }
 }

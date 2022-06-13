@@ -7,7 +7,7 @@
     tools:context=".Contacto">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -18,6 +18,9 @@
             android:id="@+id/logoTeo"
             android:layout_width="100dp"
             android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:background="#00FFFFFF"
@@ -29,20 +32,23 @@
             app:srcCompat="@drawable/logo" />
 
         <ImageButton
-            android:id="@+id/menu"
-            android:layout_width="40dp"
+            android:id="@+id/atras"
+            android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_marginLeft="205dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:background="#00FFFFFF"
             android:backgroundTint="#00FFFFFF"
-            android:contentDescription="menu hamburguesa"
+            android:contentDescription="equis"
             android:foreground="?android:attr/selectableItemBackground"
             android:scaleType="fitXY"
             android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/hamburguesa"
+            app:srcCompat="@drawable/salir"
             tools:ignore="TouchTargetSizeCheck" />
-    </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
