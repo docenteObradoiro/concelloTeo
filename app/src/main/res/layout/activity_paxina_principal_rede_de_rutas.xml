@@ -8,7 +8,7 @@
     tools:context=".redDeRutas.PaxinaPrincipalRedeDeRutas">
 
     <ImageButton
-        android:id="@+id/botonTeo"
+        android:id="@+id/botonTeoMapa"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"

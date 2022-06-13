@@ -15,7 +15,7 @@ class informacion_marco_medieval_porto : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_informacion_marco_medieval_porto)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeoMapa)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
@@ -44,7 +44,7 @@ class informacion_marco_medieval_porto : AppCompatActivity() {
 
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/42%C2%B048'54.5%22N+8%C2%B037'19.1%22W/@42.8151251,-8.624168,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb763a8e60fa1d8f6!8m2!3d42.8151251!4d-8.6219793")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/42%C2%B046'37.9%22N+8%C2%B037'34.0%22W/@42.7771973,-8.6282985,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x17e1865f53c4570b!8m2!3d42.7771973!4d-8.6261098")))
         }
 
         val informacion = findViewById<ImageView>(R.id.informacion)

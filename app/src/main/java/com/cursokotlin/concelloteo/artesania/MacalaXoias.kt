@@ -21,7 +21,6 @@ class MacalaXoias : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val tv4 = findViewById<TextView>(R.id.tv8)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
@@ -33,7 +32,8 @@ class MacalaXoias : AppCompatActivity() {
             startActivity(intent);
         }
 
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://macalajoyas.com/")))
         }
         fbBoton.setOnClickListener {

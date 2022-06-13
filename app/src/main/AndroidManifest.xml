@@ -13,6 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
         <activity
+            android:name=".actividades.areasrecreativas"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.mercados"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.piscinas"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.actividadesdeportivas"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.quefacer"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.sanmartino"
+            android:exported="false" />
+        <activity
             android:name=".Contacto"
             android:exported="false" />
         <activity
@@ -28,6 +46,10 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".Menu"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuPrincipal"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -88,9 +110,7 @@
             android:exported="false" />
         <activity
             android:name=".artesania.SpaciobInteriorismo"
-            android:exported="false" />
-
-        <!-- <activity -->
+            android:exported="false" /> <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!-- android:exported="false" /> -->
         <activity
@@ -289,6 +309,10 @@
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false" />
+
+        <activity
+            android:name=".OndeComer"
+            android:exported="false"/>
     </application>
 
 </manifest>

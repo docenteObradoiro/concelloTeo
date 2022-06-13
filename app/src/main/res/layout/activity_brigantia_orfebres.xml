@@ -6,13 +6,18 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     tools:context=".artesania.BrigantiaOrfebres">
+
     <ImageButton
         android:id="@+id/logoTeo"
-        android:layout_width="85dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="10dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="@string/app_name"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/logoConcello"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,23 +25,29 @@
 
     <ImageButton
         android:id="@+id/hamburguesa"
-        android:layout_width="48dp"
-        android:layout_height="55dp"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/menu_hamburguesa"
         android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hamburguesa" />
+        app:srcCompat="@drawable/hamburguesa"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:contentDescription="@string/appbar_scrolling_view_behavior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -63,6 +74,21 @@
                     android:textColor="#415419"
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="26dp"
+                    android:paddingEnd="40dp"
+                    android:text="@string/xoiariaCreativa"
+                    android:textColor="#51661c"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tv1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/tv1"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
@@ -97,72 +123,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="5dp"
-                        android:text="@string/brigantiaArtesan"
-                        android:textColor="#51661c"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/layoutWeb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="44dp"
-                    android:layout_marginTop="140dp"
-                    android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutNome"
-                    app:layout_constraintTop_toBottomOf="@id/layoutNome">
-
-                    <ImageView
-                        android:id="@+id/iconoOrdenador"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/ordenador" />
-
-                    <TextView
-                        android:id="@+id/tv8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
-                        android:text="@string/paxinaWeb"
-                        android:textColor="#51661c"
-                        android:textSize="14sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/layoutMaps"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="44dp"
-                    android:layout_marginTop="180dp"
-                    android:layout_marginEnd="20dp"
-                    android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutWeb"
-                    app:layout_constraintTop_toBottomOf="@id/layoutWeb">
-
-                    <ImageButton
-                        android:id="@+id/maps"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/animamaps"
-                        android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:minWidth="48dp"
-                        app:srcCompat="@drawable/mapsnegro"
-                        app:tint="#00989898"
-                        tools:ignore="TouchTargetSizeCheck" />
-
-
-                    <TextView
-                        android:id="@+id/tv9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="25dp"
-                        android:text="@string/brigantiaDireccion"
+                        android:text="@string/brigantiaArtesan"
                         android:textColor="#51661c"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -172,10 +134,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="230dp"
+                    android:layout_marginTop="130dp"
                     android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
-                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
+                    app:layout_constraintStart_toStartOf="@id/layoutNome"
+                    app:layout_constraintTop_toBottomOf="@id/layoutNome">
 
 
                     <ImageButton
@@ -202,65 +164,107 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/layoutMail"
+                    android:id="@+id/layoutMaps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="285dp"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginEnd="20dp"
                     android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutTelf"
-                    app:layout_constraintTop_toBottomOf="@id/layoutTelf">
-
+                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
+                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
 
                     <ImageButton
-                        android:id="@+id/botonCorreo"
-                        android:layout_width="45dp"
-                        android:layout_height="30dp"
+                        android:id="@+id/maps"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/animacorreo"
+                        android:layout_weight="1"
+                        android:background="@drawable/animamaps"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/gmail"
-                        app:tint="#00FFFFFF"
+                        android:minWidth="48dp"
+                        app:srcCompat="@drawable/mapsnegro"
+                        app:tint="#00989898"
                         tools:ignore="TouchTargetSizeCheck" />
 
+
                     <TextView
-                        android:id="@+id/tv7"
+                        android:id="@+id/tv9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="25dp"
-                        android:text="@string/brigantiaCorreo"
+                        android:text="@string/brigantiaDireccion"
                         android:textColor="#51661c"
                         android:textSize="14sp" />
+
                 </LinearLayout>
+
+
+                <ImageButton
+                    android:id="@+id/iconoWeb"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginBottom="272dp"
+                    android:background="@drawable/animaweb"
+                    android:contentDescription="@string/paxinaWeb"
+                    android:scaleType="fitXY"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/globo"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/botonCorreo"
+                    android:layout_width="55dp"
+                    android:layout_height="34dp"
+                    android:layout_below="@+id/layoutMaps"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toEndOf="@+id/iconoWeb"
+                    android:background="@drawable/animacorreo"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="@id/iconoWeb"
+                    app:layout_constraintStart_toStartOf="@id/iconoWeb"
+                    app:srcCompat="@mipmap/gmail"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
                     android:id="@+id/igBoton"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="360dp"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/layoutMaps"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_toEndOf="@+id/botonCorreo"
                     android:background="@drawable/animainstagram"
                     android:contentDescription="@string/appbar_scrolling_view_behavior"
                     android:scaleType="fitXY"
-                    app:layout_constraintStart_toStartOf="@id/layoutMail"
-                    app:layout_constraintTop_toBottomOf="@id/layoutMail"
+                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
+                    app:layout_constraintTop_toBottomOf="@id/layoutMaps"
                     app:srcCompat="@mipmap/instagram"
                     app:tint="#00FFFFFF"
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/imgVector"
-                    android:layout_width="200dp"
-                    android:layout_height="134dp"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/lineaVerde1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_marginStart="230dp"
-                    android:layout_marginTop="180dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_marginEnd="14dp"
                     android:layout_weight="1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/igBoton"
+                    android:padding="20dp"
                     android:scaleType="fitCenter"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@mipmap/trisquel"
                     app:tint="#1F000000" />
 
@@ -268,6 +272,7 @@
 
 
             <LinearLayout
+                android:id="@+id/layout_imaxe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -281,89 +286,90 @@
                     android:layout_marginEnd="25dp"
                     app:srcCompat="@mipmap/brigantia" />
 
-                <TextView
-                    android:id="@+id/tv2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/xoiariaCreativa"
-                    android:textColor="#51661c"
-                    android:textSize="14sp" />
 
                 <ImageView
                     android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
                     app:srcCompat="@mipmap/lineaverde" />
             </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
                 android:orientation="horizontal">
-
 
                 <ImageButton
                     android:id="@+id/facebook"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
-                    android:background="@drawable/facebookanima"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
-                    app:srcCompat="@drawable/facebook_3_"
-                    app:tint="#0F000000"
-                    tools:ignore="TouchTargetSizeCheck" />
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/facebook"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
-                    android:background="@drawable/animatwitter"
+                    android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/twitter_4_"
-                    app:tint="#00B8AEAE"
-                    tools:ignore="TouchTargetSizeCheck" />
-
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/twitter"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
-                    android:background="@drawable/animainstagram"
-                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:backgroundTint="#00B8AEAE"
+                    android:contentDescription="instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/instagram_3_"
-                    app:tint="#0F000000"
-                    tools:ignore="TouchTargetSizeCheck" />
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/info"
                     android:layout_width="55dp"
                     android:layout_height="50dp"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="4dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/informacion"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/info"
                     app:tint="#7F000000" />
+
+
             </RelativeLayout>
+
 
         </LinearLayout>
 

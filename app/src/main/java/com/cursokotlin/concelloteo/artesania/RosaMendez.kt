@@ -15,7 +15,7 @@ class RosaMendez : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rosa_mendez)
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
@@ -37,7 +37,8 @@ class RosaMendez : AppCompatActivity() {
             startActivity(intent);
         }
 
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://rosamendez.com/")))
         }
         fbBoton.setOnClickListener {
