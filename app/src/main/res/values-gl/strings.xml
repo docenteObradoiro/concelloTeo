@@ -2,17 +2,40 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
+    <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
+    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
+
     <string name="logoConcello">Logo concello</string>
     <string name="menu_hamburguesa">menú hamburguesa</string>
 
+    <string name="direccion">Rúa da Lagoa, 2 \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
+
     <string name="facebook">facebook</string>
 
-
-    <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
-    <string name="contacto2">Contacto</string>
+
+    <string name="oSonDoMiño">O SON DO MIÑO</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
+    <string name="emailOSonDoMiño">info@osondominho.com</string>
+    <string name="webOSonDoMiño">www.osondominho.com</string>
+
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
+    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
+    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
+    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
+    <string name="webNovoViñedo">www.novoviñedo.es</string>
 
     <string name="bienvenidos">BENVIDOS!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
@@ -21,6 +44,9 @@
     <string name="actividades1">ACTIVIDADES</string>
     <string name="agenda">AXENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
+    <string name="eligeFormulario">Escolle a forma de contacto</string>
+    <string name="textoFormulario">Escribe aquí a túa mensaxe</string>
+    <string name="formularioDeContacto">FORMULARIO DE CONTACTO</string>
     <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
     <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
@@ -32,7 +58,6 @@
     <string name="infoBatalla1">Camiñata en grupos reducidos de 30 personas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.</string>
     <string name="infoBatalla2">Turismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
-
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
     <string name="infoSanMartiño">Nos últimos tempos as feiras tradicionais de Galicia adquiriron a dimensión de festa sobre a de feira debido aos cambios
         socio-económicos do século XX. En canto ás cuestións que dotan de gran interese á feira de San Martiño temos:
