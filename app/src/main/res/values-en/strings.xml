@@ -59,27 +59,22 @@
 
 
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
-    <string name="tituloTextoSanMartiño">¿Por qué se debería declarar el San Martiño como fiesta de interés turístico?</string>
-    <string name="infoSanMartiño">Una elemental justificación: la  equivalencia de la  fiesta y la feria. \n \nLas ferias siempre presentaron una doble dimensión, la de lugares
-        de intercambio económico y de fiesta. La dicotomía está presente en la doble acepción de feria, que por un lado significa “mercado periódico” y por otro “fiestas
-        que se celebran con tal ocasión”.En los últimos tiempos las ferias tradicionales de Galicia adquirieron la dimensión de fiesta sobre la de feria debido a los cambios
-        socio-económicos del siglo  XX. \nEn cuanto a las cuestiones que dotan de gran interés a la feria de San Martiño tenemos:
-	\n-Su dimensión de ocio festivo, acreditado por testimonios escritos del siglo  XIX.
-	\n-La dimensión de compra-venta de ganado u otros productos del campo.</string>
+    <string name="infoSanMartiño">En los últimos tiempos las ferias tradicionales de Galicia adquirieron la dimensión de fiesta sobre la de feria debido a los cambios socio-económicos del siglo  XX. En cuanto a las cuestiones que dotan de gran interés a la feria de San Martiño tenemos:
+	\n- Su dimensión de ocio festivo, acreditado por testimonios escritos del siglo  XIX.
+	\n-La dimensión de compra-venta de ganado u otros productos del campo.
+    \n\nTodo esto justifica que una feria como la de francos pueda ser incluida en cualquier relación de fiestas de Galicia, y también que aspire a ser declara fiesta de interés turístico.</string>
     <string name="tituloTextoSanMartiño2">Valor patrimonial da feira de San Martiño</string>
-    <string name="infoSanMartiño2">En la feria de San Martiño,  adaptaronse varios componentes el presente sin romper el enlace que tradición del pasado.
-        El visitante puede contemplar la venta de productos de la erra, de ganado equino, mayoritariamente “del país”, y de alimentos como el pulpo a feria al lado
-        de muestras de maquinaria agrícola de última generación, o puestos donde subsaharianos, gitanos o gente de origen diversa ofrece objetos propios del
-        ámbito urbano-industrial. El lugar donde se desarrolla la feria fue urbanizado  respetando los elementos heredados del pasado, como es la vieja capilla
-        dedicada al Espíritu Santo.</string>
+    <string name="infoSanMartiño2">En la feria de San Martiño, se adaptaron varios componentes al presente sin romper el enlace con la tradición del pasado.
+        El visitante puede contemplar la venta de productos de la tierra, de ganado equino, mayoritariamente “do país”, y de alimentos como el pulpo a feria
+        al lado de muestras de maquinaria agrícola de última generación, o puestos donde subsaharianos, gitanos o gente de origen diversa ofrece objetos
+        propios del ámbito urbano-industrial. El lugar donde se desarrolla la feria fue urbanizado  respetando los elementos heredados del pasado, como es
+        la vieja capilla dedicada al Espíritu Santo.</string>
     <string name="tituloTextoSanMartiño3">La importancia de este bien cultural en relación con el turismo</string>
-    <string name="infoSanMartiño3">La feria ofrece la posibilidad de participar y conocer los estilos de vida tradicionales y locales en una fecha emblemática del año,
-        documentada en Francos por lo menos desde el siglo  XVI, el día 11 de noviembre, que coincide con la conmemoración de un santo, San Martiño de  Tours, con culto
-        en Galicia desde el siglo VI, es decir, hace casi 1500 años.\n
-	Una cuestión importante y que la  carballeira y el lugar de Francos están en el llamado camino portugués de Tui a Compostela, por lo que pasan miles de peregrinos
-        todos los años.\n
-	Cabe mencionar que la muy poca distancia se yergue el llamado Castro  Lupario, recinto arqueológico de época galaico-romana que la tradición popular asoció a la
-        Raiña Lupa.</string>
+    <string name="infoSanMartiño3">La feria ofrece la posibilidad de participar y conocer los estilos de vida tradicionales y locales. Documentada en Francos
+        por lo menos desde el siglo  XVI, el día 11 de noviembre, que coincide con la conmemoración de un santo, San Martiño de  Tours, con culto en Galicia
+        desde el siglo VI, es decir, hace casi 1500 años.\n\nUna cuestión importante es que la  carballeira y el lugar de Francos están en el llamado camino
+        portugués de Tui a Compostela, por lo que pasan miles de peregrinos todos los años.\n\nCabe mencionar que a muy poca distancia se yergue el
+        llamado Castro Lupario, recinto arqueológico de época galaico-romana que la tradición popular asoció a la Reina Lupa.</string>
 
 
     <string name="tituloEntroido">Entroido \nXenerais da Ulla</string>
@@ -421,6 +416,7 @@
     <string name="informacionpontenovararisTitulo">Antiga ponte sobre o Rego do Sestelo ao seu paso pola parroquia de Rarís, atravesada polo Camiño da Geira e dos Arrieiros.\n</string>
     <string name="informacionpontenovararisDescripcion">Emprazada sobre outra ponte máis antiga, probablemente de orixe Medieval (de aí o nome de Ponte Nova), esta ponte localizada na parroquia de Rarís, foi un viaduto moi empregado durante varios séculos e ata ben entrados nos anos setenta, momento no que queda en desuso pois polas súas dimensións só permite o paso de carros e carruaxes e non vehículos a motor. Trátase dunha ponte dun só ollo realizada con boa pedra de cantaría nas súas partes nobres e cachotería no resto.\n \n As rodeiras no camiño por mor do tránsito de carruaxes ofrecen testemuño da importancia desta ruta comercial que permitía o transporte de mercadorías da Terra de Montes e do Ribeiro ata Santiago de Compostela e as Rías Baixas. Persoas arrieiras e peregrinas cruzaron o Rego do Sestelo pola Ponte Nova e hoxe en día segue a ser un elemento patrimonial destacable no chamado Camiño da Geira e dos Arrieiros.\n</string>
     <string name="informacionponteparadelaTitulo">Fermosa ponte de pedra sobre o río Tinto que conta cun merendoiro nas inmediacións.\n</string>
+
     <string name="informacionponteparadelaDescripcion">A coñecida como ponte romana da Paradela, en Francos, sobre o río Tinto na parroquia de San Xoán de Calo atópase no límite do Concello. Construída no Medievo esta ponte é coñecida por estar localizada no camiño que levaba de Iria Flavia ata Santiago. É de 14 m de longo e 1,70 de ancho, un dos pasos fluviais máis emblemáticos do Camiño Portugués que con xustiza figura no escudo heráldico de Teo.\n  \n Hoxe en día é un bonito lugar para gozar da natureza, por ela atravesa unha ruta Apego (rutas adaptadas para crianzas), que partindo do cruceiro de Francos emprega as pistas de terra forestais para acceder a este recuncho natural. Tamén é posible acceder por estr asfaltada. Atópase sinalizado e dende alí tamén parte unha ruta ao Castro Lupario, situado no concello veciño, pero vinculado historicamente ao noso territorio, non só como xacemento arqueolóxico de prolongada ocupación senón tamén pola súa estreita vinculación ás lendas xacobeas que falan da xénese da vella Compostela.\n  \n A veciñanza do lugar conta que existe a creza de que a ponte tiña unha chave no medio: a chave da ponte, unha pedriña cadrada que sobresaía das outras e grazas á cal a ponte foi aguantando o paso dos anos, viñeran tronadas ou enchentes que a cubriran.\n</string>
     <string name="informacionpousadasanantoninhoTitulo">Ademais de ser antiga pousada para persoas peregrinas, a estatua de San Antonino foi obxecto de culto da veciñanza: “San Antoniño da Areeira é un santo moi milagroso, canso se perde un porquiño, a corbata ten ao pescozo”.\n</string>
     <string name="informacionpousadasanantoninhoDescripcion">Esta edificación foi, no século XVIII, unha das pousadas que acollían a persoas arrieiras e peregrinas (Sarmiento, 1754), hoxe reconvertida nunha casa de labranza tradicional. Na parede orientada ó camiño aínda se conserva a estatua policromada de San Antoniño Abade, padroeiro dos animais, representado como un vello ancián co hábito da orde e cun porquiño ós seus pés.\n  \n Ata hai poucos anos sacábase en procesión e a veciñanza ofrecía esmolas para obter o favor do santiño e sandar os seus animais enfermos. Na parroquia consérvanse importantes coplas populares que lembran a tradicional rivalidade coa parroquia veciña de Biduído, así di unha das cantigas “San Antonio de Areeira anda no monte co gando, a virxe de Biduído ándallo recadando”.\n</string>
@@ -431,4 +427,9 @@
     <string name="ondecomer">DÓNDE COMER</string>
     <string name="actividadesdeportivas">Actividades deportivas</string>
     <string name="piscinas">Piscinas</string>
+    <string name="mercados">Mercados</string>
+    <string name="areasrecreativas">Áreas recreativas</string>
+    <string name="quefacer">Que hacer</string>
+
+
 </resources>
