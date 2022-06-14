@@ -34,27 +34,24 @@
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
 
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
-    <string name="tituloTextoSanMartiño">¿Por qué se debería declarar o San Martiño como festa de interese turístico?</string>
-    <string name="infoSanMartiño">Unha elemental xustificación: a equivalencia da fiesta e feira. \n \nAs feiras sempre presentaron unha dobre dimensión, a de lugares
-        de intercambio económico e de festa. A dicotomía está presente na dobre acepción de feira, que por un lado significa “mercado periódico” e por outro “festas
-        que se celebran con tal ocasión”.Nos últimos tempos as feiras tradicionais de Galicia adquiriron a dimensión de festa sobre a de feira debido aos cambios
-        socio-económicos do século XX. \nEn canto ás cuestións que dotan de gran interese á feira de San Martiño temos:
+    <string name="infoSanMartiño">Nos últimos tempos as feiras tradicionais de Galicia adquiriron a dimensión de festa sobre a de feira debido aos cambios
+        socio-económicos do século XX. En canto ás cuestións que dotan de gran interese á feira de San Martiño temos:
 	\n- A súa dimensión de ocio festivo, acreditado por testemuños escritos do século XIX.
-	\n- A dimensión de compra-venda de gando ou outros produtos do campo.</string>
+	\n- A dimensión de compra-venda de gando ou outros produtos do campo.
+    \nTodo isto xustifica que unha feira como a de francos poida ser incluída en calquera relación de festas de Galicia, e tamén que aspire a ser
+        declara festa de interese turístico.</string>
     <string name="tituloTextoSanMartiño2">Valor patrimonial da feira de San Martiño</string>
-    <string name="infoSanMartiño2">Na feira de San Martiño, adaptaronse varios compoñentes o presente sen romper o enlace ca tradición do pasado.
-        O visitante pode contemplar a venda de produtos da erra, de gando equino, maioritariamente “do país”, e de alimentos como o polbo a feira a carón
-        de mostras de maquinaria agrícola de última xeración, ou postos onde subsaharianos, xitanos ou xente de orixe diversa ofrece obxectos propios do
-        ámbito urbano-industrial. O lugar onde se desenvolve a feira foi urbanizado respetando os elementos herdados do pasado, como é a vella capela
-        dedicada ao Espírito Santo.</string>
+    <string name="infoSanMartiño2">Na feira de San Martiño, adaptáronse varios compoñentes o presente sen romper o enlace ca tradición do pasado.
+        O visitante pode contemplar a venda de produtos da erra, de gando equino, maioritariamente “do país”, e de alimentos como o polbo a feira a
+        carón de mostras de maquinaria agrícola de última xeración, ou postos onde subsaharianos, xitanos ou xente de orixe diversa ofrece obxectos
+        propios do ámbito urbano-industrial. O lugar onde se desenvolve a feira foi urbanizado respetando os elementos herdados do pasado, como é a
+        vella capela dedicada ao Espírito Santo.</string>
     <string name="tituloTextoSanMartiño3">Importancia deste ben cultural en relación do turismo</string>
-    <string name="infoSanMartiño3">A feira ofrece a posibilidade de participar e coñecer os estilos de vida tradicionais e locais nunha data emblemática do ano,
-        documentada en Francos polo menos dende o século XVI, o día 11 de novembro, que coincide coa conmemoración dun santo, San Martiño de Tours, con culto en
-        Galicia dende o século VI, é dicir, fai case 1500 anos.\n
-	Unha cuestión importante e que a carballeira e o lugar de Francos están no chamado camiño portugués de Tui a Compostela, polo que pasan miles de peregrinos
-        todos os anos.\n
-	Cabe mencionar que a moi pouca distancia se ergue o chamado Castro Lupario, recinto arqueolóxico de época galaico-romana que a tradición popular asociou á Raíña Lupa.
-</string>
+    <string name="infoSanMartiño3">A feira ofrece a posibilidade de participar e coñecer os estilos de vida tradicionais e locais. Documentada en Francos
+        polo menos dende o século XVI, o día 11 de novembro, que coincide coa conmemoración dun santo, San Martiño de Tours, con culto en Galicia dende o
+        século VI, é dicir, fai case 1500 anos.\n\nUnha cuestión importante é que a carballeira e o lugar de Francos están no chamado camiño portugués de
+        Tui a Compostela, polo que pasan miles de peregrinos todos os anos.\n\nCabe mencionar que a moi pouca distancia se ergue o chamado Castro Lupario,
+        recinto arqueolóxico de época galaico-romana que a tradición popular asociou á Raíña Lupa.</string>
 
     <string name="tituloEntroido">Entroido \nXenerais da Ulla</string>
     <string name="dataEntroido">Data</string>
@@ -409,4 +406,9 @@
     <string name="ondecomer">ONDE COMER</string>
     <string name="actividadesdeportivas">Actividades deportivas</string>
     <string name="piscinas">Piscinas</string>
+    <string name="mercados">Mercados</string>
+    <string name="areasrecreativas">Áreas recreativas</string>
+    <string name="quefacer">Que facer</string>
+
+
 </resources>
