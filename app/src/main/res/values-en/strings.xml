@@ -16,6 +16,7 @@
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
+
     <string name="contacto2">Contacto</string>
 
     <string name="oSonDoMiño">O SON DO MIÑO</string>
@@ -41,6 +42,9 @@
     <string name="actividades1">ACTIVIDADES</string>
     <string name="agenda">AXENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
+    <string name="formularioDeContacto">FORMULARIO DE CONTACTO</string>
+    <string name="eligeFormulario">Escoge la forma de contacto</string>
+    <string name="textoFormulario">Escribe aquí a túa mensaxe</string>
     <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
     <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>

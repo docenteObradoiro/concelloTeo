@@ -33,12 +33,12 @@
 
 
 
-    <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
+    <string name="direccion">Rúa da Lagoa, 2 \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
-    <string name="contacto2">Contacto</string>
-
+    <string name="eligeFormulario">Escoge la forma de contacto</string>
+    <string name="textoFormulario">Escribe aquí tu mensaje</string>
     <string name="bienvenidos">¡BIENVENIDOS!</string>
     <string name="redeDeRutas">RED DE RUTAS</string>
     <string name="patrominio1">PATRIMONIO</string>
@@ -46,6 +46,7 @@
     <string name="actividades1">ACTIVIDADES</string>
     <string name="agenda">AGENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
+    <string name="formularioDeContacto">FORMULARIO DE CONTACTO</string>
     <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
     <string name="tituloBatalla">Visitas teatralizadas de la Batalla de Cacheiras</string>
