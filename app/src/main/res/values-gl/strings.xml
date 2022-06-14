@@ -2,13 +2,40 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
+    <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
+    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
+
     <string name="logoConcello">Logo concello</string>
     <string name="menu_hamburguesa">menú hamburguesa</string>
 
     <string name="direccion">Rúa da Lagoa, 2 \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
+
+    <string name="facebook">facebook</string>
+
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
+
+    <string name="oSonDoMiño">O SON DO MIÑO</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
+    <string name="emailOSonDoMiño">info@osondominho.com</string>
+    <string name="webOSonDoMiño">www.osondominho.com</string>
+
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
+    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
+    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
+    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
+    <string name="webNovoViñedo">www.novoviñedo.es</string>
 
     <string name="bienvenidos">BENVIDOS!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
@@ -127,7 +154,7 @@
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
-    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
+
 
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
@@ -141,7 +168,7 @@
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
     <string name="xerocaArtesan">Xesús Rodríguez</string>
-    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa \nCastiñeiro,s/n, local 2</string>
     <string name="xerocaTelefono">+34 616952580</string>
     <string name="xerocaCorreo"></string>
 
@@ -149,7 +176,7 @@
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
     <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
-    <string name="cuchillosVillarDescricion">Ferreiro especializado na coitelaría tradicional</string>
+    <string name="cuchillosVillarDescricion">Coitelaría tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
@@ -161,7 +188,7 @@
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
     <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
-    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración de madeira,\ncoiro e ferro</string>
+    <string name="tresOficiosDescricion">Ebanistería, ferro e coiro</string>
 
 
     <string name="redeRutas">REDE DE RUTAS</string>
@@ -357,7 +384,7 @@
 
     <string name="a_igrexa_de_san_sim_n_de_ons_en_cacheiras_un_edificio_de_estilo_barroco_datada_do_s_xviii_a_fachada_de_canter_a_e_presenta_d_as_torres_campanario_a_cada_lado_que_foron_constru_das_en_distinto_momento_a_zona_intermedia_da_fachada_ad_rnase_con_d_as_imaxes_de_pedra_a_situada_na_parte_inferior_representa_a_inmaculada_concepci_n_e_a_superior_ao_patr_n_san_sim_n_n_n_no_adro_da_igrexa_at_pase_o_v_a_crucis_conxunto_de_trece_cruces_de_pedra_destacando_a_cruz_sobranceira_da_zona_leste_ergueita_sobre_un_alto_pedestal_onde_reza_a_inscrici_n_via_sacra_dolorosa_1777_n_n_completa_o_conxunto_un_cruceiro_de_finais_do_s_xvii_que_a_nda_que_agora_f_ra_do_adro_noutrora_estivo_dentro_dese_lugar_presenta_d_as_representaci_ns_distintas_segundo_a_cara_que_mira_a_igrexa_ou_ao_cami_o_n">A Igrexa de San Simón de Ons, en Cacheiras é un edificio de estilo barroco datada do S. XVIII. A fachada é de cantería e presenta dúas torres-campanario a cada lado (que foron construídas en distinto momento). A zona intermedia da fachada adórnase con dúas imaxes de pedra, a situada na parte inferior representa a Inmaculada Concepción e a superior ao patrón San Simón. \n \n No adro da igrexa atópase o Vía Crucis, conxunto de trece cruces de pedra, destacando a cruz sobranceira da zona leste, ergueita sobre un alto pedestal onde reza a inscrición VIA SACRA DOLOROSA 1777. \n \n Completa o conxunto un cruceiro de finais do S.XVII que, aínda que agora fóra do adro, noutrora estivo dentro dese lugar. Presenta dúas representacións distintas segundo a cara que mira a igrexa, ou ao camiño.\n</string>
     <string name="conxunto_eclesi_stico_formado_pola_igrexa_o_cruceiro_e_o_v_a_cruces_de_san_sim_n_de_ons_de_cacheiras">Conxunto eclesiástico formado pola igrexa, o cruceiro e o vía cruces de San Simón de Ons de Cacheiras</string>
-    <string name="informacionarearecreativaxirimbaoTitulo">Zona recreativa ás beiras do río Ulla con acceso a varias rutas de sendeirismo e servizos necesarios para pasar un día de merenda.\n.</string>
+    <string name="informacionarearecreativaxirimbaoTitulo">Zona recreativa ás beiras do río Ulla con acceso a varias rutas de sendeirismo e servizos necesarios para pasar un día de merenda.\n</string>
     <string name="informacionarearecreativaxirimbaoDescripcion">Localizada á beira do río Ulla, dentro da zona de protección europea Rede Natura 2000, a área recreativa do Xirimbao é unha zona de esparexemento que conta con zonas de aparcadoiro de vehículos, zona de pasar a noite en autocaravanas, mesas e bancos de pedra baixo á sombra das árbores e zona de herba. Conta con baños públicos.\n \nToda a beira do Ulla é coñecida polas persoas afeccionadas á pesca. A carón da área atópase o Couto de Couso, moi recomendado para a pesca de salmón (é de feito, un dos coutos salmoneiros máis importantes de Galicia). Tamén O Xirimbao está sinalizado dentro da Ruta da Lamprea, que se pesca na zona dende tempos ancestrais, de feito, atópanse aínda pesqueiras, que son grandes bloques cuadrangulares formados por pedras aliñadas en perpendicular á corrente cruzando case todo o río menos a corrente central. Nos corredores que hai entre os bloques –nomeados “pesqueiro” ou “cangalla” (“poios” no Miño) colócanse os “copos” ou “redes”. As lampreas que non conseguen remontar a forte corrente caen dentro da rede e a forza da auga impídelles saír.\n \nNas inmediacións atópase unha ponte colgante, a Ponte Mariola, que une a parroquia de Reis en Teo, coa parroquia de Couso na Estrada e que é posible atravesar durante a época de pesca, que é cando está aberta.\n \n</string>
     <string name="informacionburgaxermeadeTitulo">Lugar de visita dende tempos inmemoriais pola presenza de augas sulfurosas empregadas para tratamentos da pel.\n</string>
     <string name="informacionburgaxermeadeDescripcion">A Burga de Xermeade é un manancial de augas sulfurosas que conta cunha construción semiciruclar de pedra e un picho do que emana a auga. Situada a carón do río Ulla e dentro dunha fermosa paraxe con carballos, sobreiras, espiños, castiñeiros, piñeiros e as características árbores da ribeira (bidueiros, ameneiros, salgueiros e freixos). Está incluída na marxe protexida do río Ulla como Rede Natura 2000. Conta cunha área de lecer formada por unha pequena praza empedrada de 13,90 m de diámetro rodeada de sete bancos de pedra con respaldo situada entorno a un grupo de carballos centenarios.\n \nA fonte da Burga ou a Burga de Xermeade foi empregada pola veciñanza de Pontevea dende tempos inmemoriais principalmente como tratamento para diversas afeccións da pel coma herpes, eccemas,caspa, verrugas ou espullas... e probablemente incluso polos romanos xa que a vía XIX que comunicaba Braga con Lugo pasaba a poucos metros da Burga. Existen numerosos documentos que testemuñan a importancia da Burga como punto de referencia turístico e termal ao longo da historia.\n \nA carón da Burga atópase en estado ruinoso os restos dunha antiga casa de baños, construída por un particular que reclamaba o terreo pero que nunca chegou a rematarse xa que o xulgado resolveu un litixio onde concedía aos veciños a titularidade da Burga.\n</string>
@@ -405,5 +432,7 @@
     <string name="informacionsistemafluvialulladezaDescripcion">O río Ulla nace na comarca da Ulloa e desemboca na ría de Arousa, percorrendo 130 km, dos cales unha parte atravesa a parte sur do Concello de Teo, fai ademais de fronteira natural entre Teo e A Estrada, nas provincias de A Coruña e Pontevedra respectivamente.\n \nA Rede Natura é unha rede de espazos naturais protexidos a nivel da Unión Europea e que trata de protexer os hábitats naturais e a flora e fauna que os habita así como a biodiversidade a longo prazo.\n \nO Sistema Fluvial Ulla–Deza, está recoñecido como Lugar de Importancia Comunitaria da Rede Natura 2000 desde o 2004, atravesa non só os municipios da provincia da Coruña (Touro, Boqueixón, Vedra, Teo, Ames, Brión, Rois, Padrón, Dodro e Rianxo), senón tamén os municipios da provincia de Pontevedra (Catoira, A Estrada, Pontecesures, Silleda, Valga e Vila de Cruces).\n \nA singularidade radica no ecosistema que se establece nas marxes do río, con especies moi particulares de vexetación que albergan ou acubillan insectos, paxaros e tamén mamíferos moi adaptados a ese sistema de auga e de variación de caudal.\n \nA beira do Ulla ao seu paso por Teo atravesa as parroquias de Teo e Reis e conta con rutas de sendeirismo ao longo da beira que permiten gozar deses hábitats obxecto da protección. Solicitamos ás persoas visitantes a máxima responsabilidade no cumprimento das normas de cada espazo.\n</string>
     <string name="informaciontunelfaramelloTitulo">O túnel do Faramello, hoxe en desuso, foi unha infraestrutura levada a cabo para dar paso ao primeiro ferrocarril do noso país.\n</string>
     <string name="informaciontunelfaramelloDescripcion">O 15 de Setembro do 1873 chegou á estación teense de Osebe, segundo relatan as crónicas, o “Compostelano”, o primeiro ferrocarril do noso país. Con inicio en Cormes, daquela no termo municipal de Conxo e fin de destino en Carril, unía a capital xacobea co mar a través do Val da Maía e situaba a Teo como un referente que marcou o devir histórico do noso concello. Foi a porta de saída de emigrantes e tamén de excedente agrícola.\n \nCon 133 metros de longo este túnel, construído entre o 1870 e o 1872 está actualmente en desuso aínda que a carón da nova vía de tren de alta velocidade. Forma parte da Ruta do Túnel do Faramello, unha ruta circular con saída dende o Cruceiro de Francos que pretende dar a coñecer este anaco de historia do noso concello.\n</string>
-
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="actividadesdeportivas">Actividades deportivas</string>
+    <string name="piscinas">Piscinas</string>
 </resources>

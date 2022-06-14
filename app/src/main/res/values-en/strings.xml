@@ -2,13 +2,39 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
+    <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
+    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
     <string name="logoConcello">icon Councill</string>
     <string name="menu_hamburguesa">hamburguer menu</string>
-
+    <string name="facebook">facebook</string>
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
     <string name="telefonoConcello">+34 698 183 421</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
+
+    <string name="contacto2">Contacto</string>
+
+    <string name="oSonDoMiño">O SON DO MIÑO</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
+    <string name="emailOSonDoMiño">info@osondominho.com</string>
+    <string name="webOSonDoMiño">www.osondominho.com</string>
+
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
+    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
+    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
+    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
+    <string name="webNovoViñedo">www.novoviñedo.es</string>
+
     <string name="bienvenidos">WELCOME!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
     <string name="patrominio1">PATRIMONIO</string>
@@ -34,7 +60,7 @@
 
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
     <string name="tituloTextoSanMartiño">¿Por qué se debería declarar el San Martiño como fiesta de interés turístico?</string>
-    <string name="infoSanMartiño">Una elemental justificación: la  equivalencia de la  fiesta y feria. \n \nLas ferias siempre presentaron una doble dimensión, la de lugares
+    <string name="infoSanMartiño">Una elemental justificación: la  equivalencia de la  fiesta y la feria. \n \nLas ferias siempre presentaron una doble dimensión, la de lugares
         de intercambio económico y de fiesta. La dicotomía está presente en la doble acepción de feria, que por un lado significa “mercado periódico” y por otro “fiestas
         que se celebran con tal ocasión”.En los últimos tiempos las ferias tradicionales de Galicia adquirieron la dimensión de fiesta sobre la de feria debido a los cambios
         socio-económicos del siglo  XX. \nEn cuanto a las cuestiones que dotan de gran interés a la feria de San Martiño tenemos:
@@ -128,7 +154,6 @@
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
-    <string name="oliXiraldezDescricion">Lutier de instrumentos musicais, nomeadamente gaitas e frautas.</string>
 
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
@@ -142,7 +167,7 @@
     <string name="silvereiraCorreo">info@silvereira.com</string>
 
     <string name="xerocaArtesan">Xesús Rodríguez</string>
-    <string name="xerocaDireccion">Centro Comercial, Rúa Castiñeiro,\ns/n, local 2, 15894</string>
+    <string name="xerocaDireccion">Centro Comercial, Rúa \nCastiñeiro, s/n, local 2</string>
     <string name="xerocaTelefono">+34 616952580</string>
     <string name="xerocaCorreo"></string>
 
@@ -150,7 +175,7 @@
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
     <string name="cuchillosVillarCorreo">villargal@gmail.com</string>
-    <string name="cuchillosVillarDescricion">ferreiro especializado na coitelaría tradicional</string>
+    <string name="cuchillosVillarDescricion">Coitelaría tradicional</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
@@ -162,7 +187,7 @@
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
     <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
-    <string name="tresOficiosDescricion">Ebanistería, deseño e restauración de madeira,\ncoiro e ferro</string>
+    <string name="tresOficiosDescricion">Ebanistería, ferro e coiro</string>
 
 
     <string name="redeRutas">REDE DE RUTAS</string>
@@ -403,5 +428,7 @@
     <string name="informacionsistemafluvialulladezaDescripcion">O río Ulla nace na comarca da Ulloa e desemboca na ría de Arousa, percorrendo 130 km, dos cales unha parte atravesa a parte sur do Concello de Teo, fai ademais de fronteira natural entre Teo e A Estrada, nas provincias de A Coruña e Pontevedra respectivamente. \n  \n A Rede Natura é unha rede de espazos naturais protexidos a nivel da Unión Europea e que trata de protexer os hábitats naturais e a flora e fauna que os habita así como a biodiversidade a longo prazo. \n  \n O Sistema Fluvial Ulla–Deza, está recoñecido como Lugar de Importancia Comunitaria da Rede Natura 2000 desde o 2004, atravesa non só os municipios da provincia da Coruña (Touro, Boqueixón, Vedra, Teo, Ames, Brión, Rois, Padrón, Dodro e Rianxo), senón tamén os municipios da provincia de Pontevedra (Catoira, A Estrada, Pontecesures, Silleda, Valga e Vila de Cruces). \n  \n A singularidade radica no ecosistema que se establece nas marxes do río, con especies moi particulares de vexetación que albergan ou acubillan insectos, paxaros e tamén mamíferos moi adaptados a ese sistema de auga e de variación de caudal.\n  \n A beira do Ulla ao seu paso por Teo atravesa as parroquias de Teo e Reis e conta con rutas de sendeirismo ao longo da beira que permiten gozar deses hábitats obxecto da protección. Solicitamos ás persoas visitantes a máxima responsabilidade no cumprimento das normas de cada espazo.\n</string>
     <string name="informaciontunelfaramelloTitulo">O túnel do Faramello, hoxe en desuso, foi unha infraestrutura levada a cabo para dar paso ao primeiro ferrocarril do noso país.\n</string>
     <string name="informaciontunelfaramelloDescripcion">O 15 de Setembro do 1873 chegou á estación teense de Osebe, segundo relatan as crónicas, o “Compostelano”, o primeiro ferrocarril do noso país. Con inicio en Cormes, daquela no termo municipal de Conxo e fin de destino en Carril, unía a capital xacobea co mar a través do Val da Maía e situaba a Teo como un referente que marcou o devir histórico do noso concello. Foi a porta de saída de emigrantes e tamén de excedente agrícola.\n  \n Con 133 metros de longo este túnel, construído entre o 1870 e o 1872 está actualmente en desuso aínda que a carón da nova vía de tren de alta velocidade. Forma parte da Ruta do Túnel do Faramello, unha ruta circular con saída dende o Cruceiro de Francos que pretende dar a coñecer este anaco de historia do noso concello.\n</string>
-
+    <string name="ondecomer">DÓNDE COMER</string>
+    <string name="actividadesdeportivas">Actividades deportivas</string>
+    <string name="piscinas">Piscinas</string>
 </resources>

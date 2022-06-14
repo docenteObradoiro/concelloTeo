@@ -14,7 +14,7 @@ class TresOficios : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tres_oficios)
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
@@ -29,7 +29,8 @@ class TresOficios : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/%22TresOficios%22+Rodrigo+Mosquera/@42.7813116,-8.6198432,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f0353c0b8ef11:0x8fdff40917400c68!8m2!3d42.7813211!4d-8.6176898?hl=es")))
         }
-        tv4.setOnClickListener {
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tresoficios.es/gl/static/about.html")))
         }
         fbBoton.setOnClickListener {
