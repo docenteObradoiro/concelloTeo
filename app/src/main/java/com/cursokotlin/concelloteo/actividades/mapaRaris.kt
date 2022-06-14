@@ -12,7 +12,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class mapaRaris : AppCompatActivity(), OnMapReadyCallback {
 
-    private lateinit var map:GoogleMap
+    private lateinit var map: GoogleMap
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,21 +21,22 @@ class mapaRaris : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun createFragment() {
-        val mapFragment:SupportMapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
+        val mapFragment: SupportMapFragment =
+            supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
-        map=googleMap
+        map = googleMap
         createMarker()
     }
 
     private fun createMarker() {
-        val coordinates=LatLng(42.780682, -8.563338)
+        val coordinates = LatLng(42.780682, -8.563338)
         val marker = MarkerOptions().position(coordinates).title("Campo da festa, Rarís")
         map.addMarker(marker)
         map.animateCamera(
-            CameraUpdateFactory.newLatLngZoom(coordinates,18f),
+            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),
             4000,
             null
         )

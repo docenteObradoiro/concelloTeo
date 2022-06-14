@@ -20,7 +20,7 @@ class CuchillosVillar : AppCompatActivity() {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
@@ -36,6 +36,10 @@ class CuchillosVillar : AppCompatActivity() {
             startActivity(intent);
         }
 
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://cuchillosvillar.com/")))
+        }
 
         fbBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/cuchillos.villar")))

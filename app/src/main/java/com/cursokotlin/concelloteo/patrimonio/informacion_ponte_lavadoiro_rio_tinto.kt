@@ -15,7 +15,7 @@ class informacion_ponte_lavadoiro_rio_tinto : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_informacion_ponte_lavadoiro_rio_tinto)
 
-        val botonTeo = findViewById<ImageButton>(R.id.botonTeo)
+        val botonTeo = findViewById<ImageButton>(R.id.botonTeoMapa)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
@@ -44,7 +44,7 @@ class informacion_ponte_lavadoiro_rio_tinto : AppCompatActivity() {
 
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/42%C2%B048'54.5%22N+8%C2%B037'19.1%22W/@42.8151251,-8.624168,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb763a8e60fa1d8f6!8m2!3d42.8151251!4d-8.6219793")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/42%C2%B048'56.2%22N+8%C2%B037'37.2%22W/@42.815615,-8.6291887,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x8a7305bbae3b8afb!8m2!3d42.8156222!4d-8.6270028")))
         }
 
         val informacion = findViewById<ImageView>(R.id.informacion)

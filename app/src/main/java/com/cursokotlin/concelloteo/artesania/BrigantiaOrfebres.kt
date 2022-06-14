@@ -16,7 +16,7 @@ class BrigantiaOrfebres : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_brigantia_orfebres)
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val instagramBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
 
@@ -35,7 +35,10 @@ class BrigantiaOrfebres : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Brigantia+Orfebres/@42.881543,-8.5390803,650m/data=!3m2!1e3!4b1!4m5!3m4!1s0xd2effd57b73b745:0xdd8df51f8b70b373!8m2!3d42.8815391!4d-8.5368916")))
         }
-        tv4.setOnClickListener {
+        
+
+        val web = findViewById<ImageButton>(R.id.iconoWeb)
+        web.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://brigantiasantiago.com/")))
         }
 

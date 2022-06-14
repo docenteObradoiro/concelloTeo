@@ -7,7 +7,7 @@
     tools:context=".patrimonio.informacion_escola_casalonga">
 
     <ImageButton
-        android:id="@+id/botonTeo"
+        android:id="@+id/botonTeoMapa"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
@@ -34,15 +34,17 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,11 +59,11 @@
 
                 <ImageView
                     android:id="@+id/imagenCabeceraEscolaCasalonga"
-                    android:layout_width="330dp"
-                    android:layout_height="209dp"
-                    android:layout_marginLeft="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="0dp"
+                    android:scaleType="fitXY"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="40dp"
                     app:srcCompat="@drawable/fonte_escola_casalonga" />
 
 
@@ -76,11 +78,11 @@
 
                 <ImageButton
                     android:id="@+id/maps"
-                    android:layout_width="35dp"
-                    android:layout_height="30dp"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="1dp"
                     android:background="@drawable/animamaps"
@@ -91,12 +93,12 @@
 
                 <ImageButton
                     android:id="@+id/sonido"
-                    android:layout_width="30dp"
-                    android:layout_height="25dp"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="40dp"
                     android:layout_marginBottom="1dp"
                     android:layout_toEndOf="@+id/maps"

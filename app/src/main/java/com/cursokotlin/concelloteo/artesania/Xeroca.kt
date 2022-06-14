@@ -20,7 +20,7 @@ class Xeroca : AppCompatActivity() {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-        val tv4 = findViewById<TextView>(R.id.tv8)
+
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
 //        val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
