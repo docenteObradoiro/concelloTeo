@@ -55,11 +55,12 @@
 
             <TextView
                 android:id="@+id/texto2"
-                android:layout_width="332dp"
+                android:layout_width="372dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
                 android:paddingTop="15dp"
-                android:text="Que facer"
+                android:text="@string/quefacer"
                 android:textColor="#415419"
                 android:textSize="24sp" />
 

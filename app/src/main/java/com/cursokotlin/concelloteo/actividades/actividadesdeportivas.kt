@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
@@ -39,6 +40,46 @@ class actividadesdeportivas : AppCompatActivity() {
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
+        }
+
+        val telefonomeco = findViewById<Button>(R.id.telefonomeco)
+        telefonomeco.setOnClickListener {
+            val phone = "tel: +34 609065500";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+        val telefonopadel = findViewById<Button>(R.id.telefonopadel)
+        telefonopadel.setOnClickListener {
+            val phone = "tel: +34 659398226";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+        val telefonopiscina = findViewById<Button>(R.id.telefonopiscina)
+        telefonopiscina.setOnClickListener {
+            val phone = "tel: +34 981803922";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+        val telefonogimnasio = findViewById<Button>(R.id.telefonogimnasio)
+        telefonogimnasio.setOnClickListener {
+            val phone = "tel: +34 685007970";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+        val telefonocross = findViewById<Button>(R.id.telefonocross)
+        telefonocross.setOnClickListener {
+            val phone = "tel: +34 604022729";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
         }
     }
 }

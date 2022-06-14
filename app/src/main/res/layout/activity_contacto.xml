@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F9FBF9"
+    android:contentDescription="desplegable"
     tools:context=".Contacto">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -19,6 +20,9 @@
             android:id="@+id/logoTeo"
             android:layout_width="100dp"
             android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:background="#00FFFFFF"
@@ -30,28 +34,32 @@
             app:srcCompat="@drawable/logo" />
 
         <ImageButton
-            android:id="@+id/menu"
-            android:layout_width="40dp"
+            android:id="@+id/salir"
+            android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_marginLeft="205dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:background="#00FFFFFF"
             android:backgroundTint="#00FFFFFF"
-            android:contentDescription="menu hamburguesa"
+            android:contentDescription="equis"
             android:foreground="?android:attr/selectableItemBackground"
             android:scaleType="fitXY"
             android:theme="@android:style/ThemeOverlay.Material.Dark"
-            app:srcCompat="@drawable/hamburguesa"
+            app:srcCompat="@drawable/salir"
             tools:ignore="TouchTargetSizeCheck" />
-    </LinearLayout>
+    </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="20dp"
-        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,110 +68,136 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
             <TextView
                 android:id="@+id/Contacto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="@string/contacto"
+                android:text="@string/formularioDeContacto"
+                android:textAlignment="center"
                 android:textColor="#415419"
                 android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="20dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/shape"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+
+                <TextView
+                    android:id="@+id/eligeFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/eligeFormulario"
+                    android:textSize="14dp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/a_igrexa_de_san_sim_n_de_ons_en_cacheiras_un_edificio_de_estilo_barroco_datada_do_s_xviii_a_fachada_de_canter_a_e_presenta_d_as_torres_campanario_a_cada_lado_que_foron_constru_das_en_distinto_momento_a_zona_intermedia_da_fachada_ad_rnase_con_d_as_imaxes_de_pedra_a_situada_na_parte_inferior_representa_a_inmaculada_concepci_n_e_a_superior_ao_patr_n_san_sim_n_n_n_no_adro_da_igrexa_at_pase_o_v_a_crucis_conxunto_de_trece_cruces_de_pedra_destacando_a_cruz_sobranceira_da_zona_leste_ergueita_sobre_un_alto_pedestal_onde_reza_a_inscrici_n_via_sacra_dolorosa_1777_n_n_completa_o_conxunto_un_cruceiro_de_finais_do_s_xvii_que_a_nda_que_agora_f_ra_do_adro_noutrora_estivo_dentro_dese_lugar_presenta_d_as_representaci_ns_distintas_segundo_a_cara_que_mira_a_igrexa_ou_ao_cami_o_n"
+                    android:minHeight="48dp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/texto"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:ems="10"
+                    android:hint="@string/textoFormulario"
+                    android:minHeight="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="27dp"
+                    android:backgroundTint="#6A415419"
+                    android:text="Enviar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageButton
+                    android:id="@+id/maps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/animamaps"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:minWidth="48dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_toEndOf="@+id/maps"
+                    android:text="@string/direccion"
+                    android:textColor="#51661c"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/botonTelefono"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/maps"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/animatelefono"
+                    android:contentDescription="@string/appbar_scrolling_view_behavior"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/telefono"
+                    app:tint="#00FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/maps"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toEndOf="@+id/botonTelefono"
+                    android:text="@string/telefonoConcello"
+                    android:textColor="#51661c"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
         </LinearLayout>
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="362dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:foregroundTint="#2DFFFFFF"
-            app:srcCompat="@mipmap/lineaverder" />
-
-
-        <RelativeLayout
-            android:id="@+id/layoutMaps"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
-            <ImageButton
-                android:id="@+id/maps"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/animamaps"
-                android:contentDescription="@string/appbar_scrolling_view_behavior"
-                android:minWidth="48dp"
-                tools:ignore="TouchTargetSizeCheck" />
-
-
-            <TextView
-                android:id="@+id/tv9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="15dp"
-                android:layout_toEndOf="@+id/maps"
-                android:text="@string/direccion"
-                android:textColor="#51661c"
-                android:textSize="14sp" />
-
-            <ImageButton
-                android:id="@+id/botonTelefono"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_below="@+id/maps"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/animatelefono"
-                android:contentDescription="@string/appbar_scrolling_view_behavior"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/telefono"
-                app:tint="#00FFFFFF"
-                tools:ignore="TouchTargetSizeCheck" />
-
-            <TextView
-                android:id="@+id/tv6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/maps"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="55dp"
-                android:layout_toEndOf="@+id/botonTelefono"
-                android:text="@string/telefonoConcello"
-                android:textColor="#51661c"
-                android:textSize="14sp" />
-
-            <ImageButton
-                android:id="@+id/botonCorreo"
-                android:layout_width="45dp"
-                android:layout_height="30dp"
-                android:layout_below="@+id/maps"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="115dp"
-                android:background="@drawable/animacorreo"
-                android:contentDescription="@string/appbar_scrolling_view_behavior"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/gmail"
-                app:tint="#00FFFFFF"
-                tools:ignore="TouchTargetSizeCheck" />
-
-            <TextView
-                android:id="@+id/tv7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/maps"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="125dp"
-                android:layout_toEndOf="@+id/botonCorreo"
-                android:text="@string/correoTurismo"
-                android:textColor="#51661c"
-                android:textSize="14sp" />
-        </RelativeLayout>
-
-    </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

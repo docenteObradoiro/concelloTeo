@@ -21,21 +21,22 @@ class mapaReis : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun createFragment() {
-        val mapFragment: SupportMapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
+        val mapFragment: SupportMapFragment =
+            supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
-        map=googleMap
+        map = googleMap
         createMarker()
     }
 
     private fun createMarker() {
-        val coordinates= LatLng(42.77170977904926, -8.552286441799643)
+        val coordinates = LatLng(42.77170977904926, -8.552286441799643)
         val marker = MarkerOptions().position(coordinates).title("Campo da festa, Reis")
         map.addMarker(marker)
         map.animateCamera(
-            CameraUpdateFactory.newLatLngZoom(coordinates,18f),
+            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),
             4000,
             null
         )
