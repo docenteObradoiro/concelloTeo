@@ -115,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/actividades"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="250dp"
             android:layout_marginEnd="50dp"
             android:text="@string/agenda"
             android:textAlignment="textEnd"

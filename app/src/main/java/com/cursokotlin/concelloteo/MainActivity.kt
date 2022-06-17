@@ -56,12 +56,12 @@ class MainActivity : AppCompatActivity() {
         val boton3 = findViewById<Button>(R.id.botonMain3)
         val boton4 = findViewById<Button>(R.id.botonMain4)
 
-        boton1.setOnClickListener {
+        boton2.setOnClickListener {
             val acceder = Intent(this, PaxinaPrincipalRedeDeRutas::class.java)
             startActivity(acceder)
         }
 
-        boton2.setOnClickListener {
+        boton4.setOnClickListener {
             val acceder = Intent(this, actividades::class.java)
             startActivity(acceder)
         }
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        boton4.setOnClickListener {
+        boton1.setOnClickListener {
             val acceder = Intent(this, tipos_patrimonio::class.java)
             startActivity(acceder)
         }
