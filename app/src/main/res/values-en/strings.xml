@@ -2,6 +2,17 @@
 <resources>
     <string name="app_name">Concello Teo</string>
 
+    <string name="parrilladaChaves">PARRILLADA CHAVES</string>
+    <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
+    <string name="telefonoParrilladaChaves">+34 981 805 545</string>
+    <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
+    <string name="webParrilladaChaves">www.facebook.com/chaves</string>
+
+    <string name="barEme">BAR EME</string>
+    <string name="direccionBarEme">Constenla, 37, 15883 Teo, A Coruña</string>
+    <string name="telefonoBarEme">+34 981 80 61 33</string>
+    <string name="emailBarEme">vitaygus@hotmail.com</string>
+    <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
 
     <string name="ondecomer">ONDE COMER</string>
     <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>

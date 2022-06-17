@@ -102,8 +102,16 @@
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
+                <ImageView
+                    android:id="@+id/barEme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bareme" />
+
                 <ImageButton
-                    android:id="@+id/logoLocalParadaDeFrancos"
+                    android:id="@+id/logoLocalBarEme"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_alignParentStart="true"
@@ -113,51 +121,54 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoLocalParadaDeFrancos"
+                    android:contentDescription="logoLocalBarEme"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/restaurante" />
+                    app:srcCompat="@drawable/restaurante"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoDireccionParadaDeFrancos"
+                    android:id="@+id/logoDireccionBarEme"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoLocalParadaDeFrancos"
+                    android:layout_below="@+id/logoLocalBarEme"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoDireccionParadaDeFrancos"
+                    android:contentDescription="logoDireccionBarEme"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/mapsnegro" />
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoTelefonoParadaDeFrancos"
+                    android:id="@+id/logoTelefonoBarEme"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoDireccionParadaDeFrancos"
+                    android:layout_below="@+id/logoDireccionBarEme"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoTelefonoParadaDeFrancos"
+                    android:contentDescription="logoTelefonoBarEme"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/telefonoNegro" />
+                    app:srcCompat="@drawable/telefononegro"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoInfoParadaDeFrancos"
+                    android:id="@+id/logoInfoBarEme"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoTelefonoParadaDeFrancos"
+                    android:layout_below="@+id/logoTelefonoBarEme"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
@@ -168,10 +179,11 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/globo" />
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <TextView
-                    android:id="@+id/localParadaDeFrancos"
+                    android:id="@+id/localBarEme"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_alignParentTop="true"
@@ -179,54 +191,54 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="5dp"
-                    android:layout_toEndOf="@+id/logoLocalParadaDeFrancos"
+                    android:layout_toEndOf="@+id/logoLocalBarEme"
                     android:gravity="center_vertical"
-                    android:text="@string/paradaDeFrancos"
+                    android:text="@string/barEme"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/direccionParadaDeFrancos"
+                    android:id="@+id/direccionBarEme"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_below="@+id/localParadaDeFrancos"
+                    android:layout_below="@+id/localBarEme"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoDireccionParadaDeFrancos"
+                    android:layout_toEndOf="@+id/logoDireccionBarEme"
                     android:gravity="center_vertical"
-                    android:text="@string/direccionParadaDeFrancos"
+                    android:text="@string/direccionBarEme"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/telefonoParadaDeFrancos"
+                    android:id="@+id/telefonoBarEme"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_below="@+id/direccionParadaDeFrancos"
+                    android:layout_below="@+id/direccionBarEme"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoTelefonoParadaDeFrancos"
+                    android:layout_toEndOf="@+id/logoTelefonoBarEme"
                     android:gravity="center_vertical"
-                    android:text="@string/telefonoParaDeFrancos"
+                    android:text="@string/telefonoBarEme"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/emailParadaDeFrancos"
+                    android:id="@+id/emailBarEme"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:layout_below="@+id/telefonoParadaDeFrancos"
+                    android:layout_below="@+id/telefonoBarEme"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoInfoParadaDeFrancos"
+                    android:layout_toEndOf="@+id/logoInfoBarEme"
                     android:gravity="center_vertical"
-                    android:text="@string/emailParaDeFrancos"
+                    android:text="@string/emailBarEme"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
@@ -234,18 +246,20 @@
                     android:id="@+id/webParadaDeFrancos"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:layout_below="@+id/emailParadaDeFrancos"
+                    android:layout_below="@+id/emailBarEme"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="0dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="25dp"
-                    android:layout_toEndOf="@+id/logoInfoParadaDeFrancos"
+                    android:layout_toEndOf="@+id/logoInfoBarEme"
                     android:gravity="center_vertical"
-                    android:text="@string/webParadaDeFrancos"
+                    android:text="@string/webBarEme"
                     android:textColor="#415419"
                     android:textSize="12sp" />
             </RelativeLayout>
+
+
 
 
 
@@ -259,8 +273,16 @@
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
+                <ImageView
+                    android:id="@+id/parrilladaChaves"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/parrilladachaves" />
+
                 <ImageButton
-                    android:id="@+id/logoLocalOSonDoMinho"
+                    android:id="@+id/logoLocalParrilladaChaves"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_alignParentStart="true"
@@ -270,65 +292,69 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoLocalOSonDoMinho"
+                    android:contentDescription="logoLocalParrilladaChaves"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/restaurante" />
+                    app:srcCompat="@drawable/restaurante"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoDireccionOSonDoMinho"
+                    android:id="@+id/logoDireccionParrilladaChaves"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoLocalOSonDoMinho"
+                    android:layout_below="@+id/logoLocalParrilladaChaves"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoDireccionOSonDoMinho"
+                    android:contentDescription="logoDireccionParrilladaChaves"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/mapsnegro" />
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoTelefonoOSonDoMinho"
+                    android:id="@+id/logoTelefonoParrilladaChaves"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoDireccionOSonDoMinho"
+                    android:layout_below="@+id/logoDireccionParrilladaChaves"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoTelefonoOSonDoMinho"
+                    android:contentDescription="logoTelefonoParrilladaChaves"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/telefonoNegro" />
+                    app:srcCompat="@drawable/telefononegro"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/logoInfoOSonDoMinho"
+                    android:id="@+id/logoInfoParrilladaChaves"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_below="@+id/logoTelefonoOSonDoMinho"
+                    android:layout_below="@+id/logoTelefonoParrilladaChaves"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoInfoOSonDoMinho"
+                    android:contentDescription="logoInfo"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/globo" />
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <TextView
-                    android:id="@+id/localOSonDoMinho"
+                    android:id="@+id/localParrilladaChaves"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_alignParentTop="true"
@@ -336,70 +362,70 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="5dp"
-                    android:layout_toEndOf="@+id/logoLocalOSonDoMinho"
+                    android:layout_toEndOf="@+id/logoLocalParrilladaChaves"
                     android:gravity="center_vertical"
-                    android:text="@string/oSonDoMiño"
+                    android:text="@string/parrilladaChaves"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/direccionOSonDoMinho"
+                    android:id="@+id/direccionParrilladaChaves"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_below="@+id/localOSonDoMinho"
+                    android:layout_below="@+id/localParrilladaChaves"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoDireccionOSonDoMinho"
+                    android:layout_toEndOf="@+id/logoDireccionParrilladaChaves"
                     android:gravity="center_vertical"
-                    android:text="@string/direccionOSonDoMiño"
+                    android:text="@string/direccionParrilladaChaves"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/telefonoOSonDoMinho"
+                    android:id="@+id/telefonoParrilladaChaves"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_below="@+id/direccionOSonDoMinho"
+                    android:layout_below="@+id/direccionParrilladaChaves"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoTelefonoOSonDoMinho"
+                    android:layout_toEndOf="@+id/logoTelefonoParrilladaChaves"
                     android:gravity="center_vertical"
-                    android:text="@string/telefonoOSonDoMiño"
+                    android:text="@string/telefonoParrilladaChaves"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/emailOSonDoMinho"
+                    android:id="@+id/emailParrilladaChaves"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:layout_below="@+id/telefonoOSonDoMinho"
+                    android:layout_below="@+id/telefonoParrilladaChaves"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_toEndOf="@+id/logoInfoOSonDoMinho"
+                    android:layout_toEndOf="@+id/logoInfoParrilladaChaves"
                     android:gravity="center_vertical"
-                    android:text="@string/emailOSonDoMiño"
+                    android:text="@string/emailParrilladaChaves"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/webOSonDoMinho"
+                    android:id="@+id/webParrilladaChaves"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
-                    android:layout_below="@+id/emailOSonDoMinho"
+                    android:layout_below="@+id/emailParrilladaChaves"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="0dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="25dp"
-                    android:layout_toEndOf="@+id/logoInfoOSonDoMinho"
+                    android:layout_toEndOf="@+id/logoInfoParrilladaChaves"
                     android:gravity="center_vertical"
-                    android:text="@string/webOSonDoMiño"
+                    android:text="@string/webParrilladaChaves"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
