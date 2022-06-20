@@ -29,8 +29,9 @@
     <string name="dataNegrita">Data</string>
     <string name="dataBatalla">Abril</string>
     <string name="infoNegrita">Info práctica</string>
-    <string name="infoBatalla1">Camiñata en grupos reducidos de 30 personas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.</string>
-    <string name="infoBatalla2">Turismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro. A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
+    <string name="infoBatalla1">Camiñata en grupos reducidos de 30 personas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.\n\nTurismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro.
+        A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte
+        deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
 
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
@@ -46,7 +47,7 @@
         carón de mostras de maquinaria agrícola de última xeración, ou postos onde subsaharianos, xitanos ou xente de orixe diversa ofrece obxectos
         propios do ámbito urbano-industrial. O lugar onde se desenvolve a feira foi urbanizado respetando os elementos herdados do pasado, como é a
         vella capela dedicada ao Espírito Santo.</string>
-    <string name="tituloTextoSanMartiño3">Importancia deste ben cultural en relación do turismo</string>
+    <string name="tituloTextoSanMartiño3">Importancia deste ben cultural</string>
     <string name="infoSanMartiño3">A feira ofrece a posibilidade de participar e coñecer os estilos de vida tradicionais e locais. Documentada en Francos
         polo menos dende o século XVI, o día 11 de novembro, que coincide coa conmemoración dun santo, San Martiño de Tours, con culto en Galicia dende o
         século VI, é dicir, fai case 1500 anos.\n\nUnha cuestión importante é que a carballeira e o lugar de Francos están no chamado camiño portugués de
@@ -409,6 +410,7 @@
     <string name="mercados">Mercados</string>
     <string name="areasrecreativas">Áreas recreativas</string>
     <string name="quefacer">Que facer</string>
+    <string name="descricion">Descrición</string>
 
 
 </resources>
