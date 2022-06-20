@@ -1,12 +1,12 @@
 package com.cursokotlin.concelloteo
 
+import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import android.widget.MediaController
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.actividades.actividades
@@ -121,4 +121,21 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         reproductorVideo.release()
     }*/
+
+    override fun onBackPressed() {
+        myAlert(this@MainActivity)
+    }
+
+    fun myAlert(mContext: Context?) {
+        android.app.AlertDialog.Builder(mContext)
+            .setTitle("Exit?")
+            .setMessage("Do you want to exit Application ?")
+            .setPositiveButton("Yes")
+            { dialogInterface, which -> System.exit(0) }
+            .setNegativeButton("No", null)
+            .show()
+    }
+
+
+
 }
