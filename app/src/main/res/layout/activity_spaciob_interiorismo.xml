@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9FBF9"
     tools:context=".artesania.SpaciobInteriorismo">
 
     <ImageButton
@@ -261,8 +262,8 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerVertical="true"
-                        android:layout_marginTop="28dp"
                         android:layout_marginStart="30dp"
+                        android:layout_marginTop="28dp"
                         android:layout_toEndOf="@+id/fbBoton"
                         android:background="@drawable/animalinkedin"
                         android:contentDescription="@string/appbar_scrolling_view_behavior"
