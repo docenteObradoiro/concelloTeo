@@ -161,7 +161,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/telefononegro"
+                    app:srcCompat="@drawable/telefono"
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
@@ -332,7 +332,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/telefononegro"
+                    app:srcCompat="@drawable/telefono"
                     tools:ignore="TouchTargetSizeCheck" />
 
                 <ImageButton
