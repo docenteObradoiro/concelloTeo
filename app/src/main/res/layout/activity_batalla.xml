@@ -82,81 +82,103 @@
                 android:translationY="-25dp"
                 app:srcCompat="@mipmap/batalla" />
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="match_parent"
+                android:layout_width="79dp"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
                 android:paddingLeft="30dp"
-                android:paddingTop="30dp"
-                android:text="@string/lugarNegrita"
-                android:textColor="#415419"
-                android:translationY="-20dp" />
+                android:text="@string/lugarEntroido"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="103dp"
+                android:layout_toEndOf="@+id/textView6"
                 android:text="@string/lugarBatalla"
-                android:textColor="#000000"
-                android:translationY="-20dp" />
+                android:textColor="#050000" />
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
                 android:paddingLeft="30dp"
-                android:paddingTop="15dp"
-                android:text="@string/dataNegrita"
-                android:textColor="#415419"
-                android:translationY="-20dp" />
+                android:text="@string/dataEntroido"
+                android:textColor="#8A8585" />
 
             <TextView
                 android:id="@+id/textView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
+                android:layout_width="125dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="160dp"
+                android:layout_toEndOf="@+id/textView14"
                 android:text="@string/dataBatalla"
-                android:textColor="#000000"
-                android:translationY="-20dp" />
+                android:textColor="#050000" />
 
-            <TextView
-                android:id="@+id/textView53"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:paddingTop="15dp"
-                android:text="@string/infoNegrita"
-                android:textColor="#415419"
-                android:translationY="-20dp" />
+        </RelativeLayout>
 
-            <TextView
-                android:id="@+id/textView54"
-                android:layout_width="317dp"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:text="@string/infoBatalla1"
-                android:textColor="#000000"
-                android:translationY="-20dp" />
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="30dp"
+            android:layout_gravity="center"
+            android:text="@string/infoNegrita"
+            android:textColor="#8A8585" />
 
-            <TextView
-                android:id="@+id/textView55"
-                android:layout_width="317dp"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:paddingTop="15dp"
-                android:text="@string/infoBatalla2"
-                android:textColor="#000000"
-                android:translationY="-20dp" />
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:foregroundTint="#2DFFFFFF"
 
-            <ImageButton
-                android:id="@+id/botonformulario"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#F9FBF9"
-                android:contentDescription="enlaceBatalla"
-                android:translationX="20dp"
-                app:srcCompat="@drawable/ic_baseline_insert_link_24" />
+            app:srcCompat="@mipmap/lineaverder" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"
+            android:text="@string/infoBatalla1"
+            android:textColor="#000000" />
+
+        <ImageButton
+            android:id="@+id/botonformulario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F9FBF9"
+            android:contentDescription="enlaceBatalla"
+            android:minHeight="48dp"
+            android:translationX="20dp"
+            app:srcCompat="@drawable/ic_baseline_insert_link_24" />
 
             <TextView
                 android:id="@+id/textView2"
