@@ -16,6 +16,7 @@ class actividades : AppCompatActivity() {
         val boton6=findViewById<ImageButton>(R.id.boton6)
         val boton7=findViewById<ImageButton>(R.id.boton7)
         val boton8=findViewById<ImageButton>(R.id.boton8)
+        val boton99=findViewById<ImageButton>(R.id.boton99)
 
 
         boton5.setOnClickListener {
@@ -32,6 +33,11 @@ class actividades : AppCompatActivity() {
         }
         boton8.setOnClickListener {
             val acceder = Intent(this, quefacer::class.java)
+            startActivity(acceder)
+        }
+
+        boton99.setOnClickListener {
+            val acceder = Intent(this, lampai::class.java)
             startActivity(acceder)
         }
 

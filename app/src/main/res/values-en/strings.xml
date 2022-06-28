@@ -57,17 +57,31 @@
     <string name="textoFormulario">Escribe aquí a túa mensaxe</string>
     <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
     <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
+
+
     <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
     <string name="lugarNegrita">Lugar</string>
     <string name="lugarBatalla">Reitoral de Bamonde</string>
     <string name="dataNegrita">Data</string>
-    <string name="dataBatalla">Abril</string>
+    <string name="dataBatalla"><u>Consultar aquí</u></string>
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Caminata en grupos reducidos de 30 personas. Habrá bus de regreso para ir de lo alto de Montouto a Bamonde.\n\nTurismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio,
         agosto e septiembre. La propuesta será una ruta desde Bamonde hasta el mirador de Montouto con casi 9 quilómetros de recorrido.
         El actor y la actriz harán varias paradas en las que realizarán parte de este acontecimento histórico. Estas rutas dramatizadas se
         realizarán los sábados de julio y agosto por la mañana y los domingos de septiembre también en horario de mañana.</string>
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
+
+    <string name="tituloLampai">Visitas teatralizadas de la Ruta Per Caminho de Lampai</string>
+    <string name="lugarNegritaLampai">Lugar</string>
+    <string name="lugarLampai">Capela de Santa Ana</string>
+    <string name="dataNegritaLampai">Fecha</string>
+    <string name="infoNegritaLampai">Info práctica</string>
+    <string name="infoLampai">Un recorrido circular de 5 km con salida y llegada en la capilla de Santa Ana (Agrela, Lampai).
+        Esta ruta tiene como hilo conductor el poema que un trovador medieval, Xoán Eras, dedicó a su novia cuando marchaba para
+        Portugal atravesando este territorio y los sirven de excusa para visitar los impresionantes marcos medievales que aún se
+        conservan en Teo. Pero será, en realidad “un viaje en el tiempo” pues además de sumergirnos en el medievo, haremos un repaso
+        por otras épocas que conforman la historia de esta aldea pero que representan la historia del Ayuntamiento y la memoria que
+        no debemos olvidar.</string>
 
 
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>

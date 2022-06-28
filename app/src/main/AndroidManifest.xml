@@ -16,6 +16,9 @@
             android:name=".actividades.areasrecreativas"
             android:exported="false" />
         <activity
+            android:name=".actividades.lampai"
+            android:exported="false" />
+        <activity
             android:name=".actividades.mercados"
             android:exported="false" />
         <activity

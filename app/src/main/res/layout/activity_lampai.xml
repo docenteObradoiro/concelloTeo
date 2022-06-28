@@ -53,16 +53,16 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/texto"
-                android:layout_width="323dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="#F9FBF9"
-                android:paddingTop="15dp"
-                android:text="@string/tituloBatalla"
-                android:textColor="#415419"
-                android:textSize="24sp" />
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#F9FBF9"
+            android:paddingTop="15dp"
+            android:text="@string/tituloLampai"
+            android:textColor="#415419"
+            android:textSize="24sp" />
 
             <ImageView
                 android:id="@+id/barra1"
@@ -76,12 +76,12 @@
 
         <ImageView
             android:id="@+id/imageView16"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="3dp"
             android:layout_marginTop="-25dp"
             android:layout_marginBottom="20dp"
-            app:srcCompat="@mipmap/batalla" />
+            app:srcCompat="@drawable/_3___capela_de_lampai" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="103dp"
                 android:layout_toEndOf="@+id/textView6"
-                android:text="@string/lugarBatalla"
+                android:text="@string/lugarLampai"
                 android:textColor="#050000" />
 
             <TextView
@@ -144,10 +144,10 @@
             android:id="@+id/textView53"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:paddingLeft="30dp"
-            android:layout_gravity="center"
-            android:text="@string/infoNegrita"
+            android:text="@string/infoNegritaLampai"
             android:textColor="#8A8585" />
 
         <ImageView
@@ -169,26 +169,27 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingBottom="20dp"
-            android:text="@string/infoBatalla1"
+            android:text="@string/infoLampai"
             android:textColor="#000000" />
 
         <ImageButton
             android:id="@+id/botonformularioLampai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:backgroundTint="#F9FBF9"
             android:contentDescription="enlaceBatalla"
             android:minHeight="48dp"
-            android:translationX="20dp"
             app:srcCompat="@drawable/ic_baseline_insert_link_24" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/formularioBatalla"
-                android:translationX="63dp"
-                android:translationY="-32dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-35dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/formularioBatalla"
+            android:translationX="63dp" />
 
             <ImageView
                 android:id="@+id/imageView4"

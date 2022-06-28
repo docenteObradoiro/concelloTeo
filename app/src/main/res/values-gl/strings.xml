@@ -64,12 +64,25 @@
     <string name="lugarNegrita">Lugar</string>
     <string name="lugarBatalla">Reitoral de Bamonde</string>
     <string name="dataNegrita">Data</string>
-    <string name="dataBatalla">Abril</string>
+    <string name="dataBatalla"><u>Consultar aquí</u></string>
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Camiñata en grupos reducidos de 30 personas. Haberá bus de regreso para ir do alto de Montouto a Bamonde.\n\nTurismo e Os Quinquilláns ofrecen rutas dramatizadas sobre a Batalla de Cacheiras os fins de semana dos meses de xullo, agosto e setembro.
         A proposta será unha ruta dende Bamonde ata o mirador de Montouto con casi 9 quilómetros de percorrido. O actor e a actriz farán varias paradas nas que realizarán parte
         deste acontecemento histórico. Estas rutas dramatizadas realizaranse os sábados de xullo e agosto pola mañá e os domingos de setembro tamén en horario de mañá.</string>
     <string name="formularioBatalla">Acceso o formulario de inscripción</string>
+
+    <string name="tituloLampai">Visitas teatralizadas de la Ruta Per Caminho de Lampai</string>
+    <string name="lugarNegritaLampai">Lugar</string>
+    <string name="lugarLampai">Capela de Santa Ana</string>
+    <string name="dataNegritaLampai">Fecha</string>
+    <string name="infoNegritaLampai">Info práctica</string>
+    <string name="infoLampai">Un percorrido circular de 5 km con saída e chegada na capela de Santa Ana (Agrela, Lampai).
+        Esta ruta ten como fío condutor o poema que un trobador medieval, Xoán Airas, dedicou á súa namorada cando marchaba para
+        Portugal atravesando este territorio e sérvenos de escusa para visitar os impresionantes marcos medievais que aínda se
+        conservan en Teo. Pero será, en realidade “unha viaxe no tempo” pois ademáis de mergullarnos no medievo, faremos un repaso
+        por outras épocas que conforman a historia desta aldea pero que representan a historia do Concello e a memoria que non
+        debemos esquecer.</string>
+
     <string name="tituloSanMartiño">Feria Cabalar de San Martiño</string>
     <string name="infoSanMartiño">Nos últimos tempos as feiras tradicionais de Galicia adquiriron a dimensión de festa sobre a de feira debido aos cambios
         socio-económicos do século XX. En canto ás cuestións que dotan de gran interese á feira de San Martiño temos:

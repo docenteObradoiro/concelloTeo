@@ -2,23 +2,18 @@ package com.cursokotlin.concelloteo.actividades
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
 
-class batalla : AppCompatActivity() {
+class lampai: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_batalla)
-
-        val consultar = findViewById<TextView>(R.id.consultar)
-        consultar.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl/actividades/1/visitas-teatralizadas-batalla-de-cacheiras-publico-adulto")))
-        }
+        setContentView(R.layout.activity_lampai)
 
         val botonTeo = findViewById<ImageButton>(R.id.botonTeo100)
         botonTeo.setOnClickListener {
@@ -26,15 +21,20 @@ class batalla : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa100)
-        accesoMenu.setOnClickListener {
-            val acceder = Intent(this, Menu::class.java)
-            startActivity(acceder)
+        val consultar = findViewById<TextView>(R.id.consultar)
+        consultar.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl/actividades/17/ruta-teatralizada-per-caminho-de-lampai")))
         }
 
         val formulario = findViewById<ImageButton>(R.id.botonformularioLampai)
         formulario.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl/actividades/1/visitas-teatralizadas-batalla-de-cacheiras-publico-adulto/inscricion")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/gl/actividades/17/ruta-teatralizada-per-caminho-de-lampai/inscricion")))
+        }
+
+        val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa100)
+        accesoMenu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
         }
 
         val facebook = findViewById<ImageButton>(R.id.facebook)
@@ -56,8 +56,5 @@ class batalla : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-
-
-
     }
 }

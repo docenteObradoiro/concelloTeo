@@ -58,28 +58,41 @@
             <ImageButton
                 android:id="@+id/boton5"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="287dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="festas"
                 android:src="@mipmap/sanmartino" />
 
             <ImageButton
                 android:id="@+id/boton7"
-                android:layout_width="392dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="batalla"
-                android:translationX="-20dp"
                 app:srcCompat="@mipmap/batallacuadrada" />
 
             <ImageButton
                 android:id="@+id/boton6"
-                android:layout_width="392dp"
+                android:layout_width="390dp"
                 android:layout_height="300dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="#FFFFFF"
                 android:contentDescription="entroido"
                 android:translationX="-20dp"
                 app:srcCompat="@mipmap/ullap" />
+
+            <ImageButton
+                android:id="@+id/boton99"
+                android:layout_width="392dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#FFFFFF"
+                android:contentDescription="lampai"
+                android:translationX="-20dp"
+                app:srcCompat="@drawable/rutateatralizadapercaminodelamapi" />
 
             <ImageButton
                 android:id="@+id/boton8"
