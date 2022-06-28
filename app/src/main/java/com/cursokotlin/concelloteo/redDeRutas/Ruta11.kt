@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
@@ -37,6 +38,12 @@ class Ruta11 : AppCompatActivity() {
             val acceder = Intent(this, informacion_carballeira_francos::class.java)
             startActivity(acceder)
         }
+        /*Falta introducir enlace a descargar PDF camiño portugués no concello de Teo. Se non hai, eliminar este botón.*/
+        val descargaPdf = findViewById<TextView>(R.id.pdf1)
+        descargaPdf.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
+        }
+        /*Falta introducir enlace a ruta 11 no Wikiloc do Concello de Teo. Se non hai, eliminar este botón.*/
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
