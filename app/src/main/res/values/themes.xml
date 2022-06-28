@@ -22,6 +22,14 @@
         <item name="android:windowBackground">@drawable/splash</item>
     </style>
 
+    <style name="AlertTheme" parent="Theme.AppCompat.Dialog.Alert">
+
+        <item name="colorAccent">@color/dialogColor</item>
+
+    </style>
+
+
+
 
     <style name="Theme.ConcelloTeo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.ConcelloTeo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

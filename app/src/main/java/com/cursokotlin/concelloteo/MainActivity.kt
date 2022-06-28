@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.VideoView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.concelloteo.actividades.actividades
 import com.cursokotlin.concelloteo.artesania.PaginaPrincipalArtesania
@@ -123,17 +124,19 @@ class MainActivity : AppCompatActivity() {
     }*/
 
     override fun onBackPressed() {
-        myAlert(this@MainActivity)
+        myAlert(this)
     }
 
     fun myAlert(mContext: Context?) {
-        android.app.AlertDialog.Builder(mContext)
-            .setTitle("Exit?")
-            .setMessage("Do you want to exit Application ?")
-            .setPositiveButton("Yes")
-            { dialogInterface, which -> System.exit(0) }
-            .setNegativeButton("No", null)
-            .show()
+
+        val builder = AlertDialog.Builder(this, R.style.AlertTheme)
+            builder.setTitle("Exit?")
+            builder.setMessage("Do you want to exit Application?")
+            builder.setPositiveButton("Yes")
+                { dialogInterface, which -> finish() }
+
+            builder.setNegativeButton("No", null)
+            builder.show()
     }
 
 
