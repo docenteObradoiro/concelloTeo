@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
@@ -28,6 +29,11 @@ class Ruta10 : AppCompatActivity() {
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
+        }
+
+        val pdfPetroglifo=findViewById<TextView>(R.id.pdfDescargaPetrofligo)
+        pdfPetroglifo.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
         }
         val patrimoniopetroglifoangueira= findViewById<ImageButton>(R.id.botonPatrimoniopetroglifoangueira)
         patrimoniopetroglifoangueira.setOnClickListener {
