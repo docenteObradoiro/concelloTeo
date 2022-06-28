@@ -241,12 +241,15 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/pdf1"
-                android:layout_width="match_parent"
+                android:id="@+id/pdfDescargaPortugues"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:text="@string/caminhoPortuguesTeense"
-                android:textColor="#000000" />
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/descargaPDF"
+                android:gravity="center"
+                android:textColor="#000000"
+                app:drawableStartCompat="@drawable/ic_baseline_insert_link_24" />
 
 
         </LinearLayout>

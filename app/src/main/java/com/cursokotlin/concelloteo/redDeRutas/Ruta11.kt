@@ -39,7 +39,7 @@ class Ruta11 : AppCompatActivity() {
             startActivity(acceder)
         }
         /*Falta introducir enlace a descargar PDF camiño portugués no concello de Teo. Se non hai, eliminar este botón.*/
-        val descargaPdf = findViewById<TextView>(R.id.pdf1)
+        val descargaPdf = findViewById<TextView>(R.id.pdfDescargaPortugues)
         descargaPdf.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
         }
