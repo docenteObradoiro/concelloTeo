@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
@@ -72,6 +73,10 @@ class Ruta12 : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
 
+        val pdfDescargaArrieiros=findViewById<TextView>(R.id.pdfDescargaArrieiros)
+        pdfDescargaArrieiros.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
+        }
 
     }
 }
