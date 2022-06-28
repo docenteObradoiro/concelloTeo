@@ -8,6 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="dialogColor">#009688</color>
+    <color name="colorAccent">#D81B60</color>
+
     <color name="fondo">#F9FBF9</color>
     <color name="numeroRuta">#402D652F</color>
     <color name="nomeRuta">#415419</color>
