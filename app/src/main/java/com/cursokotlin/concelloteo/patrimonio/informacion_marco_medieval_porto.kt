@@ -9,6 +9,8 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.redDeRutas.Ruta1
+import com.cursokotlin.concelloteo.redDeRutas.Ruta10
 
 class informacion_marco_medieval_porto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,12 @@ class informacion_marco_medieval_porto : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val ruta1= findViewById<ImageButton>(R.id.botonRuta1)
+        ruta1.setOnClickListener {
+            val acceder = Intent(this, Ruta1::class.java)
             startActivity(acceder)
         }
 

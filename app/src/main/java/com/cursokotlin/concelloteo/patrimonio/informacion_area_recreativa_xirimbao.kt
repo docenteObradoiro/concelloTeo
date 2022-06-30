@@ -9,6 +9,8 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.redDeRutas.Ruta10
+import com.cursokotlin.concelloteo.redDeRutas.Ruta9
 
 class informacion_area_recreativa_xirimbao : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +29,11 @@ class informacion_area_recreativa_xirimbao : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val ruta9= findViewById<ImageButton>(R.id.botonRuta9)
+        ruta9.setOnClickListener {
+            val acceder = Intent(this, Ruta9::class.java)
+            startActivity(acceder)
+        }
 
         val facebook = findViewById<ImageButton>(R.id.facebook_3_)
         facebook.setOnClickListener {

@@ -9,6 +9,8 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.redDeRutas.Ruta10
+import com.cursokotlin.concelloteo.redDeRutas.Ruta6
 
 class informacion_devesa_agromaior : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,12 @@ class informacion_devesa_agromaior : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val ruta6= findViewById<ImageButton>(R.id.botonRuta6)
+        ruta6.setOnClickListener {
+            val acceder = Intent(this, Ruta6::class.java)
             startActivity(acceder)
         }
 
