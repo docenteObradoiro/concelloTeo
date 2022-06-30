@@ -121,6 +121,30 @@
                 android:text="@string/petroglifodapenabicudadeloureiroDescripcion"
                 android:textSize="14sp" />
 
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/botonRuta10"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:contentDescription="Ruta 10: Ruta dos Petróglifos de Teo"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        android:layout_marginLeft="-10dp"
+                        app:srcCompat="@mipmap/botonruta10" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"

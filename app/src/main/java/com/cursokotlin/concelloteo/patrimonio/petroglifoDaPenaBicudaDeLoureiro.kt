@@ -9,6 +9,7 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.redDeRutas.Ruta10
 
 class petroglifoDaPenaBicudaDeLoureiro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +25,12 @@ class petroglifoDaPenaBicudaDeLoureiro : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val ruta10= findViewById<ImageButton>(R.id.botonRuta10)
+        ruta10.setOnClickListener {
+            val acceder = Intent(this, Ruta10::class.java)
             startActivity(acceder)
         }
 

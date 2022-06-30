@@ -9,6 +9,8 @@ import android.widget.ImageView
 import com.cursokotlin.concelloteo.MainActivity
 import com.cursokotlin.concelloteo.Menu
 import com.cursokotlin.concelloteo.R
+import com.cursokotlin.concelloteo.redDeRutas.Ruta10
+import com.cursokotlin.concelloteo.redDeRutas.Ruta7
 
 class informacion_tunel_faramello : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,12 @@ class informacion_tunel_faramello : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        val ruta7= findViewById<ImageButton>(R.id.botonRuta7)
+        ruta7.setOnClickListener {
+            val acceder = Intent(this, Ruta7::class.java)
             startActivity(acceder)
         }
 
