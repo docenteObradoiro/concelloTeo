@@ -14,28 +14,36 @@
         android:theme="@style/Theme.ConcelloTeo">
         <activity
             android:name=".actividades.areasrecreativas"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.lampai"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.mercados"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.piscinas"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.actividadesdeportivas"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.quefacer"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.sanmartino"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Contacto"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -57,13 +65,16 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".actividades.mapaVilarino"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.mapaReis"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.mapaTeo"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -71,60 +82,82 @@
 
         <activity
             android:name=".actividades.mapaRaris"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.entroido"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.batalla"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.actividades"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.PaginaPrincipalArtesania"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.OliXiraldez"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.OlgaMartinez"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.PabloSeoane"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.IagoSalgado"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.AlalaCouture"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.ArteCelta"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.TresOficios"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.MacalaXoias"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.RosaMendez"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.SpaciobInteriorismo"
-            android:exported="false" /> <!-- <activity -->
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
-        <!-- android:exported="false" /> -->
+        <!-- android:exported="false"
+        android:screenOrientation="portrait"/> -->
+
         <activity
             android:name=".artesania.Xeroca"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.CuchillosVillar"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".artesania.BrigantiaOrfebres"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".redDeRutas.PaxinaPrincipalRedeDeRutas"
             android:exported="false"
@@ -179,143 +212,189 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".patrimonio.igrexaCruceiroDeSantaMariaDeBamonde"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.igrexadeSanSimonDeOnsCacheiras"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.igrexaDeSantaMariaDeTeo"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.igrexaDeSantaMariaDeLuou"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.ermidaCruceiroDeSantaEufemia"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.igrexaDeSanMiguelDeRaris"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.igrexaDeSantaMariaDeLampai"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.capelaCruceiroDoEspiritoSanto"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.capelaDeSantaAnaDeLampai"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.casaReitoralDeBamonde"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.petroglifoDoRioAngueiraOuDoMonteDeCornide"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.petroglifoDoOuteiroDoCorno"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.petroglifoDaPenaBicudaDeLoureiro"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.areaArqueoloxicaDoMontePiquinho"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.marcoDaAgrela"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.patrimonio_eclesiastico"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.patrimonio_arqueoloxico"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.patrimonio_etnografico"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.patrimonio_natural"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.tipos_patrimonio"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_ponte_colgante_xirimbao"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_escola_casalonga"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_tunel_faramello"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_ponte_nova_raris"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_nucleo_tradicional_pontevea"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_fonte_lavadoiro_florida"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_lavadoiro_casalonga"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_lavadoiro_francos"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_ponte_lavadoiro_rio_tinto"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_escola_francos"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_pousada_san_antoninho"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_ponte_paradela"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_ponte_medieval_pontevea"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_marco_medieval_porto"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_cruceiro_gotico_francos"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_burga_xermeade"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_cruceiro_tribaldes"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_devesa_agromaior"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_fraga_sestelo"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_area_recreativa_xirimbao"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_couto_pesca"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_miradoiro_cumio"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_sistema_fluvial_ulla_deza"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_carballeira_francos"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".OndeComer"
-            android:exported="false"/>
+            android:exported="false"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
