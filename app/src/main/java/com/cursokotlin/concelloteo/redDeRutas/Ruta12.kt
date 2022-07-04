@@ -75,7 +75,7 @@ class Ruta12 : AppCompatActivity() {
 
         val pdfDescargaArrieiros=findViewById<TextView>(R.id.pdfDescargaArrieiros)
         pdfDescargaArrieiros.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/tripticos-informativos-teo.appspot.com/o/2019_Folleto%20camin%CC%83o%20xacobeo%20da%20xeira%20e%20dos%20arrieiros.pdf?alt=media&token=8f500a5a-5114-4ecd-b1df-7bb28059df7d")))
         }
 
     }

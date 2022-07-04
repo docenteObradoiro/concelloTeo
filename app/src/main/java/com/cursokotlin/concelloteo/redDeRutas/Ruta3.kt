@@ -36,7 +36,7 @@ class Ruta3 : AppCompatActivity() {
 
         val pdfBatalla=findViewById<TextView>(R.id.pdfDescargaBatalla)
         pdfBatalla.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/tripticos-informativos-teo.appspot.com/o/2019_Folleto%20batalla%20de%20Cacheiras.pdf?alt=media&token=c3f6e150-abfd-4d4f-b755-613f7f1c31a2")))
         }
 
         val botonCasaReitoralDeBamonde = findViewById<ImageButton>(R.id.botonCasaReitoralDeBamonde)
