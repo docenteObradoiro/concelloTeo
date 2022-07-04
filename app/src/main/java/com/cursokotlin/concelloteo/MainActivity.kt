@@ -15,6 +15,7 @@ import com.cursokotlin.concelloteo.artesania.PaginaPrincipalArtesania
 import com.cursokotlin.concelloteo.patrimonio.tipos_patrimonio
 import com.cursokotlin.concelloteo.redDeRutas.PaxinaPrincipalRedeDeRutas
 
+
 class MainActivity : AppCompatActivity() {
 
     protected lateinit var video: VideoView
@@ -133,7 +134,11 @@ class MainActivity : AppCompatActivity() {
             builder.setTitle("Exit?")
             builder.setMessage("Do you want to exit Application?")
             builder.setPositiveButton("Yes")
-                { dialogInterface, which -> finish() }
+                { dialogInterface, which ->
+                    val intent = Intent(Intent.ACTION_MAIN)
+                    intent.addCategory(Intent.CATEGORY_HOME)
+                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                    startActivity(intent) }
 
             builder.setNegativeButton("No", null)
             builder.show()
