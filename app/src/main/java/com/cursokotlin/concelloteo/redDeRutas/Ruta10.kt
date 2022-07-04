@@ -33,7 +33,7 @@ class Ruta10 : AppCompatActivity() {
 
         val pdfPetroglifo=findViewById<TextView>(R.id.pdfDescargaPetrofligo)
         pdfPetroglifo.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-da-batalla-de-cacheiras-bamonde-montouto-56790959")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/tripticos-informativos-teo.appspot.com/o/2018_folleto%20ruta%20dos%20petro%CC%81glifos%20de%20Teo_PRG_238.pdf?alt=media&token=bb91a739-485b-4b34-a085-d7be41c9bbd0")))
         }
         val patrimoniopetroglifoangueira= findViewById<ImageButton>(R.id.botonPatrimoniopetroglifoangueira)
         patrimoniopetroglifoangueira.setOnClickListener {
