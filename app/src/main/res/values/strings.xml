@@ -470,6 +470,8 @@
     <string name="informaci_n">información</string>
     <string name="wikiloc">wikiloc</string>
     <string name="instagram">instagram</string>
+    <string name="logoconcello">logoConcello</string>
+    <string name="logodireccionbareme">logoDireccionBarEme</string>
 
 
 </resources>
