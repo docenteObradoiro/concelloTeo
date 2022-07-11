@@ -22,7 +22,6 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:background="#00FFFFFF"
             android:backgroundTint="#00FFFFFF"
@@ -171,7 +170,6 @@
                     android:layout_below="@+id/logoTelefonoBarEme"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
-                    android:layout_marginLeft="20dp"
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
@@ -195,7 +193,8 @@
                     android:gravity="center_vertical"
                     android:text="@string/barEme"
                     android:textColor="#415419"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/direccionBarEme"
@@ -366,7 +365,8 @@
                     android:gravity="center_vertical"
                     android:text="@string/parrilladaChaves"
                     android:textColor="#415419"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/direccionParrilladaChaves"
@@ -436,10 +436,11 @@
                 android:id="@+id/imageView4"
                 android:layout_width="362dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginTop="40dp"
                 android:foregroundTint="#2DFFFFFF"
-                app:srcCompat="@mipmap/lineaverder" />
+                app:srcCompat="@mipmap/lineaverder"
+                android:contentDescription="TODO" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -489,7 +490,7 @@
                     android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="instagram"
+                    android:contentDescription="@string/instagram"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -505,7 +506,7 @@
                     android:layout_marginStart="-15dp"
                     android:layout_toEndOf="@+id/instagram"
                     android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="wikiloc"
+                    android:contentDescription="@string/wikiloc"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/wikiloc"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -521,7 +522,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="información"
+                    android:contentDescription="@string/informaci_n"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"

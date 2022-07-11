@@ -457,7 +457,9 @@
     <string name="areasrecreativas">Áreas recreativas</string>
     <string name="quefacer">Que hacer</string>
     <string name="descricion">Descrición</string>
-
+    <string name="informaci_n">information</string>
+    <string name="wikiloc">wikiloc</string>
+    <string name="instagram">instagram</string>
 
 
 </resources>

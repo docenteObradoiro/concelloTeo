@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ConcelloTeo" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.ConcelloTeo" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#F9FBF9</item>
         <item name="colorPrimaryVariant">#e0e0e0</item>
