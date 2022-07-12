@@ -331,7 +331,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_toEndOf="@+id/logoLocalBarCanaletto"
                     android:gravity="center_vertical"
-                    android:text="CAFE BAR CANALETTO"
+                    android:text="RESTAURANTE CANALETTO"
                     android:textColor="#415419"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -347,7 +347,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_toEndOf="@+id/logoDireccionBarCanaletto"
                     android:gravity="center_vertical"
-                    android:text="Trva. Cacheiras, 21 - CACHEIRAS"
+                    android:text="Trva. Cacheiras, 21, Teo"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
@@ -377,7 +377,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_toEndOf="@+id/logoInfoBarCanaletto"
                     android:gravity="center_vertical"
-                    android:text="restaurante@canaletto.es"
+                    android:text="lcastineirascampos@gmail.com"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
