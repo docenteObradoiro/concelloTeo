@@ -46,11 +46,9 @@
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
     <string name="webCalabaza">shorturl.at/fruxZ</string>
 
-    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
-    <string name="direccionFogarDoSantiso">Trasellas, 13, 15886, Teo</string>
-    <string name="telefonoFogarDoSantiso">981 80 59 48</string>
+
     <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
-    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
 
     <string name="oRincon">O RINCÓN</string>
     <string name="direccionORincon">A Grela, 15883, Teo</string>
@@ -99,11 +97,6 @@
     <string name="webACasinaDeEsther">https://casitadeesther.com/</string>
 
 
-    <string name="parrilladaChaves">PARRILLADA CHAVES</string>
-    <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
-    <string name="telefonoParrilladaChaves">981 805 545</string>
-    <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
-    <string name="webParrilladaChaves">www.facebook.com/chaves</string>
 
 
     <string name="Ranha">RAÑA</string>
@@ -161,7 +154,7 @@
 
 
 
-    <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
+
     <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
     <!--    CAMBIAR OS CEROS POLO TELÉFONO CORRESPONDENTE, NESTE FORMATO (+34 981 00 00 00)-->
     <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
@@ -195,11 +188,7 @@
 
     <string name="telefono">telefono</string>
 
-    <string name="barEme">BAR EME</string>
-    <string name="direccionBarEme">Constenla, 37, 15883 Teo, A Coruña</string>
-    <string name="telefonoBarEme">981 80 61 33</string>
-    <string name="emailBarEme">vitaygus@hotmail.com</string>
-    <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
+
 
     <string name="restauranteSanMartinho">Restaurante San Martiño</string>
     <string name="SanMartinhoDireccion">Lugar de Espiño Calo Teo</string>
@@ -218,12 +207,6 @@
     <string name="logoLocal">Logo tenedor y cuchillo</string>
 
 
-    <string name="ondecomer">ONDE COMER</string>
-
-    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
-    <string name="telefonoParaDeFrancos">981 53 80 04</string>
-    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
-    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
 
     <string name="logoConcello">Logo concello</string>
     <string name="menu_hamburguesa">menú hamburguesa</string>
@@ -242,10 +225,6 @@
     <string name="emailOSonDoMino">info@osondominho.com</string>
     <string name="webOSonDoMino">www.osondominho.com</string>
 
-    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
-    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
-    <string name="telefonoNovoViñedo">697 47 28 14</string>
-    <string name="webNovoViñedo">www.novoviñedo.es</string>
 
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
     <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
@@ -388,7 +367,7 @@
 
     <string name="nomeCasaNerea">Casa Nerea</string>
     <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), 25, 15883, Cacheiras, Teo</string>
-    <string name="telefono">665 850 909</string>
+    <string name="telefonoNerea">665 850 909</string>
 
     <string name="nomeCasaManola">Casa Manola</string>
     <string name="direccionCasaManola">Raris, 80, Teo </string>
