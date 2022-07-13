@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageButton
+        android:id="@+id/logoTeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F9FBF9"
+        android:contentDescription="botonTeo"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:srcCompat="@drawable/hamburguesa" />
+
+    <TextView
+        android:id="@+id/ondeComer"
+        android:layout_width="280dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="62dp"
+        android:gravity="center"
+        android:text="Tradicional Galega"
+        android:textColor="#7F4B5A2B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:foregroundTint="#2DFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/lineaverder" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cacheiras"
+                android:textColor="#415419"
+                android:textSize="20sp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <!--    Bar Bar Canaletto  -->
+
+                    <RelativeLayout
+                        android:background="@drawable/shape"
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/barCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/canaletto" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalBarCanaletto"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalBarCanaletto"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionBarCanaletto"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalBarCanaletto"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoDireccionBarCanaletto"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoBarCanaletto"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionBarCanaletto"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoBarCanaletto"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoBarCanaletto"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoBarCanaletto"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/localBarCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalBarCanaletto"
+                            android:gravity="center_vertical"
+                            android:text="RESTAURANTE CANALETTO"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionBarCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localBarCanaletto"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionBarCanaletto"
+                            android:gravity="center_vertical"
+                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoBarCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionBarCanaletto"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
+                            android:gravity="center_vertical"
+                            android:text="+34 981 806 834"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/emailBarCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefonoBarCanaletto"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoInfoBarCanaletto"
+                            android:gravity="center_vertical"
+                            android:text="lcastineirascampos@gmail.com"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/webBarCanaletto"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/emailBarCanaletto"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_toEndOf="@+id/logoInfoBarCanaletto"
+                            android:gravity="center_vertical"
+                            android:text="https://www.canaletto.es/"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calo"
+                android:textColor="#415419"
+                android:textSize="20sp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <!--    Cierto Blanco   -->
+
+                    <RelativeLayout
+                        android:background="@drawable/shape"
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/ciertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cierto_blanco" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalCiertoBlanco"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalCiertoBlanco"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionCiertoBlanco"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalCiertoBlanco"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoDireccionCiertoBlanco"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoCiertoBlanco"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionCiertoBlanco"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoCiertoBlanco"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoCiertoBlanco"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoCiertoBlanco"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/localCiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="CIERTO BLANCO"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionCiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localCiertoBlanco"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="RÚA DOS IRMÁNS LISTE FORJÁN , nº 17"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoCiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/direccionCiertoBlanco"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="+34 981 548 383"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefono2CiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefonoCiertoBlanco"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="+34 619 110 232"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/emailCiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefono2CiertoBlanco"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoInfoCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="info@ciertoblanco.com"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/webCiertoBlanco"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/emailCiertoBlanco"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_toEndOf="@+id/logoInfoCiertoBlanco"
+                            android:gravity="center_vertical"
+                            android:text="www.ciertoblanco.com"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

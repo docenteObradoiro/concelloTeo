@@ -16,7 +16,9 @@
         <activity
             android:name=".Grupo3_DondeComer"
             android:exported="false" />
-
+        <activity
+            android:name=".Grupo3_OndeComer"
+            android:exported="false" />
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
