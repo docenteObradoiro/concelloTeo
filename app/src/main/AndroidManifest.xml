@@ -13,21 +13,23 @@
         android:roundIcon="@drawable/logosenletra"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
+
         <activity
-            android:name=".ComerPulperia"
-            android:exported="false" />
+            android:name=".comer.ComerPulperia"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".ComerMarisqueria"
-            android:exported="false" />
+            android:name=".comer.ComerMarisqueria"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".ComerMenu"
-            android:exported="false" />
+            android:name=".comer.ComerMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Grupo3_DondeComer"
-            android:exported="false" />
-        <activity
-            android:name=".Grupo3_OndeComer"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
@@ -91,11 +93,9 @@
             android:name=".actividades.mapaTeo"
             android:exported="false"
             android:screenOrientation="portrait" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false"
@@ -401,6 +401,10 @@
             android:name=".patrimonio.informacion_carballeira_francos"
             android:exported="false"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".visitanos"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
