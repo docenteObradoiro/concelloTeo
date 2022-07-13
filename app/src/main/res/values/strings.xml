@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
-
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
     <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
     <string name="telefonoParrilladaChaves">+34 981 805 545</string>
@@ -15,35 +14,135 @@
     <string name="emailBarEme">vitaygus@hotmail.com</string>
     <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
 
-
     <string name="ondecomer">ONDE COMER</string>
     <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
-    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
     <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
 
-    <string name="oSonDoMiño">O SON DO MIÑO</string>
-    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
-    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
-    <string name="emailOSonDoMiño">info@osondominho.com</string>
-    <string name="webOSonDoMiño">www.osondominho.com</string>
+    <string name="nomerinconEscondido">El Rincón Escondido</string>
+    <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
+    <string name="telefonoRincoEscondidon">627 453 245</string>
+    <string name="webRinconEscondido">https://cafeteria-el-rincon-escondido.negocio.site/</string>
 
-    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
-    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
-    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
-    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+    <string name="nomePernas">Casa Pernas</string>
+    <string name="direccionPernas">Ignacio Varela, 25 Bajo 1 - Pontevea</string>
+    <string name="telefonoPernas1">981 809 231</string>
+    <string name="telefonoPernas2">616 806 614</string>
+    <string name="emailPernas">compostela@areas.com</string>
 
-    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
-    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
-    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
-    <string name="webNovoViñedo">www.novoviñedo.es</string>
+    <string name="nomeAtallo">Atallo</string>
+    <string name="direccionAtallo">Pontevea, 4</string>
+    <string name="telefonoAtallo">630 854 909</string>
+
+    <string name="nomeViveiro">O Viveiro da Póboa</string>
+    <string name="direccionViveiro">Póboa, 5 - MONTOUTO</string>
+    <string name="telefonoViveiro">619 670 888</string>
+
+    <string name="nomeVeiga">A Veiga Asador Vinoteca</string>
+    <string name="direccionVeiga">Trva. Cacheiras, 42</string>
+    <string name="telefonoVeiga">981 800 140</string>
+
+    <string name="nomeSanMartiño">Restaurante San Martiño</string>
+    <string name="direccionSanMartiño">Lugar O Espiño, Calo</string>
+    <string name="telefonoSanMartiño1"> 981 548 463</string>
+    <string name="telefonoSanMartiño2"> 698 109 823</string>
+    <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
+    <string name="webSanMartiño">www.restaurantesanmartino.es</string>
+
+    <string name="nomeSauce">Sauce </string>
+    <string name="direccionSauce">Pozas, Cacheiras</string>
+
+    <string name="nomeGandarella">A Gandarella</string>
+    <string name="direccionGandarella">A Insua, 72 - LUOU </string>
+    <string name="telefonoGandarella">981 805 868</string>
+    <string name="emailGandarella"> agrodagandarela@gmail.com</string>
+    <string name="webGandarella"> http://www.agrodagandarela.com/contacto</string>
+
+    <string name="nomeAldran">Pazo de Adrán</string>
+    <string name="direccionAdran">Lugar De Adran, 4</string>
+    <string name="telefonoAdran1">981 570 000</string>
+    <string name="telefonoAdran2">620 906 602</string>
+    <string name="emailAdran1">info@pazodeadran.es</string>
+    <string name="emailAdran2">info@pazodeadran.es</string>
+    <string name="webAdran">https://pazodeadran.com/</string>
+
+    <string name="nomeCasaCacheiras">Casa Cacheiras</string>
+    <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>
+    <string name="telefonoCasaCacheiras">689 004 986</string>
+
+    <string name="nomePortugalicia">Portugalicia</string>
+    <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
+    <string name="telefonoPortugalicia">676 396 141</string>
+    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+
+    <string name="nomeOCruce">O Cruce</string>
+    <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
+    <string name="telefonoOCruce">637 270 985</string>
+    <string name="webOCruce">https://www.facebook.com/Bar-o-cruce-333356107188515/</string>
+
+    <string name="nomeLaMamma">Restaurante Pizzeria La Mamma</string>
+    <string name="direccionLaMamma">Ignacio Varela, 1, Pontevea</string>
+    <string name="telefonoLaMamma1">881 010 509</string>
+    <string name="telefonoLaMamma2">653 301 448</string>
+
+    <string name="nomeLaGranja">La Granja</string>
+    <string name="direccionLaGranja">Ferreiriño, 15 (Ctra. Santiago a Estrada), Pontevea</string>
+    <string name="telefonoLaGranja">981 809 489</string>
+
+    <string name="nomeAldeaSestelo">Aldea de Sestelo</string>
+    <string name="direccionAldeaSestelo">Lugar de Sestelo, 35</string>
+
+    <string name="nomeACasaDeBlanco">A Casa de Blanco</string>
+    <string name="direccionACasaDeBlanco">Raris, 47</string>
+    <string name="telefonoACasaDeBlanco">666523707</string>
+
+    <string name="nomeVillaJubells">Villa Jubells</string>
+    <string name="direccionVillaJubells">Camino a Vilaverde, Osebe</string>
+    <string name="telefonoVillaJubells">609 560 104</string>
+
+    <string name="nomeEme">Bar Eme</string>
+    <string name="direccionEme">Constela,37</string>
+    <string name="telefonoEme">981 806 133</string>
+    <string name="emailEme">vitaygus@hotmail.com</string>
+    <string name="webEme">https://www.facebook.com/cafeteriaeme/</string>
+
+    <string name="nomeChaves">Chaves</string>
+    <string name="direccionChaves">Iglesia, 8, Luou</string>
+    <string name="telefonoChaves">981 805 545</string>
+    <string name="emailChaves">parrilladachaves@gmail.com</string>
+    <string name="webChaves">www.facebook.com/chaves</string>
+
+    <string name="nomeLosRobles">Los Robles</string>
+    <string name="direccionLosRobles">Ctra. Santiago-A Estrada, Km. 3, Montouto</string>
+    <string name="telefonoLosRobles"> 981 806 361</string>
+    <string name="emailLosRobles">losrobles@losroblesdesantiago.com</string>
+    <string name="webLosRobles">www.losroblesdesantiago.com</string>
+
+    <string name="nomeCasaNerea">Casa Nerea</string>
+    <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), 25, 15883, Cacheiras, Teo</string>
+    <string name="telefono">665 850 909</string>
+
+    <string name="nomeCasaManola">Casa Manola</string>
+    <string name="direccionCasaManola">Raris, 80, Teo </string>
+    <string name="telefonoCasaManola1">981 809 374</string>
+    <string name="telefonoCasaManola2">699 789 153</string>
+    <string name="emailCasaManola">info@casamanola.gal</string>
+    <string name="webCasaManola">https://www.casamanola.gal/</string>
+
+    <string name="nomeLaPausa">La Pausa</string>
+    <string name="direccionLaPausa">Autopista AP-9, Km. 81</string>
+    <string name="telefonoLaPausa">981 805 514</string>
+    <string name="emailLaPausa">compostela@areas.com</string>
+
+    <string name="nomeLoncho">Loncho</string>
+    <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
 
     <string name="logoConcello">Logo concello</string>
     <string name="menu_hamburguesa">menú hamburguesa</string>
 
     <string name="facebook">facebook</string>
-
 
 
     <string name="direccion">Rúa da Lagoa, 2 \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
@@ -135,7 +234,6 @@
     <string name="alala">Alalá Couture</string>
     <string name="xeroca">Xeroca</string>
     <string name="cuchillosVillar">Cuchillos villar</string>
-
 
 
     <string name="xoiariaCreativa">Joyería creativa</string>
@@ -414,7 +512,7 @@
     <string name="a_igrexa_de_san_sim_n_de_ons_en_cacheiras_un_edificio_de_estilo_barroco_datada_do_s_xviii_a_fachada_de_canter_a_e_presenta_d_as_torres_campanario_a_cada_lado_que_foron_constru_das_en_distinto_momento_a_zona_intermedia_da_fachada_ad_rnase_con_d_as_imaxes_de_pedra_a_situada_na_parte_inferior_representa_a_inmaculada_concepci_n_e_a_superior_ao_patr_n_san_sim_n_n_n_no_adro_da_igrexa_at_pase_o_v_a_crucis_conxunto_de_trece_cruces_de_pedra_destacando_a_cruz_sobranceira_da_zona_leste_ergueita_sobre_un_alto_pedestal_onde_reza_a_inscrici_n_via_sacra_dolorosa_1777_n_n_completa_o_conxunto_un_cruceiro_de_finais_do_s_xvii_que_a_nda_que_agora_f_ra_do_adro_noutrora_estivo_dentro_dese_lugar_presenta_d_as_representaci_ns_distintas_segundo_a_cara_que_mira_a_igrexa_ou_ao_cami_o_n">A Igrexa de San Simón de Ons, en Cacheiras é un edificio de estilo barroco datada do S. XVIII. A fachada é de cantería e presenta dúas torres-campanario a cada lado (que foron construídas en distinto momento). A zona intermedia da fachada adórnase con dúas imaxes de pedra, a situada na parte inferior representa a Inmaculada Concepción e a superior ao patrón San Simón. \n\n No adro da igrexa atópase o Vía Crucis, conxunto de trece cruces de pedra, destacando a cruz sobranceira da zona leste, ergueita sobre un alto pedestal onde reza a inscrición VIA SACRA DOLOROSA 1777. \n\nCompleta o conxunto un cruceiro de finais do S.XVII que, aínda que agora fóra do adro, noutrora estivo dentro dese lugar. Presenta dúas representacións distintas segundo a cara que mira a igrexa, ou ao camiño.\n\n</string>
     <string name="conxunto_eclesi_stico_formado_pola_igrexa_o_cruceiro_e_o_v_a_cruces_de_san_sim_n_de_ons_de_cacheiras">Conxunto eclesiástico formado pola igrexa, o cruceiro e o vía cruces de San Simón de Ons de Cacheiras</string>
     <string name="informacionarearecreativaxirimbaoTitulo">Zona recreativa a las orillas del río Ulla con acceso a varias rutas de senderismo y servicios necesarios para pasar un día de merienda. \n</string>
-    <string name="informacionarearecreativaxirimbaoDescripcion" >Localizada al lado del río Ulla, dentro de la zona de protección europea Red Natura 2000, el área recreativo del Xirimbao es una zona de esparcimiento que cuenta con zonas de aparcamiento de vehículos, zona para pasar la noche en autocaravanas, mesas y bancos de piedra bajo la sombra de los árboles y zona de hierba. Cuenta con baños públicos.\n \nToda la orilla del Ulla es conocida por las personas aficionadas a la pesca. Al lado del área se encuentra el Coto de Couso, muy recomendado para la pesca de salmón (es de hecho, uno de los cotos salmoneros más importantes de Galicia). También el Xirimbao está señalizado dentro de la Ruta de la Lamprea, que se pesca en la zona desde tiempos ancestrales, de hecho, se encuentran aún pesqueras, que son grandes bloques cuadrangulares formados por piedras alineadas en perpendicular a la corriente cruzando casi todo el río menos la corriente central. En los corredores que hay entre los bloques –nominados “pesquero” o “ cangalla” (“poios” en el Miño) se colocan los “ copos” o “redes”. Las lampreas que no consiguen remontar la fuerte corriente caen dentro de la red y la fuerza del agua les impide salir. \n\nEn las cercanías se encuentra un puente colgante, el Puente Mariola, que une la parroquia de Reis en Teo, con la parroquia de Couso en A Estrada y que es posible atravesar durante la época de pesca, que es cuando está abierta. \n\n</string>
+    <string name="informacionarearecreativaxirimbaoDescripcion">Localizada al lado del río Ulla, dentro de la zona de protección europea Red Natura 2000, el área recreativo del Xirimbao es una zona de esparcimiento que cuenta con zonas de aparcamiento de vehículos, zona para pasar la noche en autocaravanas, mesas y bancos de piedra bajo la sombra de los árboles y zona de hierba. Cuenta con baños públicos.\n \nToda la orilla del Ulla es conocida por las personas aficionadas a la pesca. Al lado del área se encuentra el Coto de Couso, muy recomendado para la pesca de salmón (es de hecho, uno de los cotos salmoneros más importantes de Galicia). También el Xirimbao está señalizado dentro de la Ruta de la Lamprea, que se pesca en la zona desde tiempos ancestrales, de hecho, se encuentran aún pesqueras, que son grandes bloques cuadrangulares formados por piedras alineadas en perpendicular a la corriente cruzando casi todo el río menos la corriente central. En los corredores que hay entre los bloques –nominados “pesquero” o “ cangalla” (“poios” en el Miño) se colocan los “ copos” o “redes”. Las lampreas que no consiguen remontar la fuerte corriente caen dentro de la red y la fuerza del agua les impide salir. \n\nEn las cercanías se encuentra un puente colgante, el Puente Mariola, que une la parroquia de Reis en Teo, con la parroquia de Couso en A Estrada y que es posible atravesar durante la época de pesca, que es cuando está abierta. \n\n</string>
     <string name="informacionburgaxermeadeTitulo">Lugar de visita desde tiempos inmemoriales por la presencia de aguas sulfurosas empleadas para tratamientos de la piel. \n</string>
     <string name="informacionburgaxermeadeDescripcion">La Burga de Xermeade es un manantial de aguas sulfurosas que cuenta con una construcción semiciruclar de piedra y un picho del que emana el agua. Situada al lado del río Ulla y dentro de un hermoso paraje con robles, alcornoques, espiños, castaños, pinos y los característicos árboles de la ribera (abedules, ameneiros, sauces y fresnos). Está incluida en la margen protegida del río Ulla como Red Natura 2000. Cuenta con un área de ocio formada por una pequeña plaza empedrada de 13,90 m de diámetro rodeada de siete bancos de piedra con respaldo situada en torno a un grupo de robles centenarios.\n \nLa fuente de la Burga o la Burga de Xermeade fue empleada por el vecindario de Pontevea desde tiempos inmemoriales principalmente como tratamiento para diversas afecciones de la piel como herpes, eczemas, caspa, verrugas o espuelas... y probablemente incluso por los romanos ya que la vía XIX que comunicaba Braga con Lugo pasaba a pocos metros de la Burga. Existen numerosos documentos que testimonian la importancia de la Burga como punto de referencia turístico y termal a lo largo de la historia.\n \nAl lado de la Burga se encuentran en estado ruinoso los restos de una antigua casa de baños, construida por un particular que reclamaba el terreno pero que nunca llegó a finalizarse ya que el juzgado resolvió un litigio donde concede a los vecinos la titularidad de la Burga. \n\n</string>
     <string name="informacioncarballeirafrancosTitulo">Espectacular carballeira donde hace más de 500 años que se celebra el principal evento económico, social y cultural del ayuntamiento, la Feria del San Martiño. \n</string>
