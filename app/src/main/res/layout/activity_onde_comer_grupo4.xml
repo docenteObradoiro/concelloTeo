@@ -47,8 +47,8 @@
             android:theme="@android:style/ThemeOverlay.Material.Dark"
             app:srcCompat="@drawable/hamburguesa"
             tools:ignore="TouchTargetSizeCheck" />
-    </RelativeLayout>
 
+    </RelativeLayout>
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -62,13 +62,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        >
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/titulo"
@@ -91,20 +90,15 @@
                 app:srcCompat="@mipmap/lineaverder" />
 
 
-
-
-
-
-
             <!--    Bar Bustelo  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="220dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="-10dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="-10dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -235,12 +229,12 @@
             <!--    Bar Bar Canaletto  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -402,12 +396,12 @@
             <!--    Cierto Blanco   -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -584,12 +578,12 @@
             <!--    Novo Viñedo  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -751,12 +745,12 @@
             <!--    Bar Piccolo  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="180dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -840,12 +834,12 @@
             <!--    CASA GRANDE DE CORNIDE  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1022,12 +1016,12 @@
             <!--    A Santa Sede  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1189,12 +1183,12 @@
             <!--    O Piro  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="220dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1308,12 +1302,12 @@
             <!--    MARADENTRO  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1460,12 +1454,12 @@
             <!--    Niño do Paizoco  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="220dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1595,12 +1589,12 @@
             <!--    Montouto  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="220dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1711,15 +1705,15 @@
 
             </RelativeLayout>
 
-            <!--    A Ramallosa (SIN FOTO) -->
+            <!--    A Ramallosa -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -1729,7 +1723,7 @@
                     android:layout_height="match_parent"
                     android:background="#000000"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/parrilladachaves" />
+                    android:src="@drawable/bar_cafeteria_a_ramallosa" />
 
                 <ImageButton
                     android:id="@+id/logoLocalRamallosa"
@@ -1881,12 +1875,12 @@
             <!--    O FORNO D´AURI  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -2033,12 +2027,12 @@
             <!--    A D'María  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -2201,12 +2195,12 @@
             <!--    Peteiros e Espiñas  -->
 
             <RelativeLayout
-                android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -2365,6 +2359,601 @@
 
             </RelativeLayout>
 
+            <!--  ___________________________________________________________  -->
+
+
+            <!--  ONDE DURMIR  -->
+
+            <!--  Compostela INN  -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="280dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/compostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/compostela_inn" />
+
+                <ImageButton
+                    android:id="@+id/logoLocalCompostelaINN"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalCompostelaINN"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/restaurante"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoDireccionCompostelaINN"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalCompostelaINN"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionCompostelaINN"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoTelefonoCompostelaINN"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionCompostelaINN"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoCompostelaINN"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoInfoCompostelaINN"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoTelefonoCompostelaINN"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoInfo"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/localCompostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalCompostelaINN"
+                    android:gravity="center_vertical"
+                    android:text="COMPOSTELA INN"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/direccionCompostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localCompostelaINN"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionCompostelaINN"
+                    android:gravity="center_vertical"
+                    android:text="Rúa das Mámoas de Montouto, 4"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/telefonoCompostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionCompostelaINN"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoCompostelaINN"
+                    android:gravity="center_vertical"
+                    android:text="+34 981 819 080"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/emailCompostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/telefonoCompostelaINN"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoInfoCompostelaINN"
+                    android:gravity="center_vertical"
+                    android:text="info@compostelainn.com"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/webCompostelaINN"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/emailCompostelaINN"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_toEndOf="@+id/logoInfoCompostelaINN"
+                    android:gravity="center_vertical"
+                    android:text="www.compostelainn.com"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <!--  Casa Carolina  -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/casaCarolina"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/casa_carolina" />
+
+                <ImageButton
+                    android:id="@+id/logoLocalCasaCarolina"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalCasaCarolina"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/ic_baseline_hotel_24"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoDireccionCasaCarolina"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalCasaCarolina"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionCasaCarolina"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoTelefonoCasaCarolina"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionCasaCarolina"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoCasaCarolina"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/localCasaCarolina"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalCasaCarolina"
+                    android:gravity="center_vertical"
+                    android:text="CASA CAROLINA"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/direccionCasaCarolina"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localCasaCarolina"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionCasaCarolina"
+                    android:gravity="center_vertical"
+                    android:text="Osebe, 110, Calo"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/telefonoCasaCarolina"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionCasaCarolina"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoCasaCarolina"
+                    android:gravity="center_vertical"
+                    android:text="+34 699 351 653"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+            <!--  Albergue do faramello  -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="280dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/albergueFaramello"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/albergue_de_peregrinos_de__faramello" />
+
+                <ImageButton
+                    android:id="@+id/logoLocalAlbergueFaramello"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalAlbergueFaramello"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/ic_baseline_hotel_24"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoDireccionAlbergueFaramello"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalAlbergueFaramello"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionAlbergueFaramello"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoTelefonoAlbergueFaramello"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionAlbergueFaramello"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoAlbergueFaramello"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoInfoAlbergueFaramello"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoTelefonoAlbergueFaramello"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoInfo"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/localAlbergueFaramello"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalAlbergueFaramello"
+                    android:gravity="center_vertical"
+                    android:text="ALBERGUE DO FARAMELLO"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/direccionAlbergueFaramello"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localAlbergueFaramello"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionAlbergueFaramello"
+                    android:gravity="center_vertical"
+                    android:text="Vilares de Rúa de Francos, s/n"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/telefonoAlbergueFaramello"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionAlbergueFaramello"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoAlbergueFaramello"
+                    android:gravity="center_vertical"
+                    android:text="+34 636 323 569"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/emailAlbergueFaramello"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/telefonoAlbergueFaramello"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoInfoAlbergueFaramello"
+                    android:gravity="center_vertical"
+                    android:text="www.caminodesantiago.gal"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+            <!--  Villa Salgueiros  -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="280dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/villaSalgueiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/villa_salgueiros" />
+
+                <ImageButton
+                    android:id="@+id/logoLocalVillaSalgueiros"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalVillaSalgueiros"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/ic_baseline_hotel_24"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoDireccionVillaSalgueiros"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalVillaSalgueiros"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionVillaSalgueiros"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoTelefonoVillaSalgueiros"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionVillaSalgueiros"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoVillaSalgueiros"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoInfoVillaSalgueiros"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoTelefonoVillaSalgueiros"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoInfo"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/localVillaSalgueiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalVillaSalgueiros"
+                    android:gravity="center_vertical"
+                    android:text="VILLA SALGUEIROS"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/direccionVillaSalgueiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localVillaSalgueiros"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionVillaSalgueiros"
+                    android:gravity="center_vertical"
+                    android:text="Guldris, 41"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/telefonoVillaSalgueiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionVillaSalgueiros"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoVillaSalgueiros"
+                    android:gravity="center_vertical"
+                    android:text="+34 616 926 698"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/emailVillaSalgueiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/telefonoVillaSalgueiros"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoInfoVillaSalgueiros"
+                    android:gravity="center_vertical"
+                    android:text="www.greenspainholidays.com/"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -2372,9 +2961,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="40dp"
+                android:contentDescription="TODO"
                 android:foregroundTint="#2DFFFFFF"
-                app:srcCompat="@mipmap/lineaverder"
-                android:contentDescription="TODO" />
+                app:srcCompat="@mipmap/lineaverder" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -2420,8 +3009,8 @@
                     android:layout_width="55dp"
                     android:layout_height="50dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginStart="-25dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="@string/instagram"
@@ -2436,15 +3025,15 @@
                     android:layout_width="55dp"
                     android:layout_height="50dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginStart="-15dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/instagram"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="@string/wikiloc"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/wikiloc"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/wikiloc"
                     app:tint="#7F000000" />
 
                 <ImageButton
