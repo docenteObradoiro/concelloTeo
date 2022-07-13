@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">¡VISIT US!</string>
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
     <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
     <string name="telefonoParrilladaChaves">+34 981 805 545</string>
