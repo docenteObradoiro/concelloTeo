@@ -1705,7 +1705,7 @@
 
             </RelativeLayout>
 
-            <!--    A Ramallosa (SIN FOTO) -->
+            <!--    A Ramallosa -->
 
             <RelativeLayout
                 android:layout_width="300dp"
@@ -1723,7 +1723,7 @@
                     android:layout_height="match_parent"
                     android:background="#000000"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/parrilladachaves" />
+                    android:src="@drawable/bar_cafeteria_a_ramallosa" />
 
                 <ImageButton
                     android:id="@+id/logoLocalRamallosa"
@@ -2382,7 +2382,7 @@
                     android:layout_height="match_parent"
                     android:background="#000000"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/restaurante_peteiros_e_espi_as" />
+                    android:src="@drawable/compostela_inn" />
 
                 <ImageButton
                     android:id="@+id/logoLocalCompostelaINN"
