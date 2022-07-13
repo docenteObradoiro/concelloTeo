@@ -51,6 +51,12 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val accesovisitanos = findViewById<TextView>(R.id.visitanos)
+        accesovisitanos.setOnClickListener {
+            val acceder = Intent(this, visitanos::class.java)
+            startActivity(acceder)
+        }
+
         val accesoAgenda = findViewById<TextView>(R.id.agenda)
         accesoAgenda.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.teo.gal/axenda")))

@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">VISÍTANOS!</string>
+
+
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
     <string name="telefonoPazoDeAdran">981 57 00 00</string>
@@ -94,6 +97,7 @@
     <string name="telefonoACasinaDeEsther">647 41 18 84</string>
     <string name="emailACasinaDeEsther">info@casitadeesther.com</string>
     <string name="webACasinaDeEsther">https://casitadeesther.com/</string>
+
 
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
     <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
