@@ -11,7 +11,7 @@ import com.cursokotlin.concelloteo.R
 class OndeComer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onde_comer)
+        setContentView(R.layout.activity_visitanos)
 
         val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
         botonTeo.setOnClickListener {
