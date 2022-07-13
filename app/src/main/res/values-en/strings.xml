@@ -3,10 +3,96 @@
     <string name="app_name">Turismo Teo</string>
 
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
+
+    <string name="telefono">phone</string>
+
+
     <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
     <string name="telefonoParrilladaChaves">+34 981 805 545</string>
     <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
     <string name="webParrilladaChaves">www.facebook.com/chaves</string>
+
+
+    <string name="Ranha">RAÑA</string>
+    <string name="direccionRanha">Raxó, 34 (N-550, Km 49)</string>
+    <string name="telefonoRanha">+34 981 54 88 39</string>
+    <string name="emailRanha"></string>
+    <string name="webRanha"></string>
+
+    <string name="portico">PORTICO</string>
+    <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
+    <string name="telefonoportico">+34 981 80 74 97</string>
+    <string name="emailportico">restaurante@restauranteportico.es</string>
+    <string name="webportico">www.restauranteportico.es</string>
+
+    <string name="abrasa">A BRASA</string>
+    <string name="direccionabrasa">Trva. Cacheiras</string>
+    <string name="telefonoabrasa">+34 981 80 68 80</string>
+    <string name="emailabrasa">abrasacacheiras@gmail.com</string>
+    <string name="webabrasa">https://www.restauranteabrasa.com/web/index.asp</string>
+
+    <string name="ofornodamii">O FORNO DÁMII</string>
+    <string name="direccionofornodamii">TRAVESIA DA RAMALLOSA, nº 25</string>
+    <string name="telefonoofornodamii"></string>
+    <string name="emailofornodamii"></string>
+    <string name="webofornodamii">https://www.facebook.com/profile.php?id=100065440451383</string>
+
+    <string name="acolmena">A COLMENA</string>
+    <string name="direccionacolmena">Ignacio Varela, 19 - PONTEVEA</string>
+    <string name="telefonoacolmena">+34 603 77 14 49</string>
+    <string name="emailacolmena"></string>
+    <string name="webacolmena">www.facebook.com/a-colmena</string>
+
+    <string name="tiaMaria">TIA MARÍA</string>
+    <string name="direcciontiaMaria">DOS IRMANS LISTE FORJAN, nº 5</string>
+    <string name="telefonotiaMaria">+34 981 54 85 70</string>
+    <string name="emailtiaMaria"></string>
+    <string name="webtiaMaria">https://es-la.facebook.com/pages/category/Cafeteria/Tia-Maria-Cafe-Bar-101292728355575/</string>
+
+    <string name="amasaNai">AMASA NAI</string>
+    <string name="direccionamasaNai">RÚA VEIGA DO MOURO, nº 10</string>
+    <string name="telefonoamasaNai"></string>
+    <string name="emailamasaNai"></string>
+    <string name="webamasaNai">https://www.facebook.com/aMasaNai/?ref=page_internal</string>
+
+    <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
+    <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
+    <!--    CAMBIAR OS CEROS POLO TELÉFONO CORRESPONDENTE, NESTE FORMATO (+34 981 00 00 00)-->
+    <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailparadaDeFrancos"> reservas@paradadefrancos.com</string>
+    <string name="webparadaDeFrancos">http://www.paradadefrancos.com</string>
+
+    <string name="casaTouceda">CASA TOUCEDA</string>
+    <string name="direccionCasaTouceda">Trva. Casalonga, s/n - CALO</string>
+    <string name="telefonoCasaTouceda">+34 981 54 83 26</string>
+    <string name="emailCasaTouceda"></string>
+    <string name="webCasaTouceda">www.facebook.com/casa-touceda</string>
+
+    <string name="aSenra">A A SENRA</string>
+    <string name="direccionASenra">Ignacio Varela, 5 Bajo - PONTEVEA</string>
+    <string name="telefonoASenra">+34 981 81 57 44</string>
+    <string name="emailASenra">asenracafe@gmail.com</string>
+    <string name="webASenra">https://www.facebook.com/asenracafe/</string>
+
+    <string name="nomeLocal"></string>
+    <string name="direccionLocal"></string>
+    <string name="telefonoLocal">+34 981 00 00 00</string>
+    <string name="emailLocal"></string>
+    <string name="webLocal"></string>
+
+    <string name="AsadorOCarmelo">ASADOR O CARMELO</string>
+    <string name="direccionAsadorOCarmelo">Trva. Casalonga, 6 - CALO</string>
+    <string name="telefonoAsadorOCarmelo">+34 981 53 90 45</string>
+    <string name="emailAsadorOCarmelo"> asador@asadorocarmelo.es</string>
+    <string name="webAsadorOCarmelo"> www.asadorocarmelo.es</string>
+
+    <string name="Braulio">BRAULIO</string>
+    <string name="direccionBraulio">Trva. Balcaide, 9 - CALO </string>
+    <string name="telefonoBraulio">+34 615 57 14 67</string>
+    <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
+    <string name="webBraulio">https://www.facebook.com/BraulioCafeBar/</string>
+
+
 
     <string name="barEme">BAR EME</string>
     <string name="direccionBarEme">Constenla, 37, 15883 Teo, A Coruña</string>
@@ -14,8 +100,25 @@
     <string name="emailBarEme">vitaygus@hotmail.com</string>
     <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
 
+    <string name="restauranteSanMartinho">Restaurante San Martiño</string>
+    <string name="SanMartinhoDireccion">Lugar de Espiño Calo Teo</string>
+    <string name="SanMartinhoTelefono">+34 981 54 84 63</string>
+    <string name="SanMartinhoCorreo">sanmartino.teo@gmail.com</string>
+    <string name="SanMartinhoWeb">www.restaurantesanmartino.es</string>
+
+    <string name="logoTelf">logo teléfono</string>
+    <string name="logoDireccion">logo dirección</string>
+    <string name="logoInfo">logo información</string>
+    <string name="Betos">Beto´s</string>
+    <string name="BetosDireccion">Trva. Cacheiras, 60 - CACHEIRAS - 15883</string>
+    <string name="BetosTelefono">+34 981 80 68 39</string>
+    <string name="BetosCorreo"> </string>
+    <string name="BetosWeb">https://www.facebook.com/cerveceria-betos-119511291457007/</string>
+    <string name="logoLocal">Logo tenedor y cuchillo</string>
+
+
+
     <string name="ondecomer">ONDE COMER</string>
-    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo España</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
