@@ -55,6 +55,19 @@
     <string name="emailamasaNai"></string>
     <string name="webamasaNai">https://www.facebook.com/aMasaNai/?ref=page_internal</string>
 
+
+    <string name="mariaCastanha">MARÍA CASTAÑA</string>
+    <string name="direccionMariaCastanha">TRAVESIA DA RAMALLOSA, , nº 8</string>
+    <string name="telefonoMariaCastanha">981 80 96 28</string>
+    <string name="webMariaCastanha">http://mariacastanha.com/</string>
+
+
+    <string name="buelinhaDaCarballeira">BUELIÑA DA CARBALLEIRA</string>
+    <string name="direccionBuelinhaDaCarballeira">Lugar de Olveira 58, San Cristóbal de Reyes</string>
+    <string name="telefonoBuelinhaDaCarballeira">+34 658 24 19 97</string>
+
+
+
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
     <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
     <!--    CAMBIAR OS CEROS POLO TELÉFONO CORRESPONDENTE, NESTE FORMATO (+34 981 00 00 00)-->
@@ -74,11 +87,6 @@
     <string name="emailASenra">asenracafe@gmail.com</string>
     <string name="webASenra">https://www.facebook.com/asenracafe/</string>
 
-    <string name="nomeLocal"></string>
-    <string name="direccionLocal"></string>
-    <string name="telefonoLocal">+34 981 00 00 00</string>
-    <string name="emailLocal"></string>
-    <string name="webLocal"></string>
 
     <string name="AsadorOCarmelo">ASADOR O CARMELO</string>
     <string name="direccionAsadorOCarmelo">Trva. Casalonga, 6 - CALO</string>

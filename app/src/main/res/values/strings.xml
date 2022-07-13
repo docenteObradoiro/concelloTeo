@@ -53,6 +53,15 @@
     <string name="emailamasaNai"></string>
     <string name="webamasaNai">https://www.facebook.com/aMasaNai/?ref=page_internal</string>
 
+    <string name="mariaCastanha">MARÍA CASTAÑA</string>
+    <string name="direccionMariaCastanha">TRAVESIA DA RAMALLOSA, , nº 8</string>
+    <string name="telefonoMariaCastanha">+34 981 80 96 28</string>
+    <string name="webMariaCastanha">http://mariacastanha.com/</string>
+
+    <string name="buelinhaDaCarballeira">BUELIÑA DA CARBALLEIRA</string>
+    <string name="direccionBuelinhaDaCarballeira">Lugar de Olveira 58, San Cristóbal de Reyes</string>
+    <string name="telefonoBuelinhaDaCarballeira">+34 658 24 19 97</string>
+
 
 
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
@@ -86,12 +95,6 @@
     <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
     <string name="webBraulio">https://www.facebook.com/BraulioCafeBar/</string>
 
-    <string name="nomeLocal"></string>
-    <string name="direccionLocal"></string>
-    <!--    CAMBIAR OS CEROS POLO TELÉFONO CORRESPONDENTE, NESTE FORMATO (+34 981 00 00 00)-->
-    <string name="telefonoLocal">+34 981 00 00 00</string>
-    <string name="emailLocal"></string>
-    <string name="webLocal"></string>
 
 
     <string name="telefono">telefono</string>
