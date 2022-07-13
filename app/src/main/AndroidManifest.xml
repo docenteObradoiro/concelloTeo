@@ -15,7 +15,12 @@
         android:theme="@style/Theme.ConcelloTeo">
         <activity
             android:name=".visitanos"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".comer.ComerTradicionalGalega"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
