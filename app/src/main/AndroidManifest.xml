@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
         <activity
+            android:name=".Grupo3_DondeComer"
+            android:exported="false" />
+         <activity
             android:name=".visitanos"
             android:exported="false"
             android:screenOrientation="portrait" />

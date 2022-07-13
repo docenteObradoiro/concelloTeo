@@ -137,6 +137,160 @@
     <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
     <string name="webNovoViñedo">www.novoviñedo.es</string>
 
+
+    <string name="parrilladaChaves">PARRILLADA CHAVES</string>
+    <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
+    <string name="telefonoParrilladaChaves">+34 981 805 545</string>
+    <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
+    <string name="webParrilladaChaves">www.facebook.com/chaves</string>
+
+    <string name="barEme">BAR EME</string>
+    <string name="direccionBarEme">Constenla, 37, 15883 Teo, A Coruña</string>
+    <string name="telefonoBarEme">+34 981 80 61 33</string>
+    <string name="emailBarEme">vitaygus@hotmail.com</string>
+    <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
+
+    <string name="ondecomer">ONDE COMER</string>
+    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
+    <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
+    <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
+    <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
+
+    <string name="oSonDoMiño">O SON DO MIÑO</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
+    <string name="emailOSonDoMiño">info@osondominho.com</string>
+    <string name="webOSonDoMiño">www.osondominho.com</string>
+
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
+
+    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
+    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
+    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
+    <string name="webNovoViñedo">www.novoviñedo.es</string>
+
+    <string name="nomerinconEscondido">El Rincón Escondido</string>
+    <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
+    <string name="telefonoRincoEscondidon">627 453 245</string>
+    <string name="webRinconEscondido">https://cafeteria-el-rincon-escondido.negocio.site/</string>
+
+    <string name="nomePernas">Casa Pernas</string>
+    <string name="direccionPernas">Ignacio Varela, 25 Bajo 1 - Pontevea</string>
+    <string name="telefonoPernas1">981 809 231</string>
+    <string name="telefonoPernas2">616 806 614</string>
+    <string name="emailPernas">compostela@areas.com</string>
+
+    <string name="nomeAtallo">Atallo</string>
+    <string name="direccionAtallo">Pontevea, 4</string>
+    <string name="telefonoAtallo">630 854 909</string>
+
+    <string name="nomeViveiro">O Viveiro da Póboa</string>
+    <string name="direccionViveiro">Póboa, 5 - MONTOUTO</string>
+    <string name="telefonoViveiro">619 670 888</string>
+
+    <string name="nomeVeiga">A Veiga Asador Vinoteca</string>
+    <string name="direccionVeiga">Trva. Cacheiras, 42</string>
+    <string name="telefonoVeiga">981 800 140</string>
+
+    <string name="nomeSanMartiño">Restaurante San Martiño</string>
+    <string name="direccionSanMartiño">Lugar O Espiño, Calo</string>
+    <string name="telefonoSanMartiño1"> 981 548 463</string>
+    <string name="telefonoSanMartiño2"> 698 109 823</string>
+    <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
+    <string name="webSanMartiño">www.restaurantesanmartino.es</string>
+
+    <string name="nomeSauce">Sauce </string>
+    <string name="direccionSauce">Pozas, Cacheiras</string>
+
+    <string name="nomeGandarella">A Gandarella</string>
+    <string name="direccionGandarella">A Insua, 72 - LUOU </string>
+    <string name="telefonoGandarella">981 805 868</string>
+    <string name="emailGandarella"> agrodagandarela@gmail.com</string>
+    <string name="webGandarella"> http://www.agrodagandarela.com/contacto</string>
+
+    <string name="nomeAldran">Pazo de Adrán</string>
+    <string name="direccionAdran">Lugar De Adran, 4</string>
+    <string name="telefonoAdran1">981 570 000</string>
+    <string name="telefonoAdran2">620 906 602</string>
+    <string name="emailAdran1">info@pazodeadran.es</string>
+    <string name="emailAdran2">info@pazodeadran.es</string>
+    <string name="webAdran">https://pazodeadran.com/</string>
+
+    <string name="nomeCasaCacheiras">Casa Cacheiras</string>
+    <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>
+    <string name="telefonoCasaCacheiras">689 004 986</string>
+
+    <string name="nomePortugalicia">Portugalicia</string>
+    <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
+    <string name="telefonoPortugalicia">676 396 141</string>
+    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+
+    <string name="nomeOCruce">O Cruce</string>
+    <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
+    <string name="telefonoOCruce">637 270 985</string>
+    <string name="webOCruce">https://www.facebook.com/Bar-o-cruce-333356107188515/</string>
+
+    <string name="nomeLaMamma">Restaurante Pizzeria La Mamma</string>
+    <string name="direccionLaMamma">Ignacio Varela, 1, Pontevea</string>
+    <string name="telefonoLaMamma1">881 010 509</string>
+    <string name="telefonoLaMamma2">653 301 448</string>
+
+    <string name="nomeLaGranja">La Granja</string>
+    <string name="direccionLaGranja">Ferreiriño, 15 (Ctra. Santiago a Estrada), Pontevea</string>
+    <string name="telefonoLaGranja">981 809 489</string>
+
+    <string name="nomeAldeaSestelo">Aldea de Sestelo</string>
+    <string name="direccionAldeaSestelo">Lugar de Sestelo, 35</string>
+
+    <string name="nomeACasaDeBlanco">A Casa de Blanco</string>
+    <string name="direccionACasaDeBlanco">Raris, 47</string>
+    <string name="telefonoACasaDeBlanco">666523707</string>
+
+    <string name="nomeVillaJubells">Villa Jubells</string>
+    <string name="direccionVillaJubells">Camino a Vilaverde, Osebe</string>
+    <string name="telefonoVillaJubells">609 560 104</string>
+
+    <string name="nomeEme">Bar Eme</string>
+    <string name="direccionEme">Constela,37</string>
+    <string name="telefonoEme">981 806 133</string>
+    <string name="emailEme">vitaygus@hotmail.com</string>
+    <string name="webEme">https://www.facebook.com/cafeteriaeme/</string>
+
+    <string name="nomeChaves">Chaves</string>
+    <string name="direccionChaves">Iglesia, 8, Luou</string>
+    <string name="telefonoChaves">981 805 545</string>
+    <string name="emailChaves">parrilladachaves@gmail.com</string>
+    <string name="webChaves">www.facebook.com/chaves</string>
+
+    <string name="nomeLosRobles">Los Robles</string>
+    <string name="direccionLosRobles">Ctra. Santiago-A Estrada, Km. 3, Montouto</string>
+    <string name="telefonoLosRobles"> 981 806 361</string>
+    <string name="emailLosRobles">losrobles@losroblesdesantiago.com</string>
+    <string name="webLosRobles">www.losroblesdesantiago.com</string>
+
+    <string name="nomeCasaNerea">Casa Nerea</string>
+    <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), 25, 15883, Cacheiras, Teo</string>
+    <string name="telefono">665 850 909</string>
+
+    <string name="nomeCasaManola">Casa Manola</string>
+    <string name="direccionCasaManola">Raris, 80, Teo </string>
+    <string name="telefonoCasaManola1">981 809 374</string>
+    <string name="telefonoCasaManola2">699 789 153</string>
+    <string name="emailCasaManola">info@casamanola.gal</string>
+    <string name="webCasaManola">https://www.casamanola.gal/</string>
+
+    <string name="nomeLaPausa">La Pausa</string>
+    <string name="direccionLaPausa">Autopista AP-9, Km. 81</string>
+    <string name="telefonoLaPausa">981 805 514</string>
+    <string name="emailLaPausa">compostela@areas.com</string>
+
+    <string name="nomeLoncho">Loncho</string>
+    <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
+
     <string name="bienvenidos">WELCOME!</string>
     <string name="redeDeRutas">REDE DE RUTAS</string>
     <string name="patrominio1">PATRIMONIO</string>
