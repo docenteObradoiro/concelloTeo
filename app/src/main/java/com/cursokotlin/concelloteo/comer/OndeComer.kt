@@ -11,7 +11,7 @@ import com.cursokotlin.concelloteo.R
 class OndeComer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onde_comer)
+        setContentView(R.layout.activity_visitanos)
 
         val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
         botonTeo.setOnClickListener {
@@ -91,10 +91,6 @@ class OndeComer : AppCompatActivity() {
         val instagram = findViewById<ImageButton>(R.id.instagram)
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
-        }
-        val wikiloc = findViewById<ImageButton>(R.id.wikiloc1)
-        wikiloc.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/wikiloc/user.do?id=6776439")))
         }
         val info = findViewById<ImageButton>(R.id.info)
         info.setOnClickListener {
