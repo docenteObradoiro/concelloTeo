@@ -88,6 +88,8 @@
                 android:translationY="-50dp"
                 app:srcCompat="@mipmap/lineaverder" />
 
+            <!--Portugalicia-->
+
             <RelativeLayout
                 android:id="@+id/rlPortugalicia"
                 android:layout_width="300dp"
@@ -239,6 +241,8 @@
 
             </RelativeLayout>
 
+            <!--La Granja-->
+
             <RelativeLayout
                 android:id="@+id/rlLaGranja"
                 android:layout_width="300dp"
@@ -357,7 +361,7 @@
 
             </RelativeLayout>
 
-
+            <!--O Viveiro da Poboa-->
 
             <RelativeLayout
                 android:id="@+id/rlOVivieroDaPoboa"
@@ -476,6 +480,8 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
             </RelativeLayout>
+
+            <!--La Mamma-->
 
             <RelativeLayout
                 android:id="@+id/rlLaMamma"
@@ -611,6 +617,7 @@
 
             </RelativeLayout>
 
+            <!--Villa Jubells-->
 
             <RelativeLayout
                 android:id="@+id/rlVillaJubells"
@@ -730,6 +737,7 @@
 
             </RelativeLayout>
 
+            <!--Sauce-->
 
             <RelativeLayout
                 android:id="@+id/rlSauce"
@@ -818,6 +826,8 @@
 
             </RelativeLayout>
 
+            <!--Sestelo-->
+
             <RelativeLayout
                 android:id="@+id/rlSestelo"
                 android:layout_width="300dp"
@@ -905,6 +915,8 @@
 
             </RelativeLayout>
 
+            <!--Loncho-->
+
             <RelativeLayout
                 android:id="@+id/rlLoncho"
                 android:layout_width="300dp"
@@ -991,6 +1003,8 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
             </RelativeLayout>
+
+            <!--O Cruce-->
 
             <RelativeLayout
                 android:id="@+id/rlOCruce"
@@ -1143,6 +1157,8 @@
 
             </RelativeLayout>
 
+            <!--El Rincon Escondido-->
+
             <RelativeLayout
                 android:id="@+id/rlElRinconEscondido"
                 android:layout_width="300dp"
@@ -1293,6 +1309,8 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
             </RelativeLayout>
+
+            <!--La Pausa-->
 
             <RelativeLayout
                 android:id="@+id/rlLaPausa"
@@ -1445,7 +1463,7 @@
 
             </RelativeLayout>
 
-
+            <!--Casa Pernas-->
 
             <RelativeLayout
                 android:id="@+id/rlCasaPernas"
@@ -1580,6 +1598,7 @@
 
             </RelativeLayout>
 
+            <!--Casa Manola-->
 
             <RelativeLayout
                 android:id="@+id/rlCasaManola"
@@ -1760,6 +1779,7 @@
                     android:textSize="12sp" />
             </RelativeLayout>
 
+            <!--Atallo-->
 
             <RelativeLayout
                 android:id="@+id/rlAtallo"
@@ -1879,6 +1899,7 @@
 
             </RelativeLayout>
 
+            <!--Casa Cacheiras-->
 
             <RelativeLayout
                 android:id="@+id/rlCasaCacheiras"
@@ -1998,6 +2019,7 @@
 
             </RelativeLayout>
 
+            <!--A Veiga-->
 
             <RelativeLayout
                 android:id="@+id/rlAVeiga"
@@ -2116,6 +2138,7 @@
 
             </RelativeLayout>
 
+            <!--Casa Blanco-->
 
             <RelativeLayout
                 android:id="@+id/rlCasaBlanco"
@@ -2232,6 +2255,8 @@
                     tools:ignore="TouchTargetSizeCheck" />
 
             </RelativeLayout>
+
+            <!--Bar Eme-->
 
             <RelativeLayout
                 android:id="@+id/rlBarEme"
@@ -2397,6 +2422,7 @@
                     android:textSize="12sp" />
             </RelativeLayout>
 
+            <!--Chaves-->
 
             <RelativeLayout
                 android:id="@+id/rlChaves"

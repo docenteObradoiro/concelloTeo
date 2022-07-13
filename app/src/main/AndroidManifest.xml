@@ -16,14 +16,9 @@
         <activity
             android:name=".Grupo3_DondeComer"
             android:exported="false" />
-         <activity
-            android:name=".visitanos"
-            android:exported="false"
-            android:screenOrientation="portrait" />
         <activity
-            android:name=".comer.ComerTradicionalGalega"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:name=".Grupo3_OndeComer"
+            android:exported="false" />
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
