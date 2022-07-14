@@ -9,22 +9,17 @@
     <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
 
 
-    <string name="visitanos">¡VISÍTANOS!</string>
+
 
     <string name="cervexaria">Cervecería</string>
-    <string name="luci">Lucí</string>
-    <string name="luou">Luou</string>
     <string name="osTilos">Los Tilos</string>
-    <string name="oza">Oza</string>
-    <string name="reis">Reis</string>
-    <string name="lampai">Lampai</string>
 
 
     <string name="menu">Menú</string>
     <string name="marisqueria">Marisquería</string>
     <string name="pulperia">Pulpería</string>
     <string name="lampai">Lampai</string>
-    <string name="reis">Reis</string>
+
 
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
@@ -806,7 +801,6 @@
     <string name="logodireccionbareme">logoDireccionBarEme</string>
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
-    <string name="luou">Luou</string>
     <string name="oza">Oza</string>
     <string name="tradicionalgalega">Tradicional gallega</string>
     <string name="opcionvegana">Opción vegana</string>
