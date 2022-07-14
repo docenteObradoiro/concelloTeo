@@ -412,10 +412,22 @@
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
+            
+            
+            
+        <activity
+            android:name=".Visitanos"
+            android:exported="false" />
         <activity
             android:name=".comer.OndeComer"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
+        <activity
+            android:name=".comer.ComerCervexeria"
+            android:exported="false" />
+
+        <activity
+            android:name=".comer.ComerVinosTapasRacions"
+            android:exported="false" />
     </application>
 
 </manifest>

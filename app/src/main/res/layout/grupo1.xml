@@ -379,6 +379,127 @@ tools:context=".redDeRutas.Ruta6">
 
 
         </RelativeLayout>
+<!-- RAÑA-->
+
+        <RelativeLayout
+            android:background="@drawable/shape"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="35dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:id="@+id/Ranha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/buelinhaDaCarballeira"
+                android:src="@mipmap/ranha" />
+
+            <ImageButton
+                android:id="@+id/logoRanha"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logoLocal"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/restaurante"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/logoDireccionRanha"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/logoRanha"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/logoDireccion"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/mapsnegro"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/logoTelefonoRanha"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/logoDireccionRanha"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="@string/logoTelf"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/telefono"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:id="@+id/localRanha"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@+id/logoRanha"
+                android:gravity="center_vertical"
+                android:text="@string/Ranha"
+                android:textColor="#415419"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/direccionRanha"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/localRanha"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/logoDireccionRanha"
+                android:gravity="center_vertical"
+                android:text="@string/direccionRanha"
+                android:textColor="#415419"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/telefonoRanha"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/direccionRanha"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/logoTelefonoRanha"
+                android:gravity="center_vertical"
+                android:text="@string/telefonoRanha"
+                android:textColor="#415419"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
 
 <!--        RESTAURANTE ALOJAMIENTO María Castaña-->
         <RelativeLayout
@@ -698,6 +819,7 @@ tools:context=".redDeRutas.Ruta6">
                 android:textSize="12sp" />
 
         </RelativeLayout>
+
 <!--        RESTAURANTE A BRASA-->
 
         <RelativeLayout
@@ -986,6 +1108,7 @@ tools:context=".redDeRutas.Ruta6">
 
         </RelativeLayout>
 <!--        A COLMENA-->
+
         <RelativeLayout
             android:background="@drawable/shape"
             android:layout_width="300dp"
@@ -1136,6 +1259,7 @@ tools:context=".redDeRutas.Ruta6">
                 android:textSize="12sp" />
 
         </RelativeLayout>
+
 <!--        TIA MARÍA-->
         <RelativeLayout
             android:background="@drawable/shape"
@@ -2387,7 +2511,7 @@ tools:context=".redDeRutas.Ruta6">
                 android:layout_height="match_parent"
                 android:background="#000000"
                 android:scaleType="centerCrop"
-                android:src="@mipmap/betos" />
+                android:src="@drawable/beto" />
 
             <ImageButton
                 android:id="@+id/logoLocalBetos"

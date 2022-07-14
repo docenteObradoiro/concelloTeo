@@ -3,7 +3,16 @@
 
     <string name="app_name">Turismo Teo</string>
 
+
     <string name="visitanos">¡VISÍTANOS!</string>
+
+    <string name="cervexaria">Cervecería</string>
+    <string name="luci">Lucí</string>
+    <string name="luou">Luou</string>
+    <string name="osTilos">Los Tilos</string>
+    <string name="oza">Oza</string>
+    <string name="reis">Reis</string>
+    <string name="lampai">Lampai</string>
 
 
     <string name="menu">Menú</string>
@@ -11,6 +20,7 @@
     <string name="pulperia">Pulpería</string>
     <string name="lampai">Lampai</string>
     <string name="reis">Reis</string>
+
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
@@ -117,6 +127,8 @@
     <string name="telefonoRanha">+34 981 54 88 39</string>
     <string name="emailRanha"></string>
     <string name="webRanha"></string>
+
+    <string name="vinhosTapasRacions">Vinos, tapas y raciones</string>
 
     <string name="portico">PORTICO</string>
     <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
@@ -257,7 +269,7 @@
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
-    <string name="nomeSauce">Sauce </string>
+    <string name="nomeSauce">Sauce</string>
     <string name="direccionSauce">Pozas, Cacheiras</string>
 
     <string name="nomeGandarella">A Gandarella</string>
@@ -281,7 +293,7 @@
     <string name="nomePortugalicia">Portugalicia</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
-    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+    <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
