@@ -8,22 +8,15 @@
     <string name="ondeDurmir">ONDE DURMIR</string>
     <string name="ondeCelebrar">ONDE CELEBRAR</string>
 
-    <string name="visitanos">VISÍTANOS!</string>
 
     <string name="cervexaria">Cervexaría</string>
-    <string name="luci">Lucí</string>
-    <string name="luou">Luou</string>
     <string name="osTilos">Los Tilos</string>
-    <string name="oza">Oza</string>
-    <string name="reis">Reis</string>
-    <string name="lampai">Lampai</string>
 
 
     <string name="menu">Menú</string>
     <string name="marisqueria">Mariscaría</string>
     <string name="pulperia">Polbeira</string>
     <string name="lampai">Lampai</string>
-    <string name="reis">Reis</string>
 
 
 
@@ -68,11 +61,6 @@
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
     <string name="webCalabaza">shorturl.at/fruxZ</string>
 
-    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
-    <string name="direccionFogarDoSantiso">Trasellas, 13, 15886, Teo</string>
-    <string name="telefonoFogarDoSantiso">981 80 59 48</string>
-    <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
-    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
 
     <string name="oRincon">O RINCÓN</string>
     <string name="direccionORincon">A Grela, 15883, Teo</string>
@@ -835,7 +823,6 @@
 
     <string name="luci">Lucí</string>
     <string name="os_tilos">Os Tilos</string>
-    <string name="luou">Luou</string>
     <string name="reis">Reis</string>
 
     <string name="parrilla">Á Parrilla</string>

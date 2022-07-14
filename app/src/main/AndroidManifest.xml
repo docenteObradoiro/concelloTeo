@@ -420,6 +420,9 @@
         <activity
             android:name=".comer.ComerVinosTapasRacions"
             android:exported="false" />
+        <activity
+            android:name=".comer.ComerTradicionalGalega"
+            android:exported="false"/>
     </application>
 
 </manifest>
