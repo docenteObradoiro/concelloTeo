@@ -51,6 +51,7 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }
 
+
         val accesoOndeComer = findViewById<TextView>(R.id.ondeComer)
         accesoOndeComer.setOnClickListener {
             val acceder = Intent(this, OndeComer::class.java)

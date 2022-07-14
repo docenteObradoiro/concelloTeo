@@ -13,6 +13,23 @@
         android:roundIcon="@drawable/logosenletra"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
+
+        <activity
+            android:name=".comer.ComerVegana"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerPulperia"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerMarisqueria"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".OndeComer"
             android:exported="false" />
@@ -82,11 +99,11 @@
             android:name=".actividades.mapaTeo"
             android:exported="false"
             android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false"
@@ -396,6 +413,16 @@
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".comer.OndeComer"
+            android:exported="false" />
+        <activity
+            android:name=".comer.ComerCervexeria"
+            android:exported="false" />
+        <activity
+            android:name=".comer.ComerVinosTapasRacions"
+            android:exported="false" />
     </application>
 
 </manifest>
