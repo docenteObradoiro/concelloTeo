@@ -2,6 +2,12 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">Visítanos:</string>
+    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="comoChegar">COMO CHEGAR</string>
+    <string name="ondeDurmir">ONDE DURMIR</string>
+    <string name="ondeCelebrar">ONDE CELEBRAR</string>
+
     <string name="visitanos">VISÍTANOS!</string>
 
     <string name="cervexaria">Cervexaría</string>
@@ -62,9 +68,11 @@
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
     <string name="webCalabaza">shorturl.at/fruxZ</string>
 
-
+    <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
+    <string name="direccionFogarDoSantiso">Trasellas, 13, 15886, Teo</string>
+    <string name="telefonoFogarDoSantiso">981 80 59 48</string>
     <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
-
+    <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
 
     <string name="oRincon">O RINCÓN</string>
     <string name="direccionORincon">A Grela, 15883, Teo</string>

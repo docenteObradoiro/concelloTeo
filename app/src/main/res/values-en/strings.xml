@@ -2,6 +2,12 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">Visítanos:</string>
+    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="comoChegar">CÓMO LLEGAR</string>
+    <string name="ondeDurmir">DÓNDE DORMIR</string>
+    <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
+
 
     <string name="visitanos">¡VISIT US!</string>
     <string name="cervexaria">Brewery</string>

@@ -31,6 +31,12 @@
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
+            android:name=".OndeComer"
+            android:exported="false" />
+        <activity
+            android:name=".Visitanos"
+            android:exported="false" />
+        <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -93,6 +99,8 @@
             android:name=".actividades.mapaTeo"
             android:exported="false"
             android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -406,9 +414,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".comer.OndeComer"
-            android:exported="false" />
         <activity
             android:name=".comer.ComerCervexeria"
             android:exported="false" />
