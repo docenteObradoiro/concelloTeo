@@ -5,6 +5,13 @@
 
     <string name="visitanos">¡VISÍTANOS!</string>
 
+
+    <string name="menu">Menú</string>
+    <string name="marisqueria">Marisquería</string>
+    <string name="pulperia">Pulpería</string>
+    <string name="lampai">Lampai</string>
+    <string name="reis">Reis</string>
+
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
     <string name="telefonoPazoDeAdran">981 57 00 00</string>
