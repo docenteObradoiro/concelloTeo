@@ -13,12 +13,7 @@
         android:roundIcon="@drawable/logosenletra"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
-        <activity
-            android:name=".Grupo3_DondeComer"
-            android:exported="false" />
-        <activity
-            android:name=".Grupo3_OndeComer"
-            android:exported="false" />
+
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
@@ -396,10 +391,30 @@
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
+
+
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".Visitanos"
+            android:exported="false" />
         <activity
             android:name=".comer.OndeComer"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
+        <activity
+            android:name=".comer.ComerCervexeria"
+            android:exported="false" />
+
+        <activity
+            android:name=".comer.ComerVinosTapasRacions"
+            android:exported="false" />
     </application>
 
 </manifest>

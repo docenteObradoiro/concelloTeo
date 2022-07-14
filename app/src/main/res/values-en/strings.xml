@@ -4,6 +4,13 @@
 
 
     <string name="visitanos">¡VISIT US!</string>
+    <string name="cervexaria">Brewery</string>
+    <string name="luci">Lucí</string>
+    <string name="luou">Luou</string>
+    <string name="osTilos">Os Tilos</string>
+    <string name="oza">Oza</string>
+    <string name="reis">Reis</string>
+    <string name="lampai">Lampai</string>
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
@@ -104,6 +111,8 @@
     <string name="telefonoRanha">+34 981 54 88 39</string>
     <string name="emailRanha"></string>
     <string name="webRanha"></string>
+
+    <string name="vinhosTapasRacions">Wine, tapas and plates</string>
 
     <string name="portico">PORTICO</string>
     <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
@@ -310,7 +319,7 @@
     <string name="nomePortugalicia">Portugalicia</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
-    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+    <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>

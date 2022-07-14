@@ -3,8 +3,16 @@
 
     <string name="app_name">Turismo Teo</string>
 
+
     <string name="visitanos">¡VISÍTANOS!</string>
-    
+    <string name="cervexaria">Cervecería</string>
+    <string name="luci">Lucí</string>
+    <string name="luou">Luou</string>
+    <string name="osTilos">Los Tilos</string>
+    <string name="oza">Oza</string>
+    <string name="reis">Reis</string>
+    <string name="lampai">Lampai</string>
+
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
     <string name="telefonoPazoDeAdran">981 57 00 00</string>
@@ -111,6 +119,8 @@
     <string name="emailRanha"></string>
     <string name="webRanha"></string>
 
+    <string name="vinhosTapasRacions">Vinos, tapas y raciones</string>
+
     <string name="portico">PORTICO</string>
     <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
     <string name="telefonoportico">+34 981 80 74 97</string>
@@ -158,7 +168,6 @@
     <string name="telefonoBuelinhaDaCarballeira">+34 658 24 19 97</string>
 
 
-
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
     <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
     <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
@@ -189,7 +198,6 @@
     <string name="telefonoBraulio">+34 615 57 14 67</string>
     <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
     <string name="webBraulio">https://www.facebook.com/BraulioCafeBar/</string>
-
 
 
     <string name="telefono">telefono</string>
@@ -252,7 +260,7 @@
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
-    <string name="nomeSauce">Sauce </string>
+    <string name="nomeSauce">Sauce</string>
     <string name="direccionSauce">Pozas, Cacheiras</string>
 
     <string name="nomeGandarella">A Gandarella</string>
@@ -276,7 +284,7 @@
     <string name="nomePortugalicia">Portugalicia</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
-    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+    <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
@@ -339,8 +347,8 @@
 
     <string name="nomeLoncho">Loncho</string>
     <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
-    
-    
+
+
     <string name="oSonDoMino">O SON DO MIÑO</string>
     <string name="direccionOSonDoMino">Lugar de Rivas, 82, 15886, Oza-Teo</string>
     <string name="telefonoOSonDoMino">981 80 76 71</string>
