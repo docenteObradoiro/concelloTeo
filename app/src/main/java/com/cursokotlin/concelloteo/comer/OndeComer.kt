@@ -39,28 +39,28 @@ class OndeComer : AppCompatActivity() {
         botonViñoseTapas.setOnClickListener {
             val acceder = Intent(this, ::class.java)
             startActivity(acceder)
-        }
+        }*/
         val botonMarisqueria = findViewById<ImageButton>(R.id.botonMarisqueria)
         botonMarisqueria.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this,ComerMarisqueria::class.java)
             startActivity(acceder)
         }
         val botonMenuOndeComer = findViewById<ImageButton>(R.id.botonMenuOndeComer)
         botonMenuOndeComer.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this,ComerMenu ::class.java)
             startActivity(acceder)
         }
-        val botonOpcionVegana = findViewById<ImageButton>(R.id.botonOpcionVegana)
+        /*val botonOpcionVegana = findViewById<ImageButton>(R.id.botonOpcionVegana)
         botonOpcionVegana.setOnClickListener {
             val acceder = Intent(this, ::class.java)
             startActivity(acceder)
-        }
+        }*/
         val botonPulperia = findViewById<ImageButton>(R.id.botonPulperia)
         botonPulperia.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this,ComerPulperia ::class.java)
             startActivity(acceder)
         }
-        val botonAlgoDulce = findViewById<ImageButton>(R.id.botonAlgoDulce)
+        /*val botonAlgoDulce = findViewById<ImageButton>(R.id.botonAlgoDulce)
         botonAlgoDulce.setOnClickListener {
             val acceder = Intent(this, ::class.java)
             startActivity(acceder)

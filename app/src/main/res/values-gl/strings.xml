@@ -3,6 +3,7 @@
     <string name="app_name">Turismo Teo</string>
 
     <string name="visitanos">VISÍTANOS!</string>
+
     <string name="cervexaria">Cervexaría</string>
     <string name="luci">Lucí</string>
     <string name="luou">Luou</string>
@@ -10,6 +11,15 @@
     <string name="oza">Oza</string>
     <string name="reis">Reis</string>
     <string name="lampai">Lampai</string>
+
+
+    <string name="menu">Menú</string>
+    <string name="marisqueria">Mariscaría</string>
+    <string name="pulperia">Polbeira</string>
+    <string name="lampai">Lampai</string>
+    <string name="reis">Reis</string>
+
+
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
@@ -808,6 +818,20 @@
     <string name="logodireccionbareme">logoDireccionBarEme</string>
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
+    <string name="luou">Luou</string>
+    <string name="oza">Oza</string>
+    <string name="tradicionalgalega">Tradicional galega</string>
+    <string name="opcionvegana">Opción vegana</string>
 
+
+
+    <string name="luci">Lucí</string>
+    <string name="os_tilos">Os Tilos</string>
+    <string name="luou">Luou</string>
+    <string name="reis">Reis</string>
+
+    <string name="parrilla">Á Parrilla</string>
+    <string name="dulce">Algo Doce</string>
+    <string name="cafeteria">Cafetaría</string>
 
 </resources>

@@ -5,6 +5,7 @@
 
 
     <string name="visitanos">¡VISÍTANOS!</string>
+
     <string name="cervexaria">Cervecería</string>
     <string name="luci">Lucí</string>
     <string name="luou">Luou</string>
@@ -12,6 +13,14 @@
     <string name="oza">Oza</string>
     <string name="reis">Reis</string>
     <string name="lampai">Lampai</string>
+
+
+    <string name="menu">Menú</string>
+    <string name="marisqueria">Marisquería</string>
+    <string name="pulperia">Pulpería</string>
+    <string name="lampai">Lampai</string>
+    <string name="reis">Reis</string>
+
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
@@ -792,6 +801,11 @@
     <string name="logodireccionbareme">logoDireccionBarEme</string>
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
+    <string name="luou">Luou</string>
+    <string name="oza">Oza</string>
+    <string name="tradicionalgalega">Tradicional gallega</string>
+    <string name="opcionvegana">Opción vegana</string>
+
 
     <string name="ondecomer">DONDE COMER</string>
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
@@ -801,6 +815,13 @@
     <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
     <string name="emailOSonDoMiño">info@osondominho.com</string>
     <string name="webOSonDoMiño">www.osondominho.com</string>
+    <string name="luci">Lucí</string>
+    <string name="os_tilos">Os Tilos</string>
+    <string name="luou">Luou</string>
+    <string name="reis">Reis</string>
 
+    <string name="parrilla">A la Parrilla</string>
+    <string name="dulce">Algo Dulce</string>
+    <string name="cafeteria">Cafetería</string>
 
 </resources>
