@@ -2,6 +2,12 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">Visítanos:</string>
+    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="comoChegar">COMO CHEGAR</string>
+    <string name="ondeDurmir">ONDE DURMIR</string>
+    <string name="ondeCelebrar">ONDE CELEBRAR</string>
+
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
     <string name="telefonoPazoDeAdran">981 57 00 00</string>

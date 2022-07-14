@@ -64,7 +64,7 @@
             android:text="@string/redeDeRutas"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:text="@string/patrominio1"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -92,7 +92,7 @@
             android:text="@string/artesania1"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -106,7 +106,77 @@
             android:text="@string/actividades1"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/visitanos"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/actividades"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/visitanos"
+            android:textAlignment="textEnd"
+            android:textColor="@color/verderVisitanos"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comoChegar"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/visitanos"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/comoChegar"
+            android:textAlignment="textEnd"
+            android:textColor="#7F4B5A2B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ondeComer"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comoChegar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/ondecomer"
+            android:textAlignment="textEnd"
+            android:textColor="#7F4B5A2B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ondeDurmir"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ondeComer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/ondeDurmir"
+            android:textAlignment="textEnd"
+            android:textColor="#7F4B5A2B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ondeCelebrar"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ondeDurmir"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/ondeCelebrar"
+            android:textAlignment="textEnd"
+            android:textColor="#7F4B5A2B"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -122,7 +192,7 @@
             android:text="@string/agenda"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -137,7 +207,7 @@
             android:text="@string/contacto"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -150,7 +220,7 @@
             android:text="@string/privacidad"
             android:textAlignment="textEnd"
             android:textColor="#7F4B5A2B"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
 
@@ -260,7 +330,6 @@
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@drawable/info"
                 app:tint="#7F000000" />
-
 
         </RelativeLayout>
 

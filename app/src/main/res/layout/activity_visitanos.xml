@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OndeComer">
+    tools:context=".Visitanos">
 
     <ImageButton
         android:id="@+id/logoTeo"
@@ -37,42 +37,51 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/ondeComer"
+        android:id="@+id/visitanos"
         android:layout_width="280dp"
-        android:layout_height="97dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="62dp"
-        android:gravity="center"
-        android:text="@string/ondecomer"
-        android:textColor="#7F4B5A2B"
-        android:textSize="34sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="92dp"
+        android:gravity="left"
+        android:text="@string/visitanosMayuscula"
+        android:textColor="@color/nomeRuta"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginEnd="20dp"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/lineaVerde"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="63dp"
+        android:foregroundTint="#2DFFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:srcCompat="@mipmap/lineaverder" />
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/pontemedievalpontevea2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
             android:orientation="vertical"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -84,161 +93,64 @@
                 android:weightSum="2">
 
                 <ImageButton
-                    android:id="@+id/botonTradicionalGalega"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:background="#00FFFFFF"
-                    android:layout_weight="1"
-                    android:paddingEnd="5dp"
-                    android:scaleType="fitXY"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/tradicionalgalega" />
-
-                <ImageButton
-                    android:id="@+id/botonCerveceria"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:paddingStart="5dp"
-                    android:background="#00FFFFFF"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/cerveceria" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:weightSum="2">
-
-                <ImageButton
-                    android:id="@+id/botonVinos"
+                    android:id="@+id/botonComoChegar"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:background="#00FFFFFF"
                     android:layout_weight="1"
                     android:paddingRight="5dp"
-                    android:foreground="?android:attr/selectableItemBackground"
+                    android:contentDescription="Como Chegar"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/vinhostapaseracions" />
+                    app:srcCompat="@mipmap/comochegar" />
 
                 <ImageButton
-                    android:id="@+id/botonMarisqueria"
+                    android:id="@+id/botonOndeComer"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:paddingLeft="5dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="OndeComer"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/marisqueria" />
+                    app:srcCompat="@mipmap/ondecomer" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:weightSum="2">
+                android:paddingTop="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/botonMenuDiario"
+                    android:id="@+id/botonOndeDurmir"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:background="#00FFFFFF"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
                     android:paddingRight="5dp"
-                    android:foreground="?android:attr/selectableItemBackground"
+                    android:contentDescription="Onde Durmir"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/menu" />
+                    app:srcCompat="@mipmap/ondedurmir" />
 
                 <ImageButton
-                    android:id="@+id/botonOpcionVegana"
+                    android:id="@+id/botonOndeCelebrar"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:paddingLeft="5dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="Onde Celebrar"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/opcionvegana" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:weightSum="2">
-
-                <ImageButton
-                    android:id="@+id/botonPulperia"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:background="#00FFFFFF"
-                    android:layout_weight="1"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:paddingRight="5dp"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/pulperia" />
-
-                <ImageButton
-                    android:id="@+id/botonAlgoDulce"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:paddingLeft="5dp"
-                    android:background="#00FFFFFF"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/algodulce" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:weightSum="2">
-
-                <ImageButton
-                    android:id="@+id/botonParrilla"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:background="#00FFFFFF"
-                    android:layout_weight="1"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:paddingRight="5dp"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/aparrilla" />
-
-                <ImageButton
-                    android:id="@+id/botonXogos"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:paddingLeft="5dp"
-                    android:background="#00FFFFFF"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/zonadexogo" />
+                    app:srcCompat="@mipmap/ondecelebrar" />
             </LinearLayout>
 
 
@@ -246,13 +158,15 @@
                 android:id="@+id/imageView4"
                 android:layout_width="348dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
@@ -324,6 +238,5 @@
 
             </RelativeLayout>
         </LinearLayout>
-    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
