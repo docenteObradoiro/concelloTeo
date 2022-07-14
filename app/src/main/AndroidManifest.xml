@@ -16,7 +16,8 @@
 
         <activity
             android:name=".comer.ComerVegana"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".comer.ComerPulperia"
             android:exported="false"
@@ -27,10 +28,6 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".comer.ComerMenu"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Grupo3_DondeComer"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
@@ -405,26 +402,16 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".visitanos"
-            android:exported="true"
-            android:screenOrientation="portrait"/>
-        <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
-            
-            
-            
-        <activity
-            android:name=".Visitanos"
-            android:exported="false" />
+
         <activity
             android:name=".comer.OndeComer"
             android:exported="false" />
         <activity
             android:name=".comer.ComerCervexeria"
             android:exported="false" />
-
         <activity
             android:name=".comer.ComerVinosTapasRacions"
             android:exported="false" />
