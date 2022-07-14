@@ -5,6 +5,7 @@
 
     <string name="visitanos">¡VISÍTANOS!</string>
 
+
     <string name="menu">Menú</string>
     <string name="marisqueria">Marisquería</string>
     <string name="pulperia">Pulpería</string>
@@ -788,6 +789,11 @@
     <string name="logodireccionbareme">logoDireccionBarEme</string>
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
+    <string name="luou">Luou</string>
+    <string name="oza">Oza</string>
+    <string name="tradicionalgalega">Tradicional gallega</string>
+    <string name="opcionvegana">Opción vegana</string>
+
 
     <string name="ondecomer">DONDE COMER</string>
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>

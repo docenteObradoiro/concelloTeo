@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ConcelloTeo">
 
         <activity
+            android:name=".comer_vegana"
+            android:exported="false" />
+        <activity
             android:name=".comer.ComerPulperia"
             android:exported="false"
             android:screenOrientation="portrait"/>
