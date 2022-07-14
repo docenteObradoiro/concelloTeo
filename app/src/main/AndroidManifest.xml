@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConcelloTeo">
         <activity
+            android:name=".ComerPulperia"
+            android:exported="false" />
+        <activity
+            android:name=".ComerMarisqueria"
+            android:exported="false" />
+        <activity
+            android:name=".ComerMenu"
+            android:exported="false" />
+        <activity
             android:name=".Grupo3_DondeComer"
             android:exported="false" />
         <activity

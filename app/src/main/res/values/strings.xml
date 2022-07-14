@@ -4,7 +4,13 @@
     <string name="app_name">Turismo Teo</string>
 
     <string name="visitanos">¡VISÍTANOS!</string>
-    
+
+    <string name="menu">Menú</string>
+    <string name="marisqueria">Marisquería</string>
+    <string name="pulperia">Pulpería</string>
+    <string name="lampai">Lampai</string>
+    <string name="reis">Reis</string>
+
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
     <string name="telefonoPazoDeAdran">981 57 00 00</string>
@@ -158,7 +164,6 @@
     <string name="telefonoBuelinhaDaCarballeira">+34 658 24 19 97</string>
 
 
-
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
     <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
     <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
@@ -189,7 +194,6 @@
     <string name="telefonoBraulio">+34 615 57 14 67</string>
     <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
     <string name="webBraulio">https://www.facebook.com/BraulioCafeBar/</string>
-
 
 
     <string name="telefono">telefono</string>
@@ -339,8 +343,8 @@
 
     <string name="nomeLoncho">Loncho</string>
     <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
-    
-    
+
+
     <string name="oSonDoMino">O SON DO MIÑO</string>
     <string name="direccionOSonDoMino">Lugar de Rivas, 82, 15886, Oza-Teo</string>
     <string name="telefonoOSonDoMino">981 80 76 71</string>

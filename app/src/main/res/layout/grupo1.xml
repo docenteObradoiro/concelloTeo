@@ -1411,6 +1411,7 @@ tools:context=".redDeRutas.Ruta6">
                 android:textSize="12sp" />
 
         </RelativeLayout>
+
 <!--        RESTAURANTE ALOJAMIENTO PARADA DE FRANCOS-->
         <RelativeLayout
             android:background="@drawable/shape"
