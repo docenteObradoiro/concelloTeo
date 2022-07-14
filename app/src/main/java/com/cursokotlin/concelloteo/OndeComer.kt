@@ -5,10 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import com.cursokotlin.concelloteo.comer.ComerMarisqueria
-import com.cursokotlin.concelloteo.comer.ComerMenu
-import com.cursokotlin.concelloteo.comer.ComerPulperia
-import com.cursokotlin.concelloteo.comer.ComerTradicionalGalega
+import com.cursokotlin.concelloteo.comer.*
 
 class OndeComer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,9 +24,21 @@ class OndeComer : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        var accesoComerMenu=findViewById<ImageButton>(R.id.botonMenuDiario)
-        accesoComerMenu.setOnClickListener {
-            val acceder= Intent(this, ComerMenu::class.java)
+        var accesoTradicionalGalega=findViewById<ImageButton>(R.id.botonTradicionalGalega)
+        accesoTradicionalGalega.setOnClickListener {
+            val acceder= Intent(this, ComerTradicionalGalega::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoCervexeria=findViewById<ImageButton>(R.id.botonCerveceria)
+        accesoCervexeria.setOnClickListener {
+            val acceder= Intent(this, ComerCervexeria::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoVinosTapas=findViewById<ImageButton>(R.id.botonVinos)
+        accesoVinosTapas.setOnClickListener {
+            val acceder= Intent(this, ComerVinosTapasRacions::class.java)
             startActivity(acceder)
         }
 
@@ -39,17 +48,47 @@ class OndeComer : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        var accesoComerMenu=findViewById<ImageButton>(R.id.botonMenuDiario)
+        accesoComerMenu.setOnClickListener {
+            val acceder= Intent(this, ComerMenu::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoOpcionVegana=findViewById<ImageButton>(R.id.botonOpcionVegana)
+        accesoOpcionVegana.setOnClickListener {
+            val acceder= Intent(this, ComerVegana::class.java)
+            startActivity(acceder)
+        }
+
         var accesoPulperia=findViewById<ImageButton>(R.id.botonPulperia)
         accesoPulperia.setOnClickListener {
             val acceder= Intent(this, ComerPulperia::class.java)
             startActivity(acceder)
         }
 
-        var accesoTradicionalGalega=findViewById<ImageButton>(R.id.botonTradicionalGalega)
-        accesoTradicionalGalega.setOnClickListener {
-            val acceder= Intent(this, ComerTradicionalGalega::class.java)
+
+        var accesoAlgoDulce=findViewById<ImageButton>(R.id.botonAlgoDulce)
+        accesoAlgoDulce.setOnClickListener {
+            val acceder= Intent(this, ComerAlgoDulce::class.java)
             startActivity(acceder)
         }
+
+        var accesoParrilla=findViewById<ImageButton>(R.id.botonParrilla)
+        accesoParrilla.setOnClickListener {
+            val acceder= Intent(this, ComerAParrilla::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoCafeteria=findViewById<ImageButton>(R.id.botonCafeteria)
+        accesoCafeteria.setOnClickListener {
+            val acceder= Intent(this, ComerCafeteria::class.java)
+            startActivity(acceder)
+        }
+
+
+
+
+
 
 
         val facebook = findViewById<ImageButton>(R.id.facebook)
