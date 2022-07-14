@@ -109,20 +109,6 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/visitanos"
-            android:layout_width="340dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/actividades"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="50dp"
-            android:text="@string/visitanos"
-            android:textAlignment="textEnd"
-            android:textColor="#7F4B5A2B"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/agenda"
             android:layout_width="346dp"
             android:layout_height="wrap_content"
