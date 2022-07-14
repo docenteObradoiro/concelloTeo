@@ -793,6 +793,13 @@
     <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
     <string name="emailOSonDoMiño">info@osondominho.com</string>
     <string name="webOSonDoMiño">www.osondominho.com</string>
+    <string name="luci">Lucí</string>
+    <string name="os_tilos">Os Tilos</string>
+    <string name="luou">Luou</string>
+    <string name="reis">Reis</string>
 
+    <string name="parrilla">A la Parrilla</string>
+    <string name="dulce">Algo Dulce</string>
+    <string name="cafeteria">Cafetería</string>
 
 </resources>

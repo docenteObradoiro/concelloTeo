@@ -795,5 +795,13 @@
     <string name="calo">Calo</string>
     <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
 
+    <string name="luci">Lucí</string>
+    <string name="os_tilos">Os Tilos</string>
+    <string name="luou">Luou</string>
+    <string name="reis">Reis</string>
+
+    <string name="parrilla">Grilled</string>
+    <string name="dulce">Something Sweet</string>
+    <string name="cafeteria">Coffee</string>
 
 </resources>
