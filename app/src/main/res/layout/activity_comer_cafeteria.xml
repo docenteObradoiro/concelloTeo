@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="62dp"
         android:gravity="center"
-        android:text="Cafetería"
+        android:text="@string/cafeteria"
         android:textColor="#7F4B5A2B"
         android:textSize="30sp"
         android:textStyle="bold"
