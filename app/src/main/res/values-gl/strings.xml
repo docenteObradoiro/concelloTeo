@@ -804,22 +804,64 @@
     <string name="instagram">instagram</string>
     <string name="logoconcello">logoConcello</string>
     <string name="logodireccionbareme">logoDireccionBarEme</string>
+    <string name="tradicionalgalega">Tradicional galega</string>
+    <string name="opcionvegana">Opción vegana</string>
+
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
     <string name="luou">Luou</string>
     <string name="oza">Oza</string>
-    <string name="tradicionalgalega">Tradicional galega</string>
-    <string name="opcionvegana">Opción vegana</string>
-
-
-
+    <string name="ostilos">Os Tilos</string>
+    <string name="raris">Raris</string>
     <string name="luci">Lucí</string>
-    <string name="os_tilos">Os Tilos</string>
-    <string name="luou">Luou</string>
-    <string name="reis">Reis</string>
+    <string name="teo">Teo</string>
+    <string name="aloxamentos">Aloxamentos</string>
 
     <string name="parrilla">Á Parrilla</string>
     <string name="dulce">Algo Doce</string>
     <string name="cafeteria">Cafetaría</string>
+
+    <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
+    <string name="direccioncornide">Cornide,82</string>
+    <string name="telefonocornide">981893044</string>
+    <string name="telefono2cornide">981964248</string>
+    <string name="correocornide">casagrandedecornide@gmail.com</string>
+    <string name="webcornide">http://www.casagrandedecornide.es</string>
+
+    <string name="nombrecastaña">MARÍA CASTAÑA</string>
+    <string name="direccioncastaña">Travesía da Ramallosa,8</string>
+    <string name="telefonocastaña">981809628</string>
+    <string name="telefono2castaña">981803943</string>
+    <string name="webcastaña">http://mariacastanha.com/</string>
+
+    <string name="nombrebueliña">BUELIÑA DA CARBALLEIRA</string>
+    <string name="direccionbueliña">Rúa oliveira, Nave 91B Polígono Novo</string>
+
+    <string name="nombrecityhouse">CITY HOUSE LOS TILOS</string>
+    <string name="direcccioncityhouse">Urb. Los Tilos, Estrada Santiago-A Estrada km2</string>
+    <string name="telefonocityhouse">981819200</string>
+    <string name="telefono2cityhouse">981801514</string>
+    <string name="correocityhouse">reservas.tilos@farandahotels.com</string>
+    <string name="webcityhouse">https://www.hoteltilos.com/</string>
+
+    <string name="nombrecompostela">COMPOSTELA INN</string>
+    <string name="direcccioncompostela">Montouto</string>
+    <string name="telefonocompostela">981819080</string>
+    <string name="telefono2compostela">981819124</string>
+    <string name="correocompostela">info@compostelainn.com</string>
+    <string name="webcompostela">http://www.compostelainn.com/</string>
+
+    <string name="nombregandarela">A GANDARELA</string>
+    <string name="direccciongandarela">A Insua,72</string>
+    <string name="telefonogandarela">981805868</string>
+    <string name="correogandarela">agrodagandarela@gmail.com</string>
+    <string name="webgandarela">http://www.agrodagandarela.com</string>
+
+    <string name="nombremanola">CASA MANOLA</string>
+    <string name="direcccionmanola">Rarís,80</string>
+    <string name="telefonomanola">981809374</string>
+    <string name="telefono2manola">699789153</string>
+    <string name="correomanola">info@casamanola.gal</string>
+    <string name="webmanola">https://www.casamanola.gal/</string>
 
 </resources>
