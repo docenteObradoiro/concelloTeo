@@ -236,7 +236,7 @@
                     app:srcCompat="@mipmap/aparrilla" />
 
                 <ImageButton
-                    android:id="@+id/botonXogos"
+                    android:id="@+id/botonCafeteria"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
@@ -246,7 +246,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/zonadexogo" />
+                    app:srcCompat="@mipmap/cafeteria" />
             </LinearLayout>
 
 
