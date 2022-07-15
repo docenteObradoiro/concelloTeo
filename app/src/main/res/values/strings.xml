@@ -12,12 +12,6 @@
     <string name="lampai">Lampai</string>
     <string name="reis">Reis</string>
 
-    <string name="pazoDeAdran">PAZO DE ADRÁN</string>
-    <string name="direccionPazoDeAdran">Lugar De Adran, 4, 15886, Teo</string>
-    <string name="telefonoPazoDeAdran">981 57 00 00</string>
-    <string name="emailPazoDeAdran">info@pazodeadran.es</string>
-    <string name="webPazoDeAdran">https://www.pazodeadran.com</string>
-
     <string name="che">CHE 2</string>
     <string name="direccionChe">Tr.ª de Montouto, 28, 15894, Teo</string>
     <string name="telefonoChe">981 80 68 48</string>
@@ -31,7 +25,7 @@
     <string name="webCasaJavier">shorturl.at/pCY12</string>
 
     <string name="asBrasas">AS BRASAS</string>
-    <string name="direccionAsBrasas">Rua Aido, 24, 15883, Teo</string>
+    <string name="direccionAsBrasas">Rua Aido,24</string>
     <string name="telefonoAsBrasas">981 53 15 36</string>
     <string name="emailAsBrasas">asbrasasparrillada@hotmail.com</string>
     <string name="webAsBrasas">shorturl.at/asuy9</string>
@@ -48,7 +42,7 @@
     <string name="webOPintor">shorturl.at/egXZ3</string>
 
     <string name="calabaza">LA CALABAZA DEL PEREGRINO</string>
-    <string name="direccionCalabaza">Lugar dua franco, 5, 15866, Teo</string>
+    <string name="direccionCalabaza">Lugar dua franco,5</string>
     <string name="telefonoCalabaza">981 19 42 44</string>
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
     <string name="webCalabaza">shorturl.at/fruxZ</string>
@@ -166,7 +160,7 @@
 
 
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
-    <string name="direccionparadaDeFrancos">Rúa de Francos , nº 43</string>
+    <string name="direccionparadaDeFrancos">Rúa de Francos,43</string>
     <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
     <string name="emailparadaDeFrancos"> reservas@paradadefrancos.com</string>
     <string name="webparadaDeFrancos">http://www.paradadefrancos.com</string>
@@ -260,21 +254,7 @@
     <string name="nomeSauce">Sauce </string>
     <string name="direccionSauce">Pozas, Cacheiras</string>
 
-    <string name="nomeGandarella">A Gandarella</string>
-    <string name="direccionGandarella">A Insua, 72 - LUOU </string>
-    <string name="telefonoGandarella">981 805 868</string>
-    <string name="emailGandarella"> agrodagandarela@gmail.com</string>
-    <string name="webGandarella"> http://www.agrodagandarela.com/contacto</string>
-
-    <string name="nomeAldran">Pazo de Adrán</string>
-    <string name="direccionAdran">Lugar De Adran, 4</string>
-    <string name="telefonoAdran1">981 570 000</string>
-    <string name="telefonoAdran2">620 906 602</string>
-    <string name="emailAdran1">info@pazodeadran.es</string>
-    <string name="emailAdran2">info@pazodeadran.es</string>
-    <string name="webAdran">https://pazodeadran.com/</string>
-
-    <string name="nomeCasaCacheiras">Casa Cacheiras</string>
+    <string name="nomeCasaCacheiras">CASA CACHEIRAS</string>
     <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>
     <string name="telefonoCasaCacheiras">689 004 986</string>
 
@@ -300,11 +280,11 @@
     <string name="nomeAldeaSestelo">Aldea de Sestelo</string>
     <string name="direccionAldeaSestelo">Lugar de Sestelo, 35</string>
 
-    <string name="nomeACasaDeBlanco">A Casa de Blanco</string>
+    <string name="nomeACasaDeBlanco">A CASA DE BLANCO</string>
     <string name="direccionACasaDeBlanco">Raris, 47</string>
     <string name="telefonoACasaDeBlanco">666523707</string>
 
-    <string name="nomeVillaJubells">Villa Jubells</string>
+    <string name="nomeVillaJubells">VILLA JUBELLS</string>
     <string name="direccionVillaJubells">Camino a Vilaverde, Osebe</string>
     <string name="telefonoVillaJubells">609 560 104</string>
 
@@ -855,6 +835,44 @@
     <string name="telefono2manola">699789153</string>
     <string name="correomanola">info@casamanola.gal</string>
     <string name="webmanola">https://www.casamanola.gal/</string>
+
+    <string name="nombreadran">PAZO DE ADRÁN</string>
+    <string name="direcccionadran">Lugar De Adran,4</string>
+    <string name="telefonoadran">981570000</string>
+    <string name="telefono2adran">620 906 602</string>
+    <string name="correoadran">info@pazodeadran.es</string>
+    <string name="correo2adran">comercial@pazodeadran.es</string>
+    <string name="webadran">https://pazodeadran.com/</string>
+
+    <string name="nombremilladoiro">MILLADOIRO BELLA BOUTIQUE</string>
+    <string name="direcccionmilladoiro">Travesía de Reborido Portal II 2ºD</string>
+
+    <string name="nombrealbeitaria">A ALBEITARÍA</string>
+    <string name="direcccionalbeitaria">Lugar de Olveira,15</string>
+    <string name="telefonoalbeitaria">981 809 241</string>
+    <string name="correoalbeitaria">info@albeitaria.com</string>
+    <string name="webalbeitaria">http://albeitaria.com</string>
+
+    <string name="nombremotel">MOTEL VENUS</string>
+    <string name="direcccionmotel">Travesía Lugar de Luou,1</string>
+    <string name="telefonomotel">981 80 02 05</string>
+    <string name="correomotel">recepcionsantiago@motel-venus.com</string>
+    <string name="webmotel">https://www.motelvenussantiago.com/</string>
+
+    <string name="nombrecarolina">CASA CAROLINA</string>
+    <string name="direcccioncarolina">Osebe,10</string>
+    <string name="telefonocarolina">981 80 02 05</string>
+
+    <string name="nombrefaramello">ALBERGUE DE PEREGRINOS DE FARAMELLO</string>
+    <string name="direcccionfaramello">Vilares,s/n</string>
+    <string name="telefonofaramello">636323569</string>
+    <string name="webfaramello">http://www.caminodesantiago.gal</string>
+
+    <string name="nombresalgueiros">VILLA SALGUEIROS</string>
+    <string name="direcccionsalgueiros">Guldris,41</string>
+    <string name="telefonosalgueiros">616926698</string>
+    <string name="websalgueiros">http://www.greenspainholidays.com/</string>
+
 
 
 </resources>
