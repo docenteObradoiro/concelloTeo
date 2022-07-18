@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Turismo Teo</string>
 
-    <string name="visitanos">¡VISÍTANOS!</string>
+    <string name="visitanos">Visítanos:</string>
+    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="comoChegar">CÓMO LLEGAR</string>
+    <string name="ondeDurmir">DÓNDE DORMIR</string>
+    <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
+
+
+
+
+    <string name="cervexaria">Cervecería</string>
+    <string name="osTilos">Los Tilos</string>
 
 
     <string name="menu">Menú</string>
     <string name="marisqueria">Marisquería</string>
     <string name="pulperia">Pulpería</string>
     <string name="lampai">Lampai</string>
-    <string name="reis">Reis</string>
+
+
 
     <string name="che">CHE 2</string>
     <string name="direccionChe">Tr.ª de Montouto, 28, 15894, Teo</string>
@@ -111,6 +121,8 @@
     <string name="telefonoRanha">+34 981 54 88 39</string>
     <string name="emailRanha"></string>
     <string name="webRanha"></string>
+
+    <string name="vinhosTapasRacions">Vinos, tapas y raciones</string>
 
     <string name="portico">PORTICO</string>
     <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
@@ -251,7 +263,7 @@
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
-    <string name="nomeSauce">Sauce </string>
+    <string name="nomeSauce">Sauce</string>
     <string name="direccionSauce">Pozas, Cacheiras</string>
 
     <string name="nomeCasaCacheiras">CASA CACHEIRAS</string>
@@ -261,7 +273,7 @@
     <string name="nomePortugalicia">Portugalicia</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
-    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+    <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
@@ -767,6 +779,11 @@
     <string name="instagram">instagram</string>
     <string name="logoconcello">logoConcello</string>
     <string name="logodireccionbareme">logoDireccionBarEme</string>
+
+    <string name="cacheiras">Cacheiras</string>
+    <string name="calo">Calo</string>
+    <string name="oza">Oza</string>
+
     <string name="tradicionalgalega">Tradicional gallega</string>
     <string name="opcionvegana">Opción vegana</string>
 
@@ -792,6 +809,8 @@
     <string name="parrilla">A la Parrilla</string>
     <string name="dulce">Algo Dulce</string>
     <string name="cafeteria">Cafetería</string>
+    <string name="onde_celebrar">Donde Celebrar</string>
+    <string name="oza">Oza</string>
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>

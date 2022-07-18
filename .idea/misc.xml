@@ -135,12 +135,15 @@
         <entry key="..\:/Users/Alex/Desktop/concelloTeo4/app/src/main/res/layout/tradicionalgallega.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_comer_a_parrilla.xml" value="0.22974413646055436" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_comer_algo_dulce.xml" value="0.30932971014492755" />
-        <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_comer_cafeteria.xml" value="0.30932971014492755" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_comer_cafeteria.xml" value="0.25" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_comer_tradicional_galega.xml" value="0.30932971014492755" />
-        <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_grupo3_donde_comer.xml" value="0.14487926727726894" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_grupo3_donde_comer.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_onde_celebrar.xml" value="0.36041666666666666" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/activity_onde_comer_grupo4.xml" value="0.19519927536231885" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/grupo1.xml" value="0.17544744139147972" />
         <entry key="..\:/Users/Alex/Desktop/concelloTeo6/app/src/main/res/layout/grupo2.xml" value="0.16174761794097142" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo7/app/src/main/res/layout/activity_comer_cafeteria.xml" value="0.30932971014492755" />
+        <entry key="..\:/Users/Alex/Desktop/concelloTeo7/app/src/main/res/layout/activity_comer_cervexeria.xml" value="0.30932971014492755" />
         <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_actividades.xml" value="0.33106884057971014" />
         <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_batalla.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/Actividades1/app/src/main/res/layout/activity_concertos.xml" value="0.35833333333333334" />
@@ -221,11 +224,13 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_main2.xml" value="0.37771739130434784" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_marco_da_agrela.xml" value="0.1762917933130699" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_menu.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_menu_principal.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_mercados.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_nadal.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_obradoiros.xml" value="0.3713768115942029" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_onde_comer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_onde_comer_grupo4.xml" value="0.24682971014492755" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_arqueoloxico.xml" value="0.18" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_eclesiastico.xml" value="0.22" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_patrimonio_etnografico.xml" value="0.1762917933130699" />
@@ -236,13 +241,28 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_petroglifo_do_rio_angueira_ou_do_monte_de_cornide.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ruta1.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ruta12.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_ruta4.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_tipos_patrimonio2.xml" value="0.22" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/activity_visitanos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/contacto2.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/grupo2.xml" value="0.5" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo/app/src/main/res/layout/tradicionalgallega.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_pagina_principal_artesania.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.14108409321175278" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo14/app/src/main/res/layout/activity_xeroca.xml" value="0.14108409321175278" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_comer_cervexaria.xml" value="0.22" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_comer_cervexeria.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_comer_tradicional_galega.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_comer_vinos_tapas_racions.xml" value="0.1" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_grupo3_donde_comer.xml" value="0.12995121951219513" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_menu.xml" value="0.14447463768115942" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_onde_comer.xml" value="0.346875" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_onde_comer_grupo4.xml" value="0.13296067079257337" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_tres_oficios.xml" value="0.14447463768115942" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/activity_visitanos.xml" value="0.25" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/grupo1.xml" value="0.21702525724976612" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo15/app/src/main/res/layout/grupo2.xml" value="0.13803108808290154" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo17/app/src/main/res/layout/activity_brigantia_orfebres.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo19/app/src/main/res/drawable-v24/animacorreo.xml" value="0.208" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/concelloTeo19/app/src/main/res/drawable/animafacebook.xml" value="0.208" />
@@ -405,6 +425,7 @@
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo/app/src/main/res/layout/tradicionalgallega.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_menu.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_onde_comer.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_onde_comer_grupo4.xml" value="0.22010869565217392" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_paxina_principal_rede_de_rutas.xml" value="0.25" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_ruta1.xml" value="0.296195652173913" />
@@ -412,6 +433,7 @@
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_ruta8.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_ruta9.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_splash_screen.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/activity_visitanos.xml" value="0.22010869565217392" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo1/app/src/main/res/layout/grupo2.xml" value="0.18228867165037377" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/Desktop/concelloTeo2/app/src/main/res/layout/activity_menu.xml" value="0.3302083333333333" />
@@ -561,6 +583,13 @@
         <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_obradoiro.xml" value="0.3176631675034231" />
         <entry key="..\:/Users/Obradoiro/traduccion/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_alert_dialog_exit.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_comer_a_parrilla.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_algo_dulce.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_cafeteria.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_cervexeria.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_marisqueria.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_menu.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_comer_pulperia.xml" value="0.225" />
         <entry key="app/src/main/res/layout/activity_comer_tradicional_galega.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_comer_vegana.xml" value="0.225" />
         <entry key="app/src/main/res/layout/activity_contacto.xml" value="0.225" />
@@ -570,6 +599,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31875" />
         <entry key="app/src/main/res/layout/activity_mapa_cacheiras.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/activity_menu_principal.xml" value="0.225" />
         <entry key="app/src/main/res/layout/activity_onde_comer.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_onde_comer_grupo4.xml" value="0.16775935210181256" />
         <entry key="app/src/main/res/layout/activity_rosa_mendez.xml" value="0.2265625" />

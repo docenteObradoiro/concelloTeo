@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    tools:context=".OndeComer">
 
     <ImageButton
         android:id="@+id/logoTeo"
@@ -69,53 +70,63 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <ImageButton
                     android:id="@+id/botonTradicionalGalega"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Cociña tradicional galega"
+                    android:contentDescription="boton tradicional"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingEnd="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/tradicionalgalega" />
 
                 <ImageButton
-                    android:id="@+id/botonCervexería"
+                    android:id="@+id/botonCerveceria"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Cervexaría"
+                    android:contentDescription="boton cerveceria"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingStart="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/cerveceria" />
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
 
                 <ImageButton
-                    android:id="@+id/botonViñosTapas"
+                    android:id="@+id/botonVinos"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Viños, tapas e racións"
+                    android:contentDescription="boton viños, tapas"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingRight="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/vinhostapaseracions" />
@@ -124,29 +135,33 @@
                     android:id="@+id/botonMarisqueria"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Marisquería"
+                    android:contentDescription="boton marisqueria"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/marisqueria" />
-            </RelativeLayout>
-            <RelativeLayout
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
 
                 <ImageButton
-                    android:id="@+id/botonMenuOndeComer"
+                    android:id="@+id/botonMenuDiario"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Menú"
+                    android:contentDescription="boton menu"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingRight="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/menu" />
@@ -155,30 +170,33 @@
                     android:id="@+id/botonOpcionVegana"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Opción vegana"
+                    android:contentDescription="boton opcion vegana"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/opcionvegana" />
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
 
                 <ImageButton
                     android:id="@+id/botonPulperia"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Pulpería"
+                    android:contentDescription="boton pulperia"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingRight="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/pulperia" />
@@ -187,58 +205,56 @@
                     android:id="@+id/botonAlgoDulce"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="35dp"
+                    android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Algo Dulce"
+                    android:contentDescription="boton algo dulce"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/algodulce" />
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
 
                 <ImageButton
                     android:id="@+id/botonParrilla"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginBottom="0dp"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Á parilla"
+                    android:layout_weight="1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingRight="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/aparrilla" />
 
                 <ImageButton
-                    android:id="@+id/botonBar"
+                    android:id="@+id/botonCafeteria"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:layout_alignParentEnd="true"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="35dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
                     android:background="#00FFFFFF"
-                    android:contentDescription="Cafeterías y bares"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/bar" />
-
-            </RelativeLayout>
+                    app:srcCompat="@mipmap/cafeteria" />
+            </LinearLayout>
 
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="348dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
 
@@ -296,21 +312,6 @@
                     app:srcCompat="@drawable/instagram"
                     app:tint="#7F000000" />
 
-                <ImageButton
-                    android:id="@+id/wikiloc1"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-15dp"
-                    android:layout_toEndOf="@+id/instagram"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="wikiloc"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/wikiloc"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/info"

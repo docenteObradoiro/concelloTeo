@@ -15,22 +15,11 @@
         android:theme="@style/Theme.ConcelloTeo">
 
         <activity
-            android:name=".comer.ComerVegana"
-            android:exported="false" />
-        <activity
-            android:name=".comer.ComerPulperia"
+            android:name=".OndeComer"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".comer.ComerMarisqueria"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".comer.ComerMenu"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Grupo3_DondeComer"
+            android:name=".Visitanos"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
@@ -68,6 +57,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -96,6 +86,7 @@
             android:name=".actividades.mapaTeo"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -158,7 +149,8 @@
         <activity
             android:name=".artesania.SpaciobInteriorismo"
             android:exported="false"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!--
  android:exported="false"
@@ -405,17 +397,50 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".visitanos"
-            android:exported="true"
-            android:screenOrientation="portrait"/>
-        <activity
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
-            android:name=".comer.OndeComer"
+            android:name=".comer.ComerCervexeria"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerVinosTapasRacions"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerTradicionalGalega"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerCafeteria"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerAParrilla"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerAlgoDulce"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerVegana"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerPulperia"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerMarisqueria"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".comer.ComerMenu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

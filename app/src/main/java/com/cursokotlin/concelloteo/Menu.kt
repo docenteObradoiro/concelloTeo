@@ -51,11 +51,30 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val accesovisitanos = findViewById<TextView>(R.id.visitanos)
-        accesovisitanos.setOnClickListener {
-            val acceder = Intent(this, visitanos::class.java)
+
+        val accesoOndeComer = findViewById<TextView>(R.id.ondeComer)
+        accesoOndeComer.setOnClickListener {
+            val acceder = Intent(this, OndeComer::class.java)
             startActivity(acceder)
         }
+
+        /*val accesoOndeDurmir = findViewById<TextView>(R.id.ondeDurmir)
+        accesoOndeDurmir.setOnClickListener {
+            val acceder = Intent(this,::class.java)
+            startActivity(acceder)
+        }*/
+
+        /*val accesoOndeCelebrar = findViewById<TextView>(R.id.ondeCelebrar)
+        accesoOndeCelebrar.setOnClickListener {
+            val acceder = Intent(this, ::class.java)
+            startActivity(acceder)
+        }*/
+
+        /*val accesoComoChegar = findViewById<TextView>(R.id.comoChegar)
+        accesoComoChegar.setOnClickListener {
+            val acceder = Intent(this, ::class.java)
+            startActivity(acceder)
+        }*/
 
         val accesoAgenda = findViewById<TextView>(R.id.agenda)
         accesoAgenda.setOnClickListener {

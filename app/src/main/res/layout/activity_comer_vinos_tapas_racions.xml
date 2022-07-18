@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    tools:context=".comer.ComerVinosTapasRacions">
 
     <ImageButton
         android:id="@+id/logoTeo"
@@ -13,11 +14,11 @@
         android:layout_marginTop="20dp"
         android:background="#F9FBF9"
         android:contentDescription="botonTeo"
+        android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:srcCompat="@drawable/logo" />
 
     <ImageButton
@@ -28,21 +29,21 @@
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
         android:contentDescription="hamburguesa"
+        android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/aloxamentos"
+        android:id="@+id/vinhosTapasRacions"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"
         android:layout_marginTop="62dp"
         android:gravity="center"
-        android:text="@string/cafeteria"
+        android:text="@string/vinhosTapasRacions"
         android:textColor="#7F4B5A2B"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -54,8 +55,8 @@
         android:id="@+id/imageView3"
         android:layout_width="362dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
         android:foregroundTint="#2DFFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -66,7 +67,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="20dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -87,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cacheiras"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -103,11 +104,10 @@
                     <!-- BETOS-->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -117,7 +117,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/betos" />
+                            android:src="@drawable/beto" />
 
                         <ImageButton
                             android:id="@+id/logoLocalBetos"
@@ -252,95 +252,44 @@
 
                     </RelativeLayout>
 
-                    <!--    Bar Bar Canaletto  -->
+                    <!--O Viveiro da Poboa-->
 
                     <RelativeLayout
+                        android:id="@+id/rlOVivieroDaPoboa"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barCanaletto"
+                            android:id="@+id/barViviero"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/canaletto" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalBarCanaletto"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalBarCanaletto"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionBarCanaletto"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalBarCanaletto"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionBarCanaletto"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoBarCanaletto"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionBarCanaletto"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoBarCanaletto"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoBarCanaletto"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoBarCanaletto"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
+                            android:src="@mipmap/oviverodapoboa" />
 
                         <TextView
-                            android:id="@+id/localBarCanaletto"
+                            android:id="@+id/telefonoViviero"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionViviero"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoTelefonoViviero"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoViveiro"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+
+                        <TextView
+                            android:id="@+id/localViviero"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
@@ -348,97 +297,135 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalBarCanaletto"
+                            android:layout_toEndOf="@+id/logoLocalViviero"
                             android:gravity="center_vertical"
-                            android:text="RESTAURANTE CANALETTO"
+                            android:text="@string/nomeViveiro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/direccionBarCanaletto"
+                            android:id="@+id/direccionViviero"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/localBarCanaletto"
+                            android:layout_below="@+id/localViviero"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionBarCanaletto"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoDireccionViviero"
                             android:gravity="center_vertical"
-                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:text="@string/direccionViveiro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/telefonoBarCanaletto"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionBarCanaletto"
-                            android:layout_alignParentEnd="true"
+                        <ImageButton
+                            android:id="@+id/logoLocalViviero"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
-                            android:gravity="center_vertical"
-                            android:text="+34 981 806 834"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/logoLocal"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
 
-                        <TextView
-                            android:id="@+id/emailBarCanaletto"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoBarCanaletto"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoBarCanaletto"
-                            android:gravity="center_vertical"
-                            android:text="lcastineirascampos@gmail.com"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/webBarCanaletto"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/emailBarCanaletto"
-                            android:layout_alignParentEnd="true"
+                        <ImageButton
+                            android:id="@+id/logoTelefonoViviero"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionViviero"
+                            android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoBarCanaletto"
-                            android:gravity="center_vertical"
-                            android:text="https://www.canaletto.es/"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/logoTelf"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionViviero"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalViviero"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/logoDireccion"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
 
                     </RelativeLayout>
 
-                    <!--    Che 2 -->
-
+                    <!--        SAUCE-->
                     <RelativeLayout
-                        android:background="@drawable/shape"
+                        android:id="@+id/rlSauce"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/che2"
+                            android:id="@+id/barSauce"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/che" />
+                            android:src="@mipmap/sauce" />
+
+
+                        <TextView
+                            android:id="@+id/localSauce"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalSauce"
+                            android:gravity="center_vertical"
+                            android:text="@string/nomeSauce"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionSauce"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localSauce"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoDireccionSauce"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionSauce"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
 
                         <ImageButton
-                            android:id="@+id/logoLocalChe2"
+                            android:id="@+id/logoLocalSauce"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
@@ -447,7 +434,64 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalChe2"
+                            android:contentDescription="@string/logoLocal"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionSauce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalSauce"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/logoDireccion"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RelativeLayout>
+
+
+                    <!--    NC Cofee Bar -->
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/ncCoffeeBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/nccoffeebar" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalNcCoffeeBar"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalNcCoffeeBar"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -455,16 +499,16 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoDireccionChe2"
+                            android:id="@+id/logoDireccionNcCoffeeBar"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalChe2"
+                            android:layout_below="@+id/logoLocalNcCoffeeBar"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionChe2"
+                            android:contentDescription="logoDireccionNcCoffeeBar"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -472,16 +516,16 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoTelefonoChe2"
+                            android:id="@+id/logoTelefonoNcCoffeeBar"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionChe2"
+                            android:layout_below="@+id/logoDireccionNcCoffeeBar"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCasaJavier"
+                            android:contentDescription="logoTelefonoNcCoffeeBar"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -489,10 +533,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoInfoChe2"
+                            android:id="@+id/logoInfoNcCoffeeBar"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoChe2"
+                            android:layout_below="@+id/logoTelefonoNcCoffeeBar"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -506,7 +550,7 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/localChe2"
+                            android:id="@+id/localNcCoffeeBar"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
@@ -514,71 +558,57 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalChe2"
+                            android:layout_toEndOf="@+id/logoLocalNcCoffeeBar"
                             android:gravity="center_vertical"
-                            android:text="@string/che"
+                            android:text="@string/ncCoffeeBar"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/direccionChe2"
+                            android:id="@+id/direccionNcCoffeeBar"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/localChe2"
+                            android:layout_below="@+id/localNcCoffeeBar"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionChe2"
+                            android:layout_toEndOf="@+id/logoDireccionNcCoffeeBar"
                             android:gravity="center_vertical"
-                            android:text="@string/direccionChe"
+                            android:text="@string/direccionNcCoffeeBar"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/telefonoChe2"
+                            android:id="@+id/telefonoNcCoffeeBar"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/direccionChe2"
+                            android:layout_below="@+id/direccionNcCoffeeBar"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoChe2"
+                            android:layout_toEndOf="@+id/logoTelefonoNcCoffeeBar"
                             android:gravity="center_vertical"
-                            android:text="@string/telefonoChe"
+                            android:text="@string/telefonoNcCoffeeBar"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/emailChe2"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoChe2"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoChe2"
-                            android:gravity="center_vertical"
-                            android:text="@string/emailChe"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/webChe2"
+                            android:id="@+id/webNcCoffeeBar"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:layout_below="@+id/emailChe2"
+                            android:layout_below="@+id/telefonoNcCoffeeBar"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
+                            android:layout_marginTop="25dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoChe2"
+                            android:layout_toEndOf="@+id/logoInfoNcCoffeeBar"
                             android:gravity="center_vertical"
-                            android:text="@string/webChe"
+                            android:text="@string/webNcCoffeeBar"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -590,7 +620,7 @@
                         android:id="@+id/rlBarEme"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -749,397 +779,6 @@
                             android:textSize="12sp" />
                     </RelativeLayout>
 
-                    <!--    MARADENTRO  -->
-
-                    <RelativeLayout
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/maradentro"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#000000"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/maradentro" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalMaradentro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalMaradentro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionMaradentro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalMaradentro"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionMaradentro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoMaradentro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionMaradentro"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoMaradentro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoMaradentro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoMaradentro"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/localMaradentro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalMaradentro"
-                            android:gravity="center_vertical"
-                            android:text="MARADENTRO"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/direccionMaradentro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/localMaradentro"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionMaradentro"
-                            android:gravity="center_vertical"
-                            android:text="TRAVESIA DE MONTOUTO, 22 BAIXO"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/telefonoMaradentro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionMaradentro"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoMaradentro"
-                            android:gravity="center_vertical"
-                            android:text="+34 981 80 14 47"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/emailMaradentro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/telefonoMaradentro"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoMaradentro"
-                            android:gravity="center_vertical"
-                            android:text="genarosantasmarinas@gmail.com"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-
-                    </RelativeLayout>
-
-                    <!--    NC Cofee Bar -->
-
-                    <RelativeLayout
-                        android:background="@drawable/shape"
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/ncCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#000000"
-                            android:scaleType="centerCrop"
-                            android:src="@mipmap/nccoffeebar" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalNcCoffeeBar"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionNcCoffeeBar"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoNcCoffeeBar"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/localNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/ncCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/direccionNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/localNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/direccionNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/telefonoNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/telefonoNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-
-                        <TextView
-                            android:id="@+id/webNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/webNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                    <!--Sauce-->
-
-                    <RelativeLayout
-                        android:id="@+id/rlSauce"
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/barSauce"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="centerCrop"
-                            android:src="@mipmap/sauce" />
-
-
-                        <TextView
-                            android:id="@+id/direccionSauce"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/localSauce"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="14dp"
-                            android:layout_marginEnd="73dp"
-                            android:layout_toEndOf="@+id/logoDireccionSauce"
-                            android:gravity="center_vertical"
-                            android:text="@string/direccionSauce"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/localSauce"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="91dp"
-                            android:layout_marginEnd="60dp"
-                            android:layout_toEndOf="@+id/logoLocalSauce"
-                            android:gravity="center_vertical"
-                            android:text="@string/nomeSauce"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionSauce"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalSauce"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginTop="23dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="@string/nomeSauce"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalSauce"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginTop="99dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalSauce"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                    </RelativeLayout>
-
-
 
                 </LinearLayout>
 
@@ -1150,7 +789,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -1163,27 +802,25 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <!--        CASA TOUCEDA-->
-
+                    <!--        BRAULIO -->
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/CasaTouceda"
+                            android:id="@+id/nomeBraulio"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/casatouceda" />
+                            android:src="@drawable/braulio" />
 
                         <ImageButton
-                            android:id="@+id/logoCasaTouceda"
+                            android:id="@+id/logoBraulio"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
@@ -1200,10 +837,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoDireccionCasaTouceda"
+                            android:id="@+id/logoDireccionBraulio"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoCasaTouceda"
+                            android:layout_below="@+id/logoBraulio"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -1217,10 +854,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoTelefonoCasaTouceda"
+                            android:id="@+id/logoTelefonoBraulio"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionCasaTouceda"
+                            android:layout_below="@+id/logoDireccionBraulio"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -1234,10 +871,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoInfoCasaTouceda"
+                            android:id="@+id/logoInfoBraulio"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoCasaTouceda"
+                            android:layout_below="@+id/logoTelefonoBraulio"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -1251,7 +888,7 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/localCasaTouceda"
+                            android:id="@+id/Braulio"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
@@ -1259,147 +896,61 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoCasaTouceda"
+                            android:layout_toEndOf="@+id/logoBraulio"
                             android:gravity="center_vertical"
-                            android:text="@string/casaTouceda"
+                            android:text="@string/Braulio"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
+
                         <TextView
-                            android:id="@+id/direccionCasaTouceda"
+                            android:id="@+id/direccionBraulio"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/localCasaTouceda"
+                            android:layout_below="@+id/Braulio"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionCasaTouceda"
+                            android:layout_toEndOf="@+id/logoDireccionBraulio"
                             android:gravity="center_vertical"
-                            android:text="@string/direccionCasaTouceda"
+
+                            android:text="@string/direccionBraulio"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/telefonoCasaTouceda"
+                            android:id="@+id/telefonoBraulio"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/direccionCasaTouceda"
+                            android:layout_below="@+id/direccionBraulio"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoCasaTouceda"
+                            android:layout_toEndOf="@+id/logoTelefonoBraulio"
                             android:gravity="center_vertical"
-                            android:text="@string/telefonoCasaTouceda"
+                            android:text="@string/telefonoBraulio"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
 
                         <TextView
-                            android:id="@+id/webCasaTouceda"
+                            android:id="@+id/webBraulio"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoCasaTouceda"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/telefonoBraulio"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoCasaTouceda"
+                            android:layout_toEndOf="@+id/logoInfoBraulio"
                             android:gravity="center_vertical"
-                            android:text="@string/webCasaTouceda"
+                            android:text="@string/webBraulio"
                             android:textColor="#415419"
                             android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                    <!--Loncho-->
-
-                    <RelativeLayout
-                        android:id="@+id/rlLoncho"
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/barLoncho"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="centerCrop"
-                            android:src="@mipmap/loncho" />
-
-
-                        <TextView
-                            android:id="@+id/direccionLoncho"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/localLoncho"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="14dp"
-                            android:layout_marginEnd="73dp"
-                            android:layout_toEndOf="@+id/logoDireccionLoncho"
-                            android:gravity="center_vertical"
-                            android:text="@string/direccionLoncho"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/localLoncho"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="91dp"
-                            android:layout_marginEnd="60dp"
-                            android:layout_toEndOf="@+id/logoLocalLoncho"
-                            android:gravity="center_vertical"
-                            android:text="@string/nomeLoncho"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionLoncho"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalLoncho"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginTop="23dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="@string/nomeLoncho"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalLoncho"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginTop="99dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalLoncho"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
 
                     </RelativeLayout>
 
@@ -1408,7 +959,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1524,11 +1075,13 @@
 
                     </RelativeLayout>
 
+
                     <!--        TIA MARÍA-->
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
@@ -1673,18 +1226,361 @@
                             android:textSize="12sp" />
 
                     </RelativeLayout>
+                    <!--    Casa Javier -->
+
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/casaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/casajavier" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalCasaJavier"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalCasaJavier"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionCasaJavier"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalCasaJavier"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoDireccionCasaJavier"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoCasaJavier"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionCasaJavier"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoCasaJavier"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoCasaJavier"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoCasaJavier"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/localCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/casaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localCasaJavier"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionCasaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionCasaJavier"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoCasaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/emailCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefonoCasaJavier"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoInfoCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/emailCasaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/webCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/emailCasaJavier"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_toEndOf="@+id/logoInfoCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/webCasaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
 
 
                 </LinearLayout>
 
             </HorizontalScrollView>
 
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/luci"
+                android:text="@string/lampai"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+
+            <!--    O Rincón -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/oRincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/orincon" />
+
+                <ImageButton
+                    android:id="@+id/logoLocalORincon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalORincon"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/restaurante"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoDireccionORincon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalORincon"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionORincon"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoTelefonoORincon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionORincon"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoElRinconDeKoller"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageButton
+                    android:id="@+id/logoInfoORincon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoTelefonoORincon"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoInfo"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/globo"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/localORincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalORincon"
+                    android:gravity="center_vertical"
+                    android:text="@string/oRincon"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/direccionORincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localORincon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionORincon"
+                    android:gravity="center_vertical"
+                    android:text="@string/direccionORincon"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/telefonoORincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionORincon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoORincon"
+                    android:gravity="center_vertical"
+                    android:text="@string/telefonoORincon"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/emailORincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/telefonoORincon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoInfoORincon"
+                    android:gravity="center_vertical"
+                    android:text="@string/emailORincon"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/webORincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/emailORincon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_toEndOf="@+id/logoInfoORincon"
+                    android:gravity="center_vertical"
+                    android:text="@string/webORincon"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luou"
+                android:textColor="#415419"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -1697,369 +1593,13 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <!--    A Ramallosa -->
-
-                    <RelativeLayout
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/ramallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#000000"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/bar_cafeteria_a_ramallosa" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalRamallosa"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalRamallosa"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionRamallosa"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalRamallosa"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionRamallosa"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoRamallosa"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionRamallosa"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoRamallosa"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoRamallosa"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoRamallosa"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/localRamallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalRamallosa"
-                            android:gravity="center_vertical"
-                            android:text="A RAMALLOSA"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/direccionRamallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/localRamallosa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionRamallosa"
-                            android:gravity="center_vertical"
-                            android:text="Trva. da Ramallosa, 6 - Ramallosa"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/telefonoRamallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionRamallosa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoRamallosa"
-                            android:gravity="center_vertical"
-                            android:text="+34 637 562 766"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/emailRamallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoRamallosa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoRamallosa"
-                            android:gravity="center_vertical"
-                            android:text="ramallosacafeteria@gmail.com"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/webRamallosa"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/emailRamallosa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoRamallosa"
-                            android:gravity="center_vertical"
-                            android:text="https://www.instagram.com/accounts/login/?next=/cafeteria_ramallosa/"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                    <!--    A Santa Sede  -->
-
-                    <RelativeLayout
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/santaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#000000"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/santa_sede" />
-
-                        <ImageButton
-                            android:id="@+id/logoLocalSantaSede"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalSantaSede"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionSantaSede"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalSantaSede"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionSantaSede"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoSantaSede"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionSantaSede"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoSantaSede"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoSantaSede"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoSantaSede"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/localSantaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalSantaSede"
-                            android:gravity="center_vertical"
-                            android:text="A SANTA SEDE"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/direccionSantaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/localSantaSede"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionSantaSede"
-                            android:gravity="center_vertical"
-                            android:text="Travesía da Ramallosa, nº22"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/telefonoSantaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionSantaSede"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoSantaSede"
-                            android:gravity="center_vertical"
-                            android:text="+34 981 809 228"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/emailSantaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoSantaSede"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoSantaSede"
-                            android:gravity="center_vertical"
-                            android:text="javi-sant@misvides.com"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/webSantaSede"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/emailSantaSede"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoSantaSede"
-                            android:gravity="center_vertical"
-                            android:text="https://www.asantasede.com/"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-            </HorizontalScrollView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/luou"
-                android:textColor="#415419"
-                android:textSize="20sp"/>
-
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
-
                     <!--    O Pintor -->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginStart="35dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2217,6 +1757,157 @@
                             android:textSize="12sp" />
 
                     </RelativeLayout>
+                    <!--    A Cantina -->
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/cantina"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/cantina" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalCantina"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalCantina"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionCantina"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalCantina"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoDireccionCantina"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoCantina"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionCantina"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoCantina"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoCantina"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoCantina"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/localCantina"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalCantina"
+                            android:gravity="center_vertical"
+                            android:text="@string/cantina"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionCantina"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localCantina"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionCantina"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionCantina"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoCantina"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionCantina"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCantina"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoCantina"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/webCantina"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefonoCantina"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_toEndOf="@+id/logoInfoCantina"
+                            android:gravity="center_vertical"
+                            android:text="@string/webPazoDeAdran"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
 
                 </LinearLayout>
 
@@ -2226,9 +1917,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/os_tilos"
+                android:text="@string/osTilos"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -2241,14 +1933,14 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
+
                     <!--    El Rincón de Koller -->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2407,167 +2099,14 @@
 
                     </RelativeLayout>
 
-                    <!--El Rincon Escondido-->
-
-                    <RelativeLayout
-                        android:id="@+id/rlElRinconEscondido"
-                        android:layout_width="300dp"
-                        android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
-
-                        <ImageView
-                            android:id="@+id/barElRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="centerCrop"
-                            android:src="@mipmap/elrinconescondido" />
-
-
-                        <ImageButton
-                            android:id="@+id/logoLocalElRinconEscondido"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="25dp"
-                            android:layout_marginTop="38dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalElRinconEscondido"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/direccionElRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/localRinconEscondido"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginEnd="63dp"
-                            android:layout_toEndOf="@+id/logoDireccionRinconEscondido"
-                            android:gravity="center_vertical"
-                            android:text="@string/direccionRinconEscondido"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <ImageButton
-                            android:id="@+id/logoDireccionRinconEscondido"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalElRinconEscondido"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="23dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="@string/nomerinconEscondido"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/telefonoRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/direccionElRinconEscondido"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="18dp"
-                            android:layout_marginEnd="125dp"
-                            android:layout_toEndOf="@+id/logoTelefonoRinconEscondido"
-                            android:gravity="center_vertical"
-                            android:text="@string/telefonoRincoEscondidon"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <ImageButton
-                            android:id="@+id/logoTelefonoRinconEscondido"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionRinconEscondido"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="29dp"
-                            android:layout_marginTop="14dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoRinconEscondido"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/localRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="29dp"
-                            android:layout_marginEnd="49dp"
-                            android:layout_toEndOf="@+id/logoLocalElRinconEscondido"
-                            android:gravity="center_vertical"
-                            android:text="@string/nomerinconEscondido"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/emailRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/telefonoRinconEscondido"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="6dp"
-                            android:layout_marginEnd="47dp"
-                            android:layout_toEndOf="@+id/logoInfoLRinconEscondido"
-                            android:gravity="center_vertical"
-                            android:text="@string/webRinconEscondido"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <ImageButton
-                            android:id="@+id/logoInfoLRinconEscondido"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoRinconEscondido"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="17dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfoRinconEscondido"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                    </RelativeLayout>
-
                     <!--    Bar Piccolo  -->
 
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
+                        android:orientation="horizontal">
 
                         <ImageView
                             android:id="@+id/barPiccolo"
@@ -2650,152 +2189,142 @@
 
             </HorizontalScrollView>
 
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/oza"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
 
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
+            <!--    O Piro  -->
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/piro"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/o_piro" />
 
-                    <!--    O Piro  -->
+                <ImageButton
+                    android:id="@+id/logoLocalPiro"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoLocalPiro"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/restaurante"
+                    tools:ignore="TouchTargetSizeCheck" />
 
-                    <RelativeLayout
-                        android:layout_width="300dp"
-                        android:layout_height="220dp"
-                        android:background="@drawable/shape"
-                        android:orientation="horizontal"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
+                <ImageButton
+                    android:id="@+id/logoDireccionPiro"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoLocalPiro"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoDireccionPiro"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/mapsnegro"
+                    tools:ignore="TouchTargetSizeCheck" />
 
-                        <ImageView
-                            android:id="@+id/piro"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#000000"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/o_piro" />
+                <ImageButton
+                    android:id="@+id/logoTelefonoPiro"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/logoDireccionPiro"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logoTelefonoPiro"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/telefono"
+                    tools:ignore="TouchTargetSizeCheck" />
 
-                        <ImageButton
-                            android:id="@+id/logoLocalPiro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalPiro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/restaurante"
-                            tools:ignore="TouchTargetSizeCheck" />
+                <TextView
+                    android:id="@+id/localPiro"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/logoLocalPiro"
+                    android:gravity="center_vertical"
+                    android:text="O PIRO"
+                    android:textColor="#415419"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-                        <ImageButton
-                            android:id="@+id/logoDireccionPiro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalPiro"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionPiro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/mapsnegro"
-                            tools:ignore="TouchTargetSizeCheck" />
+                <TextView
+                    android:id="@+id/direccionPiro"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/localPiro"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoDireccionPiro"
+                    android:gravity="center_vertical"
+                    android:text="LUGAR O PIRO, nº 7"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
 
-                        <ImageButton
-                            android:id="@+id/logoTelefonoPiro"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionPiro"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoPiro"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
+                <TextView
+                    android:id="@+id/telefonoPiro"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/direccionPiro"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/logoTelefonoPiro"
+                    android:gravity="center_vertical"
+                    android:text="+34 981 807 488"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/localPiro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoLocalPiro"
-                            android:gravity="center_vertical"
-                            android:text="O PIRO"
-                            android:textColor="#415419"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/direccionPiro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/localPiro"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionPiro"
-                            android:gravity="center_vertical"
-                            android:text="LUGAR O PIRO, nº 7"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/telefonoPiro"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/direccionPiro"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoPiro"
-                            android:gravity="center_vertical"
-                            android:text="+34 981 807 488"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                    </RelativeLayout>
-
-                </LinearLayout>
-
-            </HorizontalScrollView>
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/reis"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:layout_marginTop="20dp"
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -2806,28 +2335,27 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
+                    android:orientation="horizontal">
+                    <!--        A COLMENA-->
 
-                    <!--         A SENRA-->
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/Asenra"
+                            android:id="@+id/aColmena"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/asenra" />
+                            android:src="@drawable/acolmena" />
 
                         <ImageButton
-                            android:id="@+id/logoASenra"
+                            android:id="@+id/logoAcolmena"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
@@ -2844,10 +2372,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoDireccionAsenra"
+                            android:id="@+id/logoDireccionAcolmena"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoASenra"
+                            android:layout_below="@+id/logoAcolmena"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -2861,10 +2389,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoTelefonoAsenra"
+                            android:id="@+id/logoTelefonoAcolmena"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionAsenra"
+                            android:layout_below="@+id/logoDireccionAcolmena"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -2878,10 +2406,10 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoInfoAsenra"
+                            android:id="@+id/logoInfoAcolmena"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoAsenra"
+                            android:layout_below="@+id/logoTelefonoAcolmena"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -2895,7 +2423,7 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/localAsenra"
+                            android:id="@+id/localAcolmena"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
@@ -2903,75 +2431,468 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="5dp"
-                            android:layout_toEndOf="@+id/logoASenra"
+                            android:layout_toEndOf="@+id/logoAcolmena"
                             android:gravity="center_vertical"
-                            android:text="@string/aSenra"
+                            android:text="@string/acolmena"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/direccionAsenra"
+                            android:id="@+id/direccionAcolmena"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/localAsenra"
+                            android:layout_below="@+id/localAcolmena"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionAsenra"
+                            android:layout_toEndOf="@+id/logoDireccionAcolmena"
                             android:gravity="center_vertical"
-                            android:text="@string/direccionASenra"
+                            android:text="@string/direccionacolmena"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/telefonoAsenra"
+                            android:id="@+id/telefonoAcolmena"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_below="@+id/direccionAsenra"
+                            android:layout_below="@+id/direccionAcolmena"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoAsenra"
+                            android:layout_toEndOf="@+id/logoTelefonoAcolmena"
                             android:gravity="center_vertical"
-                            android:text="@string/telefonoASenra"
+                            android:text="@string/telefonoacolmena"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/emailAsenra"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoAsenra"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_toEndOf="@+id/logoInfoAsenra"
-                            android:gravity="center_vertical"
-                            android:text="@string/emailASenra"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/webAsenra"
+                            android:id="@+id/webAcolmena"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:layout_below="@+id/emailAsenra"
+                            android:layout_below="@+id/telefonoAcolmena"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoAsenra"
+                            android:layout_toEndOf="@+id/logoInfoAcolmena"
                             android:gravity="center_vertical"
-                            android:text="@string/webASenra"
+                            android:text="@string/webacolmena"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
                     </RelativeLayout>
+
+                    <!--Atallo-->
+
+                    <RelativeLayout
+                        android:id="@+id/rlAtallo"
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/barAtallo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/atallo" />
+
+                        <TextView
+                            android:id="@+id/telefonoAtallo"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionAtallo"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoTelefonoAtallo"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoAtallo"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/localAtallo"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginEnd="14dp"
+                            android:layout_toEndOf="@+id/logoLocalAtallo"
+                            android:gravity="center_vertical"
+                            android:text="@string/nomeAtallo"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionAtallo"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localAtallo"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoDireccionAtallo"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionAtallo"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionAtallo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalAtallo"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="Atallo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoAtallo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionAtallo"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoAtallo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalAtallo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="66dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalAtallo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RelativeLayout>
+
+                    <!--Casa Pernas-->
+
+                    <RelativeLayout
+                        android:id="@+id/rlCasaPernas"
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/barCasaPernas"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/casapernas" />
+
+                        <TextView
+                            android:id="@+id/telefonoCasaPernas"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/direccionCasaPernas"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCasaPernas"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoPernas1"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoCasaPernas2"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/telefonoCasaPernas"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_toEndOf="@+id/logoTelefonoCasaPernas"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoPernas2"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/localCasaPernas"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginEnd="14dp"
+                            android:layout_toEndOf="@+id/logoLocalCasaPernas"
+                            android:gravity="center_vertical"
+                            android:text="@string/nomePernas"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionCasaPernas"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localCasaPernas"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
+                            android:layout_toEndOf="@+id/logoDireccionCasaPernas"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionPernas"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionCasaPernas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalCasaPernas"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/nomePernas"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoCasaPernas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionCasaPernas"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoCasaPernas"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalCasaPernas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="21dp"
+                            android:layout_marginTop="66dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalCasaPernas"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RelativeLayout>
+
+
+                    <!--O Cruce-->
+
+                    <RelativeLayout
+                        android:id="@+id/rlOCruce"
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
+
+                        <ImageView
+                            android:id="@+id/barOCruce"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/ocruce" />
+
+
+                        <ImageButton
+                            android:id="@+id/logoLocalOCruce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="38dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalOCruce"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/direccionOCruce"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/localOCruce"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="63dp"
+                            android:layout_toEndOf="@+id/logoDireccionOCruce"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionOCruce"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionOCruce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalOCruce"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="26dp"
+                            android:layout_marginTop="23dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="@string/nomeOCruce"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/telefonoOCruce"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/direccionOCruce"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="125dp"
+                            android:layout_toEndOf="@+id/logoTelefonoOCruce"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoOCruce"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoOCruce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionOCruce"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="29dp"
+                            android:layout_marginTop="14dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoOCruce"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <TextView
+                            android:id="@+id/localOCruce"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="29dp"
+                            android:layout_marginEnd="49dp"
+                            android:layout_toEndOf="@+id/logoLocalOCruce"
+                            android:gravity="center_vertical"
+                            android:text="@string/nomeOCruce"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/weblOCruce"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/telefonoOCruce"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="47dp"
+                            android:layout_toEndOf="@+id/logoInfoOCruce"
+                            android:gravity="center_vertical"
+                            android:text="@string/webOCruce"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoOCruce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoOCruce"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="26dp"
+                            android:layout_marginTop="17dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfoOCruce"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RelativeLayout>
+
 
                 </LinearLayout>
 

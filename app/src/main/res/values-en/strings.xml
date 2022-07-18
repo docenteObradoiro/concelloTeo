@@ -2,14 +2,21 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
+    <string name="visitanos">Visítanos:</string>
+    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="comoChegar">CÓMO LLEGAR</string>
+    <string name="ondeDurmir">DÓNDE DORMIR</string>
+    <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
 
-    <string name="visitanos">¡VISIT US!</string>
+
+
+    <string name="cervexaria">Brewery</string>
+    <string name="osTilos">Os Tilos</string>
 
     <string name="menu">Menú</string>
     <string name="marisqueria">Mariscaría</string>
     <string name="pulperia">Polbeira</string>
     <string name="lampai">Lampai</string>
-    <string name="reis">Reis</string>
 
     <string name="che">CHE 2</string>
     <string name="direccionChe">Tr.ª de Montouto, 28, 15894, Teo</string>
@@ -104,6 +111,8 @@
     <string name="telefonoRanha">+34 981 54 88 39</string>
     <string name="emailRanha"></string>
     <string name="webRanha"></string>
+
+    <string name="vinhosTapasRacions">Wine, tapas and plates</string>
 
     <string name="portico">PORTICO</string>
     <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
@@ -295,7 +304,7 @@
     <string name="nomePortugalicia">Portugalicia</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
-    <string name="emailPortugalicia"> elisardobernardez@gmail.com</string>
+    <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
@@ -781,6 +790,7 @@
 
     <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
 
+
     <string name="cacheiras">Cacheiras</string>
     <string name="calo">Calo</string>
     <string name="luou">Luou</string>
@@ -789,11 +799,18 @@
     <string name="raris">Raris</string>
     <string name="luci">Lucí</string>
     <string name="teo">Teo</string>
-    <string name="aloxamentos">Aloxamentos</string>
+    <string name="aloxamentos">Accommodation</string>
+
+    <string name="luci">Lucí</string>
+    <string name="os_tilos">Os Tilos</string>
+    <string name="reis">Reis</string>
+
 
     <string name="parrilla">Grilled</string>
     <string name="dulce">Something Sweet</string>
     <string name="cafeteria">Coffee Bar</string>
+    <string name="onde_celebrar">Where to Celebrate</string>
+    <string name="oza">Oza</string>
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>
