@@ -1811,7 +1811,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionRamallosa"
                             android:gravity="center_vertical"
-                            android:text="Trva. da Ramallosa, 7 - Ramallosa"
+                            android:text="Trva. da Ramallosa, 6 - Ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
