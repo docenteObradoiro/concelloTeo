@@ -270,7 +270,7 @@
                         android:id="@+id/rlCasaCacheiras"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
@@ -387,7 +387,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -565,7 +565,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -727,7 +727,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1051,7 +1051,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1213,7 +1213,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1330,7 +1330,7 @@
                     <RelativeLayout
                         android:background="@drawable/shape"
                         android:layout_width="300dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal">
 
@@ -1510,7 +1510,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1674,7 +1674,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1758,7 +1758,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1922,7 +1922,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2102,7 +2102,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2265,7 +2265,7 @@
                         android:id="@+id/rlVillaJubells"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
@@ -2397,6 +2397,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:orientation="horizontal">
 
                     <!--    Lucí  -->
@@ -2753,7 +2754,7 @@
                         android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -2931,6 +2932,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:orientation="horizontal">
 
                     <!--    Os tilos  -->
@@ -3238,7 +3240,7 @@
                     android:background="@drawable/shape"
                     android:layout_width="300dp"
                     android:layout_height="280dp"
-                    android:layout_marginStart="35dp"
+                    android:layout_marginStart="20dp"
 
                     android:orientation="horizontal">
 
@@ -3687,7 +3689,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginStart="35dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
