@@ -57,17 +57,17 @@ class MenuPrincipal : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        /*val accesoOndeDurmir = findViewById<TextView>(R.id.ondeDurmir)
+        val accesoOndeDurmir = findViewById<TextView>(R.id.ondeDurmir)
         accesoOndeDurmir.setOnClickListener {
-            val acceder = Intent(this,::class.java)
+            val acceder = Intent(this,OndeDurmir::class.java)
             startActivity(acceder)
-        }*/
+        }
 
-        /*val accesoOndeCelebrar = findViewById<TextView>(R.id.ondeCelebrar)
+        val accesoOndeCelebrar = findViewById<TextView>(R.id.ondeCelebrar)
         accesoOndeCelebrar.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this, OndeCelebrar::class.java)
             startActivity(acceder)
-        }*/
+        }
 
         /*val accesoComoChegar = findViewById<TextView>(R.id.comoChegar)
         accesoComoChegar.setOnClickListener {

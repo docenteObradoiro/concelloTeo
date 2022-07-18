@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OndeCelebrar">
 
     <ImageButton
         android:id="@+id/logoTeo"
@@ -656,7 +657,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/pazodeadran" />
+                            android:src="@mipmap/pazoadran" />
 
                         <ImageButton
                             android:id="@+id/logoLocalPazoDeAdran"

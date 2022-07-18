@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".OndeDurmir">
 
 
     <ImageButton
@@ -2012,7 +2013,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logopazoDeAdran"
                             android:gravity="center_vertical"
-                            android:text="@string/nombreadran"
+                            android:text="@string/pazoDeAdran"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2028,7 +2029,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionpazoDeAdran"
                             android:gravity="center_vertical"
-                            android:text="@string/direcccionadran"
+                            android:text="@string/direccionPazoDeAdran"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2045,7 +2046,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfopazoDeAdran"
                             android:gravity="center_vertical"
-                            android:text="@string/webadran"
+                            android:text="@string/webPazoDeAdran"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2060,7 +2061,7 @@
                             android:layout_marginEnd="11dp"
                             android:layout_toEndOf="@+id/logoTelefonopazoDeAdran"
                             android:gravity="center_vertical"
-                            android:text="@string/telefonoadran"
+                            android:text="@string/telefonoPazoDeAdran"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2090,7 +2091,7 @@
                             android:layout_marginEnd="21dp"
                             android:layout_toEndOf="@+id/logoInfopazoDeAdran"
                             android:gravity="center_vertical"
-                            android:text="@string/correoadran"
+                            android:text="@string/emailPazoDeAdran"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -3603,6 +3604,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginBottom="40dp"
+                        android:layout_marginStart="20dp"
                         android:orientation="horizontal">
 
                         <ImageView
