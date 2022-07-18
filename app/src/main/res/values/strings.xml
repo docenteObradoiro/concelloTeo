@@ -853,13 +853,13 @@
     <string name="correomanola">info@casamanola.gal</string>
     <string name="webmanola">https://www.casamanola.gal/</string>
 
-    <string name="nombreadran">PAZO DE ADRÁN</string>
-    <string name="direcccionadran">Lugar De Adran,4</string>
-    <string name="telefonoadran">981570000</string>
+    <string name="pazoDeAdran">PAZO DE ADRÁN</string>
+    <string name="direccionPazoDeAdran">Lugar De Adran,4</string>
+    <string name="telefonoPazoDeAdran">981 57 00 00</string>
     <string name="telefono2adran">620 906 602</string>
-    <string name="correoadran">info@pazodeadran.es</string>
+    <string name="emailPazoDeAdran">info@pazodeadran.es</string>
     <string name="correo2adran">comercial@pazodeadran.es</string>
-    <string name="webadran">https://pazodeadran.com/</string>
+    <string name="webPazoDeAdran">https://pazodeadran.com/</string>
 
     <string name="nombremilladoiro">MILLADOIRO BELLA BOUTIQUE</string>
     <string name="direcccionmilladoiro">Travesía de Reborido Portal II 2ºD</string>
