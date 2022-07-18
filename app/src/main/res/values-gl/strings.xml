@@ -243,7 +243,6 @@
     <string name="webBarEme">https://www.facebook.com/cafeteriaeme</string>
 
     <string name="ondecomer">ONDE COMER</string>
-    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
@@ -810,7 +809,7 @@
     <string name="dulce">Algo Doce</string>
     <string name="cafeteria">Cafetaría</string>
     <string name="onde_celebrar">Onde Celebrar</string>
-    <string name="oza">Oza</string>
+
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>
@@ -891,5 +890,8 @@
     <string name="direcccionsalgueiros">Guldris,41</string>
     <string name="telefonosalgueiros">616926698</string>
     <string name="websalgueiros">http://www.greenspainholidays.com/</string>
+
+
+    <string name="emailFogarDoSantiso">fogar@fogardosantiso.es</string>
 
 </resources>

@@ -780,9 +780,7 @@
     <string name="logoconcello">logoConcello</string>
     <string name="logodireccionbareme">logoDireccionBarEme</string>
 
-    <string name="cacheiras">Cacheiras</string>
-    <string name="calo">Calo</string>
-    <string name="oza">Oza</string>
+
 
     <string name="tradicionalgalega">Tradicional gallega</string>
     <string name="opcionvegana">Opción vegana</string>
@@ -810,7 +808,7 @@
     <string name="dulce">Algo Dulce</string>
     <string name="cafeteria">Cafetería</string>
     <string name="onde_celebrar">Donde Celebrar</string>
-    <string name="oza">Oza</string>
+
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>
@@ -891,6 +889,9 @@
     <string name="direcccionsalgueiros">Guldris,41</string>
     <string name="telefonosalgueiros">616926698</string>
     <string name="websalgueiros">http://www.greenspainholidays.com/</string>
+
+    <string name="os_tilos">Os Tilos</string>
+    <string name="reis">Reis</string>
 
 
 
