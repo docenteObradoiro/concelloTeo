@@ -241,9 +241,9 @@ tools:context=".comer.ComerCervexeria">
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/telefonoBetos"
                         android:layout_alignParentEnd="true"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginEnd="14dp"
                         android:layout_marginBottom="25dp"
                         android:layout_toEndOf="@+id/logoInfoBetos"
                         android:gravity="center_vertical"
@@ -544,28 +544,12 @@ tools:context=".comer.ComerCervexeria">
                         android:layout_height="25dp"
                         android:layout_below="@+id/telefonoCerveceriaManu"
                         android:layout_alignParentEnd="true"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="14dp"
                         android:layout_toEndOf="@+id/logoInfoCerveceriaManu"
                         android:gravity="center_vertical"
                         android:text="@string/emailCerveceriaManu"
-                        android:textColor="#415419"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/webCerveceriaManu"
-                        android:layout_width="match_parent"
-                        android:layout_height="25dp"
-                        android:layout_below="@+id/emailCerveceriaManu"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginBottom="25dp"
-                        android:layout_toEndOf="@+id/logoInfoCerveceriaManu"
-                        android:gravity="center_vertical"
-                        android:text="@string/webCerveceriaManu"
                         android:textColor="#415419"
                         android:textSize="12sp" />
 
@@ -919,7 +903,7 @@ tools:context=".comer.ComerCervexeria">
                         android:layout_marginBottom="25dp"
                         android:layout_toEndOf="@+id/logoInfoRamallosa"
                         android:gravity="center_vertical"
-                        android:text="https://www.instagram.com/accounts/login/?next=/cafeteria_ramallosa/"
+                        android:text="Instagram - @cafeteria_ramallosa"
                         android:textColor="#415419"
                         android:textSize="12sp" />
 
