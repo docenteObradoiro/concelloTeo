@@ -2673,7 +2673,7 @@
 
                     <RelativeLayout
                         android:layout_width="300dp"
-                        android:layout_height="220dp"
+                        android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
