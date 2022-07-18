@@ -242,7 +242,7 @@
 
     <string name="ondecomer">ONDE COMER</string>
 
-    <string name="paradaDeFrancos">PARADA DE FRANCOS RESTAURANT</string>
+
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
@@ -801,7 +801,6 @@
     <string name="teo">Teo</string>
     <string name="aloxamentos">Accommodation</string>
 
-    <string name="luci">Lucí</string>
     <string name="os_tilos">Os Tilos</string>
     <string name="reis">Reis</string>
 
@@ -810,7 +809,7 @@
     <string name="dulce">Something Sweet</string>
     <string name="cafeteria">Coffee Bar</string>
     <string name="onde_celebrar">Where to Celebrate</string>
-    <string name="oza">Oza</string>
+
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>
