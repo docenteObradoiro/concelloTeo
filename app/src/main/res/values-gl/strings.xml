@@ -171,7 +171,7 @@
     <string name="emailCasaTouceda"></string>
     <string name="webCasaTouceda">www.facebook.com/casa-touceda</string>
 
-    <string name="aSenra">A A SENRA</string>
+    <string name="aSenra">A SENRA</string>
     <string name="direccionASenra">Ignacio Varela, 5 Bajo - PONTEVEA</string>
     <string name="telefonoASenra">+34 981 81 57 44</string>
     <string name="emailASenra">asenracafe@gmail.com</string>
@@ -203,7 +203,7 @@
     <string name="logoTelf">logo teléfono</string>
     <string name="logoDireccion">logo dirección</string>
     <string name="logoInfo">logo información</string>
-    <string name="Betos">Beto´s</string>
+    <string name="Betos">BETO´S</string>
     <string name="BetosDireccion">Trva. Cacheiras, 60 - CACHEIRAS - 15883</string>
     <string name="BetosTelefono">+34 981 80 68 39</string>
     <string name="BetosCorreo"> </string>
@@ -264,12 +264,12 @@
     <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
     <string name="webNovoViñedo">www.novoviñedo.es</string>
 
-    <string name="nomeLaPausa">La Pausa</string>
+    <string name="nomeLaPausa">LA PAUSA</string>
     <string name="direccionLaPausa">Autopista AP-9, Km. 81</string>
     <string name="telefonoLaPausa">981 805 514</string>
     <string name="emailLaPausa">compostela@areas.com</string>
 
-    <string name="nomerinconEscondido">El Rincón Escondido</string>
+    <string name="nomerinconEscondido">EL RINCÓN ESCONDIDO</string>
     <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
     <string name="telefonoRincoEscondidon">627 453 245</string>
     <string name="webRinconEscondido">https://cafeteria-el-rincon-escondido.negocio.site/</string>
@@ -280,33 +280,33 @@
     <string name="telefonoPernas2">616 806 614</string>
     <string name="emailPernas">compostela@areas.com</string>
 
-    <string name="nomeAtallo">Atallo</string>
+    <string name="nomeAtallo">ATALLO</string>
     <string name="direccionAtallo">Pontevea, 4</string>
     <string name="telefonoAtallo">630 854 909</string>
 
-    <string name="nomeViveiro">O Viveiro da Póboa</string>
+    <string name="nomeViveiro">O VIVEIRO DA PÓBOA</string>
     <string name="direccionViveiro">Póboa, 5 - MONTOUTO</string>
     <string name="telefonoViveiro">619 670 888</string>
 
-    <string name="nomeVeiga">A Veiga Asador Vinoteca</string>
+    <string name="nomeVeiga">A VEIGA ASADOR VINOTECA</string>
     <string name="direccionVeiga">Trva. Cacheiras, 42</string>
     <string name="telefonoVeiga">981 800 140</string>
 
-    <string name="nomeSanMartiño">Restaurante San Martiño</string>
+    <string name="nomeSanMartiño">RESTAURANTE SAN MARTIÑO</string>
     <string name="direccionSanMartiño">Lugar O Espiño, Calo</string>
     <string name="telefonoSanMartiño1"> 981 548 463</string>
     <string name="telefonoSanMartiño2"> 698 109 823</string>
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
-    <string name="nomeSauce">Sauce </string>
+    <string name="nomeSauce">SAUCE</string>
     <string name="direccionSauce">Pozas, Cacheiras</string>
 
     <string name="nomeCasaCacheiras">Casa Cacheiras</string>
     <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>
     <string name="telefonoCasaCacheiras">689 004 986</string>
 
-    <string name="nomePortugalicia">Portugalicia</string>
+    <string name="nomePortugalicia">PORTUGALICIA</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
     <string name="telefonoPortugalicia">676 396 141</string>
     <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
@@ -316,12 +316,12 @@
     <string name="telefonoOCruce">637 270 985</string>
     <string name="webOCruce">https://www.facebook.com/Bar-o-cruce-333356107188515/</string>
 
-    <string name="nomeLaMamma">Restaurante Pizzeria La Mamma</string>
+    <string name="nomeLaMamma">RESTAURANTE PIZZERIA LA MAMMA</string>
     <string name="direccionLaMamma">Ignacio Varela, 1, Pontevea</string>
     <string name="telefonoLaMamma1">881 010 509</string>
     <string name="telefonoLaMamma2">653 301 448</string>
 
-    <string name="nomeLaGranja">La Granja</string>
+    <string name="nomeLaGranja">LA GRANJA</string>
     <string name="direccionLaGranja">Ferreiriño, 15 (Ctra. Santiago a Estrada), Pontevea</string>
     <string name="telefonoLaGranja">981 809 489</string>
 
@@ -365,7 +365,7 @@
     <string name="emailCasaManola">info@casamanola.gal</string>
     <string name="webCasaManola">https://www.casamanola.gal/</string>
 
-    <string name="nomeLoncho">Loncho</string>
+    <string name="nomeLoncho">LONCHO</string>
     <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
 
     <string name="bienvenidos">BENVIDOS!</string>

@@ -2162,7 +2162,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="Bar Piccolo"
+                            android:text="BAR PICCOLO"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
