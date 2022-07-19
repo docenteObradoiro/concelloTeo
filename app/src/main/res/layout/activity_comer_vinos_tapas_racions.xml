@@ -1363,31 +1363,15 @@
                         <TextView
                             android:id="@+id/emailCasaJavier"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="30dp"
                             android:layout_below="@+id/telefonoCasaJavier"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoCasaJavier"
                             android:gravity="center_vertical"
                             android:text="@string/emailCasaJavier"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/webCasaJavier"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/emailCasaJavier"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoCasaJavier"
-                            android:gravity="center_vertical"
-                            android:text="@string/webCasaJavier"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1729,31 +1713,15 @@
                         <TextView
                             android:id="@+id/emailOPintor"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="30dp"
                             android:layout_below="@+id/telefonoOPintor"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoOPintor"
                             android:gravity="center_vertical"
                             android:text="@string/emailOPintor"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/webOPintor"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/emailOPintor"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoOPintor"
-                            android:gravity="center_vertical"
-                            android:text="@string/webOPintor"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
