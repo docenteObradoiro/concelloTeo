@@ -597,7 +597,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -948,7 +949,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luou"
                 android:textColor="#415419"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
 
                 <RelativeLayout
                     android:background="@drawable/shape"
@@ -956,9 +958,10 @@
                     android:layout_height="280dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginRight="35dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
                         android:id="@+id/fogarDoSantiso"
@@ -1120,17 +1123,19 @@
                 android:layout_height="wrap_content"
                 android:text="@string/oza"
                 android:textColor="#415419"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
 
             <RelativeLayout
                 android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:layout_marginBottom="40dp">
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
 
                 <ImageView
                     android:id="@+id/oSonDoMino"
