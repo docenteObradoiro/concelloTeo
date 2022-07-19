@@ -92,8 +92,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -107,7 +106,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -257,7 +255,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -425,7 +423,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -590,7 +588,7 @@
                         android:id="@+id/rlBarEme"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -754,7 +752,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -907,7 +905,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1058,9 +1056,9 @@
                         android:id="@+id/rlSauce"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1147,15 +1145,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1169,7 +1167,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1320,8 +1317,7 @@
                         android:id="@+id/rlLoncho"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1407,7 +1403,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1529,6 +1525,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1683,13 +1680,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luci"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1701,7 +1698,6 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1869,6 +1865,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2036,13 +2033,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luou"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+               >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2057,8 +2055,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_gravity="center"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2227,13 +2224,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/os_tilos"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2412,7 +2409,6 @@
                         android:id="@+id/rlElRinconEscondido"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
@@ -2654,13 +2650,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/oza"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2794,13 +2790,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/reis"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"

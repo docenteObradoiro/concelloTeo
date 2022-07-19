@@ -93,8 +93,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="25dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -112,7 +111,6 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -279,7 +277,8 @@
                         android:layout_height="280dp"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="0dp">
+                        tools:layout_editor_absoluteY="0dp"
+                        android:layout_marginStart="20dp">
 
                         <ImageView
                             android:id="@+id/hotelCongreso"
@@ -445,6 +444,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/calo"
+                android:layout_marginTop="10dp"
                 android:textColor="#415419"
                 android:textSize="20sp"/>
 
@@ -452,7 +452,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -464,7 +464,6 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -647,7 +646,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -813,6 +812,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
