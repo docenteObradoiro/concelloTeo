@@ -198,7 +198,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="RESTAURANTE CANALETTO"
+                            android:text="@string/restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -214,7 +214,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:text="@string/direccion_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -229,7 +229,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="+34 981 806 834"
+                            android:text="@string/telefono_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -244,7 +244,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="lcastineirascampos@gmail.com"
+                            android:text="@string/email_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -260,7 +260,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="https://www.canaletto.es/"
+                            android:text="@string/web_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -364,7 +364,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalNovoVinedo"
                             android:gravity="center_vertical"
-                            android:text="O NOVO VIÑEDO"
+                            android:text="@string/o_novo_vinedo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -380,7 +380,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionNovoVinedo"
                             android:gravity="center_vertical"
-                            android:text="CATRO CAMIÑOS, nº 30"
+                            android:text="@string/direccion_o_novo_vinedo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -395,7 +395,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoNovoVinedo"
                             android:gravity="center_vertical"
-                            android:text="+34 697 47 28 14"
+                            android:text="@string/telefono_o_novo_vinedo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -410,7 +410,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoNovoVinedo"
                             android:gravity="center_vertical"
-                            android:text=" novovinedo@gmail.com"
+                            android:text="@string/email_o_novo_vinedo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -426,7 +426,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoNovoVinedo"
                             android:gravity="center_vertical"
-                            android:text="https://o-novo-vinedo.negocio.site/"
+                            android:text="@string/web_o_novo_vinedo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -818,7 +818,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="MARADENTRO"
+                            android:text="@string/maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -834,7 +834,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionMaradentro"
                             android:gravity="center_vertical"
-                            android:text="TRAVESIA DE MONTOUTO, 22 BAIXO"
+                            android:text="@string/direccion_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -849,7 +849,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoMaradentro"
                             android:gravity="center_vertical"
-                            android:text="+34 981 80 14 47"
+                            android:text="@string/telefono_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -864,7 +864,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoMaradentro"
                             android:gravity="center_vertical"
-                            android:text="genarosantasmarinas@gmail.com"
+                            android:text="@string/email_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1226,7 +1226,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp">>
+            android:layout_marginBottom="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"

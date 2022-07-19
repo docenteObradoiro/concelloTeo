@@ -1107,7 +1107,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="Igrexa, 48 Calo (camiño de texexe)"
+                            android:contentDescription="@string/DireccionBarBustelo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1143,7 +1143,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarBustelo"
                             android:gravity="center_vertical"
-                            android:text="CAFÉ BAR BUSTELO"
+                            android:text="@string/caf_bar_bustelo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1159,7 +1159,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarBustelo"
                             android:gravity="center_vertical"
-                            android:text="Igrexa, 48 Calo (camiño de texexe)"
+                            android:text="@string/direccionBarBustelo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1175,7 +1175,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarBustelo"
                             android:gravity="center_vertical"
-                            android:text="+34 981 548 279"
+                            android:text="@string/telefonoBarBustelo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1191,7 +1191,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarBustelo"
                             android:gravity="center_vertical"
-                            android:text="+34 616 221 715"
+                            android:text="@string/telefono2BarBustelo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
                     </RelativeLayout>
