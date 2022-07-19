@@ -102,11 +102,12 @@
         <RelativeLayout
             android:layout_width="300dp"
             android:layout_height="280dp"
-            android:layout_marginLeft="35dp"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="35dp"
             android:background="@drawable/shape"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
 
             <ImageView
                 android:id="@+id/fogarDoSantiso"
