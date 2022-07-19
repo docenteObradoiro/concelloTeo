@@ -926,5 +926,10 @@
     <string name="email_o_novo_vinedo">novovinedo@gmail.com</string>
     <string name="web_o_novo_vinedo">https://o-novo-vinedo.negocio.site/</string>
     <string name="web_a_ramallosa">Instagram - @cafeteria_ramallosa</string>
+    <string name="a_d_maria">A D´MARÍA</string>
+    <string name="direccion_a_d_maria">Trva. Cacheiras, 51 - Cacheiras</string>
+    <string name="telefono_a_d_maria">+34 981 800 103</string>
+    <string name="telefono2_a_d_maria">+34 609 166 523</string>
+    <string name="web_a_d_maria">pulperiadmaria.wixsite.com/pulperiadmaria</string>
 
 </resources>

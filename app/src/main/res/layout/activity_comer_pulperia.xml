@@ -199,7 +199,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalDMaria"
                             android:gravity="center_vertical"
-                            android:text="A D´MARÍA"
+                            android:text="@string/a_d_maria"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -215,7 +215,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionDMaria"
                             android:gravity="center_vertical"
-                            android:text="Trva. Cacheiras, 51 - Cacheiras"
+                            android:text="@string/direccion_a_d_maria"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -230,7 +230,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoDMaria"
                             android:gravity="center_vertical"
-                            android:text="+34 981 800 103"
+                            android:text="@string/telefono_a_d_maria"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -246,7 +246,7 @@
                             android:layout_marginBottom="5dp"
                             android:layout_toEndOf="@+id/logoTelefonoDMaria"
                             android:gravity="center_vertical"
-                            android:text="+34 609 166 523"
+                            android:text="@string/telefono2_a_d_maria"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -261,7 +261,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoDMaria"
                             android:gravity="center_vertical"
-                            android:text="pulperiadmaria.wixsite.com/pulperiadmaria"
+                            android:text="@string/web_a_d_maria"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
