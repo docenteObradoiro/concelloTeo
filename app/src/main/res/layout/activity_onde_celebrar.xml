@@ -203,7 +203,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalRobles"
                             android:gravity="center_vertical"
-                            android:text="Los Robles"
+                            android:text="@string/nome_los_robles"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -219,7 +219,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionRobles"
                             android:gravity="center_vertical"
-                            android:text="Ctra. Santiago-A Estrada, Km. 3"
+                            android:text="@string/direccion_los_robles"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -234,7 +234,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoRobles"
                             android:gravity="center_vertical"
-                            android:text="+34 981 806 361"
+                            android:text="@string/telefono_los_robles"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -249,7 +249,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoRobles"
                             android:gravity="center_vertical"
-                            android:text="losrobles@losroblesdesantiago.com"
+                            android:text="@string/email_los_robles"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -265,7 +265,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoRobles"
                             android:gravity="center_vertical"
-                            android:text="www.losroblesdesantiago.com"
+                            android:text="@string/web_los_robles"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -557,7 +557,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="CASA GRANDE DE CORNIDE"
+                            android:text="@string/nome_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -573,7 +573,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoLocalCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="Cornide, 82 - Calo"
+                            android:text="@string/direccion_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -588,7 +588,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="+34 981 893 044"
+                            android:text="@string/telefono_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -603,7 +603,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="+34 981 964 248"
+                            android:text="@string/telefono2_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -618,7 +618,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="casagrandedecornide@gmail.com"
+                            android:text="@string/email_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -634,7 +634,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoCasaGrandeCornide"
                             android:gravity="center_vertical"
-                            android:text="http://www.casagrandedecornide.es"
+                            android:text="@string/web_casa_grande_de_cornide"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 

@@ -381,7 +381,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="@string/telefono_canaletto"
+                            android:text="@string/telefono_restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -847,7 +847,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="@string/maradentro"
+                            android:text="@string/nombre_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1794,7 +1794,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalRamallosa"
                             android:gravity="center_vertical"
-                            android:text="@string/a_ramallosa"
+                            android:text="@string/nome_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1959,7 +1959,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalSantaSede"
                             android:gravity="center_vertical"
-                            android:text="@string/a_santa_sede"
+                            android:text="@string/nome_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2622,7 +2622,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="@string/bar_piccolo"
+                            android:text="@string/nome_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2748,7 +2748,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalPiro"
                             android:gravity="center_vertical"
-                            android:text="@string/o_piro"
+                            android:text="@string/nome_o_piro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />

@@ -95,7 +95,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp">
 
-                <LinearLayout
+                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
@@ -110,8 +110,6 @@
                         android:id="@+id/rlAVeiga"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -141,7 +139,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionBarRincon"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="14dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -153,26 +151,30 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/textView13"
+                            android:id="@+id/telefonoAVeiga"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/textView12"
-                            android:layout_marginStart="11dp"
-                            android:layout_marginTop="37dp"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionAVeiga"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/telefonoVeiga"
-                            android:textColor="#415419" />
+                            android:textColor="#415419"
+                            android:textSize="12dp" />
 
                         <TextView
-                            android:id="@+id/textView12"
+                            android:id="@+id/direccionAVeiga"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/textView11"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/aVeiga"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="17dp"
+                            android:layout_marginTop="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/direccionVeiga"
-                            android:textColor="#415419" />
+                            android:textColor="#415419"
+                            android:textSize="12dp" />
 
                         <ImageButton
                             android:id="@+id/logoDireccionBarRincon"
@@ -180,7 +182,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoLocalBarRincon"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="14dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -209,15 +211,17 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/textView11"
+                            android:id="@+id/aVeiga"
                             android:layout_width="wrap_content"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="12dp"
-                            android:layout_marginTop="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
                             android:layout_toEndOf="@+id/logoLocalBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/nomeVeiga"
                             android:textColor="#415419"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </RelativeLayout>
@@ -227,8 +231,8 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
+                        android:layout_marginStart="20dp"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
@@ -393,6 +397,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -579,7 +584,6 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -744,7 +748,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -896,7 +900,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1064,6 +1068,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1219,7 +1224,6 @@
                         android:id="@+id/rlChaves"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1387,6 +1391,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1560,7 +1565,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1573,8 +1578,6 @@
                         android:id="@+id/rlAtallo"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1692,9 +1695,9 @@
                         android:id="@+id/rlLaGranja"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1712,7 +1715,7 @@
                             android:layout_below="@+id/direccionLaGranja"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoTelefonoLaGranja"
                             android:gravity="center_vertical"
@@ -1727,7 +1730,7 @@
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="14dp"
                             android:layout_toEndOf="@+id/logoLocalLaGranja"
                             android:gravity="center_vertical"
@@ -1743,7 +1746,7 @@
                             android:layout_below="@+id/localLaGranja"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoDireccionLaGranja"
                             android:gravity="center_vertical"
