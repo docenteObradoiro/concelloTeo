@@ -75,7 +75,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cacheiras"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -110,11 +110,11 @@
                         android:id="@+id/rlAVeiga"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginRight="20dp"
                         android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <TextView
@@ -225,12 +225,12 @@
                     <!--        RESTAURANTE A BRASA-->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
@@ -389,9 +389,9 @@
 
                     <!--        RESTAURANTE O PORTICO-->
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
@@ -561,7 +561,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -577,11 +577,11 @@
                     <!--  RESTAURANTE SAN MARTIÑO-->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:orientation="horizontal"
                         android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -742,11 +742,11 @@
                     <!-- ASADOR O CARMELO-->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:orientation="horizontal"
                         android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -873,7 +873,6 @@
                             android:textSize="12sp" />
 
 
-
                         <TextView
                             android:id="@+id/webAsadorOCarmelo"
                             android:layout_width="match_parent"
@@ -895,11 +894,11 @@
                     <!--    As Brasas -->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:orientation="horizontal"
                         android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
+                        android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1201,7 +1200,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luou"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -1384,9 +1383,9 @@
                     <!--   Fogar do Santiso -->
 
                     <RelativeLayout
-                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
@@ -1555,7 +1554,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/reis"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -1595,7 +1594,7 @@
                             android:layout_below="@+id/direccionAtallo"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoTelefonoAtallo"
                             android:gravity="center_vertical"
@@ -1610,7 +1609,7 @@
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="56dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="14dp"
                             android:layout_toEndOf="@+id/logoLocalAtallo"
                             android:gravity="center_vertical"
@@ -1626,7 +1625,7 @@
                             android:layout_below="@+id/localAtallo"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoDireccionAtallo"
                             android:gravity="center_vertical"
@@ -1675,7 +1674,7 @@
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
                             android:layout_marginStart="21dp"
-                            android:layout_marginTop="66dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoLocalAtallo"
