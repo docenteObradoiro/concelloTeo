@@ -350,7 +350,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="RESTAURANTE CANALETTO"
+                            android:text="@string/restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -366,7 +366,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:text="@string/direccion_restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -381,7 +381,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="+34 981 806 834"
+                            android:text="@string/telefono_restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -396,7 +396,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="lcastineirascampos@gmail.com"
+                            android:text="@string/web_restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -412,7 +412,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="https://www.canaletto.es/"
+                            android:text="@string/email_restaurante_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -847,7 +847,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="MARADENTRO"
+                            android:text="@string/nombre_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -863,7 +863,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionMaradentro"
                             android:gravity="center_vertical"
-                            android:text="TRAVESIA DE MONTOUTO, 22 BAIXO"
+                            android:text="@string/direccion_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -878,7 +878,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoMaradentro"
                             android:gravity="center_vertical"
-                            android:text="+34 981 80 14 47"
+                            android:text="@string/telefono_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -893,7 +893,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoMaradentro"
                             android:gravity="center_vertical"
-                            android:text="genarosantasmarinas@gmail.com"
+                            android:text="@string/email_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1794,7 +1794,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalRamallosa"
                             android:gravity="center_vertical"
-                            android:text="A RAMALLOSA"
+                            android:text="@string/nome_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1810,7 +1810,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionRamallosa"
                             android:gravity="center_vertical"
-                            android:text="Trva. da Ramallosa, 6 - Ramallosa"
+                            android:text="@string/direccion_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1825,7 +1825,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoRamallosa"
                             android:gravity="center_vertical"
-                            android:text="+34 637 562 766"
+                            android:text="@string/telefono_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1840,7 +1840,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoRamallosa"
                             android:gravity="center_vertical"
-                            android:text="ramallosacafeteria@gmail.com"
+                            android:text="@string/email_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1959,7 +1959,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalSantaSede"
                             android:gravity="center_vertical"
-                            android:text="A SANTA SEDE"
+                            android:text="@string/nome_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1975,7 +1975,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionSantaSede"
                             android:gravity="center_vertical"
-                            android:text="Travesía da Ramallosa, nº22"
+                            android:text="@string/direccion_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1990,7 +1990,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoSantaSede"
                             android:gravity="center_vertical"
-                            android:text="+34 981 809 228"
+                            android:text="@string/telefono_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2005,7 +2005,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoSantaSede"
                             android:gravity="center_vertical"
-                            android:text="javi-sant@misvides.com"
+                            android:text="@string/email_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2021,7 +2021,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoSantaSede"
                             android:gravity="center_vertical"
-                            android:text="https://www.asantasede.com/"
+                            android:text="@string/web_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2622,7 +2622,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="Bar Piccolo"
+                            android:text="@string/nome_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2638,7 +2638,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="Castiñeiro, 10 (Centro Comercial Os Tilos) Loc. 23"
+                            android:text="@string/direccion_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2748,7 +2748,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalPiro"
                             android:gravity="center_vertical"
-                            android:text="O PIRO"
+                            android:text="@string/nome_o_piro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2764,7 +2764,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionPiro"
                             android:gravity="center_vertical"
-                            android:text="LUGAR O PIRO, nº 7"
+                            android:text="@string/direccion_o_piro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2779,7 +2779,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoPiro"
                             android:gravity="center_vertical"
-                            android:text="+34 981 807 488"
+                            android:text="@string/telefono_o_piro"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
