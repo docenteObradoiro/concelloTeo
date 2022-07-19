@@ -1056,87 +1056,55 @@
                     <!--La Pausa-->
 
                     <RelativeLayout
-                        android:id="@+id/rlLaPausa"
+                        android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
-                        android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barLaPausa"
+                            android:id="@+id/rlLaPausa"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/lapausa" />
-
+                            android:src="@drawable/paradadefrancos" />
 
                         <ImageButton
-                            android:id="@+id/logoLocalLaPausa"
+                            android:id="@+id/logoLaPausa"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="25dp"
-                            android:layout_marginTop="38dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalLaPausa"
+                            android:contentDescription="logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
                             app:srcCompat="@drawable/restaurante"
                             tools:ignore="TouchTargetSizeCheck" />
 
-                        <TextView
-                            android:id="@+id/direccionLaPausa"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/localLaPausa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginEnd="63dp"
-                            android:layout_toEndOf="@+id/logoDireccionLaPausa"
-                            android:gravity="center_vertical"
-                            android:text="@string/direccionLaPausa"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
                         <ImageButton
                             android:id="@+id/logoDireccionLaPausa"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalLaPausa"
+                            android:layout_below="@+id/logoLaPausa"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="23dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="@string/nomeLaPausa"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
                             app:srcCompat="@drawable/mapsnegro"
                             tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:id="@+id/telefonoLaPausa"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/direccionLaPausa"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="24dp"
-                            android:layout_marginEnd="120dp"
-                            android:layout_toEndOf="@+id/logoTelefonoLaPausa"
-                            android:gravity="center_vertical"
-                            android:text="@string/telefonoPernas1"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                         <ImageButton
                             android:id="@+id/logoTelefonoLaPausa"
@@ -1144,15 +1112,32 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionLaPausa"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="29dp"
-                            android:layout_marginTop="14dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCasaPernas"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
                             app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoInfoLaPausa"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoTelefonoLaPausa"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoInfo"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/globo"
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
@@ -1162,14 +1147,45 @@
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="29dp"
-                            android:layout_marginEnd="49dp"
-                            android:layout_toEndOf="@+id/logoLocalLaPausa"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLaPausa"
                             android:gravity="center_vertical"
                             android:text="@string/nomeLaPausa"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionLaPausa"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localLaPausa"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionLaPausa"
+                            android:gravity="center_vertical"
+                            android:text="@string/direccionLaPausa"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoLaPausa"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionLaPausa"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoLaPausa"
+                            android:gravity="center_vertical"
+                            android:text="@string/telefonoLaPausa"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
 
                         <TextView
                             android:id="@+id/emailLaPausa"
@@ -1186,28 +1202,7 @@
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-                        <ImageButton
-                            android:id="@+id/logoInfoLaPausa"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoLaPausa"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="17dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfoLaPausa"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
                     </RelativeLayout>
-
-
-
-
 
                 </LinearLayout>
 
