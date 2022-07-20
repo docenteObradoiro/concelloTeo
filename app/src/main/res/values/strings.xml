@@ -21,7 +21,7 @@
     <string name="direccionChe">Tr.ª de Montouto, 28</string>
     <string name="telefonoChe">+ 34 981 80 68 48</string>
     <string name="emailChe">panaderiache@hotmail.com</string>
-    <string name="webChe">Facebook - Che2</string>
+    <string name="webChe">https://che-2.edan.io/</string>
 
     <string name="casaJavier">CASA JAVIER</string>
     <string name="direccionCasaJavier">Vilar de Francos, 115, 15886, Teo</string>
@@ -132,11 +132,11 @@
     <string name="emailabrasa">abrasacacheiras@gmail.com</string>
     <string name="webabrasa">https://www.restauranteabrasa.com/</string>
 
-    <string name="ofornodamii">O FORNO DÁMII</string>
+    <string name="ofornodamii">O FORNO DÁM II</string>
     <string name="direccionofornodamii">Travesía da Ramallosa, nº 25</string>
     <string name="telefonoofornodamii"></string>
     <string name="emailofornodamii"></string>
-    <string name="webofornodamii">Facebook - O Forno Damii</string>
+    <string name="webofornodamii">Facebook - O Forno Dam II</string>
 
     <string name="acolmena">A COLMENA</string>
     <string name="direccionacolmena">Ignacio Varela, 19 - Pontevea</string>
@@ -258,7 +258,7 @@
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
     <string name="nomeSauce">SAUCE</string>
-    <string name="direccionSauce">Pozas, Cacheiras</string>
+    <string name="direccionSauce">Pozas</string>
 
     <string name="nomeCasaCacheiras">CASA CACHEIRAS</string>
     <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>

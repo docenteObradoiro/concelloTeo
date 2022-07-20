@@ -444,10 +444,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/calo"
                 android:layout_marginTop="10dp"
+                android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
