@@ -57,6 +57,8 @@ class MainActivity : AppCompatActivity() {
         val boton2 = findViewById<Button>(R.id.botonMain2)
         val boton3 = findViewById<Button>(R.id.botonMain3)
         val boton4 = findViewById<Button>(R.id.botonMain4)
+        val boton5 = findViewById<Button>(R.id.botonMain5)
+
 
         boton2.setOnClickListener {
             val acceder = Intent(this, PaxinaPrincipalRedeDeRutas::class.java)
@@ -81,6 +83,11 @@ class MainActivity : AppCompatActivity() {
         val accesoMenu= findViewById<ImageButton>(R.id.hamburguesa2)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, MenuPrincipal::class.java)
+            startActivity(acceder)
+        }
+
+        boton5.setOnClickListener {
+            val acceder = Intent(this, Visitanos::class.java)
             startActivity(acceder)
         }
 
