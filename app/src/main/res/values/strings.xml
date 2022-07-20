@@ -7,6 +7,7 @@
     <string name="comoChegar">CÓMO LLEGAR</string>
     <string name="ondeDurmir">DÓNDE DORMIR</string>
     <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
+    <string name="ondecomer">DONDE COMER</string>
 
     <string name="cervexaria">Cervecería</string>
     <string name="osTilos">Los Tilos</string>
@@ -759,7 +760,7 @@
     <string name="piscinas">Piscinas</string>
     <string name="mercados">Mercados</string>
     <string name="areasrecreativas">Áreas recreativas</string>
-    <string name="quefacer">Que hacer</string>
+    <string name="quefacer">QUÉ HACER</string>
     <string name="descricion">Descripción</string>
     <string name="informaci_n">información</string>
     <string name="wikiloc">wikiloc</string>
@@ -772,7 +773,7 @@
     <string name="opcionvegana">Opción vegana</string>
 
 
-    <string name="ondecomer">DONDE COMER</string>
+
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
 
     <string name="oSonDoMiño">O SON DO MIÑO</string>
@@ -788,12 +789,10 @@
     <string name="raris">Raris</string>
     <string name="luci">Lucí</string>
     <string name="teo">Teo</string>
-    <string name="aloxamentos">Alojamientos</string>
 
     <string name="parrilla">A la Parrilla</string>
     <string name="dulce">Algo Dulce</string>
     <string name="cafeteria">Cafetería</string>
-    <string name="onde_celebrar">Donde Celebrar</string>
 
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
