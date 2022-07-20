@@ -39,7 +39,7 @@
     <string name="ncCoffeeBar">NC COFFEE BAR</string>
     <string name="direccionNcCoffeeBar"> Trva. Cacheiras, 25, 15883, Teo</string>
     <string name="telefonoNcCoffeeBar">+ 34 981 80 65 81</string>
-    <string name="webNcCoffeeBar">shorturl.at/diQTZ</string>
+    <string name="webNcCoffeeBar">Facebook - NC Coffe Bar</string>
 
     <string name="oPintor">O PINTOR</string>
     <string name="direccionOPintor"> Rua Aido, 24, 15883, Teo</string>
@@ -131,16 +131,16 @@
     <string name="webofornodamii">Facebook - O Frono D\'AM II</string>
 
     <string name="acolmena">A COLMENA</string>
-    <string name="direccionacolmena">Ignacio Varela, 19 - PONTEVEA</string>
+    <string name="direccionacolmena">Ignacio Varela, 19 - Pontevea</string>
     <string name="telefonoacolmena">+34 603 77 14 49</string>
     <string name="emailacolmena"></string>
     <string name="webacolmena">Facebook - Cafe Bar A Colmena</string>
 
     <string name="tiaMaria">TIA MARÍA</string>
-    <string name="direcciontiaMaria">DOS IRMANS LISTE FORJAN, nº 5</string>
+    <string name="direcciontiaMaria">Dos Irmans Liste Forjan, nº 5</string>
     <string name="telefonotiaMaria">+34 981 54 85 70</string>
     <string name="emailtiaMaria"></string>
-    <string name="webtiaMaria">Facebook -  Tia María Cafe Bar</string>
+    <string name="webtiaMaria">Facebook - Tia María Cafe Bar</string>
 
     <string name="amasaNai">AMASA NAI</string>
     <string name="direccionamasaNai">RÚA VEIGA DO MOURO, nº 10</string>
@@ -166,7 +166,7 @@
     <string name="webparadaDeFrancos">http://www.paradadefrancos.com</string>
 
     <string name="casaTouceda">CASA TOUCEDA</string>
-    <string name="direccionCasaTouceda">Trva. Casalonga, s/n - CALO</string>
+    <string name="direccionCasaTouceda">Trva. Casalonga, s/n - Calo</string>
     <string name="telefonoCasaTouceda">+34 981 54 83 26</string>
     <string name="emailCasaTouceda"></string>
     <string name="webCasaTouceda">Facebook - Casa Touceda</string>
@@ -270,7 +270,7 @@
     <string name="telefonoAtallo">+ 34 630 854 909</string>
 
     <string name="nomeViveiro">O VIVEIRO DA PÓBOA</string>
-    <string name="direccionViveiro">Póboa, 5 - MONTOUTO</string>
+    <string name="direccionViveiro">Póboa, 5 - Montouto</string>
     <string name="telefonoViveiro">+ 34 619 670 888</string>
 
     <string name="nomeVeiga">A VEIGA ASADOR VINOTECA</string>
@@ -931,7 +931,7 @@
     <string name="direccion_bar_piccolo">Castiñeiro, 10 (Centro Comercial Os Tilos) Loc. 23</string>
     
     <string name="nome_o_piro">O PIRO</string>
-    <string name="direccion_o_piro">LUGAR O PIRO, nº 7</string>
+    <string name="direccion_o_piro">Lugar O Piro, nº 7</string>
     <string name="telefono_o_piro">+34 981 807 488</string>
     
     <string name="nome_los_robles">LOS ROBLES</string>
@@ -947,6 +947,12 @@
     <string name="email_casa_grande_de_cornide">casagrandedecornide@gmail.com</string>
     <string name="web_casa_grande_de_cornide">http://www.casagrandedecornide.es</string>
     <string name="vis_tanos">VISIT US</string>
+
+    <string name="ciertoBlanco">CIERTO BLANCO</string>
+    <string name="direccionCiertoBlanco">Rúa Dos Irmáns Liste Forján,nº 17</string>
+    <string name="telefonoCiertoBlanco">+ 34 981 806 133</string>
+<string name="emailCiertoBlanco">info@ciertoblanco.com</string>
+<string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
 
 </resources>
