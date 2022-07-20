@@ -951,8 +951,9 @@
     <string name="ciertoBlanco">CIERTO BLANCO</string>
     <string name="direccionCiertoBlanco">Rúa Dos Irmáns Liste Forján,nº 17</string>
     <string name="telefonoCiertoBlanco">+ 34 981 806 133</string>
-<string name="emailCiertoBlanco">info@ciertoblanco.com</string>
-<string name="webCiertoBlanco">www.ciertoblanco.com</string>
+    <string name="emailCiertoBlanco">info@ciertoblanco.com</string>
+    <string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
+    <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
 
 </resources>
