@@ -8,6 +8,7 @@ import android.widget.ImageButton
 import com.cursokotlin.concelloteo.R
 
 class Visitanos : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_visitanos)
@@ -17,8 +18,6 @@ class Visitanos : AppCompatActivity() {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
-
-
 
         val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
@@ -36,5 +35,10 @@ class Visitanos : AppCompatActivity() {
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }
