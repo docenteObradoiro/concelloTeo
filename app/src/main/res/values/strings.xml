@@ -3,7 +3,7 @@
     <string name="app_name">Turismo Teo</string>
 
     <string name="visitanos">Visítanos:</string>
-    <string name="visitanosMayuscula">VISÍTANOS!</string>
+    <string name="visitanosMayuscula">¡VISÍTANOS!</string>
     <string name="comoChegar">CÓMO LLEGAR</string>
     <string name="ondeDurmir">DÓNDE DORMIR</string>
     <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
@@ -769,7 +769,6 @@
     <string name="logodireccionbareme">logoDireccionBarEme</string>
 
 
-
     <string name="tradicionalgalega">Tradicional gallega</string>
     <string name="opcionvegana">Opción vegana</string>
 
@@ -891,36 +890,36 @@
     <string name="direccionBarBustelo">Igrexa, 48 Calo (camiño de texexe)</string>
     <string name="telefonoBarBustelo">+34 981 548 279</string>
     <string name="telefono2BarBustelo">+34 616 221 715</string>
-    
+
     <string name="restaurante_canaletto">RESTAURANTE CANALETTO</string>
     <string name="direccion_canaletto">Trva. Cacheiras, 21, Teo</string>
     <string name="telefono_canaletto">+34 981 806 834</string>
     <string name="email_canaletto">lcastineirascampos@gmail.com</string>
     <string name="web_canaletto">https://www.canaletto.es/</string>
-     
+
     <string name="nombre_maradentro">MARADENTRO</string>
     <string name="direccion_maradentro">TRAVESIA DE MONTOUTO, 22 BAIXO</string>
     <string name="telefono_maradentro">+34 981 80 14 47</string>
     <string name="email_maradentro">genarosantasmarinas@gmail.com</string>
-    
+
     <string name="nome_a_ramallosa">A RAMALLOSA</string>
     <string name="direccion_a_ramallosa">Trva. da Ramallosa, 6 - Ramallosa</string>
     <string name="telefono_a_ramallosa">+34 637 562 766</string>
     <string name="email_a_ramallosa">ramallosacafeteria@gmail.com</string>
     <string name="web_a_ramallosa">Instagram - @cafeteria_ramallosa</string>
-    
+
     <string name="nome_a_santa_sede">A SANTA SEDE</string>
     <string name="direccion_a_santa_sede">Travesía da Ramallosa, nº22</string>
     <string name="telefono_a_santa_sede">+34 981 809 228</string>
     <string name="email_a_santa_sede">javi-sant@misvides.com</string>
     <string name="web_a_santa_sede">https://www.asantasede.com/</string>
-    
+
     <string name="o_novo_vinedo">O NOVO VIÑEDO</string>
     <string name="direccion_o_novo_vinedo">CATRO CAMIÑOS, nº 30</string>
     <string name="telefono_o_novo_vinedo">+34 697 47 28 14</string>
     <string name="email_o_novo_vinedo">novovinedo@gmail.com</string>
     <string name="web_o_novo_vinedo">https://o-novo-vinedo.negocio.site/</string>
-    
+
     <string name="a_d_maria">A D´MARÍA</string>
     <string name="direccion_a_d_maria">Trva. Cacheiras, 51 - Cacheiras</string>
     <string name="telefono_a_d_maria">+34 981 800 103</string>
@@ -929,23 +928,25 @@
 
     <string name="nome_bar_piccolo">BAR PICCOLO</string>
     <string name="direccion_bar_piccolo">Castiñeiro, 10 (Centro Comercial Os Tilos) Loc. 23</string>
-    
+
     <string name="nome_o_piro">O PIRO</string>
     <string name="direccion_o_piro">LUGAR O PIRO, nº 7</string>
     <string name="telefono_o_piro">+34 981 807 488</string>
-    
+
     <string name="nome_los_robles">LOS ROBLES</string>
     <string name="direccion_los_robles">Ctra. Santiago-A Estrada, Km. 3</string>
     <string name="telefono_los_robles">+34 981 806 361</string>
     <string name="email_los_robles">losrobles@losroblesdesantiago.com</string>
     <string name="web_los_robles">www.losroblesdesantiago.com</string>
-    
+
     <string name="nome_casa_grande_de_cornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccion_casa_grande_de_cornide">Cornide, 82 - Calo</string>
     <string name="telefono_casa_grande_de_cornide">+34 981 893 044</string>
     <string name="telefono2_casa_grande_de_cornide">+34 981 964 248</string>
     <string name="email_casa_grande_de_cornide">casagrandedecornide@gmail.com</string>
     <string name="web_casa_grande_de_cornide">http://www.casagrandedecornide.es</string>
+
+    <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
 
 
 </resources>
