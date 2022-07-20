@@ -17,7 +17,7 @@
     <string name="lampai">Lampai</string>
 
     <string name="che">CHE 2</string>
-    <string name="direccionChe">Tr.ª de Montouto, 28, 15894, Teo</string>
+    <string name="direccionChe">Tr.ª de Montouto, 28</string>
     <string name="telefonoChe">+ 34 981 80 68 48</string>
     <string name="emailChe">panaderiache@hotmail.com</string>
     <string name="webChe">Facebook - Che2</string>
@@ -35,15 +35,16 @@
     <string name="webAsBrasas">Facebook - As Brasas</string>
 
     <string name="ncCoffeeBar">NC COFFEE BAR</string>
-    <string name="direccionNcCoffeeBar">Trva. Cacheiras, 25, 15883, Teo</string>
+    <string name="direccionNcCoffeeBar">Trva. Cacheiras, 25</string>
     <string name="telefonoNcCoffeeBar">+ 34 981 80 65 81</string>
     <string name="webNcCoffeeBar">Facebook - NC Coffee Bar</string>
 
+
     <string name="oPintor">O PINTOR</string>
-    <string name="direccionOPintor">Rua Aido, 24, 15883, Teo</string>
+    <string name="direccionOPintor">Rua Aido, 24</string>
     <string name="telefonoOPintor">+ 34 661 00 26 67</string>
     <string name="emailOPintor">pilitabudy@hotmail.com</string>
-    <string name="webOPintor">Facebook - O Pintor</string>
+    <string name="webOPintor">Facebook - Bar o pintor</string>
 
     <string name="calabaza">LA CALABAZA DEL PEREGRINO</string>
     <string name="direccionCalabaza">Lugar dua franco,5</string>
@@ -69,7 +70,7 @@
     <string name="webCantina">Facebook - A Cantina</string>
 
     <string name="hotelCongreso">HOTEL CONGRESO</string>
-    <string name="direccionHotelCongreso">Rúa das Mámoas de Montouto, 4, 15894, Teo</string>
+    <string name="direccionHotelCongreso">Rúa das Mámoas de Montouto, 4</string>
     <string name="telefonoHotelCongreso">+ 34 981 81 90 80</string>
     <string name="emailHotelCongreso">hcongreso@hotelcongreso.com</string>
     <string name="webHotelCongreso">www.hotelcongreso.com</string>
@@ -85,7 +86,7 @@
     <string name="emailCerveceriaManu">cerveceriamanu49@gmail.com</string>
 
     <string name="elRinconDeKoller">EL RINCÓN DE KOLLER</string>
-    <string name="direccionElRinconDeKoller">Rúa do Ameneiro, 10, 15894 Teo, A Coruña</string>
+    <string name="direccionElRinconDeKoller">Rúa do Ameneiro, 10</string>
     <string name="telefonoElRinconDeKoller">+ 34 981 46 13 58</string>
     <string name="emailElRinconDeKoller">elrincondekoller@gmail.com</string>
     <string name="webElRinconDeKoller">Facebook - El Rincón de Koller</string>
@@ -131,10 +132,10 @@
     <string name="webabrasa">https://www.restauranteabrasa.com/</string>
 
     <string name="ofornodamii">O FORNO DÁMII</string>
-    <string name="direccionofornodamii">TRAVESIA DA RAMALLOSA, nº 25</string>
+    <string name="direccionofornodamii">Travesía da Ramallosa, nº 25</string>
     <string name="telefonoofornodamii"></string>
     <string name="emailofornodamii"></string>
-    <string name="webofornodamii">Facebook - O Frono D\'AM II</string>
+    <string name="webofornodamii">Facebook - O Forno Damii</string>
 
     <string name="acolmena">A COLMENA</string>
     <string name="direccionacolmena">Ignacio Varela, 19 - Pontevea</string>
@@ -143,13 +144,12 @@
     <string name="webacolmena">Facebook - Cafe Bar A Colmena</string>
 
     <string name="tiaMaria">TIA MARÍA</string>
-    <string name="direcciontiaMaria">Dos Irmans Liste Forjan, nº 5</string>
+    <string name="direcciontiaMaria">Dos irmans liste forjan, nº 5</string>
     <string name="telefonotiaMaria">+34 981 54 85 70</string>
-    <string name="emailtiaMaria"></string>
-    <string name="webtiaMaria">Facebook - Tia María Cafe Bar</string>
+    <string name="webtiaMaria">Facebook -  Tia María Cafe Bar</string>
 
     <string name="amasaNai">AMASA NAI</string>
-    <string name="direccionamasaNai">RÚA VEIGA DO MOURO, nº 10</string>
+    <string name="direccionamasaNai">Rúa Veiga do Mouro, nº 10</string>
     <string name="telefonoamasaNai"></string>
     <string name="emailamasaNai"></string>
     <string name="webamasaNai">Facebook - AMasa Nai</string>
@@ -171,13 +171,12 @@
     <string name="webparadaDeFrancos">http://www.paradadefrancos.com</string>
 
     <string name="casaTouceda">CASA TOUCEDA</string>
-    <string name="direccionCasaTouceda">Trva. Casalonga, s/n - Calo</string>
+    <string name="direccionCasaTouceda">Trva. Casalonga, s/n</string>
     <string name="telefonoCasaTouceda">+34 981 54 83 26</string>
-    <string name="emailCasaTouceda"></string>
     <string name="webCasaTouceda">Facebook - Casa Touceda</string>
 
     <string name="aSenra">A SENRA</string>
-    <string name="direccionASenra">Ignacio Varela, 5 Bajo - PONTEVEA</string>
+    <string name="direccionASenra">Ignacio Varela, 5 Bajo</string>
     <string name="telefonoASenra">+34 981 81 57 44</string>
     <string name="emailASenra">asenracafe@gmail.com</string>
     <string name="webASenra">Facebook - A Senra Café</string>
@@ -200,13 +199,13 @@
 
 
     <string name="barEme">BAR EME</string>
-    <string name="direccionBarEme">Constenla, 37, 15883 Teo, A Coruña</string>
+    <string name="direccionBarEme">Constenla, 37</string>
     <string name="telefonoBarEme">+ 34 981 80 61 33</string>
     <string name="emailBarEme">vitaygus@hotmail.com</string>
-    <string name="webBarEme">Facebook -  Cafe Bar Eme</string>
+    <string name="webBarEme">Facebook - Cafe Bar Eme</string>
 
     <string name="restauranteSanMartinho">RESTAURANTE SAN MARTIÑO</string>
-    <string name="SanMartinhoDireccion">Lugar de Espiño Calo Teo</string>
+    <string name="SanMartinhoDireccion">Lugar de Espiño</string>
     <string name="SanMartinhoTelefono">+34 981 54 84 63</string>
     <string name="SanMartinhoCorreo">sanmartino.teo@gmail.com</string>
     <string name="SanMartinhoWeb">www.restaurantesanmartino.es</string>
@@ -216,7 +215,7 @@
     <string name="logoInfo">logo información</string>
 
     <string name="Betos">BETO´S</string>
-    <string name="BetosDireccion">Trva. Cacheiras, 60 - CACHEIRAS - 15883</string>
+    <string name="BetosDireccion">Trva. Cacheiras, 60</string>
     <string name="BetosTelefono">+34 981 80 68 39</string>
     <string name="BetosCorreo"> </string>
     <string name="BetosWeb">Facebook - Cerveceria Betos</string>
@@ -892,18 +891,18 @@
     <string name="telefono2BarBustelo">+34 616 221 715</string>
 
     <string name="restaurante_canaletto">RESTAURANTE CANALETTO</string>
-    <string name="direccion_canaletto">Trva. Cacheiras, 21, Teo</string>
+    <string name="direccion_canaletto">Trva. Cacheiras, 21</string>
     <string name="telefono_canaletto">+34 981 806 834</string>
     <string name="email_canaletto">lcastineirascampos@gmail.com</string>
     <string name="web_canaletto">https://www.canaletto.es/</string>
-
+     
     <string name="nombre_maradentro">MAR ADENTRO</string>
-    <string name="direccion_maradentro">TRAVESIA DE MONTOUTO, 22 BAIXO</string>
+    <string name="direccion_maradentro">Travesía de Montouto, 22 baixo</string>
     <string name="telefono_maradentro">+34 981 80 14 47</string>
     <string name="email_maradentro">genarosantasmarinas@gmail.com</string>
 
     <string name="nome_a_ramallosa">A RAMALLOSA</string>
-    <string name="direccion_a_ramallosa">Trva. da Ramallosa, 6 - Ramallosa</string>
+    <string name="direccion_a_ramallosa">Trva. da Ramallosa, 6</string>
     <string name="telefono_a_ramallosa">+34 637 562 766</string>
     <string name="email_a_ramallosa">ramallosacafeteria@gmail.com</string>
     <string name="web_a_ramallosa">Instagram - @cafeteria_ramallosa</string>
@@ -940,7 +939,7 @@
     <string name="web_los_robles">www.losroblesdesantiago.com</string>
 
     <string name="nome_casa_grande_de_cornide">CASA GRANDE DE CORNIDE</string>
-    <string name="direccion_casa_grande_de_cornide">Cornide, 82 - Calo</string>
+    <string name="direccion_casa_grande_de_cornide">Cornide, 82</string>
     <string name="telefono_casa_grande_de_cornide">+34 981 893 044</string>
     <string name="telefono2_casa_grande_de_cornide">+34 981 964 248</string>
     <string name="email_casa_grande_de_cornide">casagrandedecornide@gmail.com</string>
@@ -954,6 +953,12 @@
     <string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
     <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
+
+    <string name="ofornodauri">O FORNO DAURI</string>
+    <string name="direccionofornodauri">Travesía de Montouto, nº 22 - Bloque C</string>
+    <string name="telefonoofornodauri">+34 626 709 347</string>
+    <string name="emailofornodauri"></string>
+    <string name="webofornodauri">Facebook - O Forno de DAuri</string>
 
 
 </resources>
