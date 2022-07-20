@@ -23,42 +23,42 @@
     <string name="direccionChe">Tr.ª de Montouto, 28, 15894, Teo</string>
     <string name="telefonoChe">+ 34 981 80 68 48</string>
     <string name="emailChe">panaderiache@hotmail.com</string>
-    <string name="webChe">https://che-2.edan.io</string>
+    <string name="webChe">Facebook - Che2</string>
 
     <string name="casaJavier">CASA JAVIER</string>
     <string name="direccionCasaJavier">Vilar de Francos, 115, 15886, Teo</string>
     <string name="telefonoCasaJavier">+ 34 635 53 66 42</string>
     <string name="emailCasaJavier">vsj2181@yahoo.es</string>
-    <string name="webCasaJavier">shorturl.at/pCY12</string>
+    <string name="webCasaJavier">Facebook - Casa Javier</string>
 
     <string name="asBrasas">AS BRASAS</string>
-    <string name="direccionAsBrasas"> Rua Aido,24</string>
+    <string name="direccionAsBrasas">Rua Aido,24</string>
     <string name="telefonoAsBrasas">+ 34 981 53 15 36</string>
     <string name="emailAsBrasas">asbrasasparrillada@hotmail.com</string>
-    <string name="webAsBrasas">shorturl.at/asuy9</string>
+    <string name="webAsBrasas">Facebook - As Brasas</string>
 
     <string name="ncCoffeeBar">NC COFFEE BAR</string>
-    <string name="direccionNcCoffeeBar"> Trva. Cacheiras, 25, 15883, Teo</string>
+    <string name="direccionNcCoffeeBar">Trva. Cacheiras, 25, 15883, Teo</string>
     <string name="telefonoNcCoffeeBar">+ 34 981 80 65 81</string>
-    <string name="webNcCoffeeBar">shorturl.at/diQTZ</string>
+    <string name="webNcCoffeeBar">Facebook - NC Coffee Bar</string>
 
     <string name="oPintor">O PINTOR</string>
-    <string name="direccionOPintor"> Rua Aido, 24, 15883, Teo</string>
+    <string name="direccionOPintor">Rua Aido, 24, 15883, Teo</string>
     <string name="telefonoOPintor">+ 34 661 00 26 67</string>
     <string name="emailOPintor">pilitabudy@hotmail.com</string>
-    <string name="webOPintor">shorturl.at/egXZ3</string>
+    <string name="webOPintor">Facebook - O Pintor</string>
 
     <string name="calabaza">LA CALABAZA DEL PEREGRINO</string>
     <string name="direccionCalabaza">Lugar dua franco,5</string>
     <string name="telefonoCalabaza">+ 34 981 19 42 44</string>
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
-    <string name="webCalabaza">shorturl.at/fruxZ</string>
+    <string name="webCalabaza">Facebook - La Calabaza del Peregrino</string>
 
     <string name="oRincon">O RINCÓN</string>
     <string name="direccionORincon">A Grela, 15883, Teo</string>
     <string name="telefonoORincon">+ 34 981 89 31 19</string>
     <string name="emailORincon">restauranteorincon@hotmail.com</string>
-    <string name="webORincon">Facebook - Restaurante O Rincon</string>
+    <string name="webORincon">Facebook - Restaurante O Rincón</string>
 
     <string name="cantina">A CANTINA</string>
     <string name="direccionCantina">Igrexa, 16, 15883, Teo</string>
@@ -85,19 +85,19 @@
     <string name="direccionElRinconDeKoller">Rúa do Ameneiro, 10, 15894 Teo, A Coruña</string>
     <string name="telefonoElRinconDeKoller">+ 34 981 46 13 58</string>
     <string name="emailElRinconDeKoller">elrincondekoller@gmail.com</string>
-    <string name="webElRinconDeKoller">https://www.facebook.com/ElRinconDeKoller</string>
+    <string name="webElRinconDeKoller">Facebook - El Rincón de Koller</string>
 
     <string name="moradasNoUlla">MU_MORADAS NO ULLA</string>
     <string name="direccionMoradasNoUlla">Freixeiro 3, 15883, Teo</string>
     <string name="telefonoMoradasNoUlla">+ 34 652 95 77 83</string>
     <string name="emailMoradasNoUlla">reservas@moradasnoulla.com</string>
-    <string name="webMoradasNoUlla">https://www.moradasnoulla.com/es</string>
+    <string name="webMoradasNoUlla">www.moradasnoulla.com</string>
 
     <string name="aCasinaDeEsther">A CASIÑA DE ESTHER</string>
     <string name="direccionACasinaDeEsther">Tras do Eixo, 25, 15883, A Coruña</string>
     <string name="telefonoACasinaDeEsther">+ 34 647 41 18 84</string>
     <string name="emailACasinaDeEsther">info@casitadeesther.com</string>
-    <string name="webACasinaDeEsther">https://casitadeesther.com/</string>
+    <string name="webACasinaDeEsther">www.casitadeesther.com</string>
 
 
 
@@ -859,7 +859,7 @@
     <string name="telefono2adran">+ 34 620 906 602</string>
     <string name="emailPazoDeAdran">info@pazodeadran.es</string>
     <string name="correo2adran">comercial@pazodeadran.es</string>
-    <string name="webPazoDeAdran">https://pazodeadran.com/</string>
+    <string name="webPazoDeAdran">Pazodeadran.com</string>
     
     <string name="nombremilladoiro">MILLADOIRO BELLA BOUTIQUE</string>
     <string name="direcccionmilladoiro">Travesía de Reborido Portal II 2ºD</string>
