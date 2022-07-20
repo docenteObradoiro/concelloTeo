@@ -17,11 +17,11 @@
         <activity
             android:name=".OndeComer"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Visitanos"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".actividades.areasrecreativas"
             android:exported="false"
@@ -90,6 +90,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
         <activity
             android:name=".actividades.mapaRaris"
             android:exported="false"
@@ -149,8 +150,7 @@
         <activity
             android:name=".artesania.SpaciobInteriorismo"
             android:exported="false"
-            android:screenOrientation="portrait" />
-        <!-- <activity -->
+            android:screenOrientation="portrait" /> <!-- <activity -->
         <!-- android:name=".artesania.Silvereira" -->
         <!--
  android:exported="false"
@@ -400,53 +400,57 @@
             android:name=".patrimonio.informacion_miradoiro_pena_agrela"
             android:exported="false"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".comer.ComerCervexeria"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerVinosTapasRacions"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerTradicionalGalega"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerCafeteria"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerAParrilla"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerAlgoDulce"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerVegana"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerPulperia"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerMarisqueria"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".comer.ComerMenu"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".OndeDurmir"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".OndeCelebrar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ComoChegar"
             android:exported="false"
             android:screenOrientation="portrait"/>
     </application>
