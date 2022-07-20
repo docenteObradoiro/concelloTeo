@@ -94,6 +94,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp">
 
                 <LinearLayout
@@ -270,7 +271,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1028,7 +1028,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/emailAlbergueFaramello"
+                            android:id="@+id/webAlbergueFaramello"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_below="@+id/telefonoAlbergueFaramello"
@@ -1041,7 +1041,6 @@
                             android:text="@string/webfaramello"
                             android:textColor="#415419"
                             android:textSize="12sp" />
-
 
                     </RelativeLayout>
 
@@ -1899,7 +1898,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-
+                            android:id="@+id/webParadaDeFrancos"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_below="@+id/emailParadaDeFrancos"
@@ -2034,7 +2033,7 @@
 
 
                         <TextView
-
+                            android:id="@+id/webPazoDeAdran"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_below="@+id/emailPazoDeAdran"
@@ -2265,7 +2264,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -3125,7 +3123,7 @@
                     android:id="@+id/rlCasaBlanco"
                     android:layout_width="300dp"
                     android:layout_height="280dp"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/shape"
                     android:orientation="horizontal">
 
@@ -3604,7 +3602,6 @@
                         android:background="@drawable/shape"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="40dp"
                         android:layout_marginStart="20dp"
                         android:orientation="horizontal">
 

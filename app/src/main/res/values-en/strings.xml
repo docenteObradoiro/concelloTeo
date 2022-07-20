@@ -34,7 +34,7 @@
     <string name="direccionAsBrasas"> Rua Aido,24</string>
     <string name="telefonoAsBrasas">+ 34 981 53 15 36</string>
     <string name="emailAsBrasas">asbrasasparrillada@hotmail.com</string>
-    <string name="webAsBrasas">shorturl.at/asuy9</string>
+    <string name="webAsBrasas">Facebook - As Brasas</string>
 
     <string name="ncCoffeeBar">NC COFFEE BAR</string>
     <string name="direccionNcCoffeeBar"> Trva. Cacheiras, 25, 15883, Teo</string>
@@ -51,7 +51,7 @@
     <string name="direccionCalabaza">Lugar dua franco,5</string>
     <string name="telefonoCalabaza">+ 34 981 19 42 44</string>
     <string name="emailCalabaza">alberguecalabazaperegrino@gmail.com</string>
-    <string name="webCalabaza">shorturl.at/fruxZ</string>
+    <string name="webCalabaza">www.alberguescaminosantiago.com</string>
 
     <string name="oRincon">O RINCÓN</string>
     <string name="direccionORincon">A Grela, 15883, Teo</string>
@@ -113,7 +113,7 @@
     <string name="vinhosTapasRacions">Wine, tapas and plates</string>
 
     <string name="portico">PORTICO</string>
-    <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
+    <string name="direccionportico">Travesía de Cacheiras, nº 72</string>
     <string name="telefonoportico">+34 981 80 74 97</string>
     <string name="emailportico">restaurante@restauranteportico.es</string>
     <string name="webportico">www.restauranteportico.es</string>
