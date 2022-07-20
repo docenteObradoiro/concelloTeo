@@ -242,7 +242,7 @@
                             android:layout_below="@+id/telefonoBetos"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="25dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoBetos"
@@ -1711,7 +1711,7 @@
                             android:layout_below="@+id/telefonoOPintor"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="25dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoOPintor"
                             android:gravity="center_vertical"
@@ -2259,7 +2259,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_toEndOf="@+id/logoDireccionPiro"
                     android:gravity="center_vertical"
-                    android:text="LUGAR O PIRO, nº 7"
+                    android:text="@string/direccion_o_piro"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
