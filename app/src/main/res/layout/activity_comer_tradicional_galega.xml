@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cacheiras"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -223,6 +223,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+
                         android:background="@drawable/shape"
                         android:orientation="horizontal">
 
@@ -716,8 +717,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"
-                android:layout_marginTop="20dp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -991,7 +991,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionCiertoBlanco"
                             android:gravity="center_vertical"
-                            android:text="RÚA DOS IRMÁNS LISTE FORJÁN , nº 17"
+                            android:text="@string/direccionCiertoBlanco"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1036,7 +1036,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoCiertoBlanco"
                             android:gravity="center_vertical"
-                            android:text="info@ciertoblanco.com"
+                            android:text="@string/emailCiertoBlanco"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1052,7 +1052,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoCiertoBlanco"
                             android:gravity="center_vertical"
-                            android:text="www.ciertoblanco.com"
+                            android:text="@string/webCiertoBlanco"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1068,7 +1068,7 @@
                 android:text="@string/luou"
                 android:textColor="#415419"
                 android:textSize="20sp"
-                android:layout_marginTop="20dp"/>
+                />
 
                 <RelativeLayout
                     android:background="@drawable/shape"
@@ -1077,7 +1077,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:orientation="horizontal"
-                    android:layout_gravity="center"
+
                     tools:layout_editor_absoluteX="0dp"
                     tools:layout_editor_absoluteY="0dp">
 
@@ -1242,16 +1242,15 @@
                 android:text="@string/oza"
                 android:textColor="#415419"
                 android:textSize="20sp"
-                android:layout_marginTop="20dp"/>
+                />
 
             <RelativeLayout
                 android:background="@drawable/shape"
                 android:layout_width="300dp"
                 android:layout_height="280dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
