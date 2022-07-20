@@ -1107,7 +1107,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="@string/DireccionBarBustelo"
+                            android:contentDescription="@string/direccionBarBustelo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"

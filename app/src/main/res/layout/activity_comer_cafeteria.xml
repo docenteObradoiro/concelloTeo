@@ -379,7 +379,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="@string/telefono_restaurante_canaletto"
+                            android:text="@string/telefono_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1852,7 +1852,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoRamallosa"
                             android:gravity="center_vertical"
-                            android:text="@string/web_a_ramollosa"
+                            android:text="@string/web_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
