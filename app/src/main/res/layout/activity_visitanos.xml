@@ -74,169 +74,161 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="330dp"
-            android:orientation="vertical"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2">
+            <ImageButton
+                android:id="@+id/botonComoChegar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="Como Chegar"
+                android:paddingRight="5dp"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/comochegar" />
 
-                <ImageButton
-                    android:id="@+id/botonComoChegar"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:background="#00FFFFFF"
-                    android:layout_weight="1"
-                    android:paddingRight="5dp"
-                    android:contentDescription="Como Chegar"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/comochegar" />
-
-                <ImageButton
-                    android:id="@+id/botonOndeComer"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:paddingLeft="5dp"
-                    android:background="#00FFFFFF"
-                    android:contentDescription="OndeComer"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/ondecomer" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:weightSum="2"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:id="@+id/botonOndeDurmir"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:background="#00FFFFFF"
-                    android:paddingRight="5dp"
-                    android:contentDescription="Onde Durmir"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/ondedurmir" />
-
-                <ImageButton
-                    android:id="@+id/botonOndeCelebrar"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:paddingLeft="5dp"
-                    android:background="#00FFFFFF"
-                    android:contentDescription="Onde Celebrar"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@mipmap/ondecelebrar" />
-            </LinearLayout>
-
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="348dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="20dp"
-                android:foregroundTint="#2DFFFFFF"
-                app:srcCompat="@mipmap/lineaverder" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:id="@+id/facebook"
-                    android:layout_width="53dp"
-                    android:layout_height="48dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="facebook"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/facebook"
-                    app:tint="#7F000000" />
-
-                <ImageButton
-                    android:id="@+id/twitter"
-                    android:layout_width="70dp"
-                    android:layout_height="48dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/facebook"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="twitter"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
-                    app:tint="#7F000000" />
-
-                <ImageButton
-                    android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
-                    android:layout_toEndOf="@+id/twitter"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="instagram"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/instagram"
-                    app:tint="#7F000000" />
-
-
-                <ImageButton
-                    android:id="@+id/info"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="5dp"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="#00B8AEAE"
-                    android:contentDescription="información"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:scaleType="fitXY"
-                    android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/info"
-                    app:tint="#7F000000" />
-
-
-            </RelativeLayout>
+            <ImageButton
+                android:id="@+id/botonOndeComer"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="OndeComer"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingLeft="5dp"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/ondecomer" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/botonOndeDurmir"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="Onde Durmir"
+                android:paddingRight="5dp"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/ondedurmir" />
+
+            <ImageButton
+                android:id="@+id/botonOndeCelebrar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="Onde Celebrar"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingLeft="5dp"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@mipmap/ondecelebrar" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-15dp"
+            android:foregroundTint="#2DFFFFFF"
+            app:srcCompat="@mipmap/lineaverder" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/facebook"
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#00B8AEAE"
+                android:contentDescription="facebook"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/facebook"
+                app:tint="#7F000000" />
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="70dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-25dp"
+                android:layout_toEndOf="@+id/facebook"
+                android:backgroundTint="#00B8AEAE"
+                android:contentDescription="twitter"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/twitter"
+                app:tint="#7F000000" />
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-25dp"
+                android:layout_toEndOf="@+id/twitter"
+                android:backgroundTint="#00B8AEAE"
+                android:contentDescription="instagram"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/instagram"
+                app:tint="#7F000000" />
+
+
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="#00B8AEAE"
+                android:contentDescription="información"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/info"
+                app:tint="#7F000000" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
