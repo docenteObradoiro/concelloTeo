@@ -81,7 +81,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -93,8 +94,8 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -259,7 +260,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -379,7 +379,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -774,7 +773,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoBarEme"
                             android:gravity="center_vertical"
-                            android:text="@string/webBarEme"
+                            android:text="@string/webEme"
                             android:textColor="#415419"
                             android:textSize="12sp" />
                     </RelativeLayout>
@@ -1388,21 +1387,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/lampai"
                 android:textColor="#415419"
-                android:textSize="20sp"
-                android:layout_marginTop="20dp"/>
+                android:textSize="20sp" />
 
             <!--    O Rincón -->
 
             <RelativeLayout
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/shape"
-                android:orientation="horizontal"
-                android:layout_gravity="center"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp">
+                android:layout_marginTop="10dp">
+
 
                 <ImageView
                     android:id="@+id/oRincon"
@@ -1564,7 +1557,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luou"
                 android:textColor="#415419"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
+
                 android:textSize="20sp" />
 
             <HorizontalScrollView
@@ -1888,7 +1882,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/osTilos"
                 android:textColor="#415419"
-                android:layout_marginTop="20dp"
+
                 android:textSize="20sp" />
 
             <HorizontalScrollView
@@ -2164,7 +2158,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/oza"
                 android:textColor="#415419"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:textSize="20sp" />
 
 
@@ -2174,10 +2168,8 @@
                 android:layout_width="300dp"
                 android:layout_height="280dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/shape"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp">
 
@@ -2311,6 +2303,8 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -2463,8 +2457,9 @@
                         android:id="@+id/rlAtallo"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -2484,7 +2479,7 @@
                             android:layout_below="@+id/direccionAtallo"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoTelefonoAtallo"
                             android:gravity="center_vertical"
@@ -2499,8 +2494,8 @@
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="56dp"
-                            android:layout_marginEnd="14dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalAtallo"
                             android:gravity="center_vertical"
                             android:text="@string/nomeAtallo"
@@ -2529,7 +2524,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoLocalAtallo"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="21dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -2546,7 +2541,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionAtallo"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="21dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -2563,8 +2558,8 @@
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="21dp"
-                            android:layout_marginTop="66dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoLocalAtallo"
@@ -2582,8 +2577,9 @@
                         android:id="@+id/rlCasaPernas"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -2599,11 +2595,11 @@
                         <TextView
                             android:id="@+id/telefonoCasaPernas"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="50dp"
                             android:layout_below="@+id/direccionCasaPernas"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoTelefonoCasaPernas"
                             android:gravity="center_vertical"
@@ -2611,20 +2607,6 @@
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-                        <TextView
-                            android:id="@+id/telefonoCasaPernas2"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoCasaPernas"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginEnd="24dp"
-                            android:layout_toEndOf="@+id/logoTelefonoCasaPernas"
-                            android:gravity="center_vertical"
-                            android:text="@string/telefonoPernas2"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/localCasaPernas"
@@ -2633,8 +2615,8 @@
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="56dp"
-                            android:layout_marginEnd="14dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalCasaPernas"
                             android:gravity="center_vertical"
                             android:text="@string/nomePernas"
@@ -2663,7 +2645,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoLocalCasaPernas"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="21dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -2680,7 +2662,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionCasaPernas"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="21dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -2697,8 +2679,8 @@
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="21dp"
-                            android:layout_marginTop="66dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoLocalCasaPernas"
@@ -2717,8 +2699,9 @@
                         android:id="@+id/rlOCruce"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -2738,8 +2721,8 @@
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="25dp"
-                            android:layout_marginTop="38dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoLocalOCruce"
@@ -2752,12 +2735,12 @@
                         <TextView
                             android:id="@+id/direccionOCruce"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="50dp"
                             android:layout_below="@+id/localOCruce"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginEnd="63dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoDireccionOCruce"
                             android:gravity="center_vertical"
                             android:text="@string/direccionOCruce"
@@ -2770,8 +2753,8 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoLocalOCruce"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="23dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="@string/nomeOCruce"
@@ -2784,7 +2767,7 @@
                         <TextView
                             android:id="@+id/telefonoOCruce"
                             android:layout_width="match_parent"
-                            android:layout_height="30dp"
+                            android:layout_height="50dp"
                             android:layout_below="@+id/direccionOCruce"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
@@ -2802,8 +2785,8 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionOCruce"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="29dp"
-                            android:layout_marginTop="14dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoTelefonoOCruce"
@@ -2815,19 +2798,19 @@
 
                         <TextView
                             android:id="@+id/localOCruce"
-                            android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="29dp"
-                            android:layout_marginEnd="49dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalOCruce"
                             android:gravity="center_vertical"
                             android:text="@string/nomeOCruce"
                             android:textColor="#415419"
                             android:textSize="12sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:layout_width="0dp" />
 
                         <TextView
                             android:id="@+id/weblOCruce"
@@ -2836,8 +2819,9 @@
                             android:layout_below="@+id/telefonoOCruce"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="6dp"
-                            android:layout_marginEnd="47dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoOCruce"
                             android:gravity="center_vertical"
                             android:text="@string/webOCruce"
@@ -2850,8 +2834,8 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoTelefonoOCruce"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="26dp"
-                            android:layout_marginTop="17dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoInfoOCruce"

@@ -818,7 +818,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="@string/maradentro"
+                            android:text="@string/nombre_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />

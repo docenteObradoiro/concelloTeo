@@ -118,7 +118,7 @@
     <string name="vinhosTapasRacions">Vinos, tapas y raciones</string>
 
     <string name="portico">PORTICO</string>
-    <string name="direccionportico">TRAVESIA DE CACHEIRAS, nº 72</string>
+    <string name="direccionportico">Tavesia de Cacheiras, nº 72</string>
     <string name="telefonoportico">+34 981 80 74 97</string>
     <string name="emailportico">restaurante@restauranteportico.es</string>
     <string name="webportico">www.restauranteportico.es</string>
@@ -190,7 +190,7 @@
 
 
     <string name="Braulio">BRAULIO</string>
-    <string name="direccionBraulio">Trva. Balcaide, 9 - CALO</string>
+    <string name="direccionBraulio">Trva. Balcaide, 9 - Calo</string>
     <string name="telefonoBraulio">+34 615 57 14 67</string>
     <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
     <string name="webBraulio">Facebook - Café Bar Braulio</string>
@@ -270,7 +270,7 @@
     <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
     <string name="nomeOCruce">O Cruce</string>
-    <string name="direccionOCruce">Ignacio Valera, 10, Pontevea </string>
+    <string name="direccionOCruce">Ignacio Valera, 10, Pontevea</string>
     <string name="telefonoOCruce">+ 34 637 270 985</string>
     <string name="webOCruce">Facebook - Bar O Cruce</string>
 
@@ -897,7 +897,7 @@
     <string name="email_canaletto">lcastineirascampos@gmail.com</string>
     <string name="web_canaletto">https://www.canaletto.es/</string>
 
-    <string name="nombre_maradentro">MARADENTRO</string>
+    <string name="nombre_maradentro">MAR ADENTRO</string>
     <string name="direccion_maradentro">TRAVESIA DE MONTOUTO, 22 BAIXO</string>
     <string name="telefono_maradentro">+34 981 80 14 47</string>
     <string name="email_maradentro">genarosantasmarinas@gmail.com</string>
@@ -945,6 +945,7 @@
     <string name="telefono2_casa_grande_de_cornide">+34 981 964 248</string>
     <string name="email_casa_grande_de_cornide">casagrandedecornide@gmail.com</string>
     <string name="web_casa_grande_de_cornide">http://www.casagrandedecornide.es</string>
+    <string name="vis_tanos">VISÍTANOS</string>
 
     <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
 
