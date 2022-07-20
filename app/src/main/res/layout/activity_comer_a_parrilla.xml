@@ -122,11 +122,11 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="-40dp"
                             android:layout_marginEnd="0dp"
-                            android:layout_toEndOf="@+id/logoLocalBarRincon"
+                            android:layout_toEndOf="@+id/logoLocalAVeiga"
                             android:textColor="#415419" />
 
                         <ImageView
-                            android:id="@+id/barRincon"
+                            android:id="@+id/barAVeiga"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -134,10 +134,10 @@
                             android:src="@mipmap/aveiga" />
 
                         <ImageButton
-                            android:id="@+id/logoTelefonoBarRincon"
+                            android:id="@+id/logoTelefonoAVeiga"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoDireccionBarRincon"
+                            android:layout_below="@+id/logoDireccionAVeiga"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -157,7 +157,7 @@
                             android:layout_below="@+id/direccionAVeiga"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
-                            android:layout_toEndOf="@+id/logoTelefonoBarRincon"
+                            android:layout_toEndOf="@+id/logoTelefonoAVeiga"
                             android:gravity="center_vertical"
                             android:text="@string/telefonoVeiga"
                             android:textColor="#415419"
@@ -170,17 +170,17 @@
                             android:layout_below="@+id/aVeiga"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
-                            android:layout_toEndOf="@+id/logoDireccionBarRincon"
+                            android:layout_toEndOf="@+id/logoDireccionAVeiga"
                             android:gravity="center_vertical"
                             android:text="@string/direccionVeiga"
                             android:textColor="#415419"
                             android:textSize="12dp" />
 
                         <ImageButton
-                            android:id="@+id/logoDireccionBarRincon"
+                            android:id="@+id/logoDireccionAVeiga"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:layout_below="@+id/logoLocalBarRincon"
+                            android:layout_below="@+id/logoLocalAVeiga"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
@@ -194,7 +194,7 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <ImageButton
-                            android:id="@+id/logoLocalBarRincon"
+                            android:id="@+id/logoLocalAVeiga"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
@@ -217,7 +217,7 @@
                             android:layout_alignParentTop="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
-                            android:layout_toEndOf="@+id/logoLocalBarRincon"
+                            android:layout_toEndOf="@+id/logoLocalAVeiga"
                             android:gravity="center_vertical"
                             android:text="@string/nomeVeiga"
                             android:textColor="#415419"
