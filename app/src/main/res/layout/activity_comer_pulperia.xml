@@ -251,7 +251,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/emailDMaria"
+                            android:id="@+id/webDMaria"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_below="@+id/telefono2DMaria"
