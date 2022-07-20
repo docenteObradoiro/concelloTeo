@@ -92,8 +92,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -113,7 +112,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -210,7 +208,6 @@
                             android:textSize="12sp" />
 
 
-
                         <TextView
                             android:id="@+id/webAmasaNai"
                             android:layout_width="match_parent"
@@ -236,7 +233,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -402,6 +399,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -492,7 +490,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalFornoDAuri"
                             android:gravity="center_vertical"
-                            android:text="O FORNO D´AURI"
+                            android:text="@string/ofornodauri"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -508,7 +506,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionFornoDAuri"
                             android:gravity="center_vertical"
-                            android:text="TRAVESIA DE MONTOUTO, nº 22 - BLOQUE C"
+                            android:text="@string/direccionofornodauri"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -523,7 +521,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoFornoDAuri"
                             android:gravity="center_vertical"
-                            android:text="+34 626 709 347"
+                            android:text="@string/telefonoofornodauri"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -538,7 +536,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoFornoDAuri"
                             android:gravity="center_vertical"
-                            android:text="https://www.facebook.com/ofornodauri/"
+                            android:text="@string/webofornodauri"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -555,13 +553,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luci"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"

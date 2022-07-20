@@ -88,7 +88,6 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="-20dp"
         android:foregroundTint="#2DFFFFFF"
-
         app:srcCompat="@mipmap/lineaverder" />
 
         <TextView
@@ -261,9 +260,383 @@
                 android:text="@string/webFogarDoSantiso"
                 android:textColor="#415419"
                 android:textSize="12sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reis"
+            android:textColor="#415419"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+                <!--         A SENRA-->
+                <RelativeLayout
+                    android:background="@drawable/shape"
+                    android:layout_width="300dp"
+                    android:layout_height="280dp"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <ImageView
+                        android:id="@+id/Asenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#000000"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/asenra" />
+
+                    <ImageButton
+                        android:id="@+id/logoASenra"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#00FFFFFF"
+                        android:backgroundTint="#00FFFFFF"
+                        android:contentDescription="logoLocal"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/restaurante"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/logoDireccionAsenra"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/logoASenra"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#00FFFFFF"
+                        android:backgroundTint="#00FFFFFF"
+                        android:contentDescription="@string/logoDireccion"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/mapsnegro"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/logoTelefonoAsenra"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/logoDireccionAsenra"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#00FFFFFF"
+                        android:backgroundTint="#00FFFFFF"
+                        android:contentDescription="@string/logoTelf"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/telefono"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/logoInfoAsenra"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/logoTelefonoAsenra"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#00FFFFFF"
+                        android:backgroundTint="#00FFFFFF"
+                        android:contentDescription="logoInfo"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/globo"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/localAsenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toEndOf="@+id/logoASenra"
+                        android:gravity="center_vertical"
+                        android:text="@string/aSenra"
+                        android:textColor="#415419"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/direccionAsenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/localAsenra"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_toEndOf="@+id/logoDireccionAsenra"
+                        android:gravity="center_vertical"
+                        android:text="@string/direccionASenra"
+                        android:textColor="#415419"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/telefonoAsenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/direccionAsenra"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_toEndOf="@+id/logoTelefonoAsenra"
+                        android:gravity="center_vertical"
+                        android:text="@string/telefonoASenra"
+                        android:textColor="#415419"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/emailAsenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_below="@+id/telefonoAsenra"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_toEndOf="@+id/logoInfoAsenra"
+                        android:gravity="center_vertical"
+                        android:text="@string/emailASenra"
+                        android:textColor="#415419"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/webAsenra"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_below="@+id/emailAsenra"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="25dp"
+                        android:layout_toEndOf="@+id/logoInfoAsenra"
+                        android:gravity="center_vertical"
+                        android:text="@string/webASenra"
+                        android:textColor="#415419"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oza"
+            android:textColor="#415419"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+        <RelativeLayout
+            android:background="@drawable/shape"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:id="@+id/oSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/osondomino" />
+
+            <ImageButton
+                android:id="@+id/logoLocalOSonDoMino"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logoLocalOSonDoMino"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/restaurante"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/logoDireccionOSonDoMino"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/logoLocalOSonDoMino"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logoDireccionCerveceriaManu"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/mapsnegro"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/logoTelefonoOSonDoMino"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/logoDireccionOSonDoMino"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logoTelefonoAsBrasas"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/telefono"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/logoInfoOSonDoMino"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/logoTelefonoOSonDoMino"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="logoInfo"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
+                app:srcCompat="@drawable/globo"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/localOSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@+id/logoLocalOSonDoMino"
+                android:gravity="center_vertical"
+                android:text="@string/oSonDoMino"
+                android:textColor="#415419"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/direccionOSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/localOSonDoMino"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/logoDireccionOSonDoMino"
+                android:gravity="center_vertical"
+                android:text="@string/direccionOSonDoMino"
+                android:textColor="#415419"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/telefonoOSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/direccionOSonDoMino"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/logoTelefonoOSonDoMino"
+                android:gravity="center_vertical"
+                android:text="@string/telefonoOSonDoMino"
+                android:textColor="#415419"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/emailOSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/telefonoOSonDoMino"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/logoInfoOSonDoMino"
+                android:gravity="center_vertical"
+                android:text="@string/emailOSonDoMino"
+                android:textColor="#415419"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/webOSonDoMino"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@+id/emailOSonDoMino"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_toEndOf="@+id/logoInfoOSonDoMino"
+                android:gravity="center_vertical"
+                android:text="@string/webOSonDoMino"
+                android:textColor="#415419"
+                android:textSize="12sp" />
 
         </RelativeLayout>
 
+    </LinearLayout>
+
+
+        </HorizontalScrollView>
     </LinearLayout>
     </ScrollView>
 

@@ -92,8 +92,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -107,7 +106,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -257,7 +255,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -425,7 +423,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -590,7 +588,7 @@
                         android:id="@+id/rlBarEme"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -754,7 +752,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -847,7 +845,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="@string/maradentro"
+                            android:text="@string/nombre_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -907,7 +905,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -970,23 +968,6 @@
                             app:srcCompat="@drawable/telefono"
                             tools:ignore="TouchTargetSizeCheck" />
 
-                        <ImageButton
-                            android:id="@+id/logoInfoNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
                         <TextView
                             android:id="@+id/localNcCoffeeBar"
                             android:layout_width="match_parent"
@@ -1034,22 +1015,6 @@
                             android:textSize="12sp" />
 
 
-                        <TextView
-                            android:id="@+id/webNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/webNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
-
                     </RelativeLayout>
 
                     <!--Sauce-->
@@ -1058,9 +1023,9 @@
                         android:id="@+id/rlSauce"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1147,15 +1112,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="@string/calo"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1169,7 +1134,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginRight="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1320,8 +1284,7 @@
                         android:id="@+id/rlLoncho"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1407,7 +1370,7 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginStart="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1529,6 +1492,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1683,13 +1647,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luci"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1701,7 +1665,6 @@
                     <RelativeLayout
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -1794,7 +1757,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalRamallosa"
                             android:gravity="center_vertical"
-                            android:text="@string/a_ramallosa"
+                            android:text="@string/nome_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1856,7 +1819,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoRamallosa"
                             android:gravity="center_vertical"
-                            android:text="@string/web_a_ramollosa"
+                            android:text="@string/web_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1869,6 +1832,7 @@
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -1959,7 +1923,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalSantaSede"
                             android:gravity="center_vertical"
-                            android:text="@string/a_santa_sede"
+                            android:text="@string/nome_a_santa_sede"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2036,13 +2000,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/luou"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+               >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2057,8 +2022,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:orientation="horizontal"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginStart="35dp"
+                        android:layout_gravity="center"
                         tools:layout_editor_absoluteX="0dp"
                         tools:layout_editor_absoluteY="0dp">
 
@@ -2227,13 +2191,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/os_tilos"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2412,7 +2376,6 @@
                         android:id="@+id/rlElRinconEscondido"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
-                        android:layout_marginBottom="30dp"
                         android:layout_marginRight="20dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
@@ -2446,13 +2409,12 @@
 
                         <TextView
                             android:id="@+id/direccionElRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_width="221dp"
+                            android:layout_height="30dp"
                             android:layout_below="@+id/localRinconEscondido"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="15dp"
-                            android:layout_marginEnd="63dp"
                             android:layout_toEndOf="@+id/logoDireccionRinconEscondido"
                             android:gravity="center_vertical"
                             android:text="@string/direccionRinconEscondido"
@@ -2532,7 +2494,6 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="6dp"
-                            android:layout_marginEnd="47dp"
                             android:layout_toEndOf="@+id/logoInfoLRinconEscondido"
                             android:gravity="center_vertical"
                             android:text="@string/webRinconEscondido"
@@ -2622,7 +2583,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="@string/bar_piccolo"
+                            android:text="@string/nome_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2654,13 +2615,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/oza"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2748,7 +2709,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalPiro"
                             android:gravity="center_vertical"
-                            android:text="@string/o_piro"
+                            android:text="@string/nome_o_piro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2794,13 +2755,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/reis"
                 android:textColor="#415419"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"

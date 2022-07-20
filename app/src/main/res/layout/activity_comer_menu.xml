@@ -439,7 +439,6 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginBottom="30dp"
                         android:background="@drawable/shape"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="0dp"
@@ -469,7 +468,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionBarRincon"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="14dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -481,25 +480,29 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/textView13"
+                            android:id="@+id/telefonoAVeiga"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/textView10"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionAVeiga"
                             android:layout_marginStart="15dp"
-                            android:layout_marginTop="185dp"
+                            android:layout_marginTop="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/telefonoVeiga"
+                            android:textSize="12dp"
                             android:textColor="#415419" />
 
                         <TextView
-                            android:id="@+id/textView12"
+                            android:id="@+id/direccionAVeiga"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignTop="@+id/textView10"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/aVeiga"
                             android:layout_marginStart="14dp"
-                            android:layout_marginTop="128dp"
+                            android:layout_marginTop="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/direccionVeiga"
+                            android:textSize="12dp"
                             android:textColor="#415419" />
 
                         <ImageButton
@@ -508,7 +511,7 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoLocalBarRincon"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="14dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
@@ -525,8 +528,8 @@
                             android:layout_height="30dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="14dp"
-                            android:layout_marginTop="61dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoLocalBarEme"
@@ -537,15 +540,17 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/textView11"
+                            android:id="@+id/aVeiga"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="50dp"
                             android:layout_alignParentTop="true"
-                            android:layout_marginStart="12dp"
-                            android:layout_marginTop="69dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
                             android:layout_toEndOf="@+id/logoLocalBarRincon"
+                            android:gravity="center_vertical"
                             android:text="@string/nomeVeiga"
                             android:textColor="#415419"
+                            android:textSize="12dp"
                             android:textStyle="bold" />
 
                     </RelativeLayout>
@@ -813,7 +818,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalMaradentro"
                             android:gravity="center_vertical"
-                            android:text="@string/maradentro"
+                            android:text="@string/nombre_maradentro"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -1409,7 +1414,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="40dp">>
 
                 <LinearLayout
                     android:layout_width="match_parent"
