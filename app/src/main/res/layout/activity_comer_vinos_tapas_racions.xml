@@ -102,6 +102,121 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="280dp"
+                        android:background="@drawable/shape"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/laCasaDeLasTortillas"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#000000"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/lacasadelastortillas" />
+
+                        <ImageButton
+                            android:id="@+id/logoLocalLacasadelastortillas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoLocalLacasadelastortillas"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/restaurante"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoDireccionLacasadelastortillas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoLocalLacasadelastortillas"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoDireccionBarCanaletto"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/mapsnegro"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageButton
+                            android:id="@+id/logoTelefonoLacasadelastortillas"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/logoDireccionLacasadelastortillas"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="30dp"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:contentDescription="logoTelefonoLacasadelastortillas"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:scaleType="fitXY"
+                            android:theme="@android:style/ThemeOverlay.Material.Dark"
+                            app:srcCompat="@drawable/telefono"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
+                        <TextView
+                            android:id="@+id/localLacasadelastortillas"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toEndOf="@+id/logoLocalLacasadelastortillas"
+                            android:gravity="center_vertical"
+                            android:text="RESTAURANTE LA CASA DE LAS TORTILLAS"
+                            android:textColor="#415419"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccionLacasadelastortillas"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/localLacasadelastortillas"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoDireccionLacasadelastortillas"
+                            android:gravity="center_vertical"
+                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/telefonoLacasadelastortillas"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/direccionLacasadelastortillas"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/logoTelefonoLacasadelastortillas"
+                            android:gravity="center_vertical"
+                            android:text="+34 981 806 834"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
                     <!-- BETOS-->
 
                     <RelativeLayout
@@ -1362,15 +1477,31 @@
                         <TextView
                             android:id="@+id/emailCasaJavier"
                             android:layout_width="match_parent"
-                            android:layout_height="30dp"
+                            android:layout_height="25dp"
                             android:layout_below="@+id/telefonoCasaJavier"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoInfoCasaJavier"
                             android:gravity="center_vertical"
                             android:text="@string/emailCasaJavier"
+                            android:textColor="#415419"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/webCasaJavier"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/emailCasaJavier"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_toEndOf="@+id/logoInfoCasaJavier"
+                            android:gravity="center_vertical"
+                            android:text="@string/webCasaJavier"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -1865,7 +1996,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoCantina"
                             android:gravity="center_vertical"
-                            android:text="@string/webPazoDeAdran"
+                            android:text="@string/webCantina"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
