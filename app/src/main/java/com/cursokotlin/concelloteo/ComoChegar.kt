@@ -5,44 +5,49 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
-import com.cursokotlin.concelloteo.R
+import android.widget.ImageView
+import android.widget.TextView
 
-class Visitanos : AppCompatActivity() {
-
+class ComoChegar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_visitanos)
+        setContentView(R.layout.activity_como_chegar)
 
         val botonTeo = findViewById<ImageButton>(R.id.logoTeo)
         botonTeo.setOnClickListener {
             val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-        val accesoMenu= findViewById<ImageButton>(R.id.menu)
+
+        val accesoMenu = findViewById<ImageButton>(R.id.menu)
         accesoMenu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
 
-        val accesoComoChegar= findViewById<ImageButton>(R.id.botonComoChegar)
-        accesoComoChegar.setOnClickListener {
-            val acceder = Intent(this, ComoChegar::class.java)
-            startActivity(acceder)
+        val botonTelefono = findViewById<TextView>(R.id.telefonoConcello)
+        botonTelefono.setOnClickListener {
+            val phone = "tel: +34 698 183 421";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
         }
-        val accesoOndeComer= findViewById<ImageButton>(R.id.botonOndeComer)
-        accesoOndeComer.setOnClickListener {
-            val acceder = Intent(this, OndeComer::class.java)
-            startActivity(acceder)
+
+        val botonCorreo=findViewById<TextView>(R.id.correoTurismo)
+        botonCorreo.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            val recipients = arrayOf("turismo@teo.gal")
+            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Información acerca da Área de Turismo")
+            intent.putExtra(Intent.EXTRA_TEXT, "Estimado responsable,...")
+            intent.type = "text/html"
+            intent.setPackage("com.google.android.gm")
+            startActivity(Intent.createChooser(intent, "Send mail"))
         }
-        val accesoOndeDurmir= findViewById<ImageButton>(R.id.botonOndeDurmir)
-        accesoOndeDurmir.setOnClickListener {
-            val acceder = Intent(this, OndeDurmir::class.java)
-            startActivity(acceder)
-        }
-        val accesoOndeCelebrar= findViewById<ImageButton>(R.id.botonOndeCelebrar)
-        accesoOndeCelebrar.setOnClickListener {
-            val acceder = Intent(this, OndeCelebrar::class.java)
-            startActivity(acceder)
+
+        val maps = findViewById<ImageView>(R.id.mapaConcello)
+        maps.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/DiSyHcFkbPnUKDfQ7")))
         }
 
         val facebook = findViewById<ImageButton>(R.id.facebook)
@@ -57,13 +62,10 @@ class Visitanos : AppCompatActivity() {
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
         }
+
         val info = findViewById<ImageButton>(R.id.info)
         info.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
-    }
-    override fun onBackPressed() {
-        super.onBackPressed()
-        startActivity(Intent(this, MainActivity::class.java))
     }
 }
