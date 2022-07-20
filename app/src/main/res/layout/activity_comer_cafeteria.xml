@@ -379,7 +379,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoBarCanaletto"
                             android:gravity="center_vertical"
-                            android:text="@string/telefono_restaurante_canaletto"
+                            android:text="@string/telefono_canaletto"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -968,23 +968,6 @@
                             app:srcCompat="@drawable/telefono"
                             tools:ignore="TouchTargetSizeCheck" />
 
-                        <ImageButton
-                            android:id="@+id/logoInfoNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
-
                         <TextView
                             android:id="@+id/localNcCoffeeBar"
                             android:layout_width="match_parent"
@@ -1031,22 +1014,6 @@
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
-
-                        <TextView
-                            android:id="@+id/webNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/webNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                     </RelativeLayout>
 
@@ -1852,7 +1819,7 @@
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoRamallosa"
                             android:gravity="center_vertical"
-                            android:text="@string/web_a_ramollosa"
+                            android:text="@string/web_a_ramallosa"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -2442,13 +2409,12 @@
 
                         <TextView
                             android:id="@+id/direccionElRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_width="221dp"
+                            android:layout_height="30dp"
                             android:layout_below="@+id/localRinconEscondido"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="15dp"
-                            android:layout_marginEnd="63dp"
                             android:layout_toEndOf="@+id/logoDireccionRinconEscondido"
                             android:gravity="center_vertical"
                             android:text="@string/direccionRinconEscondido"
@@ -2528,7 +2494,6 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="6dp"
-                            android:layout_marginEnd="47dp"
                             android:layout_toEndOf="@+id/logoInfoLRinconEscondido"
                             android:gravity="center_vertical"
                             android:text="@string/webRinconEscondido"
