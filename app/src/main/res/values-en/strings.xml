@@ -2,11 +2,12 @@
 <resources>
     <string name="app_name">Turismo Teo</string>
 
-    <string name="visitanos">Visítanos:</string>
-    <string name="visitanosMayuscula">VISÍTANOS!</string>
-    <string name="comoChegar">CÓMO LLEGAR</string>
-    <string name="ondeDurmir">DÓNDE DORMIR</string>
-    <string name="ondeCelebrar">DÓNDE CELEBRAR</string>
+    <string name="visitanos">Visit Us:</string>
+    <string name="visitanosMayuscula">VISIT US!</string>
+    <string name="comoChegar">HOW TO GET</string>
+    <string name="ondeDurmir">WHERE TO SLEEP</string>
+    <string name="ondeCelebrar">WHERE TO CELEBRATE</string>
+    <string name="ondecomer">WHERE TO EAT</string>
 
 
 
@@ -229,7 +230,7 @@
     <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
     <string name="webParrilladaChaves">www.facebook.com/chaves</string>
 
-    <string name="ondecomer">DÓNDE COMER</string>
+
 
     <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
@@ -766,7 +767,7 @@
     <string name="piscinas">Piscinas</string>
     <string name="mercados">Mercados</string>
     <string name="areasrecreativas">Áreas recreativas</string>
-    <string name="quefacer">Que hacer</string>
+    <string name="quefacer">WHAT TO DO</string>
     <string name="descricion">Descrición</string>
     <string name="informaci_n">information</string>
     <string name="wikiloc">wikiloc</string>
@@ -787,7 +788,6 @@
     <string name="raris">Raris</string>
     <string name="luci">Lucí</string>
     <string name="teo">Teo</string>
-    <string name="aloxamentos">Accommodation</string>
 
     <string name="os_tilos">Os Tilos</string>
     <string name="reis">Reis</string>
@@ -796,7 +796,9 @@
     <string name="parrilla">Grilled</string>
     <string name="dulce">Something Sweet</string>
     <string name="cafeteria">Coffee Bar</string>
-    <string name="onde_celebrar">Where to Celebrate</string>
+
+
+
 
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
