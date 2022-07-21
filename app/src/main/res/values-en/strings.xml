@@ -358,10 +358,10 @@
     <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
 
     <string name="bienvenidos">WELCOME!</string>
-    <string name="redeDeRutas">REDE DE RUTAS</string>
-    <string name="patrominio1">PATRIMONIO</string>
-    <string name="artesania1">ARTESANÍA</string>
-    <string name="actividades1">ACTIVIDADES</string>
+    <string name="redeDeRutas">HIKING TRAILS</string>
+    <string name="patrominio1">HERITAGE</string>
+    <string name="artesania1">CRAFTS</string>
+    <string name="actividades1">ACTIVITIES</string>
     <string name="agenda">AXENDA DE TEO</string>
     <string name="contacto">CONTACTO</string>
     <string name="formularioDeContacto">FORMULARIO DE CONTACTO</string>
@@ -426,7 +426,7 @@
     <string name="action_settings">Settings</string>
     <string name="mercado">mercado.</string>
     <string name="imagen_inicio">ImaxeInicio</string>
-    <string name="artesania">ARTESANÍA</string>
+    <string name="artesania">CRAFTS</string>
     <string name="brigantia">Brigantia orfebres</string>
     <string name="oliXiraldez">Oli Xiráldez</string>
     <string name="silvereira">Silvereira</string>
