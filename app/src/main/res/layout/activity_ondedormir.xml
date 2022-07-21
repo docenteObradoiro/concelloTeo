@@ -856,7 +856,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/emailVillaSalgueiros"
+                            android:id="@+id/webVillaSalgueiros"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_below="@+id/telefonoVillaSalgueiros"
@@ -2761,7 +2761,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/gandarela" />
+                            android:src="@mipmap/motel" />
 
                         <ImageButton
                             android:id="@+id/logoLocalmotel"
@@ -3450,7 +3450,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/moradasnoulla" />
+                            android:src="@mipmap/albieitaria" />
 
                         <ImageButton
                             android:id="@+id/logoLocalaalbeitaria"
