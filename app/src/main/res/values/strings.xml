@@ -147,7 +147,7 @@
     <string name="tiaMaria">TIA MARÍA</string>
     <string name="direcciontiaMaria">Dos irmans liste forjan, nº 5</string>
     <string name="telefonotiaMaria">+34 981 54 85 70</string>
-    <string name="webtiaMaria">Facebook -  Tia María Cafe Bar</string>
+    <string name="webtiaMaria">Facebook - Tia María Cafe Bar</string>
 
     <string name="amasaNai">AMASA NAI</string>
     <string name="direccionamasaNai">Rúa Veiga do Mouro, nº 10</string>
@@ -234,13 +234,13 @@
 
     <string name="nomePernas">Casa Pernas</string>
     <string name="direccionPernas">Ignacio Varela, 25 Bajo 1 - Pontevea</string>
-    <string name="telefonoPernas1">+ 34 981 809 231</string>
+    <string name="telefonoPernas1">+ 34 981 80 92 31</string>
     <string name="telefonoPernas2">+ 34 616 806 614</string>
     <string name="emailPernas">compostela@areas.com</string>
 
     <string name="nomeAtallo">ATALLO</string>
     <string name="direccionAtallo">Pontevea, 4</string>
-    <string name="telefonoAtallo">+ 34 630 854 909</string>
+    <string name="telefonoAtallo">+ 34 630 85 49 09</string>
 
     <string name="nomeViveiro">O VIVEIRO DA PÓBOA</string>
     <string name="direccionViveiro">Póboa, 5 - Montouto</string>
@@ -271,7 +271,7 @@
 
     <string name="nomeOCruce">O Cruce</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea</string>
-    <string name="telefonoOCruce">+ 34 637 270 985</string>
+    <string name="telefonoOCruce">+ 34 637 27 09 85</string>
     <string name="webOCruce">Facebook - Bar O Cruce</string>
 
     <string name="nomeLaMamma">RESTAURANTE PIZZERIA LA MAMMA</string>
@@ -929,7 +929,7 @@
 
     <string name="nome_o_piro">O PIRO</string>
     <string name="direccion_o_piro">Lugar O Piro, nº 7</string>
-    <string name="telefono_o_piro">+34 981 807 488</string>
+    <string name="telefono_o_piro">+34 981 80 74 88</string>
 
     <string name="nome_los_robles">LOS ROBLES</string>
     <string name="direccion_los_robles">Ctra. Santiago-A Estrada, Km. 3</string>
@@ -947,7 +947,7 @@
 
     <string name="ciertoBlanco">CIERTO BLANCO</string>
     <string name="direccionCiertoBlanco">Rúa Dos Irmáns Liste Forján,nº 17</string>
-    <string name="telefonoCiertoBlanco">+ 34 981 806 133</string>
+    <string name="telefonoCiertoBlanco">+ 34 981 80 61 33</string>
     <string name="emailCiertoBlanco">info@ciertoblanco.com</string>
     <string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
