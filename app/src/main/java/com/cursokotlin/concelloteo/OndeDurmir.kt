@@ -497,18 +497,11 @@ class OndeDurmir : AppCompatActivity() {
             startActivity(intent);
 
         }
-        val emailVillaSalgueiros = findViewById<TextView>(R.id.emailVillaSalgueiros)
-        emailVillaSalgueiros.setOnClickListener {
-            val intent = Intent(Intent.ACTION_SEND)
-            val recipients = arrayOf(" http://www.greenspainholidays.com/")
-            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Asunto:")
-            intent.putExtra(Intent.EXTRA_TEXT, "")
-            intent.type = "text/html"
-            intent.setPackage("com.google.android.gm")
-            startActivity(Intent.createChooser(intent, "Send mail"))
-        }
 
+        val webVillaSalgueiros = findViewById<TextView>(R.id.webVillaSalgueiros)
+        webVillaSalgueiros.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse( "http://www.greenspainholidays.com/")))
+        }
 
         /*LUCÍ*/
 

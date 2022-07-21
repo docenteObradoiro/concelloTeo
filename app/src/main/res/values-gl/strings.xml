@@ -172,7 +172,7 @@
     <string name="direccionASenra">Ignacio Varela, 5 Bajo</string>
     <string name="telefonoASenra">+34 981 81 57 44</string>
     <string name="emailASenra">asenracafe@gmail.com</string>
-    <string name="webASenra">Facebook - A Senra Café</string>
+    <string name="webASenra">http://www.asenracafe.es/presentacion.html</string>
 
     <string name="AsadorOCarmelo">ASADOR O CARMELO</string>
     <string name="direccionAsadorOCarmelo">Trva. Casalonga, 6 - CALO</string>
@@ -833,7 +833,7 @@
     <string name="webcityhouse">https://www.hoteltilos.com/</string>
 
     <string name="nombrecompostela">COMPOSTELA INN</string>
-    <string name="direcccioncompostela">Montouto</string>
+    <string name="direcccioncompostela">Rúa das Mámoas de Montouto, 4</string>
     <string name="telefonocompostela">+ 34 981 81 90 80</string>
     <string name="telefono2compostela">+ 34 981 81 91 24</string>
     <string name="correocompostela">info@compostelainn.com</string>
