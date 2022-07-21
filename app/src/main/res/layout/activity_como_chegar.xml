@@ -164,7 +164,6 @@
             android:layout_gravity="center"
             android:contentDescription="Coche"
             android:layout_marginTop="15dp"
-            android:layout_marginStart="8dp"
             android:src="@mipmap/mapaconcello" />
 
         <ImageView
