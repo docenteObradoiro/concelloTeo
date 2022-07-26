@@ -87,7 +87,7 @@ class ComerCafeteria : AppCompatActivity() {
         }
         val webChe2 = findViewById<TextView>(R.id.webChe2)
         webChe2.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://canaletto.es/")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://che-2.edan.io/")))
         }
         val emailChe2 = findViewById<TextView>(R.id.emailChe2)
         emailChe2.setOnClickListener {
@@ -279,7 +279,7 @@ class ComerCafeteria : AppCompatActivity() {
         }
         val webSantaSede = findViewById<TextView>(R.id.webSantaSede)
         webSantaSede.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.asantasede.com/")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/Rinconescondidoiguazu/")))
         }
 
         /*O Pintor*/
@@ -357,16 +357,16 @@ class ComerCafeteria : AppCompatActivity() {
 
         /*Piro*/
 
-        val direccionPiro = findViewById<TextView>(R.id.direccionPiro)
-        direccionPiro.setOnClickListener {
+        val telefonoPiro = findViewById<TextView>(R.id.telefonoPiro)
+        telefonoPiro.setOnClickListener {
             val phone = "tel: +34 981807488";
             val intent = Intent(Intent.ACTION_DIAL);
             intent.setData(Uri.parse(phone));
             startActivity(intent);
         }
 
-        val telefonoPiro = findViewById<TextView>(R.id.telefonoPiro)
-        telefonoPiro.setOnClickListener {
+        val direccionPiro = findViewById<TextView>(R.id.direccionPiro)
+        direccionPiro.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Cafe+Bar+O+Piro/@42.7977041,-8.5361936,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f0121605e13d1:0x77a88df19c1271eb!8m2!3d42.797698!4d-8.5340087")))
         }
 
@@ -395,6 +395,10 @@ class ComerCafeteria : AppCompatActivity() {
         val facebookSenra = findViewById<TextView>(R.id.webAsenra)
         facebookSenra.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/asenracafe/")))
+        }
+        val direccionPicolo = findViewById<TextView>(R.id.direccionBarPiccolo)
+        direccionPicolo.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Centro+Comercial+Os+Tilos/@42.8450547,-8.5424743,17z/data=!3m2!4b1!5s0xd2f01c59c959929:0x8dbbfd58a9649bc9!4m5!3m4!1s0xd2f0187ba5ecc75:0x47c2a2f39a9da576!8m2!3d42.8450508!4d-8.5402856")))
         }
     }
 }

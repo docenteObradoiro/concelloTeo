@@ -54,7 +54,7 @@ class ComerAlgoDulce : AppCompatActivity() {
         }
         val webChe2 = findViewById<TextView>(R.id.webChe2)
         webChe2.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://canaletto.es/")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://che-2.edan.io/")))
         }
         val emailChe2 = findViewById<TextView>(R.id.emailChe2)
         emailChe2.setOnClickListener {
