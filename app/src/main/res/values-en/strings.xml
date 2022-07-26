@@ -9,8 +9,6 @@
     <string name="ondeCelebrar">WHERE TO CELEBRATE</string>
     <string name="ondecomer">WHERE TO EAT</string>
 
-
-
     <string name="cervexaria">Brewery</string>
     <string name="osTilos">Os Tilos</string>
 
@@ -26,7 +24,7 @@
     <string name="webChe">https://che-2.edan.io/</string>
 
     <string name="casaJavier">CASA JAVIER</string>
-    <string name="direccionCasaJavier">Vilar de Francos, 115, 15886, Teo</string>
+    <string name="direccionCasaJavier">Vilar de Francos, 115</string>
     <string name="telefonoCasaJavier">+ 34 635 53 66 42</string>
     <string name="emailCasaJavier">vsj2181@yahoo.es</string>
     <string name="webCasaJavier">Facebook - Casa Javier</string>
@@ -55,47 +53,47 @@
     <string name="webCalabaza">Facebook - La Calabaza del Peregrino</string>
 
     <string name="oRincon">O RINCÓN</string>
-    <string name="direccionORincon">A Grela, 15883, Teo</string>
-    <string name="telefonoORincon">+ 34 981 89 31 19</string>
+    <string name="direccionORincon">A Grela</string>
+    <string name="telefonoORincon">+34 981 89 31 19</string>
     <string name="emailORincon">restauranteorincon@hotmail.com</string>
     <string name="webORincon">Facebook - Restaurante O Rincón</string>
 
     <string name="cantina">A CANTINA</string>
-    <string name="direccionCantina">Igrexa, 16, 15883, Teo</string>
-    <string name="telefonoCantina">+ 34 981 89 31 10</string>
+    <string name="direccionCantina">Igrexa, 16</string>
+    <string name="telefonoCantina">+34 981 89 31 10</string>
     <string name="webCantina">Facebook - A Cantina</string>
 
     <string name="hotelCongreso">HOTEL CONGRESO</string>
     <string name="direccionHotelCongreso">Rúa das Mámoas de Montouto, 4</string>
-    <string name="telefonoHotelCongreso">+ 34 981 81 90 80</string>
+    <string name="telefonoHotelCongreso">+34 981 81 90 80</string>
     <string name="emailHotelCongreso">hcongreso@hotelcongreso.com</string>
     <string name="webHotelCongreso">www.hotelcongreso.com</string>
 
     <string name="laCasaDeLasTortillas">LA CASA DE LAS TORTILLAS</string>
-    <string name="direccionLaCasaDeLasTortillas">Travesía de Cacheiras, nº 56, 15883 Teo, A Coruña</string>
-    <string name="telefonoLaCasaDeLasTortillas">+ 34 981 80 71 28</string>
+    <string name="direccionLaCasaDeLasTortillas">Travesía de Cacheiras, nº 56</string>
+    <string name="telefonoLaCasaDeLasTortillas">+34 981 80 71 28</string>
     <string name="webLaCasaDeLasTortillas">shorturl.at/nxZ23</string>
 
     <string name="cerveceriaManu">CERVECERÍA MANU</string>
-    <string name="direccionCerveceriaManu">Tr.ª de Montouto, 49, bajo, 15886 Teo, A Coruña</string>
-    <string name="telefonoCerveceriaManu">+ 34 981 45 84 67</string>
+    <string name="direccionCerveceriaManu">Tr.ª de Montouto, 49, bajo</string>
+    <string name="telefonoCerveceriaManu">+34 981 45 84 67</string>
     <string name="emailCerveceriaManu">cerveceriamanu49@gmail.com</string>
 
     <string name="elRinconDeKoller">EL RINCÓN DE KOLLER</string>
     <string name="direccionElRinconDeKoller">Rúa do Ameneiro, 10</string>
-    <string name="telefonoElRinconDeKoller">+ 34 981 46 13 58</string>
+    <string name="telefonoElRinconDeKoller">+34 981 46 13 58</string>
     <string name="emailElRinconDeKoller">elrincondekoller@gmail.com</string>
     <string name="webElRinconDeKoller">Facebook - El Rincón de Koller</string>
 
     <string name="moradasNoUlla">MU_MORADAS NO ULLA</string>
-    <string name="direccionMoradasNoUlla">Freixeiro 3, 15883, Teo</string>
-    <string name="telefonoMoradasNoUlla">+ 34 652 95 77 83</string>
+    <string name="direccionMoradasNoUlla">Freixeiro 3</string>
+    <string name="telefonoMoradasNoUlla">+34 652 95 77 83</string>
     <string name="emailMoradasNoUlla">reservas@moradasnoulla.com</string>
     <string name="webMoradasNoUlla">www.moradasnoulla.com</string>
 
     <string name="aCasinaDeEsther">A CASIÑA DE ESTHER</string>
-    <string name="direccionACasinaDeEsther">Tras do Eixo, 25, 15883, A Coruña</string>
-    <string name="telefonoACasinaDeEsther">+ 34 647 41 18 84</string>
+    <string name="direccionACasinaDeEsther">Tras do Eixo, 25</string>
+    <string name="telefonoACasinaDeEsther">+34 647 41 18 84</string>
     <string name="emailACasinaDeEsther">info@casitadeesther.com</string>
     <string name="webACasinaDeEsther">www.casitadeesther.com</string>
 
@@ -138,7 +136,7 @@
     <string name="webacolmena">Facebook - Cafe Bar A Colmena</string>
 
     <string name="tiaMaria">TIA MARÍA</string>
-    <string name="direcciontiaMaria">Dos irmans liste forjan, nº 5</string>
+    <string name="direcciontiaMaria">Dos Irmans Liste Forjan, nº 5</string>
     <string name="telefonotiaMaria">+34 981 54 85 70</string>
     <string name="webtiaMaria">Facebook - Tia María Cafe Bar</string>
 
@@ -151,7 +149,7 @@
 
     <string name="mariaCastanha">MARÍA CASTAÑA</string>
     <string name="direccionMariaCastanha">TRAVESIA DA RAMALLOSA, , nº 8</string>
-    <string name="telefonoMariaCastanha">+ 34 981 80 96 28</string>
+    <string name="telefonoMariaCastanha">+34 981 80 96 28</string>
     <string name="webMariaCastanha">http://mariacastanha.com/</string>
 
 
@@ -212,39 +210,39 @@
     <string name="logoConcello">icon Councill</string>
     <string name="menu_hamburguesa">hamburguer menu</string>
     <string name="facebook">facebook</string>
-    <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí, 15883 \nTeo, A Coruña</string>
-    <string name="telefonoConcello">+34 698 183 421</string>
+    <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí</string>
+    <string name="telefonoConcello">+34 698 18 34 21</string>
     <string name="correoTurismo">turismo@teo.gal</string>
     <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
 
 
     <string name="oSonDoMino">O SON DO MIÑO</string>
-    <string name="direccionOSonDoMino">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="direccionOSonDoMino">Lugar de Rivas, 82</string>
     <string name="telefonoOSonDoMino">+34 981 80 76 71</string>
     <string name="emailOSonDoMino">info@osondominho.com</string>
     <string name="webOSonDoMino">www.osondominho.com</string>
 
     <string name="parrilladaChaves">PARRILLADA CHAVES</string>
-    <string name="direccionParrilladaChaves">Igrexa, 8, 15883 Teo, A Coruña</string>
-    <string name="telefonoParrilladaChaves">+34 981 805 545</string>
+    <string name="direccionParrilladaChaves">Igrexa, 8</string>
+    <string name="telefonoParrilladaChaves">+34 981 80 55 45</string>
     <string name="emailParrilladaChaves">parrilladachaves@gmail.com</string>
     <string name="webParrilladaChaves">www.facebook.com/chaves</string>
 
 
 
-    <string name="direccionParadaDeFrancos">Rúa de Francos, 44, 15886 Teo</string>
+    <string name="direccionParadaDeFrancos">Rúa de Francos, 44</string>
     <string name="telefonoParaDeFrancos">+34 981 53 80 04</string>
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
     <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
 
     <string name="oSonDoMiño">O SON DO MIÑO</string>
-    <string name="direccionOSonDoMiño">Lugar de Rivas, 82, 15886, Oza-Teo</string>
+    <string name="direccionOSonDoMiño">Lugar de Rivas, 82</string>
     <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
     <string name="emailOSonDoMiño">info@osondominho.com</string>
     <string name="webOSonDoMiño">www.osondominho.com</string>
 
     <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
-    <string name="direccionFogarDoSantiso">Trasellas,13, 15886, Teo, A Coruña</string>
+    <string name="direccionFogarDoSantiso">Trasellas,13</string>
     <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
     <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
 
@@ -255,31 +253,31 @@
 
     <string name="nomerinconEscondido">EL RINCÓN ESCONDIDO</string>
     <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
-    <string name="telefonoRincoEscondidon">+ 34 627 453 245</string>
+    <string name="telefonoRincoEscondidon">+34 627 45 32 45</string>
     <string name="webRinconEscondido">https://cafeteria-el-rincon-escondido.negocio.site/</string>
 
-    <string name="nomePernas">Casa Pernas</string>
+    <string name="nomePernas">CASA PERNAS</string>
     <string name="direccionPernas">Ignacio Varela, 25 Bajo 1 - Pontevea</string>
-    <string name="telefonoPernas1">+ 34 981 809 231</string>
-    <string name="telefonoPernas2">+ 34 616 806 614</string>
+    <string name="telefonoPernas1">+34 981 80 92 31</string>
+    <string name="telefonoPernas2">+34 616 80 66 14</string>
     <string name="emailPernas">compostela@areas.com</string>
 
     <string name="nomeAtallo">ATALLO</string>
     <string name="direccionAtallo">Pontevea, 4</string>
-    <string name="telefonoAtallo">+ 34 630 854 909</string>
+    <string name="telefonoAtallo">+34 630 85 49 09</string>
 
     <string name="nomeViveiro">O VIVEIRO DA PÓBOA</string>
     <string name="direccionViveiro">Póboa, 5 - Montouto</string>
-    <string name="telefonoViveiro">+ 34 619 670 888</string>
+    <string name="telefonoViveiro">+34 619 67 08 88</string>
 
     <string name="nomeVeiga">A VEIGA ASADOR VINOTECA</string>
     <string name="direccionVeiga">Trva. Cacheiras, 42</string>
-    <string name="telefonoVeiga">+ 34 981 800 140</string>
+    <string name="telefonoVeiga">+34 981 80 01 40</string>
 
     <string name="nomeSanMartiño">RESTAURANTE SAN MARTIÑO</string>
     <string name="direccionSanMartiño">Lugar O Espiño, Calo</string>
-    <string name="telefonoSanMartiño1">+ 34 981 548 463</string>
-    <string name="telefonoSanMartiño2">+ 34 698 109 823</string>
+    <string name="telefonoSanMartiño1">+34 981 54 84 63</string>
+    <string name="telefonoSanMartiño2">+34 698 10 98 23</string>
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
@@ -288,70 +286,70 @@
 
     <string name="nomeCasaCacheiras">Casa Cacheiras</string>
     <string name="direccionCasaCacheiras">Lugar Constenla, 23, Cacheiras</string>
-    <string name="telefonoCasaCacheiras">+ 34 689 004 986</string>
+    <string name="telefonoCasaCacheiras">+34 689 00 49 86</string>
 
     <string name="nomePortugalicia">PORTUGALICIA</string>
     <string name="direccionPortugalicia">Trva. Cacheiras, 46</string>
-    <string name="telefonoPortugalicia">+ 34 676 396 141</string>
+    <string name="telefonoPortugalicia">+34 676 39 61 41</string>
     <string name="emailPortugalicia">elisardobernardez@gmail.com</string>
 
-    <string name="nomeOCruce">O Cruce</string>
+    <string name="nomeOCruce">O CRUCE</string>
     <string name="direccionOCruce">Ignacio Valera, 10, Pontevea</string>
-    <string name="telefonoOCruce">+ 34 637 270 985</string>
+    <string name="telefonoOCruce">+34 637 27 09 85</string>
     <string name="webOCruce">Facebook - Bar O Cruce</string>
 
     <string name="nomeLaMamma">RESTAURANTE PIZZERIA LA MAMMA</string>
     <string name="direccionLaMamma">Ignacio Varela, 1, Pontevea</string>
-    <string name="telefonoLaMamma1">+ 34 881 010 509</string>
-    <string name="telefonoLaMamma2">+ 34 653 301 448</string>
+    <string name="telefonoLaMamma1">+34 881 01 05 09</string>
+    <string name="telefonoLaMamma2">+34 653 30 14 48</string>
 
     <string name="nomeLaGranja">LA GRANJA</string>
     <string name="direccionLaGranja">Ferreiriño, 15 (Ctra. Santiago a Estrada), Pontevea</string>
-    <string name="telefonoLaGranja">+ 34 981 809 489</string>
+    <string name="telefonoLaGranja">+34 981 80 94 89</string>
 
     <string name="nomeAldeaSestelo">Aldea de Sestelo</string>
     <string name="direccionAldeaSestelo">Lugar de Sestelo, 35</string>
 
     <string name="nomeACasaDeBlanco">A Casa de Blanco</string>
     <string name="direccionACasaDeBlanco">Raris, 47</string>
-    <string name="telefonoACasaDeBlanco">+ 34 666523707</string>
+    <string name="telefonoACasaDeBlanco">+34 666 52 37 07</string>
 
     <string name="nomeVillaJubells">Villa Jubells</string>
     <string name="direccionVillaJubells">Camino a Vilaverde, Osebe</string>
-    <string name="telefonoVillaJubells">+ 34 609 560 104</string>
+    <string name="telefonoVillaJubells">+34 609 56 01 04</string>
 
     <string name="barEme">BAR EME</string>
     <string name="direccionBarEme">Constenla, 37</string>
-    <string name="telefonoBarEme">+ 34 981 80 61 33</string>
+    <string name="telefonoBarEme">+34 981 80 61 33</string>
     <string name="emailBarEme">vitaygus@hotmail.com</string>
     <string name="webBarEme">Facebook - Cafe Bar Eme</string>
 
     <string name="nomeChaves">Chaves</string>
     <string name="direccionChaves">Iglesia, 8, Luou</string>
-    <string name="telefonoChaves">+ 34 981 805 545</string>
+    <string name="telefonoChaves">+34 981 80 55 45</string>
     <string name="emailChaves">parrilladachaves@gmail.com</string>
     <string name="webChaves">www.facebook.com/chaves</string>
 
     <string name="nomeLosRobles">Los Robles</string>
     <string name="direccionLosRobles">Ctra. Santiago-A Estrada, Km. 3, Montouto</string>
-    <string name="telefonoLosRobles">+ 34 981 806 361</string>
+    <string name="telefonoLosRobles">+34 981 80 63 61</string>
     <string name="emailLosRobles">losrobles@losroblesdesantiago.com</string>
     <string name="webLosRobles">www.losroblesdesantiago.com</string>
 
     <string name="nomeCasaNerea">Casa Nerea</string>
-    <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), 25, 15883, Cacheiras, Teo</string>
-    <string name="telefonoNerea">+ 34 665 850 909</string>
+    <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), Cacheiras 25</string>
+    <string name="telefonoNerea">+34 665 85 09 09</string>
 
     <string name="nomeCasaManola">Casa Manola</string>
-    <string name="direccionCasaManola">Raris, 80, Teo </string>
-    <string name="telefonoCasaManola1">+ 34 981 809 374</string>
-    <string name="telefonoCasaManola2">+ 34 699 789 153</string>
+    <string name="direccionCasaManola">Raris, 80</string>
+    <string name="telefonoCasaManola1">+34 981 80 93 74</string>
+    <string name="telefonoCasaManola2">+34 699 78 91 53</string>
     <string name="emailCasaManola">info@casamanola.gal</string>
     <string name="webCasaManola">https://www.casamanola.gal/</string>
 
     <string name="nomeLaPausa">LA PAUSA</string>
     <string name="direccionLaPausa">Autopista AP-9, Km. 81</string>
-    <string name="telefonoLaPausa">+ 34 981 805 514</string>
+    <string name="telefonoLaPausa">+34 981 80 55 14</string>
     <string name="emailLaPausa">compostela@areas.com</string>
 
     <string name="nomeLoncho">LONCHO</string>
@@ -459,7 +457,7 @@
     <string name="alalaCorreo">atelier@alalacouture.com</string>
 
     <string name="arteCeltaArtesan">Pablo Leal</string>
-    <string name="arteCeltaDireccion">Agoso, 41, \n15886 Ribeira</string>
+    <string name="arteCeltaDireccion">Agoso, 41, \n15960 Ribeira</string>
     <string name="arteCeltaTelefono">+34 981 809 464</string>
     <string name="arteCeltaCorreo">info@pabloleal.com</string>
     <string name="arteCeltaDescricion">Artesanía con metais, latón, inox, bronce.</string>
@@ -803,15 +801,15 @@
 
     <string name="nombrecornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccioncornide">Cornide,82</string>
-    <string name="telefonocornide">+ 34 981 89 30 44</string>
-    <string name="telefono2cornide">+ 34 981 96 42 48</string>
+    <string name="telefonocornide">+34 981 89 30 44</string>
+    <string name="telefono2cornide">+34 981 96 42 48</string>
     <string name="correocornide">casagrandedecornide@gmail.com</string>
     <string name="webcornide">http://www.casagrandedecornide.es</string>
 
     <string name="nombrecastaña">MARÍA CASTAÑA</string>
     <string name="direccioncastaña">Travesía da Ramallosa,8</string>
-    <string name="telefonocastaña">+ 34 981 80 96 28</string>
-    <string name="telefono2castaña">+ 34 981 80 39 43</string>
+    <string name="telefonocastaña">+34 981 80 96 28</string>
+    <string name="telefono2castaña">+34 981 80 39 43</string>
     <string name="webcastaña">http://mariacastanha.com/</string>
 
     <string name="nombrebueliña">BUELIÑA DA CARBALLEIRA</string>
@@ -819,35 +817,35 @@
 
     <string name="nombrecityhouse">CITY HOUSE LOS TILOS</string>
     <string name="direcccioncityhouse">Urb. Los Tilos, Estrada Santiago-A Estrada km2</string>
-    <string name="telefonocityhouse">+ 34 981 81 92 00</string>
-    <string name="telefono2cityhouse">+ 34 981 80 15 14</string>
+    <string name="telefonocityhouse">+34 981 81 92 00</string>
+    <string name="telefono2cityhouse">+34 981 80 15 14</string>
     <string name="correocityhouse">reservas.tilos@farandahotels.com</string>
     <string name="webcityhouse">https://www.hoteltilos.com/</string>
 
     <string name="nombrecompostela">COMPOSTELA INN</string>
     <string name="direcccioncompostela">Montouto</string>
-    <string name="telefonocompostela">+ 34 981 81 90 80</string>
-    <string name="telefono2compostela">+ 34 981 81 91 24</string>
+    <string name="telefonocompostela">+34 981 81 90 80</string>
+    <string name="telefono2compostela">+34 981 81 91 24</string>
     <string name="correocompostela">info@compostelainn.com</string>
     <string name="webcompostela">http://www.compostelainn.com/</string>
 
     <string name="nombregandarela">A GANDARELA</string>
     <string name="direccciongandarela">A Insua,72</string>
-    <string name="telefonogandarela">+ 34 981 80 58 68</string>
+    <string name="telefonogandarela">+34 981 80 58 68</string>
     <string name="correogandarela">agrodagandarela@gmail.com</string>
     <string name="webgandarela">http://www.agrodagandarela.com</string>
 
     <string name="nombremanola">CASA MANOLA</string>
     <string name="direcccionmanola">Rarís,80</string>
-    <string name="telefonomanola">+ 34 981 80 93 74</string>
-    <string name="telefono2manola">+ 34 699 78 91 53</string>
+    <string name="telefonomanola">+34 981 80 93 74</string>
+    <string name="telefono2manola">+34 699 78 91 53</string>
     <string name="correomanola">info@casamanola.gal</string>
     <string name="webmanola">https://www.casamanola.gal/</string>
 
     <string name="pazoDeAdran">PAZO DE ADRÁN</string>
     <string name="direccionPazoDeAdran">Lugar De Adran,4</string>
-    <string name="telefonoPazoDeAdran">+ 34 981 57 00 00</string>
-    <string name="telefono2adran">+ 34 620 906 602</string>
+    <string name="telefonoPazoDeAdran">+34 981 57 00 00</string>
+    <string name="telefono2adran">+34 620 90 66 02</string>
     <string name="emailPazoDeAdran">info@pazodeadran.es</string>
     <string name="correo2adran">comercial@pazodeadran.es</string>
     <string name="webPazoDeAdran">Pazodeadran.com</string>
@@ -857,50 +855,50 @@
 
     <string name="nombrealbeitaria">A ALBEITARÍA</string>
     <string name="direcccionalbeitaria">Lugar de Olveira,15</string>
-    <string name="telefonoalbeitaria">+ 34 981 809 241</string>
+    <string name="telefonoalbeitaria">+34 981 80 92 41</string>
     <string name="correoalbeitaria">info@albeitaria.com</string>
     <string name="webalbeitaria">http://albeitaria.com</string>
 
     <string name="nombremotel">MOTEL VENUS</string>
     <string name="direcccionmotel">Travesía Lugar de Luou,1 </string>
-    <string name="telefonomotel">+ 34 981 80 02 05</string>
+    <string name="telefonomotel">+34 981 80 02 05</string>
     <string name="correomotel">recepcionsantiago@motel-venus.com</string>
     <string name="webmotel">https://www.motelvenussantiago.com/</string>
 
     <string name="nombrecarolina">CASA CAROLINA</string>
     <string name="direcccioncarolina">Osebe,10</string>
-    <string name="telefonocarolina">+ 34 981 80 02 05</string>
+    <string name="telefonocarolina">+34 699 35 16 53</string>
 
     <string name="nombrefaramello">ALBERGUE DE PEREGRINOS DE FARAMELLO</string>
     <string name="direcccionfaramello">Vilares,s/n</string>
-    <string name="telefonofaramello">+ 34 636 32 35 69</string>
+    <string name="telefonofaramello">+34 636 32 35 69</string>
     <string name="webfaramello">http://www.caminodesantiago.gal</string>
 
     <string name="nombresalgueiros">VILLA SALGUEIROS</string>
     <string name="direcccionsalgueiros">Guldris,41</string>
-    <string name="telefonosalgueiros">+ 34 616 92 66 98</string>
+    <string name="telefonosalgueiros">+34 616 92 66 98</string>
     <string name="websalgueiros">http://www.greenspainholidays.com/</string>
 
     <string name="nomeEme">BAR EME</string>
     <string name="direccionEme">Constela,37</string>
-    <string name="telefonoEme">+ 34 981 806 133</string>
+    <string name="telefonoEme">+34 981 80 61 33</string>
     <string name="emailEme">vitaygus@hotmail.com</string>
     <string name="webEme">https://www.facebook.com/cafeteriaeme/</string>
     
     <string name="caf_bar_bustelo">CAFÉ BAR BUSTELO</string>
     <string name="direccionBarBustelo">Igrexa, 48 Calo (camiño de texexe)</string>
-    <string name="telefonoBarBustelo">+34 981 548 279</string>
-    <string name="telefono2BarBustelo">+34 616 221 715</string>
+    <string name="telefonoBarBustelo">+34 981 54 82 79</string>
+    <string name="telefono2BarBustelo">+34 616 22 17 15</string>
     
     <string name="restaurante_canaletto">RESTAURANTE CANALETTO</string>
     <string name="direccion_canaletto">Trva. Cacheiras, 21</string>
-    <string name="telefono_canaletto">+34 981 806 834</string>
+    <string name="telefono_canaletto">+34 981 80 68 34</string>
     <string name="email_canaletto">lcastineirascampos@gmail.com</string>
     <string name="web_canaletto">https://www.canaletto.es/</string>
     
     <string name="nome_a_ramallosa">A RAMALLOSA</string>
     <string name="direccion_a_ramallosa">Trva. da Ramallosa, 6</string>
-    <string name="telefono_a_ramallosa">+34 637 562 766</string>
+    <string name="telefono_a_ramallosa">+34 637 56 27 66</string>
     <string name="email_a_ramallosa">ramallosacafeteria@gmail.com</string>
     <string name="web_a_ramallosa">Instagram - @cafeteria_ramallosa</string>
     
@@ -911,7 +909,7 @@
       
     <string name="nome_a_santa_sede">A SANTA SEDE</string>
     <string name="direccion_a_santa_sede">Travesía da Ramallosa, nº22</string>
-    <string name="telefono_a_santa_sede">+34 981 809 228</string>
+    <string name="telefono_a_santa_sede">+34 981 80 92 28</string>
     <string name="email_a_santa_sede">javi-sant@misvides.com</string>
     <string name="web_a_santa_sede">https://www.asantasede.com/</string>
     
@@ -923,8 +921,8 @@
     
     <string name="a_d_maria">A D´MARÍA</string>
     <string name="direccion_a_d_maria">Trva. Cacheiras, 51 - Cacheiras</string>
-    <string name="telefono_a_d_maria">+34 981 800 103</string>
-    <string name="telefono2_a_d_maria">+34 609 166 523</string>
+    <string name="telefono_a_d_maria">+34 981 80 01 03</string>
+    <string name="telefono2_a_d_maria">+34 609 16 65 23</string>
     <string name="web_a_d_maria">pulperiadmaria.wixsite.com/pulperiadmaria</string>
     
     <string name="nome_bar_piccolo">BAR PICCOLO</string>
@@ -932,35 +930,48 @@
     
     <string name="nome_o_piro">O PIRO</string>
     <string name="direccion_o_piro">Lugar O Piro, nº 7</string>
-    <string name="telefono_o_piro">+34 981 807 488</string>
+    <string name="telefono_o_piro">+34 981 80 74 88</string>
     
     <string name="nome_los_robles">LOS ROBLES</string>
     <string name="direccion_los_robles">Ctra. Santiago-A Estrada, Km. 3</string>
-    <string name="telefono_los_robles">+34 981 806 361</string>
+    <string name="telefono_los_robles">+34 981 80 63 61</string>
     <string name="email_los_robles">losrobles@losroblesdesantiago.com</string>
     <string name="web_los_robles">www.losroblesdesantiago.com</string>
     
     <string name="nome_casa_grande_de_cornide">CASA GRANDE DE CORNIDE</string>
     <string name="direccion_casa_grande_de_cornide">Cornide, 82</string>
-    <string name="telefono_casa_grande_de_cornide">+34 981 893 044</string>
-    <string name="telefono2_casa_grande_de_cornide">+34 981 964 248</string>
+    <string name="telefono_casa_grande_de_cornide">+34 981 89 30 44</string>
+    <string name="telefono2_casa_grande_de_cornide">+34 981 96 42 48</string>
     <string name="email_casa_grande_de_cornide">casagrandedecornide@gmail.com</string>
     <string name="web_casa_grande_de_cornide">http://www.casagrandedecornide.es</string>
     <string name="vis_tanos">VISIT US</string>
 
     <string name="ofornodauri">O FORNO DAURI</string>
     <string name="direccionofornodauri">Travesía de Montouto, nº 22 - Bloque C</string>
-    <string name="telefonoofornodauri">+34 626 709 347</string>
+    <string name="telefonoofornodauri">+34 626 70 93 47</string>
     <string name="emailofornodauri"></string>
     <string name="webofornodauri">Facebook - O Forno de DAuri</string>
 
     <string name="ciertoBlanco">CIERTO BLANCO</string>
     <string name="direccionCiertoBlanco">Rúa Dos Irmáns Liste Forján,nº 17</string>
-    <string name="telefonoCiertoBlanco">+ 34 981 80 61 33</string>
-
+    <string name="telefonoCiertoBlanco">+34 981 54 83 83</string>
+    <string name="telefonoCiertoBlanco2">+34 619 11 02 32</string>
     <string name="emailCiertoBlanco">info@ciertoblanco.com</string>
     <string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
     <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
+
+
+
+    <string name="lineaVerde">Separator</string>
+
+
+    <string name="restaurantePeteirosEEspinha">PETEIROS E ESPIÑAS</string>
+    <string name="direccionPeteirosEEspinha">Travesía de Cacheiras, 145</string>
+    <string name="telefonoPeteirosEEspinha">+34 981 80 65 73</string>
+    <string name="emailPeteirosEEspinha">peteiro.restaurante@gmail.com</string>
+    <string name="webPeteirosEEspinha">Web - Peteiros e espiñas</string>
+
+
 
 </resources>

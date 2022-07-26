@@ -125,7 +125,7 @@ class ComerTradicionalGalega : AppCompatActivity() {
         }
 
 
-        val correopeteiroseEspinhas=findViewById<TextView>(R.id.emailPortico)
+        val correopeteiroseEspinhas=findViewById<TextView>(R.id.emailPeteirosEspinas)
         correopeteiroseEspinhas.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
             val recipients = arrayOf("peteiro.restaurante@gmail.com")
@@ -174,7 +174,7 @@ class ComerTradicionalGalega : AppCompatActivity() {
 
         val telefonociertoBlanco = findViewById<TextView>(R.id.telefonoCiertoBlanco)
         telefonociertoBlanco.setOnClickListener {
-            val phone = "tel: +34 981 54 83 26";
+            val phone = "tel: +34 981 54 83 83";
             val intent = Intent (Intent.ACTION_DIAL);
             intent.setData(Uri.parse(phone));
             startActivity(intent);
