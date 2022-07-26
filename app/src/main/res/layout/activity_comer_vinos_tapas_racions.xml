@@ -14,7 +14,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:background="#F9FBF9"
-        android:contentDescription="botonTeo"
+        android:contentDescription="@string/logoConcello"
         android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -29,7 +29,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
+        android:contentDescription="@string/menu_hamburguesa"
         android:foreground="?android:attr/selectableItemBackground"
         android:scaleType="fitXY"
         android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -56,12 +56,13 @@
         android:id="@+id/imageView3"
         android:layout_width="362dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="155dp"
         android:foregroundTint="#2DFFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/lineaverder" />
+        app:srcCompat="@mipmap/lineaverder"
+        android:contentDescription="@string/lineaVerde" />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -99,7 +100,7 @@
                 android:layout_marginTop="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -236,7 +237,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/beto" />
+                            android:src="@drawable/beto"
+                            android:contentDescription="@string/Betos" />
 
                         <ImageButton
                             android:id="@+id/logoLocalBetos"
@@ -388,6 +390,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
+                            android:contentDescription="@string/nomeViveiro"
                             android:src="@mipmap/oviverodapoboa" />
 
                         <TextView
@@ -506,6 +509,7 @@
                             android:id="@+id/barSauce"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/nomeSauce"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/sauce" />
 
@@ -596,7 +600,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/nccoffeebar" />
+                            android:src="@mipmap/nccoffeebar"
+                            android:contentDescription="@string/ncCoffeeBar" />
 
                         <ImageButton
                             android:id="@+id/logoLocalNcCoffeeBar"
@@ -608,7 +613,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalNcCoffeeBar"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -625,7 +630,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionNcCoffeeBar"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -642,7 +647,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoNcCoffeeBar"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -717,7 +722,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/bareme" />
+                            android:src="@drawable/bareme"
+                            android:contentDescription="@string/barEme" />
 
                         <ImageButton
                             android:id="@+id/logoLocalBarEme"
@@ -729,7 +735,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalBarEme"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -763,7 +769,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoBarEme"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -780,7 +786,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfoBarEme"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -884,7 +890,7 @@
                 android:layout_marginBottom="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -903,7 +909,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/braulio" />
+                            android:src="@drawable/braulio"
+                            android:contentDescription="@string/Braulio" />
 
                         <ImageButton
                             android:id="@+id/logoBraulio"
@@ -915,7 +922,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocal"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -966,7 +973,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1070,7 +1077,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocal"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1126,7 +1133,8 @@
                             android:text="@string/Ranha"
                             android:textColor="#415419"
                             android:textSize="12sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="TooManyViews" />
 
                         <TextView
                             android:id="@+id/direccionRanha"
@@ -1178,7 +1186,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/tiamaria" />
+                            android:src="@drawable/tiamaria"
+                            android:contentDescription="@string/tiaMaria" />
 
                         <ImageButton
                             android:id="@+id/logoTiaMaria"
@@ -1190,7 +1199,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocal"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1241,7 +1250,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1330,7 +1339,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/casajavier" />
+                            android:src="@mipmap/casajavier"
+                            android:contentDescription="@string/casaJavier" />
 
                         <ImageButton
                             android:id="@+id/logoLocalCasaJavier"
@@ -1342,7 +1352,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalCasaJavier"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1359,7 +1369,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionCasaJavier"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1376,7 +1386,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCasaJavier"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1393,7 +1403,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1510,7 +1520,8 @@
                     android:layout_height="match_parent"
                     android:background="#000000"
                     android:scaleType="centerCrop"
-                    android:src="@mipmap/orincon" />
+                    android:src="@mipmap/orincon"
+                    android:contentDescription="@string/oRincon" />
 
                 <ImageButton
                     android:id="@+id/logoLocalORincon"
@@ -1522,7 +1533,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoLocalORincon"
+                    android:contentDescription="@string/logoLocal"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1539,7 +1550,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoDireccionORincon"
+                    android:contentDescription="@string/logoDireccion"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1556,7 +1567,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoTelefonoElRinconDeKoller"
+                    android:contentDescription="@string/logoTelf"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1573,7 +1584,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoInfo"
+                    android:contentDescription="@string/logoInfo"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1675,7 +1686,7 @@
                 android:layout_marginBottom="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -1695,7 +1706,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/opintor" />
+                            android:src="@mipmap/opintor"
+                            android:contentDescription="@string/oPintor" />
 
                         <ImageButton
                             android:id="@+id/logoLocalOPintor"
@@ -1707,7 +1719,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalOPintor"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1724,7 +1736,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionOPintor"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1741,7 +1753,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoOPintor"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1758,7 +1770,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1844,7 +1856,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/cantina" />
+                            android:src="@mipmap/cantina"
+                            android:contentDescription="@string/cantina" />
 
                         <ImageButton
                             android:id="@+id/logoLocalCantina"
@@ -1856,7 +1869,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalCantina"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1873,7 +1886,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionCantina"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1890,7 +1903,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCantina"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1907,7 +1920,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -1999,7 +2012,7 @@
                 android:layout_marginBottom="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -2020,7 +2033,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/elrincondekoller" />
+                            android:src="@mipmap/elrincondekoller"
+                            android:contentDescription="@string/elRinconDeKoller" />
 
                         <ImageButton
                             android:id="@+id/logoLocalElRinconDeKoller"
@@ -2032,7 +2046,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalElRinconDeKoller"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2049,7 +2063,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionElRinconDeKoller"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2066,7 +2080,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoElRinconDeKoller"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2083,7 +2097,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2184,7 +2198,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/bar_piccolo" />
+                            android:src="@drawable/bar_piccolo"
+                            android:contentDescription="@string/nome_bar_piccolo" />
 
                         <ImageButton
                             android:id="@+id/logoLocalBarPiccolo"
@@ -2286,7 +2301,8 @@
                     android:layout_height="match_parent"
                     android:background="#000000"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/o_piro" />
+                    android:src="@drawable/o_piro"
+                    android:contentDescription="@string/nome_o_piro" />
 
                 <ImageButton
                     android:id="@+id/logoLocalPiro"
@@ -2298,7 +2314,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoLocalPiro"
+                    android:contentDescription="@string/logoLocal"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2315,7 +2331,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoDireccionPiro"
+                    android:contentDescription="@string/logoDireccion"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2332,7 +2348,7 @@
                     android:layout_marginTop="30dp"
                     android:background="#00FFFFFF"
                     android:backgroundTint="#00FFFFFF"
-                    android:contentDescription="logoTelefonoPiro"
+                    android:contentDescription="@string/logoTelf"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2350,7 +2366,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_toEndOf="@+id/logoLocalPiro"
                     android:gravity="center_vertical"
-                    android:text="O PIRO"
+                    android:text="@string/nome_o_piro"
                     android:textColor="#415419"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -2381,7 +2397,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_toEndOf="@+id/logoTelefonoPiro"
                     android:gravity="center_vertical"
-                    android:text="+34 981 807 488"
+                    android:text="@string/telefono_o_piro"
                     android:textColor="#415419"
                     android:textSize="12sp" />
 
@@ -2402,7 +2418,7 @@
                 android:layout_marginBottom="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <!--        A COLMENA-->
@@ -2423,7 +2439,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/acolmena" />
+                            android:src="@drawable/acolmena"
+                            android:contentDescription="@string/acolmena" />
 
                         <ImageButton
                             android:id="@+id/logoAcolmena"
@@ -2435,7 +2452,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocal"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2486,7 +2503,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2577,7 +2594,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/atallo" />
+                            android:src="@mipmap/atallo"
+                            android:contentDescription="@string/nomeAtallo" />
 
                         <TextView
                             android:id="@+id/telefonoAtallo"
@@ -2635,7 +2653,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="Atallo"
+                            android:contentDescription="@string/nomeAtallo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2652,7 +2670,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoAtallo"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2669,7 +2687,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalAtallo"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2697,7 +2715,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/casapernas" />
+                            android:src="@mipmap/casapernas"
+                            android:contentDescription="@string/nomePernas" />
 
                         <TextView
                             android:id="@+id/telefonoCasaPernas"
@@ -2773,7 +2792,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCasaPernas"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2790,7 +2809,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalCasaPernas"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2819,7 +2838,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/ocruce" />
+                            android:src="@mipmap/ocruce"
+                            android:contentDescription="@string/nomeOCruce" />
 
 
                         <ImageButton
@@ -2832,7 +2852,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalOCruce"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2896,7 +2916,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoOCruce"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2945,7 +2965,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfoOCruce"
+                            android:contentDescription="@string/logoInfo"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
