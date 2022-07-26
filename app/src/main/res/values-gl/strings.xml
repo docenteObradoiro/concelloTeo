@@ -542,17 +542,19 @@
     <string name="dificultad">Dificultade</string>
     <string name="baja">Baixa</string>
     <string name="señalizacion">Sinalización</string>
-    <string name="textoRuta1">Camiño tradicional que, partindo da capela de Santa Ana (Agrela), bordea a fonte da Grela (datada no 1868) e discorre fundamentalmente paralelo ao Rego do Tarrío. Actualmente consérvanse os restos de nove muíños, un deles con restos dunha antigo serradoiro. De grande beleza natural por atravesar un bosque de ribeira o máis destacable da ruta é a presenza do Marco Medieval tamén na beira do regato e que marca o linde entre os concellos de Teo e Padrón.
-            \n \nO nome da ruta extraémolo dun verso do trobador Compostelán Joán Airas nunha cantiga de amor onde amosa a súa desesperanza pola marcha da muller amada. A marcha era por un camiño medieval a Santiago que atravesaba o Concello de Teo de norte a Sur, subindo cara Lampai en dirección a Padrón.</string>
+    <string name="textoRuta1">Camiño tradicional que, partindo da capela de Santa Ana (Agrela), bordea a fonte da Grela (datada no 1868) e discorre fundamentalmente paralelo ao Rego do Tarrío. Actualmente consérvanse os restos de nove muíños, un deles con restos dunha antigo serradoiro. De grande beleza natural por atravesar un bosque de ribeira o máis destacable da ruta é a presenza do <b>Marco Medieval</b> tamén na beira do regato e que marca o linde entre os concellos de Teo e Padrón.
+            \n \nO nome da ruta extraémolo dun verso do trobador Compostelán Joán Airas nunha cantiga de amor onde amosa a súa desesperanza pola marcha da muller amada. A marcha era por un camiño medieval a Santiago que atravesaba o Concello de Teo de norte a Sur, subindo cara Lampai en dirección a Padrón.
+            \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero2">2</string>
     <string name="rutaApegoCreceiro">Ruta Apego Creceiro de Francos - Ponte Paradela</string>
     <string name="kmRuta2">1.71 km</string>
     <string name="desnivelruta2">⇑ 23m</string>
-    <string name="textoRuta2">Ruta lineal que atravesa a Carballeira de Francos e discorre paralela ao río Tinto ata chegar á Ponte Paradela. \n \nCon saída dende o Cruceiro gótico de Francos, esta ruta atravesa lugares moi emblemáticos como a propia carballeira onde ten lugar a Feira do San Martiño. Deixa atrás a aldea de Francos para discorrer paralela ao río Tinto aproveitando unha pista forestal e chega finalmente a Ponte Paradela onde hai un merendoiro.
+    <string name="textoRuta2">Ruta lineal que atravesa a Carballeira de Francos e discorre paralela ao río Tinto ata chegar á <b>Ponte Paradela</b>. \n \nCon saída dende o <b>Cruceiro gótico de Francos</b>, esta ruta atravesa lugares moi emblemáticos como a propia carballeira onde ten lugar a Feira do San Martiño. Deixa atrás a aldea de Francos para discorrer paralela ao río Tinto aproveitando unha pista forestal e chega finalmente a Ponte Paradela onde hai un merendoiro.
     \n \nTrátase dunha ruta de ida e volta onde ademais dos elementos patrimoniais vinculados á aldea, como os muíños do último tramo, tamén podemos gozar do ecosistema de río, sobre todo as árbores e flores da ribeira.
-    \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e por ende, son accesibles para persoas con mobilidade reducida tamén. Nalgunhas épocas de moita chuvia o último tramo pode presentar marcas de escorrenta que dificulten o paso.</string>
+    \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e por ende, son accesibles para persoas con mobilidade reducida tamén. Nalgunhas épocas de moita chuvia o último tramo pode presentar marcas de escorrenta que dificulten o paso.
+    \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
     <string name="si">Si</string>
     <string name="textoSinalizacion2">Si. Inicio desde a \nEscola de Francos</string>
     <string name="inicioRuta">Inicio da Ruta</string>
@@ -568,8 +570,9 @@
     <string name="textoSinalizacion3">Si. Inicio na \nrectoral de Bamonde</string>
     <string name="coordenadaRuta3">Coordenadas GPS: \n42.784053602488946,\n-8.511513559903454</string>
     <string name="textoRuta3">Ruta da Batalla de Cacheiras que vén conmemorar os acontecementos sucedidos o 23 de abril de 1846.\n \nA ruta da Batalla de Cacheiras é un percorrido que vai dende Bamonde ao alto de Montouto e pretende ser unha réplica do camiño que fixeron algúns dos soldados do xeneral de La Concha que na noite do 23 de Abril de 1846 fixeron noite en Bamonde para enfrontarse ó exercito sublevado liderado polo xeneral Solís na afamada Batalla. Camiños cheos de historia, de cultura, de fermosas paisaxes e arquitectura popular que atravesan as parroquias de Bamonde, Oza e Cacheiras.
-            \n \nTrátase dunha ruta lineal que comeza ao pé da reitoral de Bamonde e remata no cumio de Montouto. Ao longo do percorrido destacan elementos patrimoniais como igrexas, cruceiros ou núcleos rurais tradicionais, pero tamén elementos naturais de gran beleza como o salto de auga do río Santa Lucía ao seu paso polo Recobio, así como o propio miradoiro de Montouto.
-            \n \nA ruta está perfectamente sinalizada (nos dous sentidos de paso) e conta tamén con sinaléctica para os elementos patrimoniais máis destacables no percorrido.</string>
+        \n \nTrátase dunha ruta lineal que comeza ao pé da <b>reitoral de Bamonde</b> e remata no cumio de Montouto. Ao longo do percorrido destacan elementos patrimoniais como igrexas, cruceiros ou núcleos rurais tradicionais, pero tamén elementos naturais de gran beleza como o salto de auga do río Santa Lucía ao seu paso polo Recobio, así como o propio <b>miradoiro de Montouto</b>.
+            \n \nA ruta está perfectamente sinalizada (nos dous sentidos de paso) e conta tamén con sinaléctica para os elementos patrimoniais máis destacables no percorrido.
+            \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
     <string name="descargaPDF">PDF informativo</string>
 
 
@@ -586,7 +589,8 @@
     <string name="textoRuta4">Ruta lineal que discorre dende A Chanca ata A Ínsua, en Luou, perfectamente sinalizada é considerada ruta Apego.
                 \n \nO percorrido aproveita a obra levada a cabo para a colocación do colector de Espasande, conta con numerosos muíños onde tradicionalmente se facía a moenda. Podemos atopar na mesma o muíño e Pombal das Muiñeiras, o muíño do Inferniño, o muíño Novo, o muíño dos Cornidos, o muíño da Ínsua e o lavadoiro da Ínsua.
                 \n \nTrátase dun pequeno percorrido de ida e volta onde ademais dos elementos patrimoniais citados tamén podemos atopar un ecosistema fluvial con bosque de río en bo estado de conservación.
-                \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e, por ende, son accesibles para persoas con mobilidade reducida tamén. Para motivar os paseos e desfrute da natureza temos deseñado un xogo, o Ollo ao Piollo, con dous niveis de dificultade (adultas e cativada) e que consiste en ir atopando distintos elementos naturais á vez que paseas pola ruta.</string>
+                \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e, por ende, son accesibles para persoas con mobilidade reducida tamén. Para motivar os paseos e desfrute da natureza temos deseñado un xogo, o Ollo ao Piollo, con dous niveis de dificultade (adultas e cativada) e que consiste en ir atopando distintos elementos naturais á vez que paseas pola ruta.
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero5">5</string>
@@ -595,7 +599,8 @@
     <string name="desnivelRuta5">⇑ 44m</string>
     <string name="coordenadaRuta5">Coordenadas GPS: \n42.8064261777082, \n-8.600987161680214</string>
     <string name="textoRuta5">Breve ruta á beira do curso fluvial do Angueira.
-                \n \nRuta circular que é unha adaptación de menor percorrido da Ruta dos Petróglifos de Teo e que permite o desfrute da arqueoloxía e tamén a beira do río Angueira.</string>ç
+                \n \nRuta circular que é unha adaptación de menor percorrido da <b>Ruta dos Petróglifos de Teo</b> e que permite o desfrute da arqueoloxía e tamén a beira do río Angueira.
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
     <string name="numero6">6</string>
     <string name="rutaXermeade">Ruta De Teo á Burga de Xermeade pasando pola devesa de Agromaior</string>
@@ -604,7 +609,8 @@
     <string name="coordenadaRuta6">Coordenadas GPS: \n42.76603475866471, \n-8.516724398309039</string>
     <string name="textoRuta6">A carón do río Ulla, na parroquia de Teo, atopamos esta devesa con carballos e bens patrimoniais dignos de ser coñecidos e preservados.
     \n \nNo triángulo que forman a aldea de Mallos e Agromaior coa beira do río Ulla, na parroquia de Teo, existe unha devesa en bo estado de conservación. Trátase dun bosque de carballos, algúns exemplares de gran lonxevidade e que pola súa situación, a carón da ribeira protexida pola Rede Natura 2000, constitúe unha masa vexetal moi destacable para amortecer impactos nesa beira do río e acubillar a especies animais. As carballeiras son o bosque clímax galego pero debido a diferentes impactos ambientais non é doado atopalas en bo estado de conservación.
-    \n \nA Devesa atópase na ruta de sendeirismo que une Teo coa Burga de Xermeade que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.</string>
+    \n \nA <b>Devesa</b> atópase na ruta de sendeirismo que une Teo coa <b>Burga de Xermeade</b> que discorre paralela ao río, aínda que tamén se pode acceder con máis facilidade dende a aldea de Agromaior se se precisa un paseo máis curto.
+    \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero7">7</string>
@@ -647,22 +653,22 @@
     <string name="textoRuta10">Un percorrido para visitar os petrólifos de Río Angueira e Monte Piquiño.
                 \n \nPartindo da Capela dos Milagres de Cornide, o percorrido desta ruta adéntrase nun espazo físico de pequenos outeiros graníticos e lenes chairas á beira do río Angureia, ocupadas por gran cantidade de restos arqueolóxicos.
                 \n \nEste sitio arqueolóxico representa unha das áreas de maior importancia en Galicia, e sen igual na Comarca de Compostela, pola gran densidade de xacementos de mámoas e petróglifos existentes e polas características dalgúns deses gravados.
-                \n \nSon moi relevantes os petróglifos de Río Angueira ou de Monte de Cornide, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do Corno I, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de Pedra Bicuda de Loureiro que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
+                \n \nSon moi relevantes os petróglifos de <b>Río Angueira ou de Monte de Cornide</b>, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do <b>Corno I</b>, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de <b>Pedra Bicuda de Loureiro</b> que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
                 \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello.
-                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero11">11</string>
     <string name="rutaCamiñoSantiago">Ruta Camiño de Santiago Portugués (tramo teense)</string>
-    <string name="vacio">-</string>
-
+    <string name="kmRuta11">5.97 km</string>
+    <string name="desnivelRuta11">⇑168m ⇓25m</string>
     <string name="coordenadaRuta11">Coordenadas GPS: \n42.814019188168764, -8.62254239437164</string>
     <string name="textoRuta11">Trátase dun percorrido de case 8 km onde o Itinerario Cultural Xacobeo atravesa o noso concello.
                 \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
                 \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
-                \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
+                \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a <b>Carballeira de Francos</b>, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
                 \n \nA ruta atópase sinalizada e conta con sinais interpretativos.
-                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
     <string name="numero12">12</string>
@@ -671,11 +677,11 @@
     <string name="desnivelRuta12">⇑ 421m  ⇓ 141m</string>
     <string name="coordenadaRuta12">Coordenadas GPS: \n42.75955044926445, -8.548587098277645</string>
     <string name="textoRuta12">Camiño Xacobeo que une Braga con Compostela, empregado tradicionalmente tamén polos arrieiros para traer o viño dende a Ribeira Sacra a Compostela.
-                \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de San Simón de Cacheiras.
+                \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de <b>San Simón de Cacheiras</b>.
                 \n \nOs documentos do s. XVII ao s. XX testemuñan con posterioridade o paso dos arrieiros polos sitios do Cruceiro (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
                 \n \nUn camiño histórico que atravesa aldeas tradicionais ben conservadas (A Pedra, O Sisto, Pedrouso) e espazos naturais de grande beleza como a fraga de Sestelo. A ruta transcorre a rentes de numerosos bens culturais e etnolóxicos.
                 \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela.
-                \n \nPatrimonio que se encuentra en esta ruta, haz click para más información:</string>
+                \n \nPatrimonio que se atopa nesta ruta, fai click para máis información:</string>
 
 
 
@@ -1014,5 +1020,21 @@
     <string name="logotelefonohotelcongreso3">logoTelefonoHotelCongreso</string>
     <string name="logodireccionhotelcongreso3">logoDireccionHotelCongreso</string>
     <string name="logoinfo9">logoInfo</string>
+
+    <string name="logoinfo10">logoInfo</string>
+    <string name="botonteo14">botonTeo</string>
+    <string name="hamburguesa14">hamburguesa</string>
+    <string name="logolocal15">logoLocal</string>
+    <string name="logoinfo16">logoInfo</string>
+    <string name="logodireccionfornodauri1">logoDireccionFornoDAuri</string>
+    <string name="logotelefonofornodauri12">logoTelefonoFornoDAuri</string>
+    <string name="logolocalche2">logoLocalChe2</string>
+    <string name="logoinfo17">logoInfo</string>
+    <string name="logolocalfornodauri3">logoLocalFornoDAuri</string>
+    <string name="logodireccionche215">logoDireccionChe2</string>
+    <string name="logotelefonocasajavier2">logoTelefonoCasaJavier</string>
+    <string name="logoinfo18">logoInfo</string>
+    <string name="logolocal19">logoLocal</string>
+    <string name="todo">TODO</string>
 
 </resources>

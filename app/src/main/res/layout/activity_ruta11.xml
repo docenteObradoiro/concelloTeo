@@ -141,7 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="@string/vacio"
+                    android:text="@string/kmRuta11"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/desnivel1"
@@ -158,7 +158,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="@string/vacio"
+                    android:text="@string/desnivelRuta11"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/circular1"
@@ -192,7 +192,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="@string/vacio"
+                    android:text="@string/moderada"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/sinalizacion1"
@@ -209,7 +209,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="@string/vacio"
+                    android:text="@string/si"
                     android:textColor="#000000" />
 
                 <TextView
