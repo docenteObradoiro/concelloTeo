@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="40dp"
     tools:context=".comer.ComerVinosTapasRacions">
 
     <ImageButton
@@ -106,7 +107,7 @@
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -115,7 +116,8 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/lacasadelastortillas" />
+                            android:src="@drawable/lacasadelastortillas"
+                            android:contentDescription="@string/laCasaDeLasTortillas" />
 
                         <ImageButton
                             android:id="@+id/logoLocalLacasadelastortillas"
@@ -127,7 +129,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalLacasadelastortillas"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -144,7 +146,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionBarCanaletto"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -161,7 +163,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoLacasadelastortillas"
+                            android:contentDescription="@string/logoTelf"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -180,7 +182,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalLacasadelastortillas"
                             android:gravity="center_vertical"
-                            android:text="RESTAURANTE LA CASA DE LAS TORTILLAS"
+                            android:text="@string/laCasaDeLasTortillas"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -196,7 +198,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionLacasadelastortillas"
                             android:gravity="center_vertical"
-                            android:text="Trva. Cacheiras, 21, Teo"
+                            android:text="@string/direccionLaCasaDeLasTortillas"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
@@ -211,11 +213,12 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoLacasadelastortillas"
                             android:gravity="center_vertical"
-                            android:text="+34 981 806 834"
+                            android:text="@string/telefonoLaCasaDeLasTortillas"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 
                     </RelativeLayout>
+
 
                     <!-- BETOS-->
 
@@ -646,22 +649,6 @@
                             app:srcCompat="@drawable/telefono"
                             tools:ignore="TouchTargetSizeCheck" />
 
-                        <ImageButton
-                            android:id="@+id/logoInfoNcCoffeeBar"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_below="@+id/logoTelefonoNcCoffeeBar"
-                            android:layout_alignParentStart="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="30dp"
-                            android:background="#00FFFFFF"
-                            android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
-                            android:foreground="?android:attr/selectableItemBackground"
-                            android:scaleType="fitXY"
-                            android:theme="@android:style/ThemeOverlay.Material.Dark"
-                            app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
                             android:id="@+id/localNcCoffeeBar"
@@ -710,21 +697,6 @@
                             android:textSize="12sp" />
 
 
-                        <TextView
-                            android:id="@+id/webNcCoffeeBar"
-                            android:layout_width="match_parent"
-                            android:layout_height="25dp"
-                            android:layout_below="@+id/telefonoNcCoffeeBar"
-                            android:layout_alignParentEnd="true"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginBottom="25dp"
-                            android:layout_toEndOf="@+id/logoInfoNcCoffeeBar"
-                            android:gravity="center_vertical"
-                            android:text="@string/webNcCoffeeBar"
-                            android:textColor="#415419"
-                            android:textSize="12sp" />
 
                     </RelativeLayout>
 
@@ -877,7 +849,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/webParadaDeFrancos"
+                            android:id="@+id/webBarEme"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_below="@+id/emailBarEme"
@@ -1525,7 +1497,11 @@
             <RelativeLayout
                 android:layout_width="300dp"
                 android:layout_height="280dp"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
 
 
                 <ImageView
@@ -2220,7 +2196,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalBarPiccolo"
+                            android:contentDescription="@string/logoLocal"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2237,7 +2213,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionBarPiccolo"
+                            android:contentDescription="@string/logoDireccion"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -2256,7 +2232,7 @@
                             android:layout_marginEnd="5dp"
                             android:layout_toEndOf="@+id/logoLocalBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="BAR PICCOLO"
+                            android:text="@string/nome_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -2272,7 +2248,7 @@
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionBarPiccolo"
                             android:gravity="center_vertical"
-                            android:text="Castiñeiro, 10 (Centro Comercial Os Tilos) Loc. 23"
+                            android:text="@string/direccion_bar_piccolo"
                             android:textColor="#415419"
                             android:textSize="12sp" />
 

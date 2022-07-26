@@ -65,6 +65,52 @@ class ComerVinosTapasRacions : AppCompatActivity() {
 
 
 
+        val accesodireccionNCCoffeeBar = findViewById<TextView>(R.id.direccionNcCoffeeBar)
+        accesodireccionNCCoffeeBar.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Nc+Coffee+Bar/@42.8262229,-8.5444001,15z/data=!4m2!3m1!1s0x0:0x905145876559b94f?sa=X&ved=2ahUKEwi__7iC85X5AhUMrxoKHeb-BncQ_BJ6BAhNEAg")))
+        }
+
+        val telefonoNCCoffeeBar= findViewById<TextView>(R.id.telefonoNcCoffeeBar)
+        telefonoNCCoffeeBar.setOnClickListener {
+            val phone = "tel: +34 606 39 95 47";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+
+        val accesodireccionBarEme = findViewById<TextView>(R.id.direccionBarEme)
+        accesodireccionBarEme.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Bar+Eme/@42.8198822,-8.5553175,15z/data=!4m2!3m1!1s0x0:0xd1b30f7a005c3f50?sa=X&ved=2ahUKEwiH1-uM9JX5AhUCQhoKHZDbDbYQ_BJ6BAh_EAg")))
+        }
+
+        val telefonoBarEme = findViewById<TextView>(R.id.telefonoBarEme)
+        telefonoBarEme.setOnClickListener {
+            val phone = "tel: +34 981 80 61 33";
+            val intent = Intent (Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+
+
+        val accesoBarEmeWeb = findViewById<TextView>(R.id.webBarEme)
+        accesoBarEmeWeb.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/cafeteriaeme/")))
+        }
+
+        val correoBarEme=findViewById<TextView>(R.id.emailBarEme)
+        correoBarEme.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            val recipients = arrayOf("vitaygus@hotmail.com")
+            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Contacto mediante web turismo Teo")
+            intent.putExtra(Intent.EXTRA_TEXT, "A la atención de Bar Eme ,...")
+            intent.type = "text/html"
+            intent.setPackage("com.google.android.gm")
+            startActivity(Intent.createChooser(intent, "Send mail"))
+        }
+
+
         val accesodireccionOviveiroDaPoboa = findViewById<TextView>(R.id.direccionViviero)
         accesodireccionOviveiroDaPoboa.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Viveiro+Da+Poboa/@42.8396249,-8.5510627,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01c1c04782e7:0xf9d25819c9fd4fcf!8m2!3d42.8396296!4d-8.548898")))
