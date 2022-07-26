@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/algoDulce"
+        android:id="@+id/aloxamentos"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"
@@ -55,11 +55,12 @@
         android:layout_width="362dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:foregroundTint="#2DFFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/lineaverder" />
+        app:srcCompat="@mipmap/lineaverder"
+        android:contentDescription="@string/todo" />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -95,7 +96,7 @@
                 android:layout_marginTop="10dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -159,7 +160,6 @@
                             tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
 
-
                         <ImageButton
                             android:id="@+id/logoInfoAmasaNai"
                             android:layout_width="30dp"
@@ -170,12 +170,12 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoinfo17"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
                             app:srcCompat="@drawable/globo"
-                            tools:ignore="TouchTargetSizeCheck" />
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
                         <TextView
                             android:id="@+id/localAmasaNai"
@@ -257,7 +257,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalChe2"
+                            android:contentDescription="@string/logolocalche2"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -274,7 +274,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoDireccionChe2"
+                            android:contentDescription="@string/logodireccionche215"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -291,7 +291,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoTelefonoCasaJavier"
+                            android:contentDescription="@string/logotelefonocasajavier2"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -424,7 +424,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocalFornoDAuri"
+                            android:contentDescription="@string/logolocalfornodauri3"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -566,7 +566,7 @@
                 android:layout_marginBottom="40dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_gravity="center">
@@ -601,7 +601,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoLocal"
+                            android:contentDescription="@string/logolocal19"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
@@ -636,7 +636,7 @@
                             android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
-                            android:contentDescription="logoInfo"
+                            android:contentDescription="@string/logoinfo18"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"

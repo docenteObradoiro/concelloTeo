@@ -21,7 +21,7 @@
     <string name="direccionChe">Tr.ª de Montouto, 28</string>
     <string name="telefonoChe">+ 34 981 80 68 48</string>
     <string name="emailChe">panaderiache@hotmail.com</string>
-    <string name="webChe">https://che-2.edan.io/</string>
+    <string name="webChe">www.che-2.edan.io/</string>
 
     <string name="casaJavier">CASA JAVIER</string>
     <string name="direccionCasaJavier">Vilar de Francos, 115</string>
@@ -180,7 +180,7 @@
     <string name="direccionASenra">Ignacio Varela, 5 Bajo</string>
     <string name="telefonoASenra">+34 981 81 57 44</string>
     <string name="emailASenra">asenracafe@gmail.com</string>
-    <string name="webASenra">Facebook - A Senra Café</string>
+    <string name="webASenra">http://www.asenracafe.es/presentacion.html</string>
 
     <string name="AsadorOCarmelo">ASADOR O CARMELO</string>
     <string name="direccionAsadorOCarmelo">Trva. Casalonga, 6 - CALO</string>
@@ -229,7 +229,7 @@
 
     <string name="nomerinconEscondido">EL RINCÓN ESCONDIDO</string>
     <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
-    <string name="telefonoRincoEscondidon">+34 627 45 32 45</string>
+    <string name="telefonoRincoEscondidon">+ 34 627 45 32 45</string>
     <string name="webRinconEscondido">https://cafeteria-el-rincon-escondido.negocio.site/</string>
 
     <string name="nomePernas">CASA PERNAS</string>
@@ -819,9 +819,9 @@
     <string name="webcityhouse">https://www.hoteltilos.com/</string>
 
     <string name="nombrecompostela">COMPOSTELA INN</string>
-    <string name="direcccioncompostela">Montouto</string>
-    <string name="telefonocompostela">+34 981 81 90 80</string>
-    <string name="telefono2compostela">+34 981 81 91 24</string>
+    <string name="direcccioncompostela">Rúa das Mámoas de Montouto, 4</string>
+    <string name="telefonocompostela">+ 34 981 81 90 80</string>
+    <string name="telefono2compostela">+ 34 981 81 91 24</string>
     <string name="correocompostela">info@compostelainn.com</string>
     <string name="webcompostela">http://www.compostelainn.com/</string>
 
@@ -959,6 +959,56 @@
     <string name="telefonoofornodauri">+34 626 70 93 47</string>
     <string name="emailofornodauri"></string>
     <string name="webofornodauri">Facebook - O Forno de DAuri</string>
+    <string name="hamburguesa">hamburguesa</string>
+    <string name="logolocalrobles">logoLocalRobles</string>
+    <string name="igrexa_48_calo_cami_o_de_texexe">Igrexa, 48 Calo (camiño de texexe)</string>
+    <string name="logolocalhotelcongreso">logoLocalHotelCongreso</string>
+    <string name="logotelefonocasagrandecornide">logoTelefonoCasaGrandeCornide</string>
+    <string name="logolocalpazodeadran">logoLocalPazoDeAdran</string>
+    <string name="logodireccionpazodeadran">logoDireccionPazoDeAdran</string>
+    <string name="logotelefonopazodeadran">logoTelefonoPazoDeAdran</string>
+    <string name="logoinfo">logoInfo</string>
+    <string name="logotelefonohotelcongreso">logoTelefonoHotelCongreso</string>
+    <string name="logodireccioncasagrandecornide">logoDireccionCasaGrandeCornide</string>
+    <string name="logoinfo1">logoInfo</string>
+    <string name="logoinfo2">logoInfo</string>
+    <string name="logotelefonorobles">logoTelefonoRobles</string>
+    <string name="logoinfo4">logoInfo</string>
+    <string name="logodireccionhotelcongreso">logoDireccionHotelCongreso</string>
+    <string name="logolocalcasagrandecornide">logoLocalCasaGrandeCornide</string>
+    <string name="lineaverde">lineaverde</string>
+    <string name="logodireccionpazodeadran1">logoDireccionPazoDeAdran</string>
+    <string name="logotelefonopazodeadran2">logoTelefonoPazoDeAdran</string>
+    <string name="logotelefonocasagrandecornide3">logoTelefonoCasaGrandeCornide</string>
+    <string name="hamburguesa1">hamburguesa</string>
+    <string name="logolocalrobles1">logoLocalRobles</string>
+    <string name="logoinfo3">logoInfo</string>
+    <string name="logolocalpazodeadran1">logoLocalPazoDeAdran</string>
+    <string name="logoinfo5">logoInfo</string>
+    <string name="logodireccioncasagrandecornide2">logoDireccionCasaGrandeCornide</string>
+    <string name="logolocalcasagrandecornide3">logoLocalCasaGrandeCornide</string>
+    <string name="igrexa_48_calo_cami_o_de_texexe1">Igrexa, 48 Calo (camiño de texexe)</string>
+    <string name="logotelefonorobles2">logoTelefonoRobles</string>
+    <string name="logoinfo6">logoInfo</string>
+    <string name="logolocalhotelcongreso2">logoLocalHotelCongreso</string>
+    <string name="logotelefonohotelcongreso3">logoTelefonoHotelCongreso</string>
+    <string name="logodireccionhotelcongreso3">logoDireccionHotelCongreso</string>
+    <string name="logoinfo9">logoInfo</string>
+    <string name="logoinfo10">logoInfo</string>
+    <string name="botonteo14">botonTeo</string>
+    <string name="hamburguesa14">hamburguesa</string>
+    <string name="logolocal15">logoLocal</string>
+    <string name="logoinfo16">logoInfo</string>
+    <string name="logodireccionfornodauri1">logoDireccionFornoDAuri</string>
+    <string name="logotelefonofornodauri12">logoTelefonoFornoDAuri</string>
+    <string name="logolocalche2">logoLocalChe2</string>
+    <string name="logoinfo17">logoInfo</string>
+    <string name="logolocalfornodauri3">logoLocalFornoDAuri</string>
+    <string name="logodireccionche215">logoDireccionChe2</string>
+    <string name="logotelefonocasajavier2">logoTelefonoCasaJavier</string>
+    <string name="logoinfo18">logoInfo</string>
+    <string name="logolocal19">logoLocal</string>
+    <string name="todo">TODO</string>
 
 
     <string name="lineaVerde">Separador</string>

@@ -291,7 +291,7 @@
                             android:layout_below="@+id/direccionCasaCacheiras"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoTelefonoCasaCacheiras"
                             android:gravity="center_vertical"
@@ -322,7 +322,7 @@
                             android:layout_below="@+id/localCasaCacheiras"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="9dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="19dp"
                             android:layout_toEndOf="@+id/logoDireccionCasaCacheiras"
                             android:gravity="center_vertical"
@@ -422,7 +422,7 @@
                             android:layout_below="@+id/logoLocalCompostelaINN"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="30dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoDireccionCompostelaINN"
@@ -469,11 +469,11 @@
                         <TextView
                             android:id="@+id/localCompostelaINN"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="50dp"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
-                            android:layout_marginStart="11dp"
-                            android:layout_marginTop="32dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="23dp"
                             android:layout_toEndOf="@+id/logoLocalCompostelaINN"
                             android:gravity="center_vertical"
@@ -485,11 +485,11 @@
                         <TextView
                             android:id="@+id/direccionCompostelaINN"
                             android:layout_width="match_parent"
-                            android:layout_height="25dp"
+                            android:layout_height="50dp"
                             android:layout_below="@+id/localCompostelaINN"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoDireccionCompostelaINN"
                             android:gravity="center_vertical"
@@ -504,7 +504,7 @@
                             android:layout_below="@+id/direccionCompostelaINN"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="25dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="10dp"
                             android:layout_toEndOf="@+id/logoTelefonoCompostelaINN"
                             android:gravity="center_vertical"
@@ -519,7 +519,7 @@
                             android:layout_below="@+id/direccionCompostelaINN"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="45dp"
+                            android:layout_marginTop="30dp"
                             android:layout_marginEnd="15dp"
                             android:layout_toEndOf="@+id/logoTelefonoCompostelaINN"
                             android:gravity="center_vertical"
@@ -856,7 +856,7 @@
                             android:textSize="12sp" />
 
                         <TextView
-                            android:id="@+id/emailVillaSalgueiros"
+                            android:id="@+id/webVillaSalgueiros"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:layout_below="@+id/telefonoVillaSalgueiros"
@@ -2761,7 +2761,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/gandarela" />
+                            android:src="@mipmap/motel" />
 
                         <ImageButton
                             android:id="@+id/logoLocalmotel"
@@ -2882,10 +2882,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_below="@+id/telefonomotel"
-                            android:layout_alignParentEnd="true"
                             android:layout_marginStart="9dp"
                             android:layout_marginTop="21dp"
-                            android:layout_marginEnd="26dp"
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfomotel"
                             android:gravity="center_vertical"
@@ -3450,7 +3448,7 @@
                             android:layout_height="match_parent"
                             android:background="#000000"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/moradasnoulla" />
+                            android:src="@mipmap/albieitaria" />
 
                         <ImageButton
                             android:id="@+id/logoLocalaalbeitaria"
