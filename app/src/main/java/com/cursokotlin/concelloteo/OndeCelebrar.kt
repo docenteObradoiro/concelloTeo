@@ -135,68 +135,70 @@ class OndeCelebrar : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_DIAL);
             intent.setData(Uri.parse(phone));
             startActivity(intent);
-            val direccionPazoDeAdran = findViewById<TextView>(R.id.direccionPazoDeAdran)
-            direccionPazoDeAdran.setOnClickListener {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/place/Pazo+de+Adr%C3%A1n/@42.8319321,-8.5851151,15z/data=!4m2!3m1!1s0x0:0xecb479c5f0974632?sa=X&ved=2ahUKEwi__PLvw4f5AhXMX_EDHVb_A2QQ_BJ6BAhsEAU")
-                    )
+        }
+        val direccionPazoDeAdran = findViewById<TextView>(R.id.direccionPazoDeAdran)
+        direccionPazoDeAdran.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://www.google.com/maps/place/Pazo+de+Adr%C3%A1n/@42.8319321,-8.5851151,15z/data=!4m2!3m1!1s0x0:0xecb479c5f0974632?sa=X&ved=2ahUKEwi__PLvw4f5AhXMX_EDHVb_A2QQ_BJ6BAhsEAU")
                 )
-            }
-            val webPazoDeAdran = findViewById<TextView>(R.id.webPazoDeAdran)
-            webPazoDeAdran.setOnClickListener {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://pazodeadran.com/")))
-            }
-            val emailPazoDeAdran = findViewById<TextView>(R.id.emailPazoDeAdran)
-            emailPazoDeAdran.setOnClickListener {
-                val intent = Intent(Intent.ACTION_SEND)
-                val recipients = arrayOf("info@pazodeadran.es")
-                intent.putExtra(Intent.EXTRA_EMAIL, recipients)
-                intent.type = "text/html"
-                intent.setPackage("com.google.android.gm")
-                startActivity(Intent.createChooser(intent, "Send mail"))
-            }
+            )
+        }
 
-            /*Restaurante San Martiño*/
+        val webPazoDeAdran = findViewById<TextView>(R.id.webPazoDeAdran)
+        webPazoDeAdran.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://pazodeadran.com/")))
+        }
+        val emailPazoDeAdran = findViewById<TextView>(R.id.emailPazoDeAdran)
+        emailPazoDeAdran.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            val recipients = arrayOf("info@pazodeadran.es")
+            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
+            intent.type = "text/html"
+            intent.setPackage("com.google.android.gm")
+            startActivity(Intent.createChooser(intent, "Send mail"))
+        }
 
-            val telefonorRestauranteSanMartinho =
-                findViewById<TextView>(R.id.telefonorRestauranteSanMartinho)
-            telefonorRestauranteSanMartinho.setOnClickListener {
-                val phone = "tel: +34 981548463";
-                val intent = Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse(phone));
-                startActivity(intent);
-                val direccionRestSanMartinho = findViewById<TextView>(R.id.direccionRestSanMartinho)
-                direccionRestSanMartinho.setOnClickListener {
-                    startActivity(
-                        Intent(
-                            Intent.ACTION_VIEW,
-                            Uri.parse("https://www.google.com/maps/place/Restaurante+San+Marti%C3%B1o+(Teo)/@42.8156828,-8.6193059,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f02563dfaf759:0x6c5495dc4985aa04!8m2!3d42.8156789!4d-8.6171172")
-                        )
-                    )
-                }
-                val webRestauranteSanMartinho =
-                    findViewById<TextView>(R.id.webRestauranteSanMartinho)
-                webRestauranteSanMartinho.setOnClickListener {
-                    startActivity(
-                        Intent(
-                            Intent.ACTION_VIEW,
-                            Uri.parse("www.restaurantesanmartino.es/")
-                        )
-                    )
-                }
-                val emailRestauranteSanMartinho =
-                    findViewById<TextView>(R.id.emailRestauranteSanMartinho)
-                emailRestauranteSanMartinho.setOnClickListener {
-                    val intent = Intent(Intent.ACTION_SEND)
-                    val recipients = arrayOf("sanmartino.teo@gmail.com")
-                    intent.putExtra(Intent.EXTRA_EMAIL, recipients)
-                    intent.type = "text/html"
-                    intent.setPackage("com.google.android.gm")
-                    startActivity(Intent.createChooser(intent, "Send mail"))
-                }
-            }
+        /*Restaurante San Martiño*/
+
+        val telefonorRestauranteSanMartinho =
+            findViewById<TextView>(R.id.telefonorRestauranteSanMartinho)
+        telefonorRestauranteSanMartinho.setOnClickListener {
+            val phone = "tel: +34 981548463";
+            val intent = Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(phone));
+            startActivity(intent);
+        }
+        val direccionRestSanMartinho = findViewById<TextView>(R.id.direccionRestSanMartinho)
+        direccionRestSanMartinho.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://www.google.com/maps/place/Restaurante+San+Marti%C3%B1o+(Teo)/@42.8156828,-8.6193059,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f02563dfaf759:0x6c5495dc4985aa04!8m2!3d42.8156789!4d-8.6171172")
+                )
+            )
+        }
+        val webRestauranteSanMartinho1 = findViewById<TextView>(R.id.webRestauranteSanMartinho)
+        webRestauranteSanMartinho1.setOnClickListener {
+            startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("http://www.restaurantesanmartino.es/")
+                )
+            )
+        }
+
+        val emailRestauranteSanMartinho =
+            findViewById<TextView>(R.id.emailRestauranteSanMartinho)
+        emailRestauranteSanMartinho.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            val recipients = arrayOf("sanmartino.teo@gmail.com")
+            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
+            intent.type = "text/html"
+            intent.setPackage("com.google.android.gm")
+            startActivity(Intent.createChooser(intent, "Send mail"))
         }
     }
 }
+

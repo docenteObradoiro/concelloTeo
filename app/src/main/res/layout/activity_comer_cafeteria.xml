@@ -114,6 +114,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/Betos"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/betos" />
 
@@ -166,7 +167,7 @@
                             android:scaleType="fitXY"
                             android:theme="@android:style/ThemeOverlay.Material.Dark"
                             app:srcCompat="@drawable/telefono"
-                            tools:ignore="TouchTargetSizeCheck" />
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
                         <ImageButton
                             android:id="@+id/logoInfoBetos"
@@ -239,8 +240,8 @@
                             android:layout_below="@+id/telefonoBetos"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginEnd="19dp"
                             android:layout_marginBottom="25dp"
                             android:layout_toEndOf="@+id/logoInfoBetos"
                             android:gravity="center_vertical"
@@ -266,6 +267,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/restaurante_canaletto"
                             android:scaleType="centerCrop"
                             android:src="@drawable/canaletto" />
 
@@ -432,6 +434,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/che"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/che" />
 
@@ -598,6 +601,7 @@
                             android:id="@+id/barEme"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/barEme"
                             android:scaleType="centerCrop"
                             android:src="@drawable/bareme" />
 
@@ -763,6 +767,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/nombre_maradentro"
                             android:scaleType="centerCrop"
                             android:src="@drawable/maradentro" />
 
@@ -914,6 +919,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/ncCoffeeBar"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/nccoffeebar" />
 
@@ -1033,6 +1039,7 @@
                             android:id="@+id/barSauce"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/nomeSauce"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/sauce" />
 
@@ -1142,6 +1149,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/casaTouceda"
                             android:scaleType="centerCrop"
                             android:src="@drawable/casatouceda" />
 
@@ -1294,6 +1302,7 @@
                             android:id="@+id/barLoncho"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/nomeLoncho"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/loncho" />
 
@@ -1381,7 +1390,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
-                            android:contentDescription="@string/buelinhaDaCarballeira"
+                            android:contentDescription="@string/Ranha"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/ranha" />
 
@@ -1501,6 +1510,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/tiaMaria"
                             android:scaleType="centerCrop"
                             android:src="@drawable/tiamaria" />
 
@@ -1675,6 +1685,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/nome_a_ramallosa"
                             android:scaleType="centerCrop"
                             android:src="@drawable/bar_cafeteria_a_ramallosa" />
 
@@ -1841,6 +1852,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/nome_a_santa_sede"
                             android:scaleType="centerCrop"
                             android:src="@drawable/santa_sede" />
 
@@ -2031,6 +2043,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/oPintor"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/opintor" />
 
@@ -2220,6 +2233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="@string/elRinconDeKoller"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/elrincondekoller" />
 
@@ -2386,6 +2400,7 @@
                             android:id="@+id/barElRinconEscondido"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/nomerinconEscondido"
                             android:scaleType="centerCrop"
                             android:src="@mipmap/elrinconescondido" />
 
@@ -2440,13 +2455,13 @@
 
                         <TextView
                             android:id="@+id/telefonoRinconEscondido"
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
                             android:layout_below="@+id/direccionElRinconEscondido"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="18dp"
-                            android:layout_marginEnd="125dp"
+                            android:layout_marginEnd="102dp"
                             android:layout_toEndOf="@+id/logoTelefonoRinconEscondido"
                             android:gravity="center_vertical"
                             android:text="@string/telefonoRincoEscondidon"
@@ -2459,8 +2474,8 @@
                             android:layout_height="30dp"
                             android:layout_below="@+id/logoDireccionRinconEscondido"
                             android:layout_alignParentStart="true"
-                            android:layout_marginStart="29dp"
-                            android:layout_marginTop="14dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="23dp"
                             android:background="#00FFFFFF"
                             android:backgroundTint="#00FFFFFF"
                             android:contentDescription="logoTelefonoRinconEscondido"
@@ -2534,6 +2549,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
+                            android:contentDescription="bar"
                             android:scaleType="centerCrop"
                             android:src="@drawable/bar_piccolo" />
 

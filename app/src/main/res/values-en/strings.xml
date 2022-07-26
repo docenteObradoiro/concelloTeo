@@ -962,5 +962,40 @@
     <string name="webCiertoBlanco">www.ciertoblanco.com</string>
 
     <string name="direccionAyuntamieto">Rúa da Lagoa, 2\n(edificio Auditorio Constante Liste)\nA Ramallosa-Lucí,\n15883 Teo, A Coruña</string>
+    <string name="hamburguesa">hamburguesa</string>
+    <string name="logolocalrobles">logoLocalRobles</string>
+    <string name="igrexa_48_calo_cami_o_de_texexe">Igrexa, 48 Calo (camiño de texexe)</string>
+    <string name="logolocalhotelcongreso">logoLocalHotelCongreso</string>
+    <string name="logotelefonocasagrandecornide">logoTelefonoCasaGrandeCornide</string>
+    <string name="logolocalpazodeadran">logoLocalPazoDeAdran</string>
+    <string name="logodireccionpazodeadran">logoDireccionPazoDeAdran</string>
+    <string name="logotelefonopazodeadran">logoTelefonoPazoDeAdran</string>
+    <string name="logoinfo">logoInfo</string>
+    <string name="logotelefonohotelcongreso">logoTelefonoHotelCongreso</string>
+    <string name="logodireccioncasagrandecornide">logoDireccionCasaGrandeCornide</string>
+    <string name="logoinfo1">logoInfo</string>
+    <string name="logoinfo2">logoInfo</string>
+    <string name="logotelefonorobles">logoTelefonoRobles</string>
+    <string name="logoinfo4">logoInfo</string>
+    <string name="logodireccionhotelcongreso">logoDireccionHotelCongreso</string>
+    <string name="logolocalcasagrandecornide">logoLocalCasaGrandeCornide</string>
+    <string name="lineaverde">lineaverde</string>
+    <string name="logodireccionpazodeadran1">logoDireccionPazoDeAdran</string>
+    <string name="logotelefonopazodeadran2">logoTelefonoPazoDeAdran</string>
+    <string name="logotelefonocasagrandecornide3">logoTelefonoCasaGrandeCornide</string>
+    <string name="hamburguesa1">hamburguesa</string>
+    <string name="logolocalrobles1">logoLocalRobles</string>
+    <string name="logoinfo3">logoInfo</string>
+    <string name="logolocalpazodeadran1">logoLocalPazoDeAdran</string>
+    <string name="logoinfo5">logoInfo</string>
+    <string name="logodireccioncasagrandecornide2">logoDireccionCasaGrandeCornide</string>
+    <string name="logolocalcasagrandecornide3">logoLocalCasaGrandeCornide</string>
+    <string name="igrexa_48_calo_cami_o_de_texexe1">Igrexa, 48 Calo (camiño de texexe)</string>
+    <string name="logotelefonorobles2">logoTelefonoRobles</string>
+    <string name="logoinfo6">logoInfo</string>
+    <string name="logolocalhotelcongreso2">logoLocalHotelCongreso</string>
+    <string name="logotelefonohotelcongreso3">logoTelefonoHotelCongreso</string>
+    <string name="logodireccionhotelcongreso3">logoDireccionHotelCongreso</string>
+    <string name="logoinfo9">logoInfo</string>
 
 </resources>
