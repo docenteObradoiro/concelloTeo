@@ -42,10 +42,9 @@ class Ruta11 : AppCompatActivity() {
         descargaPdf.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/tripticos-informativos-teo.appspot.com/o/2019_Tri%CC%81ptico%20camin%CC%83o%20portugue%CC%81s_TEO-2019-TRIPTICO-1-galego_anto%CC%81n%20Bouzas.pdf?alt=media&token=7262a409-d88a-485e-ab20-1e689b34d348")))
         }
-        /*Falta introducir enlace a ruta 11 no Wikiloc do Concello de Teo. Se non hai, eliminar este botón.*/
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/camino-portugues-teense-78137909")))
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
