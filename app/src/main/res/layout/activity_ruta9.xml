@@ -278,6 +278,7 @@
                 android:id="@+id/ruta9"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:layout_marginTop="20dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@mipmap/ruta9" />
 
@@ -287,7 +288,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:layout_marginRight="25dp"
+                android:layout_marginRight="30dp"
                 android:text="@string/textoRuta9"
                 android:textColor="#000000"
                 android:textSize="14sp" />
@@ -309,7 +310,6 @@
                         android:contentDescription="Área recreativa do Xirimbao"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
-                        android:layout_marginLeft="-10dp"
                         app:srcCompat="@drawable/arearecreativaxirimbao" />
 
                     <ImageButton
@@ -319,7 +319,6 @@
                         android:contentDescription="Ponte Colgante do Xirimbao"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
-                        android:layout_marginLeft="-15dp"
                         app:srcCompat="@drawable/pontecolgantexirimbao" />
                     <ImageButton
                         android:id="@+id/botonPatrimonioPontePontevea"
@@ -328,7 +327,6 @@
                         android:contentDescription="Ponte Medieval Pontevea"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
-                        android:layout_marginLeft="-15dp"
                         app:srcCompat="@drawable/pontemedievalpontevea" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -357,6 +355,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="-5dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -367,10 +366,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -378,16 +378,17 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-3dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -399,18 +400,18 @@
 
                 <ImageButton
                     android:id="@+id/wikiloc1"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-3dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-15dp"
                     android:layout_toEndOf="@+id/instagram"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="wikiloc"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/wikiloc"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/wikiloc"
                     app:tint="#7F000000" />
 
                 <ImageButton

@@ -54,7 +54,7 @@ class Ruta8 : AppCompatActivity() {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/qFQ0PMYZGD0Szyhlh2BONhMjnQkJZVhE7osJqYIb.pdf")))
             }
         }
 
@@ -64,7 +64,7 @@ class Ruta8 : AppCompatActivity() {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/f0GsBvTvogiMTH72OlYxs1ns9zdaA8dglKb27uyQ.pdf")))
             }
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
