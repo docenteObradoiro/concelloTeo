@@ -118,11 +118,7 @@ class patrimonio_etnografico : AppCompatActivity() {
             val accederTunelFaramello = Intent(this, informacion_tunel_faramello::class.java)
             startActivity(accederTunelFaramello)
         }
-        val boton28 = findViewById<ImageButton>(R.id.boton28)
-        boton28.setOnClickListener {
-            val accederFonteEscolaCasalonga = Intent(this, informacion_escola_casalonga::class.java)
-            startActivity(accederFonteEscolaCasalonga)
-        }
+
         val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))

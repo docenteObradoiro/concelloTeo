@@ -28,7 +28,7 @@ class informacion_escola_francos : AppCompatActivity() {
         }
 
 
-        val facebook = findViewById<ImageButton>(R.id.facebook_3_)
+        val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(
                 Intent(
@@ -38,12 +38,12 @@ class informacion_escola_francos : AppCompatActivity() {
             )
         }
 
-        val twitter = findViewById<ImageButton>(R.id.twitter_4_)
+        val twitter = findViewById<ImageButton>(R.id.twitter)
         twitter.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
         }
 
-        val instagram = findViewById<ImageButton>(R.id.instagram_3_)
+        val instagram = findViewById<ImageButton>(R.id.instagram)
         instagram.setOnClickListener {
             startActivity(
                 Intent(
@@ -63,7 +63,7 @@ class informacion_escola_francos : AppCompatActivity() {
             )
         }
 
-        val informacion = findViewById<ImageView>(R.id.informacion)
+        val informacion = findViewById<ImageView>(R.id.info)
         informacion.setOnClickListener {
             startActivity(
                 Intent(
