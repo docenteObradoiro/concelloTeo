@@ -85,10 +85,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="miradoiro_pena_agrela"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/miradoiro_na_pena_de_agrela0" />
+                app:srcCompat="@mipmap/miradoiro_na_pena_de_agrela0" />
 
             <ImageButton
                 android:id="@+id/boton6"
@@ -97,10 +97,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="carballeira_francos"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/carballeira_de_francos0" />
+                app:srcCompat="@mipmap/carballeria_de_francos0" />
 
             <ImageButton
                 android:id="@+id/boton7"
@@ -109,10 +109,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="sistema_fluvial_ulla_deza"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/sistema_fluvial_ulla_deza_rede_natura_2000_0" />
+                app:srcCompat="@mipmap/sistema_fluvial_ulla_deza_rede_natura_2000_0" />
 
             <ImageButton
                 android:id="@+id/boton8"
@@ -133,10 +133,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="area_recreativa_xirimbao"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/area_recreativa_do_xirimbao0" />
+                app:srcCompat="@mipmap/area_recreativa_do_xirimbao0" />
 
             <ImageButton
                 android:id="@+id/boton10"
@@ -145,10 +145,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="fraga_sestelo"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/fraga_do_sestelo0" />
+                app:srcCompat="@mipmap/fraga_do_sestelo0" />
 
             <ImageButton
                 android:id="@+id/boton11"
@@ -157,10 +157,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="devesa_agromaior"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/devesa_de_agromaior0" />
+                app:srcCompat="@mipmap/devesa_de_agromaior0" />
 
             <ImageView
                 android:id="@+id/imageView4"

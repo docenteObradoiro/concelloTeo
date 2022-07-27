@@ -72,10 +72,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="CASA REITORAL DE BAMONDE"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/casareitoraldebamondetit" />
+                app:srcCompat="@mipmap/casareitoraldebamondetit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexaCruceiroDeSantaMariaDeBamonde"
@@ -84,10 +84,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXIA DE CRUCEIRO DE SANTA MARÍA DE BAMONDE"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexaecruceirodesantamariadebamondetit" />
+                app:srcCompat="@mipmap/igrexaecruceirodesantamariadebamondetit" />
 
             <ImageButton
                 android:id="@+id/botonCapelaDeSantaAnaDeLampai"
@@ -96,10 +96,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="CAPELA DE SANTA ANA DE LAMPAI"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/capeladesantaanadelampaitit" />
+                app:srcCompat="@mipmap/capeladesantaanadelampaitit" />
 
             <ImageButton
                 android:id="@+id/botonCapelaCruceiroDoEspiritoSanto"
@@ -108,10 +108,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="CAPELA E CRUCEIRO DO ESPÍRITO SANTO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/capelaecruceirodoespiritosantotit" />
+                app:srcCompat="@mipmap/capelaecruceirodoespiritosantotit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexaDeSantaMariaDeLampai"
@@ -120,10 +120,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXA DE SANTA MARÍA DE LAMPAI"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexadesantamariadelampaitit" />
+                app:srcCompat="@mipmap/igrexadesantamariadelampaitit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexaDeSanMiguelDeRaris"
@@ -132,10 +132,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXA DE SAN MIGUEL DE RARÍS"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexadesanmiguelderaristit" />
+                app:srcCompat="@mipmap/igrexadesanmiguelderaristit" />
 
             <ImageButton
                 android:id="@+id/botonErmidaCruceiroDeSantaEufemia"
@@ -144,10 +144,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="ERMIDA E CRUCEIRO DE SANTA EUFEMIA"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ermidaecruceirodesantaeufemiatit" />
+                app:srcCompat="@mipmap/ermidaecruceirodesantaeufemiatit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexaDeSantaMariaDeLuou"
@@ -156,10 +156,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXA DE SANTA MARÍA DE LUOU"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexadesantamariadeluoutit" />
+                app:srcCompat="@mipmap/igrexiadesantamariadeluoutit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexaDeSantaMariaDeTeo"
@@ -168,10 +168,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXA DE SANTA MARÍA DE TEO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexadesantamariadeteotit" />
+                app:srcCompat="@mipmap/igrexiadesantamariadeteotit" />
 
             <ImageButton
                 android:id="@+id/botonIgrexadeSanSimonDeOnsCacheiras"
@@ -180,10 +180,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="IGREXA DE SAN SIMÓN DE ONS, CACHEIRAS"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/igrexadesansimondeonscacheirastit" />
+                app:srcCompat="@mipmap/igrexadesansimondeonscacheirastit" />
 
             <ImageView
                 android:id="@+id/imageView4"
