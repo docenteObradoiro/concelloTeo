@@ -55,5 +55,10 @@ class igrexadeSanSimonDeOnsCacheiras : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B049'18.1%22N+8%C2%B033'03.2%22W/@42.8217002,-8.5596325,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xbb0fae3b6d6abfcd!8m2!3d42.8217005!4d-8.5508992")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

@@ -46,5 +46,10 @@ class capelaDeSantaAnaDeLampai : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B047'01.0%22N+8%C2%B037'08.2%22W/@42.7836066,-8.6276876,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0x53f2308e6be6c811!8m2!3d42.7836069!4d-8.6189543")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

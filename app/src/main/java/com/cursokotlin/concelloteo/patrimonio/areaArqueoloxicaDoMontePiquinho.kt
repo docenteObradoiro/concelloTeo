@@ -53,5 +53,10 @@ class areaArqueoloxicaDoMontePiquinho : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

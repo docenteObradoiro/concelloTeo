@@ -53,5 +53,10 @@ class petroglifoDaPenaBicudaDeLoureiro : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B046'42.7%22N+8%C2%B035'30.7%22W/@42.7785199,-8.6005895,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0x8a609969d86119de!8m2!3d42.7785202!4d-8.5918562")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }
