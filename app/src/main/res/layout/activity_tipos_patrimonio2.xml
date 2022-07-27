@@ -71,7 +71,6 @@
             android:orientation="vertical">
 
 
-
             <ImageButton
                 android:id="@+id/boton2"
                 android:layout_width="match_parent"
@@ -79,10 +78,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="patrimonio_natural"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/miradoiro_na_pena_de_agrela1" />
+                app:srcCompat="@mipmap/miradoiro_na_pena_de_agrela1" />
 
             <ImageButton
                 android:id="@+id/boton3"
@@ -91,10 +90,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="patrimonio etnográfico"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/tunel_do_faramelllo1" />
+                app:srcCompat="@mipmap/tunel_do_faramelllo1" />
 
             <ImageButton
                 android:id="@+id/boton4"
@@ -103,10 +102,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="PATRIMONIO ECLESIÁSTICO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/_8" />
+                app:srcCompat="@mipmap/_8" />
 
             <ImageButton
                 android:id="@+id/boton5"
@@ -115,10 +114,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="PATRIMONIO ARQUEOLÓXICO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/_9" />
+                app:srcCompat="@mipmap/_9" />
 
 
 
