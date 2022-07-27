@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9FBF9"
     android:backgroundTint="#00FFFFFF"
     android:foregroundTint="#FFFFFF"
-    android:background="#F9FBF9"
     tools:context=".artesania.AlalaCouture">
 
     <ImageButton
@@ -138,7 +138,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="130dp"
+                    android:layout_marginTop="140dp"
                     android:orientation="horizontal"
                     app:layout_constraintStart_toStartOf="@id/layoutNome"
                     app:layout_constraintTop_toBottomOf="@id/layoutNome">
@@ -172,11 +172,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="44dp"
-                    android:layout_marginTop="180dp"
+                    android:layout_marginTop="210dp"
                     android:layout_marginEnd="20dp"
                     android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
-                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
+                    app:layout_constraintStart_toStartOf="@id/layoutTelf"
+                    app:layout_constraintTop_toBottomOf="@id/layoutTelf">
 
                     <ImageButton
                         android:id="@+id/maps"
@@ -204,39 +204,50 @@
 
                 </LinearLayout>
 
-
-                <ImageButton
-                    android:id="@+id/iconoWeb"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                <RelativeLayout
+                    android:id="@+id/layoutRedes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/layoutMaps"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginStart="45dp"
-                    android:layout_marginTop="30dp"
-                    android:background="@drawable/animaweb"
-                    android:contentDescription="@string/paxinaWeb"
-                    android:scaleType="fitXY"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toStartOf="@id/botonCorreo"
-                    app:srcCompat="@drawable/globo"
-                    app:tint="#00FFFFFF"
-                    tools:ignore="TouchTargetSizeCheck" />
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
 
-                <ImageButton
-                    android:id="@+id/botonCorreo"
-                    android:layout_width="55dp"
-                    android:layout_height="34dp"
-                    android:layout_below="@+id/layoutMaps"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_toEndOf="@+id/iconoWeb"
-                    android:background="@drawable/animacorreo"
-                    android:contentDescription="@string/appbar_scrolling_view_behavior"
-                    android:scaleType="fitXY"
-                    app:layout_constraintBottom_toBottomOf="@id/iconoWeb"
-                    app:layout_constraintStart_toStartOf="@id/iconoWeb"
-                    app:srcCompat="@mipmap/gmail"
-                    app:tint="#00FFFFFF"
-                    tools:ignore="TouchTargetSizeCheck" />
+                    <ImageButton
+                        android:id="@+id/iconoWeb"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="28dp"
+                        android:background="@drawable/animaweb"
+                        android:contentDescription="@string/paxinaWeb"
+                        android:scaleType="fitXY"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:srcCompat="@drawable/globo"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageButton
+                        android:id="@+id/botonCorreo"
+                        android:layout_width="55dp"
+                        android:layout_height="34dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_toEndOf="@+id/iconoWeb"
+                        android:background="@drawable/animacorreo"
+                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:scaleType="fitXY"
+                        app:layout_constraintStart_toEndOf="@id/iconoWeb"
+                        app:srcCompat="@mipmap/gmail"
+                        app:tint="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </RelativeLayout>
 
 
                 <ImageView
@@ -245,7 +256,7 @@
                     android:layout_height="250dp"
                     android:layout_below="@+id/lineaVerde1"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="-60dp"
+                    android:layout_marginTop="-25dp"
                     android:layout_weight="1"
                     android:padding="25dp"
                     android:scaleType="fitCenter"
@@ -262,14 +273,26 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
-                    android:layout_height="220dp"
-                    android:padding="25dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_height="300dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="-20dp"
                     android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="-20dp"
+                    android:padding="10dp"
                     app:srcCompat="@mipmap/alala" />
 
 
@@ -277,16 +300,19 @@
                     android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
                     app:srcCompat="@mipmap/lineaverde" />
-            </LinearLayout>
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -296,6 +322,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
@@ -307,10 +334,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -318,16 +346,16 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-5dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -355,8 +383,6 @@
 
 
             </RelativeLayout>
-
-
         </LinearLayout>
 
     </ScrollView>

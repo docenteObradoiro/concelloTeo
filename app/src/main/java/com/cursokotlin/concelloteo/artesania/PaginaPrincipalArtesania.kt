@@ -97,11 +97,11 @@ class PaginaPrincipalArtesania : AppCompatActivity() {
 //            val acceder = Intent(this, ArteCelta::class.java)
 //            startActivity(acceder)
 //        }
-//        val cuchillosVillar = findViewById<ImageButton>(R.id.boton8)
-//        cuchillosVillar.setOnClickListener {
-//            val acceder = Intent(this, CuchillosVillar::class.java)
-//            startActivity(acceder)
-//        }
+        val cuchillosVillar = findViewById<ImageButton>(R.id.boton8)
+        cuchillosVillar.setOnClickListener {
+            val acceder = Intent(this, CuchillosVillar::class.java)
+            startActivity(acceder)
+        }
         val alalaCouture = findViewById<ImageButton>(R.id.boton9)
         alalaCouture.setOnClickListener {
             val acceder = Intent(this, AlalaCouture::class.java)

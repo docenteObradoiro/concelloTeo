@@ -43,6 +43,7 @@ class MacalaXoias : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/macalajoyas/?hl=es")))
         }
 
+
         correoBoton1.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
             val recipients = arrayOf("info@macalajoyas.com")

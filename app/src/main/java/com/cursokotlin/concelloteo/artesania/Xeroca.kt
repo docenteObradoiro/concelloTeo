@@ -22,7 +22,7 @@ class Xeroca : AppCompatActivity() {
         }
 
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
-//        val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
+        val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
         val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
@@ -43,16 +43,16 @@ class Xeroca : AppCompatActivity() {
         igBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/gaitas_xeroca/")))
         }
-//        correoBoton1.setOnClickListener {
-//            val intent = Intent(Intent.ACTION_SEND)
-//            val recipients = arrayOf("")
-//            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
-//            intent.putExtra(Intent.EXTRA_SUBJECT, "Información acerca de...")
-//            intent.putExtra(Intent.EXTRA_TEXT, "Estimado Juan,...")
-//            intent.type = "text/html"
-//            intent.setPackage("com.google.android.gm")
-//            startActivity(Intent.createChooser(intent, "Send mail"))
-//        }
+        correoBoton1.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            val recipients = arrayOf("obradoiro@xeroca.es")
+            intent.putExtra(Intent.EXTRA_EMAIL, recipients)
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Información acerca de...")
+            intent.putExtra(Intent.EXTRA_TEXT, "Estimado Juan,...")
+            intent.type = "text/html"
+            intent.setPackage("com.google.android.gm")
+            startActivity(Intent.createChooser(intent, "Send mail"))
+        }
         val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))

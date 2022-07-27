@@ -82,7 +82,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/cruceiro_de_tribaldes0" />
+                app:srcCompat="@mipmap/cruceiro_de_tribaldes0" />
 
 
             <ImageButton
@@ -95,7 +95,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/burga_de_xermeade0" />
+                app:srcCompat="@mipmap/burgadexermeade" />
 
             <ImageButton
                 android:id="@+id/boton14"
@@ -107,7 +107,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/cruceiro_gotico_de_francos0" />
+                app:srcCompat="@mipmap/cruceiro_gotico_de_francos0" />
 
             <ImageButton
                 android:id="@+id/boton15"
@@ -119,7 +119,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/marco_medieval_do_porto_lampai0" />
+                app:srcCompat="@mipmap/marco_medieval_do_porto_lampai0" />
 
             <ImageButton
                 android:id="@+id/boton16"
@@ -131,7 +131,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ponte_medieval_de_pontevea0" />
+                app:srcCompat="@mipmap/ponte_medieval_de_pontevea0" />
 
             <ImageButton
                 android:id="@+id/boton17"
@@ -143,7 +143,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ponte_paradela0" />
+                app:srcCompat="@mipmap/ponte_paradela0" />
 
             <ImageButton
                 android:id="@+id/boton18"
@@ -155,7 +155,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/antiga_pousada_de_san_antoni_o_de_areeira0" />
+                app:srcCompat="@mipmap/antiga_pousada_de_san_antoni_o_de_areeira0" />
 
             <ImageButton
                 android:id="@+id/boton19"
@@ -167,7 +167,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/escola_de_francos0" />
+                app:srcCompat="@mipmap/escola_de_francos0" />
 
             <ImageButton
                 android:id="@+id/boton20"
@@ -179,7 +179,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ponte_medieval_e_lavadoiro_sobre_o_rio_tinto0" />
+                app:srcCompat="@mipmap/ponte_medieval_e_lavadeiro_sobre_o_rio_tinto0" />
 
             <ImageButton
                 android:id="@+id/boton21"
@@ -191,7 +191,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/lavadoiro_de_francos0" />
+                app:srcCompat="@mipmap/lavadoiro_de_francos" />
 
             <ImageButton
                 android:id="@+id/boton22"
@@ -203,7 +203,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ponte_colgante_do_xirimbao0" />
+                app:srcCompat="@mipmap/ponte_colgante_do_xirimbao0" />
 
             <ImageButton
                 android:id="@+id/boton23"
@@ -215,7 +215,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/lavadoiro_da_casalonga0" />
+                app:srcCompat="@mipmap/lavadoiro_da_casalonga0" />
 
             <ImageButton
                 android:id="@+id/boton24"
@@ -227,7 +227,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/fonte_lavadoiro_da_florida0" />
+                app:srcCompat="@mipmap/fonte_lavadoiro_da_florida0" />
 
             <ImageButton
                 android:id="@+id/boton25"
@@ -239,7 +239,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/nucleo_tradicional_de_pontevea0" />
+                app:srcCompat="@mipmap/nucleo_tradicional_de_pontevea0" />
 
 
             <ImageButton
@@ -252,7 +252,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/ponte_nova_en_raris0" />
+                app:srcCompat="@mipmap/ponte_nova_en_raris0" />
 
             <ImageButton
                 android:id="@+id/boton27"
@@ -264,9 +264,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/tunel_do_faramello0" />
-
-
+                app:srcCompat="@mipmap/tunel_do_faramello0" />
 
 
             <ImageView

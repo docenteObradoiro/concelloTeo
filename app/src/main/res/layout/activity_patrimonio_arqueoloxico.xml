@@ -72,10 +72,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="MARCO DA AGRELA"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/marcodaagrelatit" />
+                app:srcCompat="@mipmap/marcodaagrelatit" />
 
             <ImageButton
                 android:id="@+id/botonAreaArqueoloxicaDoMontePiquinho"
@@ -84,10 +84,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="ÁREA ARQUEOLÓXICA DO MONTE PIQUIÑO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/areaarqueoloxicadomontepiquinhotit" />
+                app:srcCompat="@mipmap/areaarqueoloxicadomontepiquinhotit" />
 
             <ImageButton
                 android:id="@+id/botonPetroglifoDaPenaBicudaDeLoureiro"
@@ -96,10 +96,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="PETRÓGLIFO DA PENA BICUDA DE LOUREIRO"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/petroglifodapenabicudadeloureirotit" />
+                app:srcCompat="@mipmap/petroglifodapenabicudadeloureiro" />
 
             <ImageButton
                 android:id="@+id/botonPetroglifoDoOuteiroDoCorno"
@@ -108,10 +108,11 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="Petróglifo do Outeiro do Corno"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/petroglifodoouteirodocornotit" />
+                app:srcCompat="@mipmap/petroglifodoouteirodocorno" />
+
 
             <ImageButton
                 android:id="@+id/botonPetroglifoDoRioAngueiraOuDoMonteDeCornide"
@@ -120,11 +121,10 @@
                 android:layout_marginTop="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="Petróglifo do Río Angueira ou do Monte de Cornide"
-                android:scaleType="fitXY"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitXY"
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/petroglifodorioangueiraoudomontedecornidetit" />
-
+                app:srcCompat="@mipmap/petroglifodorioangueiraoudomontedecornide" />
 
             <ImageView
                 android:id="@+id/imageView4"
