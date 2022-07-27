@@ -14,7 +14,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:background="#F9FBF9"
-        android:contentDescription="botonTeo"
+        android:contentDescription="@string/teo"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +29,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
+        android:contentDescription="@string/menu_hamburguesa"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -83,8 +83,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -93,6 +91,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -115,7 +115,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="boton cerveceria"
+                    android:contentDescription="@string/cervexaria"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:paddingStart="5dp"
                     android:scaleType="fitXY"
@@ -128,6 +128,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -163,6 +165,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -198,6 +202,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -233,14 +239,17 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
                     android:id="@+id/botonParrilla"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:background="#00FFFFFF"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/parrilla"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:paddingRight="5dp"
                     android:scaleType="fitXY"
@@ -253,22 +262,24 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:paddingLeft="5dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="@string/cafeteria"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/cafeteria" />
             </LinearLayout>
 
-
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="348dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
+
+
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -284,6 +295,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="-5dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -294,10 +306,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -305,16 +318,17 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -344,6 +358,9 @@
 
             </RelativeLayout>
         </LinearLayout>
+
+
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -273,9 +273,9 @@
 
             <ImageView
                 android:id="@+id/ruta6"
-                android:layout_width="350dp"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@mipmap/ruta6" />
 
@@ -284,7 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:layout_marginRight="25dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginTop="25dp"
                 android:text="@string/textoRuta6"
                 android:textColor="#000000"
@@ -305,7 +305,6 @@
                         android:id="@+id/botonIgrexaDeSantaMariaDeTeo"
                         android:layout_width="180dp"
                         android:layout_height="130dp"
-                        android:layout_marginLeft="-10dp"
                         android:contentDescription="Igrexa de Santa Maria de Teo"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
@@ -315,7 +314,6 @@
                         android:id="@+id/botonDevesaDeAgromaior"
                         android:layout_width="180dp"
                         android:layout_height="130dp"
-                        android:layout_marginLeft="-15dp"
                         android:contentDescription="Devesa de Agromaior"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
@@ -325,7 +323,6 @@
                         android:id="@+id/botonBurgaDeXermeade"
                         android:layout_width="180dp"
                         android:layout_height="130dp"
-                        android:layout_marginLeft="-15dp"
                         android:contentDescription="Burga de Xermeade"
                         android:scaleType="fitXY"
                         android:backgroundTint="#00B8AEAE"
@@ -357,6 +354,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="-5dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -367,10 +365,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -378,16 +377,17 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-3dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -399,18 +399,18 @@
 
                 <ImageButton
                     android:id="@+id/wikiloc1"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-3dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-15dp"
                     android:layout_toEndOf="@+id/instagram"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="wikiloc"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/wikiloc"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
+                    app:srcCompat="@drawable/wikiloc"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -428,6 +428,8 @@
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@drawable/info"
                     app:tint="#7F000000" />
+
+
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
