@@ -14,7 +14,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:background="#F9FBF9"
-        android:contentDescription="botonTeo"
+        android:contentDescription="@string/teo"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +29,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
+        android:contentDescription="@string/menu_hamburguesa"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -115,7 +115,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="#00FFFFFF"
-                    android:contentDescription="boton cerveceria"
+                    android:contentDescription="@string/cervexaria"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:paddingStart="5dp"
                     android:scaleType="fitXY"
@@ -247,8 +247,9 @@
                     android:id="@+id/botonParrilla"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:background="#00FFFFFF"
                     android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/parrilla"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:paddingRight="5dp"
                     android:scaleType="fitXY"
@@ -261,9 +262,10 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:paddingLeft="5dp"
                     android:background="#00FFFFFF"
+                    android:contentDescription="@string/cafeteria"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="5dp"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:srcCompat="@mipmap/cafeteria" />
@@ -276,6 +278,8 @@
                 android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
                 app:srcCompat="@mipmap/lineaverder" />
+
+
 
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -101,6 +101,7 @@
                     app:layout_constraintTop_toBottomOf="@id/tv1"
                     app:srcCompat="@mipmap/lineaverde" />
 
+
                 <LinearLayout
                     android:id="@+id/layoutNome"
                     android:layout_width="wrap_content"
@@ -111,7 +112,7 @@
                     app:layout_constraintStart_toStartOf="@id/lineaVerde1"
                     app:layout_constraintTop_toBottomOf="@id/lineaVerde1">
 
-                    <ImageView
+                <ImageView
                         android:id="@+id/iconoPersona"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -140,7 +141,7 @@
                     app:layout_constraintTop_toBottomOf="@id/layoutNome">
 
 
-                    <ImageButton
+                <ImageButton
                         android:id="@+id/botonTelefono"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -171,10 +172,10 @@
                     android:layout_marginTop="210dp"
                     android:layout_marginEnd="20dp"
                     android:orientation="horizontal"
-                    app:layout_constraintStart_toStartOf="@id/layoutMaps"
-                    app:layout_constraintTop_toBottomOf="@id/layoutMaps">
+                    app:layout_constraintStart_toStartOf="@id/layoutTelf"
+                    app:layout_constraintTop_toBottomOf="@id/layoutTelf">
 
-                    <ImageButton
+                <ImageButton
                         android:id="@+id/maps"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -193,7 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="22dp"
                         android:text="@string/rosaMendezDireccion"
                         android:textColor="#51661c"
                         android:textSize="14sp" />
@@ -207,7 +208,8 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/layoutMaps"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="40dp"
                     android:orientation="horizontal"
                     app:layout_constraintTop_toBottomOf="@id/layoutMaps">
 
@@ -216,7 +218,7 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_centerVertical="true"
-                        android:layout_marginStart="45dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="28dp"
                         android:background="@drawable/animaweb"
                         android:contentDescription="@string/paxinaWeb"
@@ -231,8 +233,8 @@
                         android:layout_width="55dp"
                         android:layout_height="34dp"
                         android:layout_centerVertical="true"
-                        android:layout_marginStart="25dp"
-                        android:layout_marginEnd="25dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="30dp"
                         android:layout_toStartOf="@+id/igBoton"
                         android:layout_toEndOf="@+id/iconoWeb"
                         android:background="@drawable/animacorreo"
@@ -283,7 +285,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="false"
                     android:layout_marginStart="230dp"
-                    android:layout_marginTop="31dp"
+                    android:layout_marginTop="23dp"
                     android:layout_marginEnd="15dp"
                     android:layout_weight="1"
                     android:padding="20dp"
@@ -327,8 +329,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -336,8 +339,9 @@
                     android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
@@ -349,10 +353,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -360,16 +365,16 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentTop="true"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-5dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -384,7 +389,7 @@
                     android:layout_width="55dp"
                     android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="#00B8AEAE"
