@@ -83,8 +83,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="35dp"
-            android:layout_marginEnd="35dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -93,6 +91,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -128,6 +128,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -163,6 +165,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -198,6 +202,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -233,6 +239,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -261,10 +269,9 @@
                     app:srcCompat="@mipmap/cafeteria" />
             </LinearLayout>
 
-
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="348dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:foregroundTint="#2DFFFFFF"
@@ -284,6 +291,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="-5dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -294,10 +302,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -305,16 +314,17 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
@@ -344,6 +354,9 @@
 
             </RelativeLayout>
         </LinearLayout>
+
+
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
