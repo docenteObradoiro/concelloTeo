@@ -27,17 +27,17 @@ class informacion_sistema_fluvial_ulla_deza : AppCompatActivity() {
             startActivity(acceder)
         }
 
-        val facebook = findViewById<ImageButton>(R.id.facebook_3_)
+        val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
         }
 
-        val twitter = findViewById<ImageButton>(R.id.twitter_4_)
+        val twitter = findViewById<ImageButton>(R.id.twitter)
         twitter.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
         }
 
-        val instagram = findViewById<ImageButton>(R.id.instagram_3_)
+        val instagram = findViewById<ImageButton>(R.id.instagram)
         instagram.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
@@ -47,7 +47,7 @@ class informacion_sistema_fluvial_ulla_deza : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/R%C3%ADo+Ulla/@42.7871475,-8.0831551,11z/data=!3m1!4b1!4m5!3m4!1s0xd2fd8482e5eef8b:0x5f6c2e944b96f1ba!8m2!3d42.8201881!4d-7.9300074")))
         }
 
-        val informacion = findViewById<ImageView>(R.id.informacion)
+        val informacion = findViewById<ImageView>(R.id.info)
         informacion.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }

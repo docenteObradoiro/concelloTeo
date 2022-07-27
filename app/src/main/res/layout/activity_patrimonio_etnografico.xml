@@ -266,18 +266,6 @@
                 android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@mipmap/tunel_do_faramello0" />
 
-            <ImageButton
-                android:id="@+id/boton28"
-                android:layout_width="match_parent"
-                android:layout_height="287dp"
-                android:layout_marginTop="20dp"
-                android:background="#00FFFFFF"
-                android:contentDescription="fonte_escola_casalonga"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:scaleType="fitXY"
-                android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@mipmap/fonte_escola_da_casalonga_0" />
-
 
             <ImageView
                 android:id="@+id/imageView4"

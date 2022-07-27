@@ -132,7 +132,7 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:layout_marginTop="10dp"
-                    android:layout_gravity="left">
+                    android:layout_gravity="center">
 
                     <ImageButton
                         android:id="@+id/botonRuta6"
