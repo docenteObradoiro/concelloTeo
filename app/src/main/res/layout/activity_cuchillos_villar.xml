@@ -81,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:paddingTop="26dp"
+                    android:paddingTop="50dp"
                     android:paddingEnd="40dp"
                     android:text="@string/cuchillosVillarDescricion"
                     android:textColor="#51661c"
@@ -215,8 +215,8 @@
                         android:id="@+id/iconoWeb"
                         android:layout_width="35dp"
                         android:layout_height="35dp"
-                        android:layout_marginStart="45dp"
                         android:layout_centerVertical="true"
+                        android:layout_marginStart="45dp"
                         android:layout_marginTop="28dp"
                         android:background="@drawable/animaweb"
                         android:contentDescription="@string/paxinaWeb"
@@ -256,35 +256,20 @@
                         app:tint="#00FFFFFF"
                         tools:ignore="TouchTargetSizeCheck" />
 
+
                     <ImageButton
-                        android:id="@+id/fbBoton"
+                        android:id="@+id/youtubeArtesan"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="28dp"
                         android:layout_toEndOf="@+id/igBoton"
-                        android:background="@drawable/facebookanima"
-                        android:contentDescription="@string/appbar_scrolling_view_behavior"
+                        android:background="@drawable/animayoutube"
+                        android:contentDescription="youtubeArtesan"
                         android:scaleType="fitXY"
                         app:layout_constraintStart_toEndOf="@id/igBoton"
-                        app:srcCompat="@mipmap/facebook"
-                        app:tint="#00FFFFFF"
-                        tools:ignore="TouchTargetSizeCheck" />
-
-                    <ImageButton
-                        android:id="@+id/twitterArtesan"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_centerVertical="true"
-                        android:layout_marginTop="28dp"
-                        android:layout_marginStart="30dp"
-                        android:layout_toEndOf="@+id/fbBoton"
-                        android:background="@drawable/animatwitter"
-                        android:contentDescription="twitterArtesan"
-                        android:scaleType="fitXY"
-                        app:layout_constraintStart_toEndOf="@id/fbBoton"
-                        app:srcCompat="@drawable/twitter_4_"
+                        app:srcCompat="@drawable/youtube"
                         app:tint="#00FFFFFF"
                         tools:ignore="TouchTargetSizeCheck" />
 
@@ -300,8 +285,8 @@
                     android:layout_marginStart="225dp"
                     android:layout_marginTop="60dp"
                     android:layout_marginEnd="30dp"
-                    android:padding="10dp"
                     android:layout_weight="1"
+                    android:padding="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@mipmap/vectortaller"
@@ -320,11 +305,17 @@
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
-                    android:layout_height="220dp"
-                    android:layout_gravity="center_horizontal"
-                    android:padding="-5dp"
-                    android:layout_marginTop="25dp"
-                    app:srcCompat="@mipmap/cuchillosvillar2" />
+                    android:layout_height="300dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="-40dp"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/cuchillosvillar" />
 
 
                 <ImageView
@@ -338,9 +329,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -350,6 +341,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="0dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
@@ -361,10 +353,11 @@
 
                 <ImageButton
                     android:id="@+id/twitter"
-                    android:layout_width="70dp"
+                    android:layout_width="53dp"
                     android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="-25dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginEnd="-5dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/facebook"
                     android:backgroundTint="#00B8AEAE"
@@ -372,16 +365,16 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:scaleType="fitXY"
                     android:theme="@android:style/ThemeOverlay.Material.Dark"
-                    app:srcCompat="@drawable/twitter"
+                    app:srcCompat="@drawable/twitter_3_"
                     app:tint="#7F000000" />
 
                 <ImageButton
                     android:id="@+id/instagram"
-                    android:layout_width="55dp"
-                    android:layout_height="50dp"
+                    android:layout_width="53dp"
+                    android:layout_height="48dp"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-5dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginStart="-25dp"
                     android:layout_toEndOf="@+id/twitter"
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"

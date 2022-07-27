@@ -23,7 +23,7 @@ class CuchillosVillar : AppCompatActivity() {
 
         val igBoton = findViewById<ImageButton>(R.id.igBoton)
         val correoBoton1 = findViewById<ImageButton>(R.id.botonCorreo)
-        val fbBoton = findViewById<ImageButton>(R.id.fbBoton)
+        val youtubeBoton = findViewById<ImageButton>(R.id.youtubeArtesan)
         val maps = findViewById<ImageButton>(R.id.maps)
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/@42.8059624,-8.6014429,3a,75y,150.03h,89.63t/data=!3m6!1e1!3m4!1s_LTjcfWCXdZd3l-0QSVUTQ!2e0!7i16384!8i8192")))
@@ -41,19 +41,16 @@ class CuchillosVillar : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://cuchillosvillar.com/")))
         }
 
-        fbBoton.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/cuchillos.villar")))
+        youtubeBoton.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCThMsQXglMdH0VJYlKjzBNg")))
         }
         igBoton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/Cuchillosartesanosvillar/")))
         }
-        val twitterArtesan = findViewById<ImageButton>(R.id.twitterArtesan)
-        twitterArtesan.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/CuchillosV")))
-        }
+
         correoBoton1.setOnClickListener {
             val intent = Intent(Intent.ACTION_SEND)
-            val recipients = arrayOf("")
+            val recipients = arrayOf("tienda@cuchillosvillar.com")
             intent.putExtra(Intent.EXTRA_EMAIL, recipients)
             intent.putExtra(Intent.EXTRA_SUBJECT, "Información acerca de...")
             intent.putExtra(Intent.EXTRA_TEXT, "Estimado Álvaro,...")

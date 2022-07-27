@@ -300,6 +300,7 @@
                     <ImageButton
                         android:id="@+id/botonMiradoiroPenaAgrela"
                         android:layout_width="180dp"
+                        android:layout_marginStart="20dp"
                         android:layout_height="130dp"
                         android:contentDescription="Miradoiro Pena Agrela"
                         android:scaleType="fitXY"
