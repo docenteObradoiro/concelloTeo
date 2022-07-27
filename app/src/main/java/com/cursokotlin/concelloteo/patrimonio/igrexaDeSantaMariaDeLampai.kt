@@ -46,5 +46,10 @@ class igrexaDeSantaMariaDeLampai : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B046'41.6%22N+8%C2%B037'00.2%22W/@42.7782278,-8.6254576,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xe6a9026aa6801b20!8m2!3d42.7782281!4d-8.6167243")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

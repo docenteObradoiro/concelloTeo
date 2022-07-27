@@ -46,5 +46,10 @@ class capelaCruceiroDoEspiritoSanto : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B048'51.5%22N+8%C2%B037'14.3%22W/@42.8142997,-8.629365,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xa9cc3ac230da2a25!8m2!3d42.8143!4d-8.6206317")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

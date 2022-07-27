@@ -54,5 +54,10 @@ class igrexaDeSantaMariaDeLuou : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B048'14.0%22N+8%C2%B035'03.4%22W/@42.8038831,-8.5929959,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xc612f6b73f02bcce!8m2!3d42.8038834!4d-8.5842626")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

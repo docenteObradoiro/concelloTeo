@@ -53,5 +53,10 @@ class petroglifoDoOuteiroDoCorno : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B047'50.6%22N+8%C2%B035'59.1%22W/@42.7973972,-8.6084711,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0x812269c2fe20fc1!8m2!3d42.7973975!4d-8.5997378")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

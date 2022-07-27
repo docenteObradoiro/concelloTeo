@@ -42,9 +42,9 @@ class marcoDaAgrela : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/turismoteo/")))
         }
 
-        val maps = findViewById<ImageButton>(R.id.maps)
-        maps.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("")))
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
         }
     }
 }

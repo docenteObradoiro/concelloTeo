@@ -46,5 +46,10 @@ class igrexaDeSanMiguelDeRaris : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B047'11.7%22N+8%C2%B033'41.2%22W/@42.7865832,-8.5701655,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0x58547df3fafc542b!8m2!3d42.7865835!4d-8.5614322")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }

@@ -54,5 +54,10 @@ class ermidaCruceiroDeSantaEufemia : AppCompatActivity() {
         maps.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.es/maps/place/42%C2%B048'03.9%22N+8%C2%B031'25.2%22W/@42.8010818,-8.5323971,15z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb106a5d8e415ce45!8m2!3d42.8010821!4d-8.5236638")))
         }
+
+        val info = findViewById<ImageButton>(R.id.info)
+        info.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+        }
     }
 }
