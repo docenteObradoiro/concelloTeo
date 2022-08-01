@@ -51,16 +51,16 @@ tools:context=".comer.ComerCervexeria">
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 
-<ImageView
-    android:id="@+id/imageView3"
-    android:layout_width="362dp"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="140dp"
-    android:layout_marginLeft="20dp"
-    android:foregroundTint="#2DFFFFFF"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@mipmap/lineaverder" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:foregroundTint="#2DFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/lineaverder" />
 
 <ScrollView
     android:id="@+id/scrollView2"

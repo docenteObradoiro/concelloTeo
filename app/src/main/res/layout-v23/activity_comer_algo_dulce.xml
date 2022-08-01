@@ -55,12 +55,12 @@
         android:layout_width="362dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:layout_marginStart="20dp"
+        android:contentDescription="@string/todo"
         android:foregroundTint="#2DFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/lineaverder"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@mipmap/lineaverder" />
 
     <ScrollView
         android:id="@+id/scrollView2"

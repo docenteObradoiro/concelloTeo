@@ -57,8 +57,8 @@
         android:layout_width="362dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:layout_marginLeft="20dp"
         android:foregroundTint="#2DFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/lineaverder" />
@@ -91,8 +91,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -128,8 +128,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -165,8 +165,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -202,8 +202,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:weightSum="2">
 
                 <ImageButton
@@ -239,8 +239,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:weightSum="2">
 
                 <ImageButton
