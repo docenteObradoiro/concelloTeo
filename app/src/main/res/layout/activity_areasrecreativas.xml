@@ -64,7 +64,6 @@
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/barra1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
@@ -74,26 +73,22 @@
                 app:srcCompat="@mipmap/lineaverder" />
 
             <ImageView
-                android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_marginTop="-40dp"
                 app:srcCompat="@mipmap/aburga" />
 
             <ImageView
-                android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 app:srcCompat="@mipmap/axirimbao" />
 
             <ImageView
-                android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 app:srcCompat="@mipmap/amouromorto" />
 
             <ImageView
-                android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_marginBottom="20dp"

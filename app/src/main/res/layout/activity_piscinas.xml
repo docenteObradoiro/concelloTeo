@@ -53,7 +53,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/texto2"
                 android:layout_width="374dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -64,7 +63,6 @@
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/barra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
@@ -74,20 +72,17 @@
                 app:srcCompat="@mipmap/lineaverder" />
 
             <ImageView
-                android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_marginTop="-40dp"
                 app:srcCompat="@mipmap/beoneteo" />
 
             <ImageView
-                android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 app:srcCompat="@mipmap/luou" />
 
             <ImageView
-                android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_marginBottom="10dp"

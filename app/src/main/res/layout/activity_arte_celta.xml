@@ -42,7 +42,6 @@
                 app:srcCompat="@mipmap/lineaverde" />
 
             <LinearLayout
-                android:id="@+id/layoutHorizontalPpal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -61,14 +60,12 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/iconoPersona"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/persoa" />
 
                         <TextView
-                            android:id="@+id/tv3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
@@ -85,7 +82,6 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/iconoOrdenador"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_weight="1"
@@ -125,7 +121,6 @@
 
 
                         <TextView
-                            android:id="@+id/tv9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
@@ -158,7 +153,6 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/tv6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
@@ -169,7 +163,6 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/layoutMail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="44dp"
@@ -189,7 +182,6 @@
                             tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
-                            android:id="@+id/tv7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
@@ -203,7 +195,6 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/imgVector"
                     android:layout_width="200dp"
                     android:layout_height="134dp"
                     android:layout_marginStart="-20dp"
@@ -231,7 +222,6 @@
                     app:srcCompat="@mipmap/pabloleal1" />
 
                 <TextView
-                    android:id="@+id/tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="45dp"
@@ -241,7 +231,6 @@
                     android:textSize="14sp" />
 
                 <ImageView
-                    android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"

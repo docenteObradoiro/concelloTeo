@@ -36,7 +36,6 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/aloxamentos"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"
@@ -110,7 +109,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/Betos"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -263,7 +261,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barCanaletto"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -430,7 +427,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/che2"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -588,7 +584,6 @@
                     <!--Bar Eme-->
 
                     <RelativeLayout
-                        android:id="@+id/rlBarEme"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
@@ -598,7 +593,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barEme"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/barEme"
@@ -763,7 +757,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/maradentro"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -915,7 +908,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/ncCoffeeBar"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -1026,7 +1018,6 @@
                     <!--Sauce-->
 
                     <RelativeLayout
-                        android:id="@+id/rlSauce"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:background="@drawable/shape"
@@ -1036,7 +1027,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barSauce"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/nomeSauce"
@@ -1145,7 +1135,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/CasaTouceda"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -1289,7 +1278,6 @@
                     <!--Loncho-->
 
                     <RelativeLayout
-                        android:id="@+id/rlLoncho"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginStart="20dp"
@@ -1299,7 +1287,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barLoncho"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/nomeLoncho"
@@ -1386,7 +1373,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/Ranha"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -1506,7 +1492,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/tiaMaria"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -1681,7 +1666,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/ramallosa"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -1848,7 +1832,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/santaSede"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -2039,7 +2022,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/oPintor"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -2229,7 +2211,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/elRinconDeKoller"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -2387,7 +2368,6 @@
                     <!--El Rincon Escondido-->
 
                     <RelativeLayout
-                        android:id="@+id/rlElRinconEscondido"
                         android:layout_width="300dp"
                         android:layout_height="280dp"
                         android:layout_marginRight="20dp"
@@ -2397,7 +2377,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barElRinconEscondido"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:contentDescription="@string/nomerinconEscondido"
@@ -2545,7 +2524,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/barPiccolo"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -2656,7 +2634,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/piro"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -2796,7 +2773,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/Asenra"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"

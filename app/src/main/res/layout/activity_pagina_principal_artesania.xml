@@ -24,7 +24,6 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -204,7 +203,6 @@
                     app:srcCompat="@mipmap/botonolgamartinez" />
 
                 <ImageView
-                    android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"

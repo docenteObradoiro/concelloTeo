@@ -85,7 +85,6 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/numero"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -96,7 +95,6 @@
                     android:textSize="70sp" />
 
                 <TextView
-                    android:id="@+id/titulo1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -126,7 +124,6 @@
                     android:orientation="vertical">
 
             <TextView
-                android:id="@+id/duracion1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -136,14 +133,12 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/km1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:text="@string/kmRuta12"
                 android:textColor="#000000" />
             <TextView
-                android:id="@+id/desnivel1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -153,14 +148,12 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/desnivel1.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:text="@string/desnivelRuta12"
                 android:textColor="#000000" />
             <TextView
-                android:id="@+id/circular1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -170,14 +163,12 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/circular1.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:text="@string/no"
                 android:textColor="#000000" />
             <TextView
-                android:id="@+id/dificultad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -187,14 +178,12 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/baixa1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:text="@string/moderada"
                 android:textColor="#000000" />
             <TextView
-                android:id="@+id/sinalizacion1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -204,7 +193,6 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/sinalizacion1.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -212,7 +200,6 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/inicioDeLaRuta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -222,7 +209,6 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/coordenadas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -230,7 +216,6 @@
                 android:textColor="#000000" />
 
                     <TextView
-                        android:id="@+id/Descarga"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -260,7 +245,6 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/escalador"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_above="@+id/wikiloc"
@@ -292,14 +276,12 @@
 
 
             <ImageView
-                android:id="@+id/foto1"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="20dp"
                 android:scaleType="fitXY"
                 app:srcCompat="@mipmap/ruta12" />
             <TextView
-                android:id="@+id/texto1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"

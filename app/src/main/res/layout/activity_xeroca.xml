@@ -77,7 +77,6 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -113,14 +112,12 @@
                     app:layout_constraintTop_toBottomOf="@id/lineaVerde1">
 
                     <ImageView
-                        android:id="@+id/iconoPersona"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/persoa" />
 
                     <TextView
-                        android:id="@+id/tv3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
@@ -154,7 +151,6 @@
                         tools:ignore="TouchTargetSizeCheck" />
 
                     <TextView
-                        android:id="@+id/tv6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
@@ -190,7 +186,6 @@
 
 
                     <TextView
-                        android:id="@+id/tv9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
@@ -202,7 +197,6 @@
                 </LinearLayout>
 
                 <RelativeLayout
-                    android:id="@+id/layoutRedes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/layoutMaps"
@@ -262,7 +256,6 @@
 
 
                 <ImageView
-                    android:id="@+id/imgVector"
                     android:layout_width="110dp"
                     android:layout_height="250dp"
                     android:layout_alignParentEnd="true"
@@ -280,7 +273,6 @@
 
 
             <LinearLayout
-                android:id="@+id/layout_imaxe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -296,7 +288,6 @@
 
 
                 <ImageView
-                    android:id="@+id/lineaVerde2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"

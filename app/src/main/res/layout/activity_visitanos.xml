@@ -53,7 +53,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/lineaVerde"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -78,7 +77,6 @@
 
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="319dp"
         android:layout_marginStart="50dp"

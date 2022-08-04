@@ -113,7 +113,6 @@ tools:context=".comer.ComerCervexeria">
                     tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
-                        android:id="@+id/Betos"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#000000"
@@ -256,7 +255,6 @@ tools:context=".comer.ComerCervexeria">
                 <!--Portugalicia-->
 
                 <RelativeLayout
-                    android:id="@+id/rlPortugalicia"
                     android:layout_width="300dp"
                     android:layout_height="280dp"
                     android:layout_marginStart="20dp"
@@ -267,7 +265,6 @@ tools:context=".comer.ComerCervexeria">
                     tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
-                        android:id="@+id/barPortugalicia"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
@@ -417,7 +414,6 @@ tools:context=".comer.ComerCervexeria">
                     tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
-                        android:id="@+id/cerveceriaManu"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#000000"
@@ -589,7 +585,6 @@ tools:context=".comer.ComerCervexeria">
                     tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
-                        android:id="@+id/santaSede"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#000000"
@@ -755,7 +750,6 @@ tools:context=".comer.ComerCervexeria">
                     tools:layout_editor_absoluteY="0dp">
 
                     <ImageView
-                        android:id="@+id/ramallosa"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#000000"
