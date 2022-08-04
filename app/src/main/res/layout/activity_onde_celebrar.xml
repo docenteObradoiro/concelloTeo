@@ -118,7 +118,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/robles"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -285,7 +284,6 @@
                         android:layout_marginStart="20dp">
 
                         <ImageView
-                            android:id="@+id/hotelCongreso"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -475,7 +473,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/casaGrandeCornide"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -657,7 +654,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/pazoDeAdran"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -824,7 +820,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/restauranteSanMartiño"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"

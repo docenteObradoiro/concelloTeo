@@ -8,7 +8,6 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/botonTeo3"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
@@ -38,7 +37,6 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/bienvenidos"
         android:layout_width="280dp"
         android:layout_height="87dp"
         android:layout_gravity="center"

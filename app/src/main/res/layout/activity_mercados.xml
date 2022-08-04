@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mercados">
+    tools:context=".actividades.mercados">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -27,7 +27,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/texto2"
                 android:layout_width="372dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -38,7 +37,6 @@
                 android:textSize="24sp" />
 
             <ImageView
-                android:id="@+id/barra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"

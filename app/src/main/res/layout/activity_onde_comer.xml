@@ -38,7 +38,6 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/aloxamentos"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"

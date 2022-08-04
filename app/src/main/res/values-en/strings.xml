@@ -38,7 +38,6 @@
     <string name="ncCoffeeBar">NC COFFEE BAR</string>
     <string name="direccionNcCoffeeBar"> Trva. Cacheiras, 25</string>
     <string name="telefonoNcCoffeeBar">+ 34 981 80 65 81</string>
-    <string name="webNcCoffeeBar"></string>
 
     <string name="oPintor">O PINTOR</string>
     <string name="direccionOPintor"> Rua Aido, 24</string>
@@ -72,7 +71,6 @@
     <string name="laCasaDeLasTortillas">LA CASA DE LAS TORTILLAS</string>
     <string name="direccionLaCasaDeLasTortillas">Travesía de Cacheiras, nº 56</string>
     <string name="telefonoLaCasaDeLasTortillas">+34 981 80 71 28</string>
-    <string name="webLaCasaDeLasTortillas">shorturl.at/nxZ23</string>
 
     <string name="cerveceriaManu">CERVECERÍA MANU</string>
     <string name="direccionCerveceriaManu">Tr.ª de Montouto, 49, bajo</string>
@@ -106,8 +104,6 @@
     <string name="Ranha">RAÑA</string>
     <string name="direccionRanha">Raxó, 34 (N-550, Km 49)</string>
     <string name="telefonoRanha">+34 981 54 88 39</string>
-    <string name="emailRanha"></string>
-    <string name="webRanha"></string>
 
     <string name="vinhosTapasRacions">Wine, tapas and plates</string>
 
@@ -125,14 +121,11 @@
 
     <string name="ofornodamii">O FORNO DÁM II</string>
     <string name="direccionofornodamii">Travesía da Ramallosa, nº 25</string>
-    <string name="telefonoofornodamii"></string>
-    <string name="emailofornodamii"></string>
     <string name="webofornodamii">Facebook - O Forno Dam II</string>
 
     <string name="acolmena">A COLMENA</string>
     <string name="direccionacolmena">Ignacio Varela, 19 - Pontevea</string>
     <string name="telefonoacolmena">+34 603 77 14 49</string>
-    <string name="emailacolmena"></string>
     <string name="webacolmena">Facebook - Cafe Bar A Colmena</string>
 
     <string name="tiaMaria">TIA MARÍA</string>
@@ -142,26 +135,13 @@
 
     <string name="amasaNai">AMASA NAI</string>
     <string name="direccionamasaNai">Rúa Veiga do Mouro, nº 10</string>
-    <string name="telefonoamasaNai"></string>
-    <string name="emailamasaNai"></string>
     <string name="webamasaNai">Facebook - AMasa Nai</string>
 
 
-    <string name="mariaCastanha">MARÍA CASTAÑA</string>
-    <string name="direccionMariaCastanha">TRAVESIA DA RAMALLOSA, , nº 8</string>
-    <string name="telefonoMariaCastanha">+34 981 80 96 28</string>
-    <string name="webMariaCastanha">http://mariacastanha.com/</string>
-
-
     <string name="buelinhaDaCarballeira">BUELIÑA DA CARBALLEIRA</string>
-    <string name="direccionBuelinhaDaCarballeira">Lugar de Olveira 58, San Cristóbal de Reyes</string>
-    <string name="telefonoBuelinhaDaCarballeira">+34 658 24 19 97</string>
 
     <string name="paradaDeFrancos">PARADA DE FRANCOS</string>
     <string name="direccionparadaDeFrancos">Rúa de Francos,43</string>
-    <string name="telefonoparadaDeFrancos">+34 981 53 80 04</string>
-    <string name="emailparadaDeFrancos"> reservas@paradadefrancos.com</string>
-    <string name="webparadaDeFrancos">http://www.paradadefrancos.com</string>
 
     <string name="casaTouceda">CASA TOUCEDA</string>
     <string name="direccionCasaTouceda">Trva. Casalonga, s/n</string>
@@ -177,13 +157,11 @@
     <string name="AsadorOCarmelo">ASADOR O CARMELO</string>
     <string name="direccionAsadorOCarmelo">Trva. Casalonga, 6 - CALO</string>
     <string name="telefonoAsadorOCarmelo">+34 981 53 90 45</string>
-    <string name="emailAsadorOCarmelo"> asador@asadorocarmelo.es</string>
     <string name="webAsadorOCarmelo"> www.asadorocarmelo.es</string>
 
     <string name="Braulio">BRAULIO</string>
     <string name="direccionBraulio">Trva. Balcaide, 9 - Calo</string>
     <string name="telefonoBraulio">+34 615 57 14 67</string>
-    <string name="emailBraulio">enriquesilvaotero@gmail.com</string>
     <string name="webBraulio">Facebook - Café Bar Braulio</string>
 
 
@@ -201,7 +179,6 @@
     <string name="Betos">BETO´S</string>
     <string name="BetosDireccion">Trva. Cacheiras, 60</string>
     <string name="BetosTelefono">+34 981 80 68 39</string>
-    <string name="BetosCorreo"> </string>
     <string name="BetosWeb">Facebook - Cerveceria Betos</string>
 
     <string name="logoLocal">Logo tenedor y cuchillo</string>
@@ -213,7 +190,6 @@
     <string name="direccion">Rúa da Lagoa, 2 \n(edificio Auditorio Constante Liste) \nA Ramallosa - Lucí</string>
     <string name="telefonoConcello">+34 698 18 34 21</string>
     <string name="correoTurismo">turismo@teo.gal</string>
-    <string name="informacionTurismo">https://turismo.teo.gal/gl/oficina-de-turismo</string>
 
 
     <string name="oSonDoMino">O SON DO MIÑO</string>
@@ -235,21 +211,10 @@
     <string name="emailParaDeFrancos">reservas@paradadefrancos.com</string>
     <string name="webParadaDeFrancos">www.paradadefrancos.com</string>
 
-    <string name="oSonDoMiño">O SON DO MIÑO</string>
-    <string name="direccionOSonDoMiño">Lugar de Rivas, 82</string>
-    <string name="telefonoOSonDoMiño">+34 981 80 76 71</string>
-    <string name="emailOSonDoMiño">info@osondominho.com</string>
-    <string name="webOSonDoMiño">www.osondominho.com</string>
-
     <string name="fogarDoSantiso">FOGAR DO SANTISO</string>
     <string name="direccionFogarDoSantiso">Trasellas,13</string>
     <string name="telefonoFogarDoSantiso">+34 981 80 59 48</string>
     <string name="webFogarDoSantiso">www.fogardosantiso.es</string>
-
-    <string name="restauranteNovoViñedo">RESTAURANTE NOVO VIÑEDO</string>
-    <string name="direccionNovoViñedo">Catro Camiños, 30</string>
-    <string name="telefonoNovoViñedo">+34 697 47 28 14</string>
-    <string name="webNovoViñedo">www.novoviñedo.es</string>
 
     <string name="nomerinconEscondido">EL RINCÓN ESCONDIDO</string>
     <string name="direccionRinconEscondido">Castiñeiro (Centro Comercial Os Tilos)</string>
@@ -259,8 +224,6 @@
     <string name="nomePernas">CASA PERNAS</string>
     <string name="direccionPernas">Ignacio Varela, 25 Bajo 1 - Pontevea</string>
     <string name="telefonoPernas1">+34 981 80 92 31</string>
-    <string name="telefonoPernas2">+34 616 80 66 14</string>
-    <string name="emailPernas">compostela@areas.com</string>
 
     <string name="nomeAtallo">ATALLO</string>
     <string name="direccionAtallo">Pontevea, 4</string>
@@ -277,7 +240,6 @@
     <string name="nomeSanMartiño">RESTAURANTE SAN MARTIÑO</string>
     <string name="direccionSanMartiño">Lugar O Espiño, Calo</string>
     <string name="telefonoSanMartiño1">+34 981 54 84 63</string>
-    <string name="telefonoSanMartiño2">+34 698 10 98 23</string>
     <string name="emailSanMartiño">sanmartino.teo@gmail.com</string>
     <string name="webSanMartiño">www.restaurantesanmartino.es</string>
 
@@ -298,17 +260,9 @@
     <string name="telefonoOCruce">+34 637 27 09 85</string>
     <string name="webOCruce">Facebook - Bar O Cruce</string>
 
-    <string name="nomeLaMamma">RESTAURANTE PIZZERIA LA MAMMA</string>
-    <string name="direccionLaMamma">Ignacio Varela, 1, Pontevea</string>
-    <string name="telefonoLaMamma1">+34 881 01 05 09</string>
-    <string name="telefonoLaMamma2">+34 653 30 14 48</string>
-
     <string name="nomeLaGranja">LA GRANJA</string>
     <string name="direccionLaGranja">Ferreiriño, 15 (Ctra. Santiago a Estrada), Pontevea</string>
     <string name="telefonoLaGranja">+34 981 80 94 89</string>
-
-    <string name="nomeAldeaSestelo">Aldea de Sestelo</string>
-    <string name="direccionAldeaSestelo">Lugar de Sestelo, 35</string>
 
     <string name="nomeACasaDeBlanco">A Casa de Blanco</string>
     <string name="direccionACasaDeBlanco">Raris, 47</string>
@@ -324,33 +278,11 @@
     <string name="emailBarEme">vitaygus@hotmail.com</string>
     <string name="webBarEme">Facebook - Cafe Bar Eme</string>
 
-    <string name="nomeChaves">Chaves</string>
-    <string name="direccionChaves">Iglesia, 8, Luou</string>
-    <string name="telefonoChaves">+34 981 80 55 45</string>
-    <string name="emailChaves">parrilladachaves@gmail.com</string>
-    <string name="webChaves">www.facebook.com/chaves</string>
-
     <string name="nomeLosRobles">Los Robles</string>
-    <string name="direccionLosRobles">Ctra. Santiago-A Estrada, Km. 3, Montouto</string>
-    <string name="telefonoLosRobles">+34 981 80 63 61</string>
-    <string name="emailLosRobles">losrobles@losroblesdesantiago.com</string>
-    <string name="webLosRobles">www.losroblesdesantiago.com</string>
-
-    <string name="nomeCasaNerea">Casa Nerea</string>
-    <string name="direccionNerea">Ctra. Santiago-A Estrada (AC-841), Cacheiras 25</string>
-    <string name="telefonoNerea">+34 665 85 09 09</string>
-
-    <string name="nomeCasaManola">Casa Manola</string>
-    <string name="direccionCasaManola">Raris, 80</string>
-    <string name="telefonoCasaManola1">+34 981 80 93 74</string>
-    <string name="telefonoCasaManola2">+34 699 78 91 53</string>
-    <string name="emailCasaManola">info@casamanola.gal</string>
-    <string name="webCasaManola">https://www.casamanola.gal/</string>
 
     <string name="nomeLaPausa">LA PAUSA</string>
     <string name="direccionLaPausa">Autopista AP-9, Km. 81</string>
     <string name="telefonoLaPausa">+34 981 80 55 14</string>
-    <string name="emailLaPausa">compostela@areas.com</string>
 
     <string name="nomeLoncho">LONCHO</string>
     <string name="direccionLoncho">Trva. Casalonga, 31 bajo</string>
@@ -366,13 +298,10 @@
     <string name="eligeFormulario">Escoge la forma de contacto</string>
     <string name="textoFormulario">Escribe aquí a túa mensaxe</string>
     <string name="privacidad">POLÍTICA DE PRIVACIDAD</string>
-    <string name="title_activity_festa_gastronomica_scrolling">festaGastronomicaScrolling</string>
 
 
     <string name="tituloBatalla">Visitas teatralizadas da Batalla de Cacheiras</string>
-    <string name="lugarNegrita">Lugar</string>
     <string name="lugarBatalla">Reitoral de Bamonde</string>
-    <string name="dataNegrita">Data</string>
     <string name="dataBatalla"><u>Consultar aquí</u></string>
     <string name="infoNegrita">Info práctica</string>
     <string name="infoBatalla1">Caminata en grupos reducidos de 30 personas. Habrá bus de regreso para ir de lo alto de Montouto a Bamonde.\n\nTurismo y Os Quinquilláns ofrecen rutas dramatizadas sobre la Batalla de Cacheiras los fines de semana de los meses de julio,
@@ -414,15 +343,10 @@
 
 
     <string name="tituloEntroido">Entroido \nXenerais da Ulla</string>
-    <string name="dataEntroido">Data</string>
     <string name="dataEntroido1">Marzo</string>
-    <string name="lugarEntroido">Lugar</string>
     <string name="lugarEntroido1">Rarís-Reis-Cacheiras</string>
-    <string name="infoEntroido">Info práctica</string>
     <string name="informacionEntroido">Os Xenerais da Ulla son o espectáculo máis destacado do Entroido tradicional da comarca do Ulla, que se leva a cabo nas inmediacións da cidade de Santiago dende a primera metade do século XIX: os Xenerais van montados a caballo, disfrazados con vistosas vestimentas militares similares ás de aquela época, pero que ademais inclúen adornos puramente de entroido, que lucen tamén os caballos.</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="mercado">mercado.</string>
     <string name="imagen_inicio">ImaxeInicio</string>
     <string name="artesania">CRAFTS</string>
     <string name="brigantia">Brigantia orfebres</string>
@@ -454,7 +378,6 @@
     <string name="alalaArtesan">Alex Regueiro</string>
     <string name="alalaDireccion">Santo Domingo, 81.\n15866 Teo</string>
     <string name="alalaTelefono">+34 981806528</string>
-    <string name="alalaCorreo">atelier@alalacouture.com</string>
 
     <string name="arteCeltaArtesan">Pablo Leal</string>
     <string name="arteCeltaDireccion">Agoso, 41, \n15960 Ribeira</string>
@@ -464,24 +387,19 @@
 
     <string name="iagoSalgadoDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
     <string name="iagoSalgadoTelefono">+34 625876502</string>
-    <string name="iagoSalgadoCorreo">salgadoiago@gmail.com</string>
 
     <string name="pabloSeoaneDireccion">Vilanova s/n, Recesende. \n15886 Teo</string>
     <string name="pabloSeoaneTelefono">+34 657810611</string>
-    <string name="pabloSeoaneCorreo">obradoiroseoane@gmail.com</string>
 
     <string name="macalaXoiasArtesan">Mari Carmen</string>
     <string name="macalaXoiasDireccion">Casaldomiro, 56. Teo</string>
     <string name="macalaXoiasTelefono">+34 696501621</string>
-    <string name="macalaXoiasCorreo">info@macalajoyas.com</string>
     <string name="macalaXoiasDescricion">Xoiaría de autora</string>
 
     <string name="olgaMartinezDireccion">Travesia de Cacheiras, 12</string>
     <string name="olgaMartinezTelefono">+34 981806550</string>
-    <string name="olgaMartinezCorreo">olgamartinezg@hotmail.com</string>
     <string name="olgaMartinezDescricion">Vestidos para casamentos</string>
 
-    <string name="oliXiraldezArtesan">Oli Xiráldez Ríos</string>
     <string name="oliXiraldezDireccion">Cascandelo 18 Calo.\n15866 Teo</string>
     <string name="oliXiraldezTelefono">+34 629421544</string>
     <string name="oliXiraldezCorreo">gaitas@olixiraldez.com</string>
@@ -489,7 +407,6 @@
     <string name="rosaMendezArtesan">Rosa Méndez</string>
     <string name="rosaMendezDireccion">C/ Cabovila, 23\n15866 Teo</string>
     <string name="rosaMendezTelefono">+34 981523146\n+34 667266098</string>
-    <string name="rosaMendezCorreo">rosa@rosamendez.com</string>
     <string name="rosaMendezDescricion">Xoiaría con vidro</string>
 
     <string name="silvereiraArtesan">Juan Jesús Fernández Lamas</string>
@@ -500,24 +417,19 @@
     <string name="xerocaArtesan">Xesús Rodríguez</string>
     <string name="xerocaDireccion">Centro Comercial, Rúa \nCastiñeiro, s/n, local 2</string>
     <string name="xerocaTelefono">+34 616952580</string>
-    <string name="xerocaCorreo"></string>
 
     <string name="cuchillosVillarArtesan">Álvaro Villar</string>
     <string name="cuchillosVillarDireccion">Lugar Cornide, 48, Calo.</string>
     <string name="cuchillosVillarTelefono">+34 648028531</string>
-    <string name="cuchillosVillarCorreo">tienda@cuchillosvillar.com</string>
     <string name="cuchillosVillarDescricion">Handmade cutlery forge</string>
 
     <string name="spacioBInteriorismoArtesan">Beatriz Barril</string>
     <string name="spacioBInteriorismoDireccion">Av. de Vilagarcía, 29</string>
     <string name="spacioBInteriorismoTelefono">+34 639504102</string>
-    <string name="spacioBInteriorismoCorreo">info@spaciob.com</string>
-    <string name="spacioBInteriorismoDescricion">Interiorismo</string>
 
     <string name="tresOficiosArtesan">Rodrigo Mosquera</string>
     <string name="tresOficiosDireccion">A Grela, 02. Lampai.\n15883, Teo.</string>
     <string name="tresOficiosTelefono">+34 696501621 \n+34 981805874</string>
-    <string name="tresOficiosCorreo">contacto@tresoficios.es</string>
     <string name="tresOficiosDescricion">Ebanistería, ferro e coiro</string>
 
 
@@ -537,7 +449,6 @@
             \n \nO nome da ruta extraémolo dun verso do trobador Compostelán Joán Airas nunha cantiga de amor onde amosa a súa desesperanza pola marcha da muller amada. A marcha era por un camiño medieval a Santiago que atravesaba o Concello de Teo de norte a Sur, subindo cara Lampai en dirección a Padrón.</string>
 
 
-    <string name="numero2">2</string>
     <string name="rutaApegoCreceiro">Ruta Apego Creceiro de Francos - Ponte Paradela</string>
     <string name="kmRuta2">1.71 km</string>
     <string name="desnivelruta2">⇑ 23m</string>
@@ -713,7 +624,6 @@
     <string name="petroglifodorioangueiraoudomontedecornideDescripcion">Sitúase ao sur da aldea de Cornide a poucos metros ao leste do gravado coñecido como río Angueira 2, sobre un outeiro orientado cara ao curso do río Angueira. Os deseños localízanse no extremo norte dunha rocha de granito que presenta alteracións froito de labores de cantaría. As figuras consisten en varias combinacións circulares, compostas algunhas por varios aneis concéntricos con cazoleta central e outras por aneis simples unidos por liñas de sucos. O motivo máis visible é unha combinación complexa duns 55 cm de diámetro. \n \nEstas pequenas combinacións foron situadas por Acuña Castroviejo, dentro da tipoloxía de motivos «faccia-oculi», definida polo arqueólogo italiano Emmanuel Anati, que lembran dous grandes ollos. Segundo estes autores, este tipo de iconografía podería referirse a algún tipo de ídolo e terían unha función relixiosa. \n \nA combinación de círculos concéntricos de maior tamaño resulta visible durante a maior parte do día. Porén, o resto das figuras presentan un maior grao de erosión e recoméndase a visita á última hora da tarde, para apreciar mellor todo o panel coa axuda da luz rasante do sol.</string>
 
     <string name="a_igrexa_de_san_sim_n_de_ons_en_cacheiras_un_edificio_de_estilo_barroco_datada_do_s_xviii_a_fachada_de_canter_a_e_presenta_d_as_torres_campanario_a_cada_lado_que_foron_constru_das_en_distinto_momento_a_zona_intermedia_da_fachada_ad_rnase_con_d_as_imaxes_de_pedra_a_situada_na_parte_inferior_representa_a_inmaculada_concepci_n_e_a_superior_ao_patr_n_san_sim_n_n_n_no_adro_da_igrexa_at_pase_o_v_a_crucis_conxunto_de_trece_cruces_de_pedra_destacando_a_cruz_sobranceira_da_zona_leste_ergueita_sobre_un_alto_pedestal_onde_reza_a_inscrici_n_via_sacra_dolorosa_1777_n_n_completa_o_conxunto_un_cruceiro_de_finais_do_s_xvii_que_a_nda_que_agora_f_ra_do_adro_noutrora_estivo_dentro_dese_lugar_presenta_d_as_representaci_ns_distintas_segundo_a_cara_que_mira_a_igrexa_ou_ao_cami_o_n">A Igrexa de San Simón de Ons, en Cacheiras é un edificio de estilo barroco datada do S. XVIII. A fachada é de cantería e presenta dúas torres-campanario a cada lado (que foron construídas en distinto momento). A zona intermedia da fachada adórnase con dúas imaxes de pedra, a situada na parte inferior representa a Inmaculada Concepción e a superior ao patrón San Simón. \n \n No adro da igrexa atópase o Vía Crucis, conxunto de trece cruces de pedra, destacando a cruz sobranceira da zona leste, ergueita sobre un alto pedestal onde reza a inscrición VIA SACRA DOLOROSA 1777. \n \n Completa o conxunto un cruceiro de finais do S.XVII que, aínda que agora fóra do adro, noutrora estivo dentro dese lugar. Presenta dúas representacións distintas segundo a cara que mira a igrexa, ou ao camiño.</string>
-    <string name="conxunto_eclesi_stico_formado_pola_igrexa_o_cruceiro_e_o_v_a_cruces_de_san_sim_n_de_ons_de_cacheiras">Conxunto eclesiástico formado pola igrexa, o cruceiro e o vía cruces de San Simón de Ons de Cacheiras</string>
     <string name="informacionarearecreativaxirimbaoTitulo">Zona recreativa ás beiras do río Ulla con acceso a varias rutas de sendeirismo e servizos necesarios para pasar un día de merenda.\n.</string>
     <string name="informacionarearecreativaxirimbaoDescripcion">Localizada á beira do río Ulla, dentro da zona de protección europea Rede Natura 2000, a área recreativa do Xirimbao é unha zona de esparexemento que conta con zonas de aparcadoiro de vehículos, zona de pasar a noite en autocaravanas, mesas e bancos de pedra baixo á sombra das árbores e zona de herba. Conta con baños públicos.\n \nToda a beira do Ulla é coñecida polas persoas afeccionadas á pesca. A carón da área atópase o Couto de Couso, moi recomendado para a pesca de salmón (é de feito, un dos coutos salmoneiros máis importantes de Galicia). Tamén O Xirimbao está sinalizado dentro da Ruta da Lamprea, que se pesca na zona dende tempos ancestrais, de feito, atópanse aínda pesqueiras, que son grandes bloques cuadrangulares formados por pedras aliñadas en perpendicular á corrente cruzando case todo o río menos a corrente central. Nos corredores que hai entre os bloques –nomeados “pesqueiro” ou “cangalla” (“poios” no Miño) colócanse os “copos” ou “redes”. As lampreas que non conseguen remontar a forte corrente caen dentro da rede e a forza da auga impídelles saír.\n  \n Nas inmediacións atópase unha ponte colgante, a Ponte Mariola, que une a parroquia de Reis en Teo, coa parroquia de Couso na Estrada e que é posible atravesar durante a época de pesca, que é cando está aberta.</string>
     <string name="informacionburgaxermeadeTitulo">Lugar de visita dende tempos inmemoriais pola presenza de augas sulfurosas empregadas para tratamentos da pel.\n</string>
@@ -769,9 +679,6 @@
     <string name="areasrecreativas">Áreas recreativas</string>
     <string name="quefacer">WHAT TO DO</string>
     <string name="descricion">Descrición</string>
-    <string name="informaci_n">information</string>
-    <string name="wikiloc">wikiloc</string>
-    <string name="instagram">instagram</string>
     <string name="logoconcello">logoConcello</string>
     <string name="logodireccionbareme">logoDireccionBarEme</string>
     <string name="tradicionalgalega">Tradicional gallega</string>
@@ -820,7 +727,6 @@
     <string name="nombrecityhouse">CITY HOUSE LOS TILOS</string>
     <string name="direcccioncityhouse">Urb. Los Tilos, Estrada Santiago-A Estrada km2</string>
     <string name="telefonocityhouse">+34 981 81 92 00</string>
-    <string name="telefono2cityhouse">+34 981 80 15 14</string>
     <string name="correocityhouse">reservas.tilos@farandahotels.com</string>
     <string name="webcityhouse">https://www.hoteltilos.com/</string>
 
@@ -849,7 +755,6 @@
     <string name="telefonoPazoDeAdran">+34 981 57 00 00</string>
     <string name="telefono2adran">+34 620 90 66 02</string>
     <string name="emailPazoDeAdran">info@pazodeadran.es</string>
-    <string name="correo2adran">comercial@pazodeadran.es</string>
     <string name="webPazoDeAdran">Pazodeadran.com</string>
 
     <string name="nombremilladoiro">MILLADOIRO BELLA BOUTIQUE</string>
@@ -881,10 +786,6 @@
     <string name="telefonosalgueiros">+34 616 92 66 98</string>
     <string name="websalgueiros">http://www.greenspainholidays.com/</string>
 
-    <string name="nomeEme">BAR EME</string>
-    <string name="direccionEme">Constela,37</string>
-    <string name="telefonoEme">+34 981 80 61 33</string>
-    <string name="emailEme">vitaygus@hotmail.com</string>
     <string name="webEme">https://www.facebook.com/cafeteriaeme/</string>
     
     <string name="caf_bar_bustelo">CAFÉ BAR BUSTELO</string>
@@ -951,7 +852,6 @@
     <string name="ofornodauri">O FORNO DAURI</string>
     <string name="direccionofornodauri">Travesía de Montouto, nº 22 - Bloque C</string>
     <string name="telefonoofornodauri">+34 626 70 93 47</string>
-    <string name="emailofornodauri"></string>
     <string name="webofornodauri">Facebook - O Forno de DAuri</string>
 
     <string name="ciertoBlanco">CIERTO BLANCO</string>

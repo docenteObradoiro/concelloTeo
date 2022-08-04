@@ -58,7 +58,6 @@
 
 
             <TextView
-                android:id="@+id/breveDescripcionDevesaAgromaior"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="30dp"
@@ -69,7 +68,6 @@
                 android:textSize="18sp" />
 
             <ImageView
-                android:id="@+id/imageView5"
                 android:layout_width="362dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="20dp"
@@ -84,7 +82,6 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imagenCabeceraDevesaAgromaior"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:layout_marginLeft="0dp"
@@ -119,7 +116,6 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/descripcionDevesaAgromaior"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="30dp"

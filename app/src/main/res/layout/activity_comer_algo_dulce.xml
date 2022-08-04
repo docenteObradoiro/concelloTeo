@@ -36,7 +36,6 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/algoDulce"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"
@@ -116,7 +115,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/amasaNai"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -239,7 +237,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/che2"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -406,7 +403,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/fornoDAuri"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
@@ -583,7 +579,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/ofornodamii"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"

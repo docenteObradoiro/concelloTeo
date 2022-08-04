@@ -37,7 +37,6 @@
         app:srcCompat="@drawable/hamburguesa" />
 
     <TextView
-        android:id="@+id/aloxamentos"
         android:layout_width="280dp"
         android:layout_height="97dp"
         android:layout_gravity="center"
@@ -113,7 +112,6 @@
                         tools:layout_editor_absoluteY="0dp">
 
                         <ImageView
-                            android:id="@+id/dMaria"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#000000"
